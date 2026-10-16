@@ -61,6 +61,8 @@ Bu iki sürüm aynı deney değildir. Ürün skorunu makalenin sonuçlarıyla te
 
 ## Doğrulama ve tekrar üretim
 
+Mac'te tek adım: `DOGRULAMAYI_CALISTIR.command` (testler, paper_v4/v5/v6 doğrulamaları, nihai teslim ve arşiv kontrolü). Elle:
+
 ```bash
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python scripts/verify_paper.py
