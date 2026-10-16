@@ -1,0 +1,372 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-16T11:51:52.751264+03:00",
+  "original_pdf_pages": 40,
+  "compact_pdf_pages": 15,
+  "retained_lessons": 38,
+  "retained_blocks": 259,
+  "retained_sourcefiles": 52,
+  "rendered_text_elements_checked": 631,
+  "missing_rendered_text_elements": [],
+  "docx_internal_links": 138,
+  "broken_docx_internal_links": [],
+  "pdf_internal_links": 138,
+  "pdf_unique_external_links": 9,
+  "visual_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visual_findings": "No clipped or overlapping text, missing glyphs, blank pages or unreadable charts. Chart orientation descriptions updated for side-by-side placement.",
+  "lesson_heading_locations": [
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "title": "Projenin çözdüğü soruyu kendi cümlenle anlat",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "title": "Uydu görüntüsünün içindeki sayılar",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "title": "Bir örneğin biçimi ve zaman penceresi",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "title": "Veri nereden geldi ve neden bu kadar örnek kaldı",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "title": "Ham gözlemden kullanılabilir aylık veriye",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "title": "Öğrenme tahmin ve ölçme üç ayrı iştir",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 6,
+      "title": "İki gerçek örneği birlikte oku",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "title": "Bütün sistemi tek akışta birleştir",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "title": "Bir model öğrenirken gerçekte ne değişir",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "title": "Üç model ailesi aynı seriyi nasıl okur",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "title": "Özdenetimli öğrenmede model neyi tahmin eder",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "title": "Eğitim doğrulama ve test neden ayrılır",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "title": "Beş coğrafi kat ve az etiket düzeni",
+      "pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "title": "Yüz seksen eğitim kaydından sonuç tablosuna",
+      "pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "title": "Karışıklık matrisinden başarıyı hesaplamak",
+      "pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "title": "Skorlar ve belirsizlik hangi soruyu yanıtlar",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 8,
+      "title": "Gerçek deney tablosunu yorumlamak",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "title": "Sınırlamaları bilmek araştırmayı nasıl güçlendirir",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "title": "Araştırma sürümü ile ürün sürümünü ayırmak",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "title": "Gerekli dosyaları bulmak ve kanıta ulaşmak",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "title": "Mac bilgisayarda ürünü açmak",
+      "pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 3,
+      "title": "Beş dakikada gerçek bir gösterim yapmak",
+      "pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "title": "Veri ve model dosyalarının dilini okumak",
+      "pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "title": "Bir eğitim kaydını deney defteri gibi okumak",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "title": "Sorun çıkarsa gösterimi sürdürmek ve doğru paketi paylaşmak",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 0,
+      "title": "Yedi günde anlayarak öğrenme",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "title": "Üç uzunlukta dürüst anlatım",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "title": "İlk beş soruyu açıklayabilmek",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "title": "Zor sorularda kanıta dönmek",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "title": "Sonraki deneyi birlikte tasarlamak",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 5,
+      "title": "Kaynağı kapat ve kendini sına",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 6,
+      "title": "Yanıtları kontrol et ve eksiklerini bul",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "title": "Görüşmeyi öğrenmeye ve karara dönüştürmek",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 0,
+      "title": "Kavram sözlüğü veri ve öğrenme",
+      "pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 1,
+      "title": "Kavram sözlüğü değerlendirme ve dosyalar",
+      "pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 2,
+      "title": "Teknik ayrıntılar için başvuru sayfası",
+      "pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "title": "Kaynakları hangi soruyla okumalısın",
+      "pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "title": "Görüşmeden hemen önce son tekrar",
+      "pdf_pages": [
+        14
+      ]
+    }
+  ],
+  "artifacts": {
+    "output/egitim/Orman_SSL_15_Sayfada_Proje_Rehberi.pdf": {
+      "sha256": "6c0ab775880bf89544071f1c6c306920e96fbec4c89ce92db7a36551e2fd07f1",
+      "bytes": 567331
+    },
+    "output/egitim/Orman_SSL_15_Sayfada_Proje_Rehberi.docx": {
+      "sha256": "3b5b037a5af7b7c0eddcf5478e5c8fb0b46edcdb362b8fc5d5d6f00962ed214f",
+      "bytes": 179393
+    },
+    "output/egitim/Orman_SSL_15_Sayfada_Proje_Rehberi.md": {
+      "sha256": "156801bf4f6728cd8c6428ab52ecf4fbef9b7a125368a9fbe3da4eb7aafca68b",
+      "bytes": 73210
+    }
+  },
+  "page_image_sha256": {
+    "1": "33ae1855654348bc9153a102ab2222b464452e7372cff1466237449128deb1fd",
+    "2": "52512922d3be39db03dc10fba9c36bd4e97fb9064cda27d036d402fa483b4aad",
+    "3": "84bb4b6d41337d70552ccc1efca105e1fe8a057d6df03c52a9fed6b3cf4d3ce7",
+    "4": "8df2ce9d93caceac4ee0d390767aa85e7d3cb4bd8d17f071ca391efbb0442d13",
+    "5": "1f1683e77b9cb8010cb4cc68f3a43cc054e9c2679e30d94c0c2bf0842f44386f",
+    "6": "1db8c8b65bf8354d2699d3c413c35cd85f3c9fca12b2dd78e02948211c150153",
+    "7": "a275139dffd3d7463a1c1338981c49c2d1cb341803e43e1cd7c5e991cc95db13",
+    "8": "bea89ced0c7778f6cef0db82460090a4486590ffd417eb2b41aa5cba08cc500a",
+    "9": "a8232f06294393633ab23922ef1d1d3fee00a5c36ceb2185f7c5f5258f956536",
+    "10": "44f2e1ac10fa39c2a59c8589e6c81adc094f6a359f41d9be978084149e5dd734",
+    "11": "a9eba39abb1482d67f5cf8d8cd346a0986276c2f862af22951f8db058cdd84a8",
+    "12": "3909d89aacbae1b00a1302606f00fcd57e2c8d3d3ad9193711e554bb0a9e6730",
+    "13": "a1bba1278c42afdf2b1b0dfe647dfdd0fd6f2f15ef71fcbca798d4fe72eec97d",
+    "14": "358dccda290e83cff95e9fd97bfa7698337418dd21bec9da7017a46377aaf867",
+    "15": "8cac97fa84057691982ba401cd11f16dd3acbfc9655c8e1494d52eae86dec718"
+  },
+  "coverage_report": "reports/compact_learning_guide_coverage.json",
+  "original_full_guide_preserved": true
+}

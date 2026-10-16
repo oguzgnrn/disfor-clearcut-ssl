@@ -1,0 +1,8069 @@
+{
+  "fold": 3,
+  "seed": 17,
+  "budget": 0.05,
+  "method": "step_matched",
+  "name": "step_matched_f3_s17_b0.05",
+  "n_train": 1774,
+  "n_labeled": 90,
+  "labeled_ids": [
+    "disfor-2568-2018",
+    "disfor-2535-2021",
+    "disfor-2362-2018",
+    "disfor-512-2020",
+    "disfor-3378-2018",
+    "disfor-3788-2020",
+    "disfor-2637-2021",
+    "disfor-1263-2021",
+    "disfor-3524-2018",
+    "disfor-1437-2021",
+    "disfor-1360-2022",
+    "disfor-2650-2022",
+    "disfor-1275-2021",
+    "disfor-2994-2018",
+    "disfor-3520-2018",
+    "disfor-1895-2023",
+    "disfor-3792-2019",
+    "disfor-3018-2018",
+    "disfor-2187-2021",
+    "disfor-3752-2020",
+    "disfor-557-2023",
+    "disfor-538-2018",
+    "disfor-1093-2019",
+    "disfor-3341-2023",
+    "disfor-935-2023",
+    "disfor-1072-2022",
+    "disfor-1523-2023",
+    "disfor-1005-2021",
+    "disfor-3486-2018",
+    "disfor-3097-2019",
+    "disfor-1778-2020",
+    "disfor-1591-2019",
+    "disfor-2273-2023",
+    "disfor-991-2019",
+    "disfor-1514-2020",
+    "disfor-2144-2020",
+    "disfor-1348-2022",
+    "disfor-2336-2020",
+    "disfor-2127-2021",
+    "disfor-3737-2019",
+    "disfor-2181-2021",
+    "disfor-1366-2022",
+    "disfor-2654-2020",
+    "disfor-2565-2021",
+    "disfor-1353-2021",
+    "disfor-751-2018",
+    "disfor-1497-2021",
+    "disfor-2074-2022",
+    "disfor-1524-2018",
+    "disfor-2590-2022",
+    "disfor-1800-2018",
+    "disfor-3245-2023",
+    "disfor-967-2019",
+    "disfor-2418-2018",
+    "disfor-1411-2019",
+    "disfor-2453-2023",
+    "disfor-1423-2019",
+    "disfor-2944-2022",
+    "disfor-691-2018",
+    "disfor-2260-2022",
+    "disfor-1782-2018",
+    "disfor-2499-2021",
+    "disfor-1889-2023",
+    "disfor-2612-2020",
+    "disfor-2631-2021",
+    "disfor-2680-2022",
+    "disfor-1245-2021",
+    "disfor-3466-2018",
+    "disfor-837-2018",
+    "disfor-1013-2023",
+    "disfor-1317-2021",
+    "disfor-1410-2018",
+    "disfor-737-2018",
+    "disfor-918-2018",
+    "disfor-1326-2018",
+    "disfor-2415-2018",
+    "disfor-2585-2023",
+    "disfor-2160-2018",
+    "disfor-2743-2021",
+    "disfor-481-2021",
+    "disfor-523-2018",
+    "disfor-527-2019",
+    "disfor-2419-2021",
+    "disfor-2728-2019",
+    "disfor-2366-2020",
+    "disfor-1709-2019",
+    "disfor-4-2020",
+    "disfor-1817-2019",
+    "disfor-1688-2018",
+    "disfor-3735-2023"
+  ],
+  "train_ids": [
+    "disfor-0-2018",
+    "disfor-2-2020",
+    "disfor-3-2021",
+    "disfor-4-2020",
+    "disfor-5-2021",
+    "disfor-6-2020",
+    "disfor-7-2020",
+    "disfor-10-2019",
+    "disfor-11-2021",
+    "disfor-12-2021",
+    "disfor-13-2021",
+    "disfor-14-2020",
+    "disfor-15-2020",
+    "disfor-16-2020",
+    "disfor-17-2021",
+    "disfor-19-2020",
+    "disfor-21-2020",
+    "disfor-22-2018",
+    "disfor-23-2020",
+    "disfor-24-2018",
+    "disfor-27-2020",
+    "disfor-222-2018",
+    "disfor-230-2018",
+    "disfor-235-2019",
+    "disfor-236-2019",
+    "disfor-245-2023",
+    "disfor-367-2018",
+    "disfor-368-2018",
+    "disfor-369-2018",
+    "disfor-370-2018",
+    "disfor-373-2018",
+    "disfor-374-2018",
+    "disfor-375-2018",
+    "disfor-376-2018",
+    "disfor-377-2018",
+    "disfor-378-2018",
+    "disfor-379-2018",
+    "disfor-389-2018",
+    "disfor-390-2018",
+    "disfor-422-2018",
+    "disfor-445-2019",
+    "disfor-446-2019",
+    "disfor-447-2019",
+    "disfor-448-2019",
+    "disfor-449-2019",
+    "disfor-450-2019",
+    "disfor-452-2018",
+    "disfor-455-2018",
+    "disfor-456-2020",
+    "disfor-457-2020",
+    "disfor-458-2018",
+    "disfor-459-2018",
+    "disfor-460-2018",
+    "disfor-461-2018",
+    "disfor-462-2018",
+    "disfor-463-2022",
+    "disfor-464-2020",
+    "disfor-465-2018",
+    "disfor-468-2022",
+    "disfor-469-2022",
+    "disfor-471-2020",
+    "disfor-472-2020",
+    "disfor-473-2020",
+    "disfor-474-2020",
+    "disfor-475-2020",
+    "disfor-477-2018",
+    "disfor-479-2018",
+    "disfor-480-2018",
+    "disfor-481-2021",
+    "disfor-482-2020",
+    "disfor-483-2018",
+    "disfor-484-2018",
+    "disfor-485-2018",
+    "disfor-486-2018",
+    "disfor-487-2018",
+    "disfor-488-2020",
+    "disfor-489-2020",
+    "disfor-490-2020",
+    "disfor-491-2018",
+    "disfor-492-2020",
+    "disfor-493-2019",
+    "disfor-494-2018",
+    "disfor-495-2018",
+    "disfor-496-2018",
+    "disfor-498-2018",
+    "disfor-499-2018",
+    "disfor-500-2020",
+    "disfor-501-2018",
+    "disfor-502-2018",
+    "disfor-503-2018",
+    "disfor-504-2018",
+    "disfor-505-2019",
+    "disfor-506-2018",
+    "disfor-507-2018",
+    "disfor-508-2018",
+    "disfor-509-2018",
+    "disfor-511-2019",
+    "disfor-512-2020",
+    "disfor-513-2018",
+    "disfor-514-2018",
+    "disfor-515-2018",
+    "disfor-516-2018",
+    "disfor-517-2019",
+    "disfor-518-2019",
+    "disfor-519-2020",
+    "disfor-520-2020",
+    "disfor-523-2018",
+    "disfor-526-2019",
+    "disfor-527-2019",
+    "disfor-528-2019",
+    "disfor-529-2018",
+    "disfor-532-2018",
+    "disfor-533-2018",
+    "disfor-534-2018",
+    "disfor-535-2018",
+    "disfor-537-2018",
+    "disfor-538-2018",
+    "disfor-541-2019",
+    "disfor-542-2018",
+    "disfor-549-2022",
+    "disfor-550-2022",
+    "disfor-551-2023",
+    "disfor-552-2018",
+    "disfor-553-2022",
+    "disfor-554-2022",
+    "disfor-555-2022",
+    "disfor-556-2022",
+    "disfor-557-2023",
+    "disfor-558-2022",
+    "disfor-559-2022",
+    "disfor-560-2022",
+    "disfor-561-2022",
+    "disfor-562-2022",
+    "disfor-563-2023",
+    "disfor-564-2018",
+    "disfor-566-2022",
+    "disfor-567-2023",
+    "disfor-568-2023",
+    "disfor-570-2018",
+    "disfor-571-2022",
+    "disfor-572-2022",
+    "disfor-573-2022",
+    "disfor-575-2023",
+    "disfor-646-2018",
+    "disfor-648-2018",
+    "disfor-650-2018",
+    "disfor-654-2018",
+    "disfor-656-2018",
+    "disfor-657-2018",
+    "disfor-661-2018",
+    "disfor-667-2018",
+    "disfor-668-2018",
+    "disfor-671-2018",
+    "disfor-672-2018",
+    "disfor-673-2018",
+    "disfor-674-2018",
+    "disfor-680-2018",
+    "disfor-681-2018",
+    "disfor-684-2018",
+    "disfor-686-2018",
+    "disfor-687-2018",
+    "disfor-691-2018",
+    "disfor-693-2018",
+    "disfor-695-2018",
+    "disfor-696-2018",
+    "disfor-697-2018",
+    "disfor-700-2018",
+    "disfor-701-2018",
+    "disfor-709-2018",
+    "disfor-711-2018",
+    "disfor-714-2018",
+    "disfor-715-2018",
+    "disfor-716-2018",
+    "disfor-717-2018",
+    "disfor-719-2018",
+    "disfor-721-2018",
+    "disfor-723-2018",
+    "disfor-724-2018",
+    "disfor-731-2018",
+    "disfor-732-2018",
+    "disfor-733-2018",
+    "disfor-735-2018",
+    "disfor-736-2018",
+    "disfor-737-2018",
+    "disfor-738-2018",
+    "disfor-739-2018",
+    "disfor-741-2018",
+    "disfor-742-2018",
+    "disfor-743-2018",
+    "disfor-744-2018",
+    "disfor-745-2018",
+    "disfor-746-2018",
+    "disfor-747-2018",
+    "disfor-750-2018",
+    "disfor-751-2018",
+    "disfor-757-2019",
+    "disfor-786-2018",
+    "disfor-788-2018",
+    "disfor-789-2018",
+    "disfor-790-2018",
+    "disfor-791-2018",
+    "disfor-792-2018",
+    "disfor-793-2018",
+    "disfor-794-2018",
+    "disfor-795-2018",
+    "disfor-796-2018",
+    "disfor-797-2018",
+    "disfor-798-2018",
+    "disfor-799-2018",
+    "disfor-800-2018",
+    "disfor-801-2018",
+    "disfor-802-2018",
+    "disfor-803-2018",
+    "disfor-804-2018",
+    "disfor-806-2018",
+    "disfor-807-2018",
+    "disfor-811-2018",
+    "disfor-812-2018",
+    "disfor-813-2018",
+    "disfor-816-2018",
+    "disfor-817-2018",
+    "disfor-818-2018",
+    "disfor-820-2018",
+    "disfor-821-2018",
+    "disfor-823-2018",
+    "disfor-824-2018",
+    "disfor-825-2018",
+    "disfor-826-2018",
+    "disfor-827-2018",
+    "disfor-828-2018",
+    "disfor-829-2018",
+    "disfor-830-2018",
+    "disfor-831-2018",
+    "disfor-832-2018",
+    "disfor-833-2018",
+    "disfor-834-2018",
+    "disfor-837-2018",
+    "disfor-839-2018",
+    "disfor-840-2018",
+    "disfor-845-2018",
+    "disfor-846-2018",
+    "disfor-859-2019",
+    "disfor-896-2021",
+    "disfor-897-2023",
+    "disfor-906-2018",
+    "disfor-914-2020",
+    "disfor-915-2021",
+    "disfor-917-2023",
+    "disfor-918-2018",
+    "disfor-919-2019",
+    "disfor-920-2020",
+    "disfor-921-2021",
+    "disfor-924-2018",
+    "disfor-929-2023",
+    "disfor-932-2020",
+    "disfor-934-2022",
+    "disfor-935-2023",
+    "disfor-938-2020",
+    "disfor-942-2018",
+    "disfor-944-2020",
+    "disfor-946-2022",
+    "disfor-947-2023",
+    "disfor-951-2021",
+    "disfor-952-2022",
+    "disfor-953-2023",
+    "disfor-955-2019",
+    "disfor-956-2020",
+    "disfor-957-2021",
+    "disfor-958-2022",
+    "disfor-959-2023",
+    "disfor-961-2019",
+    "disfor-962-2020",
+    "disfor-965-2023",
+    "disfor-967-2019",
+    "disfor-968-2020",
+    "disfor-971-2023",
+    "disfor-972-2018",
+    "disfor-973-2019",
+    "disfor-975-2021",
+    "disfor-978-2018",
+    "disfor-982-2022",
+    "disfor-988-2022",
+    "disfor-989-2023",
+    "disfor-990-2018",
+    "disfor-991-2019",
+    "disfor-993-2021",
+    "disfor-999-2023",
+    "disfor-1002-2018",
+    "disfor-1005-2021",
+    "disfor-1006-2022",
+    "disfor-1007-2023",
+    "disfor-1010-2020",
+    "disfor-1011-2021",
+    "disfor-1013-2023",
+    "disfor-1016-2020",
+    "disfor-1017-2021",
+    "disfor-1018-2018",
+    "disfor-1019-2023",
+    "disfor-1020-2018",
+    "disfor-1022-2020",
+    "disfor-1026-2018",
+    "disfor-1027-2019",
+    "disfor-1030-2022",
+    "disfor-1031-2023",
+    "disfor-1032-2018",
+    "disfor-1033-2019",
+    "disfor-1035-2021",
+    "disfor-1036-2022",
+    "disfor-1037-2023",
+    "disfor-1040-2020",
+    "disfor-1041-2021",
+    "disfor-1043-2023",
+    "disfor-1044-2018",
+    "disfor-1046-2020",
+    "disfor-1047-2021",
+    "disfor-1048-2022",
+    "disfor-1049-2023",
+    "disfor-1050-2018",
+    "disfor-1051-2019",
+    "disfor-1052-2020",
+    "disfor-1054-2022",
+    "disfor-1055-2023",
+    "disfor-1057-2019",
+    "disfor-1058-2020",
+    "disfor-1059-2021",
+    "disfor-1061-2023",
+    "disfor-1063-2019",
+    "disfor-1067-2023",
+    "disfor-1068-2018",
+    "disfor-1070-2020",
+    "disfor-1071-2021",
+    "disfor-1072-2022",
+    "disfor-1073-2023",
+    "disfor-1076-2020",
+    "disfor-1077-2021",
+    "disfor-1078-2022",
+    "disfor-1079-2023",
+    "disfor-1085-2023",
+    "disfor-1087-2022",
+    "disfor-1089-2021",
+    "disfor-1090-2022",
+    "disfor-1092-2018",
+    "disfor-1093-2019",
+    "disfor-1095-2021",
+    "disfor-1097-2023",
+    "disfor-1098-2018",
+    "disfor-1099-2019",
+    "disfor-1100-2020",
+    "disfor-1101-2021",
+    "disfor-1104-2018",
+    "disfor-1106-2020",
+    "disfor-1108-2022",
+    "disfor-1110-2018",
+    "disfor-1118-2020",
+    "disfor-1119-2021",
+    "disfor-1120-2022",
+    "disfor-1122-2018",
+    "disfor-1123-2019",
+    "disfor-1124-2020",
+    "disfor-1127-2023",
+    "disfor-1128-2018",
+    "disfor-1129-2019",
+    "disfor-1134-2018",
+    "disfor-1137-2021",
+    "disfor-1140-2018",
+    "disfor-1142-2020",
+    "disfor-1143-2021",
+    "disfor-1144-2022",
+    "disfor-1145-2023",
+    "disfor-1146-2018",
+    "disfor-1148-2020",
+    "disfor-1150-2022",
+    "disfor-1151-2023",
+    "disfor-1152-2018",
+    "disfor-1153-2019",
+    "disfor-1158-2018",
+    "disfor-1161-2020",
+    "disfor-1165-2019",
+    "disfor-1167-2021",
+    "disfor-1172-2020",
+    "disfor-1174-2022",
+    "disfor-1175-2023",
+    "disfor-1176-2018",
+    "disfor-1179-2021",
+    "disfor-1182-2018",
+    "disfor-1183-2019",
+    "disfor-1189-2019",
+    "disfor-1194-2018",
+    "disfor-1198-2022",
+    "disfor-1199-2023",
+    "disfor-1200-2018",
+    "disfor-1201-2019",
+    "disfor-1202-2020",
+    "disfor-1203-2021",
+    "disfor-1204-2022",
+    "disfor-1205-2023",
+    "disfor-1206-2018",
+    "disfor-1211-2023",
+    "disfor-1212-2018",
+    "disfor-1214-2020",
+    "disfor-1219-2019",
+    "disfor-1220-2020",
+    "disfor-1221-2021",
+    "disfor-1222-2022",
+    "disfor-1223-2023",
+    "disfor-1226-2020",
+    "disfor-1229-2023",
+    "disfor-1231-2019",
+    "disfor-1232-2020",
+    "disfor-1234-2020",
+    "disfor-1236-2020",
+    "disfor-1237-2021",
+    "disfor-1238-2018",
+    "disfor-1239-2021",
+    "disfor-1240-2020",
+    "disfor-1241-2018",
+    "disfor-1244-2020",
+    "disfor-1245-2021",
+    "disfor-1246-2022",
+    "disfor-1247-2023",
+    "disfor-1248-2018",
+    "disfor-1249-2019",
+    "disfor-1251-2021",
+    "disfor-1252-2022",
+    "disfor-1253-2023",
+    "disfor-1254-2018",
+    "disfor-1255-2019",
+    "disfor-1257-2021",
+    "disfor-1258-2022",
+    "disfor-1259-2023",
+    "disfor-1260-2018",
+    "disfor-1262-2020",
+    "disfor-1263-2021",
+    "disfor-1264-2022",
+    "disfor-1265-2023",
+    "disfor-1266-2018",
+    "disfor-1268-2020",
+    "disfor-1269-2021",
+    "disfor-1270-2022",
+    "disfor-1271-2023",
+    "disfor-1272-2018",
+    "disfor-1273-2019",
+    "disfor-1274-2020",
+    "disfor-1275-2021",
+    "disfor-1277-2023",
+    "disfor-1278-2018",
+    "disfor-1281-2021",
+    "disfor-1282-2022",
+    "disfor-1286-2020",
+    "disfor-1287-2021",
+    "disfor-1288-2022",
+    "disfor-1289-2023",
+    "disfor-1290-2018",
+    "disfor-1291-2019",
+    "disfor-1292-2020",
+    "disfor-1293-2021",
+    "disfor-1294-2022",
+    "disfor-1295-2023",
+    "disfor-1296-2018",
+    "disfor-1297-2019",
+    "disfor-1298-2020",
+    "disfor-1299-2021",
+    "disfor-1300-2022",
+    "disfor-1301-2023",
+    "disfor-1302-2018",
+    "disfor-1303-2019",
+    "disfor-1304-2020",
+    "disfor-1305-2021",
+    "disfor-1310-2020",
+    "disfor-1311-2021",
+    "disfor-1312-2022",
+    "disfor-1313-2023",
+    "disfor-1314-2018",
+    "disfor-1316-2020",
+    "disfor-1317-2021",
+    "disfor-1318-2022",
+    "disfor-1319-2023",
+    "disfor-1320-2018",
+    "disfor-1322-2020",
+    "disfor-1324-2022",
+    "disfor-1326-2018",
+    "disfor-1327-2019",
+    "disfor-1329-2021",
+    "disfor-1330-2022",
+    "disfor-1331-2023",
+    "disfor-1332-2018",
+    "disfor-1335-2021",
+    "disfor-1336-2022",
+    "disfor-1337-2023",
+    "disfor-1339-2019",
+    "disfor-1341-2021",
+    "disfor-1342-2022",
+    "disfor-1343-2023",
+    "disfor-1344-2018",
+    "disfor-1345-2019",
+    "disfor-1346-2020",
+    "disfor-1347-2021",
+    "disfor-1348-2022",
+    "disfor-1349-2023",
+    "disfor-1350-2018",
+    "disfor-1351-2019",
+    "disfor-1352-2020",
+    "disfor-1353-2021",
+    "disfor-1354-2022",
+    "disfor-1355-2023",
+    "disfor-1356-2018",
+    "disfor-1357-2019",
+    "disfor-1358-2020",
+    "disfor-1359-2021",
+    "disfor-1360-2022",
+    "disfor-1362-2019",
+    "disfor-1364-2020",
+    "disfor-1365-2021",
+    "disfor-1366-2022",
+    "disfor-1368-2018",
+    "disfor-1369-2019",
+    "disfor-1370-2020",
+    "disfor-1371-2021",
+    "disfor-1372-2022",
+    "disfor-1373-2023",
+    "disfor-1374-2018",
+    "disfor-1375-2019",
+    "disfor-1376-2020",
+    "disfor-1377-2021",
+    "disfor-1378-2022",
+    "disfor-1380-2018",
+    "disfor-1381-2019",
+    "disfor-1382-2020",
+    "disfor-1383-2021",
+    "disfor-1385-2023",
+    "disfor-1387-2019",
+    "disfor-1391-2023",
+    "disfor-1393-2019",
+    "disfor-1394-2020",
+    "disfor-1395-2021",
+    "disfor-1396-2022",
+    "disfor-1397-2023",
+    "disfor-1402-2022",
+    "disfor-1407-2021",
+    "disfor-1408-2022",
+    "disfor-1409-2023",
+    "disfor-1410-2018",
+    "disfor-1411-2019",
+    "disfor-1414-2022",
+    "disfor-1415-2023",
+    "disfor-1421-2023",
+    "disfor-1422-2018",
+    "disfor-1423-2019",
+    "disfor-1424-2020",
+    "disfor-1425-2021",
+    "disfor-1426-2022",
+    "disfor-1427-2023",
+    "disfor-1429-2019",
+    "disfor-1430-2020",
+    "disfor-1431-2021",
+    "disfor-1432-2022",
+    "disfor-1434-2018",
+    "disfor-1435-2019",
+    "disfor-1436-2020",
+    "disfor-1437-2021",
+    "disfor-1440-2018",
+    "disfor-1441-2019",
+    "disfor-1442-2020",
+    "disfor-1443-2021",
+    "disfor-1444-2022",
+    "disfor-1445-2023",
+    "disfor-1446-2018",
+    "disfor-1447-2019",
+    "disfor-1448-2020",
+    "disfor-1450-2022",
+    "disfor-1451-2023",
+    "disfor-1453-2019",
+    "disfor-1454-2020",
+    "disfor-1455-2021",
+    "disfor-1457-2023",
+    "disfor-1458-2018",
+    "disfor-1459-2019",
+    "disfor-1462-2022",
+    "disfor-1464-2019",
+    "disfor-1466-2020",
+    "disfor-1467-2018",
+    "disfor-1469-2023",
+    "disfor-1470-2018",
+    "disfor-1471-2019",
+    "disfor-1474-2022",
+    "disfor-1475-2023",
+    "disfor-1476-2018",
+    "disfor-1477-2019",
+    "disfor-1480-2022",
+    "disfor-1482-2018",
+    "disfor-1483-2019",
+    "disfor-1484-2020",
+    "disfor-1485-2021",
+    "disfor-1486-2022",
+    "disfor-1487-2023",
+    "disfor-1488-2018",
+    "disfor-1489-2019",
+    "disfor-1490-2020",
+    "disfor-1492-2022",
+    "disfor-1493-2023",
+    "disfor-1496-2020",
+    "disfor-1497-2021",
+    "disfor-1500-2018",
+    "disfor-1501-2019",
+    "disfor-1502-2020",
+    "disfor-1503-2021",
+    "disfor-1504-2018",
+    "disfor-1506-2018",
+    "disfor-1508-2020",
+    "disfor-1509-2022",
+    "disfor-1510-2022",
+    "disfor-1511-2023",
+    "disfor-1512-2018",
+    "disfor-1514-2020",
+    "disfor-1515-2023",
+    "disfor-1516-2022",
+    "disfor-1517-2023",
+    "disfor-1519-2019",
+    "disfor-1523-2023",
+    "disfor-1524-2018",
+    "disfor-1527-2021",
+    "disfor-1529-2023",
+    "disfor-1531-2019",
+    "disfor-1532-2020",
+    "disfor-1534-2023",
+    "disfor-1535-2023",
+    "disfor-1536-2018",
+    "disfor-1542-2018",
+    "disfor-1545-2021",
+    "disfor-1546-2022",
+    "disfor-1547-2023",
+    "disfor-1548-2018",
+    "disfor-1550-2020",
+    "disfor-1552-2022",
+    "disfor-1553-2023",
+    "disfor-1554-2018",
+    "disfor-1560-2018",
+    "disfor-1562-2020",
+    "disfor-1563-2021",
+    "disfor-1564-2022",
+    "disfor-1565-2023",
+    "disfor-1566-2018",
+    "disfor-1567-2019",
+    "disfor-1568-2020",
+    "disfor-1569-2021",
+    "disfor-1570-2022",
+    "disfor-1571-2023",
+    "disfor-1572-2018",
+    "disfor-1575-2021",
+    "disfor-1576-2022",
+    "disfor-1577-2023",
+    "disfor-1579-2019",
+    "disfor-1581-2021",
+    "disfor-1585-2019",
+    "disfor-1588-2022",
+    "disfor-1589-2023",
+    "disfor-1591-2019",
+    "disfor-1593-2021",
+    "disfor-1594-2022",
+    "disfor-1595-2018",
+    "disfor-1598-2020",
+    "disfor-1599-2018",
+    "disfor-1601-2023",
+    "disfor-1602-2018",
+    "disfor-1604-2020",
+    "disfor-1605-2022",
+    "disfor-1607-2023",
+    "disfor-1612-2022",
+    "disfor-1613-2023",
+    "disfor-1614-2022",
+    "disfor-1616-2021",
+    "disfor-1622-2022",
+    "disfor-1625-2023",
+    "disfor-1626-2018",
+    "disfor-1627-2023",
+    "disfor-1628-2020",
+    "disfor-1631-2023",
+    "disfor-1632-2021",
+    "disfor-1633-2018",
+    "disfor-1635-2021",
+    "disfor-1636-2022",
+    "disfor-1638-2022",
+    "disfor-1639-2021",
+    "disfor-1640-2020",
+    "disfor-1644-2018",
+    "disfor-1645-2019",
+    "disfor-1647-2022",
+    "disfor-1650-2018",
+    "disfor-1651-2019",
+    "disfor-1652-2020",
+    "disfor-1653-2021",
+    "disfor-1656-2020",
+    "disfor-1659-2019",
+    "disfor-1660-2019",
+    "disfor-1664-2018",
+    "disfor-1672-2019",
+    "disfor-1673-2019",
+    "disfor-1676-2019",
+    "disfor-1677-2021",
+    "disfor-1678-2019",
+    "disfor-1679-2019",
+    "disfor-1681-2018",
+    "disfor-1685-2019",
+    "disfor-1686-2018",
+    "disfor-1687-2018",
+    "disfor-1688-2018",
+    "disfor-1690-2018",
+    "disfor-1692-2018",
+    "disfor-1693-2019",
+    "disfor-1698-2019",
+    "disfor-1700-2019",
+    "disfor-1702-2019",
+    "disfor-1703-2019",
+    "disfor-1705-2019",
+    "disfor-1707-2020",
+    "disfor-1709-2019",
+    "disfor-1710-2020",
+    "disfor-1717-2020",
+    "disfor-1718-2020",
+    "disfor-1719-2019",
+    "disfor-1725-2019",
+    "disfor-1726-2021",
+    "disfor-1727-2021",
+    "disfor-1730-2020",
+    "disfor-1731-2021",
+    "disfor-1732-2021",
+    "disfor-1733-2019",
+    "disfor-1734-2020",
+    "disfor-1735-2019",
+    "disfor-1737-2018",
+    "disfor-1738-2021",
+    "disfor-1745-2018",
+    "disfor-1751-2020",
+    "disfor-1753-2022",
+    "disfor-1754-2020",
+    "disfor-1755-2021",
+    "disfor-1756-2019",
+    "disfor-1757-2023",
+    "disfor-1758-2018",
+    "disfor-1760-2020",
+    "disfor-1761-2021",
+    "disfor-1762-2022",
+    "disfor-1763-2023",
+    "disfor-1764-2018",
+    "disfor-1768-2022",
+    "disfor-1769-2023",
+    "disfor-1770-2018",
+    "disfor-1771-2019",
+    "disfor-1772-2022",
+    "disfor-1773-2021",
+    "disfor-1776-2018",
+    "disfor-1777-2019",
+    "disfor-1778-2020",
+    "disfor-1780-2022",
+    "disfor-1781-2023",
+    "disfor-1782-2018",
+    "disfor-1784-2020",
+    "disfor-1786-2022",
+    "disfor-1787-2023",
+    "disfor-1788-2018",
+    "disfor-1790-2020",
+    "disfor-1793-2023",
+    "disfor-1794-2018",
+    "disfor-1795-2019",
+    "disfor-1799-2023",
+    "disfor-1800-2018",
+    "disfor-1801-2019",
+    "disfor-1803-2019",
+    "disfor-1805-2023",
+    "disfor-1810-2019",
+    "disfor-1812-2018",
+    "disfor-1813-2020",
+    "disfor-1814-2020",
+    "disfor-1815-2018",
+    "disfor-1817-2019",
+    "disfor-1818-2020",
+    "disfor-1820-2020",
+    "disfor-1821-2021",
+    "disfor-1822-2022",
+    "disfor-1823-2023",
+    "disfor-1824-2018",
+    "disfor-1825-2019",
+    "disfor-1827-2021",
+    "disfor-1829-2023",
+    "disfor-1830-2018",
+    "disfor-1832-2020",
+    "disfor-1833-2021",
+    "disfor-1834-2022",
+    "disfor-1835-2023",
+    "disfor-1836-2018",
+    "disfor-1838-2020",
+    "disfor-1839-2021",
+    "disfor-1840-2022",
+    "disfor-1842-2018",
+    "disfor-1843-2019",
+    "disfor-1844-2020",
+    "disfor-1846-2022",
+    "disfor-1849-2019",
+    "disfor-1851-2021",
+    "disfor-1852-2022",
+    "disfor-1853-2023",
+    "disfor-1855-2019",
+    "disfor-1856-2020",
+    "disfor-1859-2023",
+    "disfor-1860-2018",
+    "disfor-1863-2021",
+    "disfor-1871-2023",
+    "disfor-1872-2018",
+    "disfor-1873-2019",
+    "disfor-1874-2020",
+    "disfor-1875-2021",
+    "disfor-1877-2023",
+    "disfor-1879-2019",
+    "disfor-1880-2020",
+    "disfor-1882-2018",
+    "disfor-1883-2023",
+    "disfor-1884-2018",
+    "disfor-1885-2019",
+    "disfor-1886-2020",
+    "disfor-1887-2021",
+    "disfor-1888-2022",
+    "disfor-1889-2023",
+    "disfor-1890-2018",
+    "disfor-1892-2020",
+    "disfor-1893-2021",
+    "disfor-1894-2022",
+    "disfor-1895-2023",
+    "disfor-1896-2018",
+    "disfor-1897-2019",
+    "disfor-1898-2020",
+    "disfor-1900-2022",
+    "disfor-1902-2018",
+    "disfor-1904-2020",
+    "disfor-1906-2022",
+    "disfor-1907-2023",
+    "disfor-1908-2018",
+    "disfor-1909-2019",
+    "disfor-1910-2020",
+    "disfor-1912-2022",
+    "disfor-1916-2020",
+    "disfor-1917-2021",
+    "disfor-1919-2023",
+    "disfor-1920-2018",
+    "disfor-1921-2019",
+    "disfor-1922-2022",
+    "disfor-1923-2021",
+    "disfor-1924-2022",
+    "disfor-1925-2023",
+    "disfor-1926-2018",
+    "disfor-1927-2019",
+    "disfor-1930-2022",
+    "disfor-1932-2018",
+    "disfor-1934-2020",
+    "disfor-1935-2021",
+    "disfor-1937-2023",
+    "disfor-1938-2019",
+    "disfor-1939-2019",
+    "disfor-1940-2020",
+    "disfor-1944-2018",
+    "disfor-1945-2019",
+    "disfor-1946-2020",
+    "disfor-1947-2021",
+    "disfor-1949-2023",
+    "disfor-1951-2019",
+    "disfor-1953-2021",
+    "disfor-1954-2022",
+    "disfor-1955-2023",
+    "disfor-1956-2018",
+    "disfor-1957-2019",
+    "disfor-1959-2021",
+    "disfor-1960-2022",
+    "disfor-1962-2018",
+    "disfor-1964-2020",
+    "disfor-1965-2018",
+    "disfor-1966-2022",
+    "disfor-1968-2018",
+    "disfor-1969-2019",
+    "disfor-1970-2020",
+    "disfor-1971-2021",
+    "disfor-1973-2023",
+    "disfor-1974-2018",
+    "disfor-1975-2019",
+    "disfor-1977-2021",
+    "disfor-1978-2022",
+    "disfor-1979-2023",
+    "disfor-1980-2018",
+    "disfor-1981-2019",
+    "disfor-1982-2020",
+    "disfor-1983-2021",
+    "disfor-1984-2022",
+    "disfor-1985-2023",
+    "disfor-1988-2020",
+    "disfor-1989-2021",
+    "disfor-1991-2023",
+    "disfor-1994-2020",
+    "disfor-1996-2022",
+    "disfor-1997-2023",
+    "disfor-1998-2018",
+    "disfor-2001-2021",
+    "disfor-2004-2018",
+    "disfor-2005-2019",
+    "disfor-2006-2020",
+    "disfor-2007-2021",
+    "disfor-2008-2022",
+    "disfor-2009-2023",
+    "disfor-2012-2020",
+    "disfor-2014-2022",
+    "disfor-2015-2023",
+    "disfor-2016-2018",
+    "disfor-2017-2019",
+    "disfor-2018-2020",
+    "disfor-2019-2021",
+    "disfor-2021-2023",
+    "disfor-2022-2018",
+    "disfor-2025-2021",
+    "disfor-2026-2022",
+    "disfor-2027-2023",
+    "disfor-2028-2018",
+    "disfor-2031-2021",
+    "disfor-2033-2023",
+    "disfor-2034-2018",
+    "disfor-2037-2021",
+    "disfor-2038-2022",
+    "disfor-2039-2018",
+    "disfor-2040-2018",
+    "disfor-2041-2019",
+    "disfor-2043-2021",
+    "disfor-2044-2022",
+    "disfor-2045-2023",
+    "disfor-2047-2019",
+    "disfor-2048-2020",
+    "disfor-2052-2018",
+    "disfor-2053-2019",
+    "disfor-2054-2020",
+    "disfor-2056-2022",
+    "disfor-2057-2023",
+    "disfor-2062-2022",
+    "disfor-2068-2022",
+    "disfor-2069-2023",
+    "disfor-2070-2018",
+    "disfor-2071-2019",
+    "disfor-2073-2021",
+    "disfor-2074-2022",
+    "disfor-2075-2023",
+    "disfor-2082-2018",
+    "disfor-2084-2020",
+    "disfor-2085-2021",
+    "disfor-2088-2018",
+    "disfor-2097-2021",
+    "disfor-2101-2019",
+    "disfor-2102-2020",
+    "disfor-2105-2023",
+    "disfor-2107-2019",
+    "disfor-2111-2023",
+    "disfor-2114-2020",
+    "disfor-2115-2021",
+    "disfor-2116-2022",
+    "disfor-2117-2023",
+    "disfor-2119-2019",
+    "disfor-2121-2021",
+    "disfor-2122-2022",
+    "disfor-2124-2018",
+    "disfor-2125-2019",
+    "disfor-2126-2020",
+    "disfor-2127-2021",
+    "disfor-2129-2023",
+    "disfor-2131-2019",
+    "disfor-2132-2020",
+    "disfor-2133-2021",
+    "disfor-2134-2022",
+    "disfor-2135-2023",
+    "disfor-2138-2020",
+    "disfor-2139-2021",
+    "disfor-2140-2022",
+    "disfor-2144-2020",
+    "disfor-2154-2018",
+    "disfor-2158-2022",
+    "disfor-2160-2018",
+    "disfor-2161-2019",
+    "disfor-2163-2021",
+    "disfor-2164-2022",
+    "disfor-2165-2023",
+    "disfor-2166-2018",
+    "disfor-2167-2019",
+    "disfor-2168-2020",
+    "disfor-2169-2021",
+    "disfor-2170-2022",
+    "disfor-2171-2023",
+    "disfor-2172-2018",
+    "disfor-2173-2019",
+    "disfor-2175-2021",
+    "disfor-2176-2022",
+    "disfor-2177-2023",
+    "disfor-2178-2018",
+    "disfor-2180-2020",
+    "disfor-2181-2021",
+    "disfor-2183-2023",
+    "disfor-2184-2018",
+    "disfor-2185-2019",
+    "disfor-2186-2020",
+    "disfor-2187-2021",
+    "disfor-2188-2022",
+    "disfor-2189-2023",
+    "disfor-2191-2019",
+    "disfor-2192-2020",
+    "disfor-2193-2021",
+    "disfor-2196-2018",
+    "disfor-2198-2020",
+    "disfor-2199-2021",
+    "disfor-2200-2022",
+    "disfor-2201-2023",
+    "disfor-2203-2019",
+    "disfor-2204-2020",
+    "disfor-2206-2022",
+    "disfor-2208-2018",
+    "disfor-2209-2019",
+    "disfor-2210-2020",
+    "disfor-2212-2022",
+    "disfor-2217-2018",
+    "disfor-2218-2022",
+    "disfor-2221-2019",
+    "disfor-2222-2020",
+    "disfor-2224-2022",
+    "disfor-2225-2023",
+    "disfor-2227-2019",
+    "disfor-2230-2022",
+    "disfor-2232-2018",
+    "disfor-2234-2020",
+    "disfor-2235-2021",
+    "disfor-2237-2023",
+    "disfor-2238-2018",
+    "disfor-2240-2020",
+    "disfor-2241-2021",
+    "disfor-2244-2018",
+    "disfor-2245-2019",
+    "disfor-2248-2022",
+    "disfor-2249-2023",
+    "disfor-2253-2021",
+    "disfor-2255-2018",
+    "disfor-2258-2020",
+    "disfor-2260-2022",
+    "disfor-2268-2018",
+    "disfor-2273-2023",
+    "disfor-2275-2019",
+    "disfor-2277-2021",
+    "disfor-2280-2018",
+    "disfor-2282-2020",
+    "disfor-2283-2018",
+    "disfor-2285-2018",
+    "disfor-2287-2023",
+    "disfor-2288-2020",
+    "disfor-2290-2022",
+    "disfor-2291-2023",
+    "disfor-2296-2022",
+    "disfor-2298-2018",
+    "disfor-2303-2023",
+    "disfor-2304-2018",
+    "disfor-2305-2019",
+    "disfor-2306-2018",
+    "disfor-2307-2021",
+    "disfor-2309-2023",
+    "disfor-2310-2018",
+    "disfor-2311-2019",
+    "disfor-2312-2020",
+    "disfor-2315-2023",
+    "disfor-2316-2018",
+    "disfor-2317-2019",
+    "disfor-2318-2020",
+    "disfor-2321-2018",
+    "disfor-2324-2020",
+    "disfor-2325-2019",
+    "disfor-2330-2020",
+    "disfor-2332-2018",
+    "disfor-2334-2018",
+    "disfor-2336-2020",
+    "disfor-2338-2018",
+    "disfor-2345-2018",
+    "disfor-2351-2018",
+    "disfor-2354-2020",
+    "disfor-2355-2018",
+    "disfor-2356-2018",
+    "disfor-2360-2018",
+    "disfor-2361-2018",
+    "disfor-2362-2018",
+    "disfor-2364-2018",
+    "disfor-2365-2018",
+    "disfor-2366-2020",
+    "disfor-2368-2018",
+    "disfor-2370-2018",
+    "disfor-2372-2018",
+    "disfor-2376-2018",
+    "disfor-2378-2020",
+    "disfor-2379-2018",
+    "disfor-2383-2019",
+    "disfor-2384-2018",
+    "disfor-2385-2018",
+    "disfor-2386-2018",
+    "disfor-2389-2019",
+    "disfor-2390-2018",
+    "disfor-2393-2018",
+    "disfor-2395-2019",
+    "disfor-2396-2020",
+    "disfor-2397-2018",
+    "disfor-2399-2020",
+    "disfor-2402-2018",
+    "disfor-2405-2023",
+    "disfor-2408-2018",
+    "disfor-2409-2018",
+    "disfor-2410-2018",
+    "disfor-2411-2018",
+    "disfor-2412-2018",
+    "disfor-2413-2019",
+    "disfor-2414-2020",
+    "disfor-2415-2018",
+    "disfor-2418-2018",
+    "disfor-2419-2021",
+    "disfor-2420-2018",
+    "disfor-2421-2018",
+    "disfor-2425-2019",
+    "disfor-2428-2018",
+    "disfor-2431-2019",
+    "disfor-2432-2020",
+    "disfor-2433-2018",
+    "disfor-2435-2018",
+    "disfor-2438-2020",
+    "disfor-2441-2023",
+    "disfor-2444-2020",
+    "disfor-2445-2021",
+    "disfor-2447-2023",
+    "disfor-2448-2018",
+    "disfor-2449-2019",
+    "disfor-2451-2021",
+    "disfor-2452-2022",
+    "disfor-2453-2023",
+    "disfor-2455-2019",
+    "disfor-2456-2020",
+    "disfor-2458-2022",
+    "disfor-2460-2018",
+    "disfor-2461-2019",
+    "disfor-2462-2020",
+    "disfor-2463-2021",
+    "disfor-2465-2023",
+    "disfor-2466-2018",
+    "disfor-2467-2019",
+    "disfor-2468-2020",
+    "disfor-2469-2021",
+    "disfor-2470-2022",
+    "disfor-2471-2023",
+    "disfor-2472-2018",
+    "disfor-2473-2019",
+    "disfor-2474-2020",
+    "disfor-2475-2021",
+    "disfor-2476-2022",
+    "disfor-2478-2018",
+    "disfor-2480-2020",
+    "disfor-2482-2022",
+    "disfor-2484-2018",
+    "disfor-2485-2019",
+    "disfor-2486-2020",
+    "disfor-2487-2021",
+    "disfor-2488-2022",
+    "disfor-2489-2023",
+    "disfor-2491-2019",
+    "disfor-2492-2020",
+    "disfor-2494-2022",
+    "disfor-2496-2018",
+    "disfor-2497-2019",
+    "disfor-2498-2020",
+    "disfor-2499-2021",
+    "disfor-2500-2018",
+    "disfor-2501-2023",
+    "disfor-2502-2018",
+    "disfor-2503-2019",
+    "disfor-2504-2020",
+    "disfor-2505-2021",
+    "disfor-2506-2022",
+    "disfor-2507-2023",
+    "disfor-2508-2018",
+    "disfor-2513-2023",
+    "disfor-2514-2018",
+    "disfor-2515-2019",
+    "disfor-2517-2021",
+    "disfor-2518-2022",
+    "disfor-2519-2023",
+    "disfor-2520-2018",
+    "disfor-2521-2019",
+    "disfor-2522-2020",
+    "disfor-2523-2021",
+    "disfor-2524-2018",
+    "disfor-2525-2023",
+    "disfor-2526-2018",
+    "disfor-2527-2019",
+    "disfor-2528-2020",
+    "disfor-2534-2020",
+    "disfor-2535-2021",
+    "disfor-2536-2022",
+    "disfor-2537-2023",
+    "disfor-2540-2020",
+    "disfor-2541-2021",
+    "disfor-2542-2022",
+    "disfor-2544-2018",
+    "disfor-2545-2019",
+    "disfor-2551-2019",
+    "disfor-2552-2020",
+    "disfor-2555-2023",
+    "disfor-2556-2018",
+    "disfor-2557-2019",
+    "disfor-2558-2020",
+    "disfor-2559-2021",
+    "disfor-2560-2022",
+    "disfor-2561-2023",
+    "disfor-2562-2018",
+    "disfor-2563-2019",
+    "disfor-2565-2021",
+    "disfor-2566-2022",
+    "disfor-2567-2023",
+    "disfor-2568-2018",
+    "disfor-2569-2019",
+    "disfor-2571-2021",
+    "disfor-2572-2022",
+    "disfor-2574-2018",
+    "disfor-2576-2020",
+    "disfor-2579-2023",
+    "disfor-2580-2018",
+    "disfor-2581-2019",
+    "disfor-2585-2023",
+    "disfor-2586-2018",
+    "disfor-2589-2021",
+    "disfor-2590-2022",
+    "disfor-2591-2023",
+    "disfor-2593-2019",
+    "disfor-2594-2020",
+    "disfor-2595-2021",
+    "disfor-2602-2022",
+    "disfor-2603-2023",
+    "disfor-2607-2021",
+    "disfor-2611-2019",
+    "disfor-2612-2020",
+    "disfor-2615-2023",
+    "disfor-2616-2018",
+    "disfor-2617-2019",
+    "disfor-2619-2021",
+    "disfor-2622-2018",
+    "disfor-2623-2019",
+    "disfor-2624-2020",
+    "disfor-2626-2022",
+    "disfor-2627-2023",
+    "disfor-2628-2018",
+    "disfor-2629-2019",
+    "disfor-2630-2020",
+    "disfor-2631-2021",
+    "disfor-2632-2022",
+    "disfor-2635-2019",
+    "disfor-2636-2020",
+    "disfor-2637-2021",
+    "disfor-2638-2022",
+    "disfor-2640-2018",
+    "disfor-2641-2019",
+    "disfor-2642-2020",
+    "disfor-2645-2021",
+    "disfor-2646-2018",
+    "disfor-2647-2019",
+    "disfor-2649-2021",
+    "disfor-2650-2022",
+    "disfor-2651-2023",
+    "disfor-2654-2020",
+    "disfor-2656-2022",
+    "disfor-2658-2022",
+    "disfor-2660-2019",
+    "disfor-2665-2019",
+    "disfor-2667-2021",
+    "disfor-2668-2022",
+    "disfor-2669-2018",
+    "disfor-2671-2019",
+    "disfor-2675-2018",
+    "disfor-2676-2018",
+    "disfor-2680-2022",
+    "disfor-2681-2023",
+    "disfor-2683-2019",
+    "disfor-2684-2018",
+    "disfor-2685-2018",
+    "disfor-2687-2018",
+    "disfor-2696-2019",
+    "disfor-2697-2019",
+    "disfor-2700-2019",
+    "disfor-2701-2019",
+    "disfor-2711-2018",
+    "disfor-2713-2018",
+    "disfor-2716-2022",
+    "disfor-2718-2019",
+    "disfor-2720-2020",
+    "disfor-2721-2019",
+    "disfor-2722-2019",
+    "disfor-2723-2020",
+    "disfor-2726-2019",
+    "disfor-2728-2019",
+    "disfor-2730-2018",
+    "disfor-2736-2019",
+    "disfor-2737-2019",
+    "disfor-2743-2021",
+    "disfor-2745-2018",
+    "disfor-2746-2020",
+    "disfor-2748-2021",
+    "disfor-2749-2019",
+    "disfor-2751-2018",
+    "disfor-2753-2020",
+    "disfor-2754-2018",
+    "disfor-2755-2019",
+    "disfor-2757-2018",
+    "disfor-2759-2018",
+    "disfor-2760-2021",
+    "disfor-2761-2020",
+    "disfor-2764-2018",
+    "disfor-2765-2018",
+    "disfor-2767-2019",
+    "disfor-2769-2021",
+    "disfor-2772-2018",
+    "disfor-2773-2019",
+    "disfor-2774-2020",
+    "disfor-2776-2022",
+    "disfor-2777-2023",
+    "disfor-2778-2018",
+    "disfor-2779-2019",
+    "disfor-2780-2020",
+    "disfor-2781-2021",
+    "disfor-2782-2022",
+    "disfor-2783-2023",
+    "disfor-2784-2018",
+    "disfor-2787-2021",
+    "disfor-2788-2022",
+    "disfor-2791-2019",
+    "disfor-2792-2020",
+    "disfor-2793-2021",
+    "disfor-2794-2022",
+    "disfor-2796-2018",
+    "disfor-2797-2019",
+    "disfor-2798-2020",
+    "disfor-2799-2021",
+    "disfor-2801-2023",
+    "disfor-2802-2018",
+    "disfor-2803-2019",
+    "disfor-2809-2019",
+    "disfor-2810-2020",
+    "disfor-2812-2021",
+    "disfor-2818-2021",
+    "disfor-2831-2023",
+    "disfor-2842-2022",
+    "disfor-2861-2023",
+    "disfor-2871-2021",
+    "disfor-2872-2022",
+    "disfor-2873-2023",
+    "disfor-2884-2022",
+    "disfor-2887-2019",
+    "disfor-2892-2018",
+    "disfor-2894-2020",
+    "disfor-2895-2021",
+    "disfor-2896-2022",
+    "disfor-2897-2023",
+    "disfor-2898-2018",
+    "disfor-2900-2020",
+    "disfor-2901-2021",
+    "disfor-2902-2022",
+    "disfor-2903-2023",
+    "disfor-2904-2018",
+    "disfor-2905-2019",
+    "disfor-2907-2021",
+    "disfor-2908-2022",
+    "disfor-2909-2023",
+    "disfor-2910-2018",
+    "disfor-2911-2019",
+    "disfor-2913-2021",
+    "disfor-2914-2022",
+    "disfor-2915-2023",
+    "disfor-2916-2018",
+    "disfor-2917-2019",
+    "disfor-2919-2021",
+    "disfor-2920-2022",
+    "disfor-2921-2023",
+    "disfor-2922-2018",
+    "disfor-2924-2020",
+    "disfor-2925-2021",
+    "disfor-2926-2022",
+    "disfor-2927-2023",
+    "disfor-2928-2018",
+    "disfor-2929-2019",
+    "disfor-2930-2020",
+    "disfor-2931-2021",
+    "disfor-2932-2022",
+    "disfor-2933-2023",
+    "disfor-2934-2018",
+    "disfor-2935-2019",
+    "disfor-2936-2020",
+    "disfor-2942-2020",
+    "disfor-2943-2021",
+    "disfor-2944-2022",
+    "disfor-2946-2018",
+    "disfor-2947-2019",
+    "disfor-2948-2020",
+    "disfor-2949-2021",
+    "disfor-2950-2022",
+    "disfor-2951-2023",
+    "disfor-2952-2018",
+    "disfor-2954-2020",
+    "disfor-2955-2021",
+    "disfor-2956-2022",
+    "disfor-2957-2023",
+    "disfor-2958-2018",
+    "disfor-2959-2019",
+    "disfor-2960-2020",
+    "disfor-2963-2023",
+    "disfor-2964-2018",
+    "disfor-2966-2020",
+    "disfor-2967-2021",
+    "disfor-2968-2022",
+    "disfor-2969-2023",
+    "disfor-2970-2018",
+    "disfor-2974-2022",
+    "disfor-2975-2023",
+    "disfor-2976-2018",
+    "disfor-2977-2019",
+    "disfor-2978-2020",
+    "disfor-2979-2021",
+    "disfor-2984-2020",
+    "disfor-2985-2021",
+    "disfor-2986-2022",
+    "disfor-2988-2018",
+    "disfor-2989-2019",
+    "disfor-2990-2020",
+    "disfor-2991-2021",
+    "disfor-2992-2022",
+    "disfor-2994-2018",
+    "disfor-2997-2021",
+    "disfor-2999-2023",
+    "disfor-3000-2018",
+    "disfor-3002-2020",
+    "disfor-3003-2021",
+    "disfor-3005-2023",
+    "disfor-3006-2018",
+    "disfor-3007-2020",
+    "disfor-3008-2020",
+    "disfor-3009-2021",
+    "disfor-3010-2022",
+    "disfor-3011-2023",
+    "disfor-3012-2018",
+    "disfor-3013-2019",
+    "disfor-3014-2020",
+    "disfor-3016-2022",
+    "disfor-3018-2018",
+    "disfor-3019-2019",
+    "disfor-3020-2020",
+    "disfor-3021-2021",
+    "disfor-3022-2022",
+    "disfor-3025-2019",
+    "disfor-3026-2020",
+    "disfor-3027-2021",
+    "disfor-3029-2023",
+    "disfor-3030-2018",
+    "disfor-3032-2020",
+    "disfor-3033-2021",
+    "disfor-3034-2022",
+    "disfor-3035-2023",
+    "disfor-3039-2021",
+    "disfor-3040-2022",
+    "disfor-3041-2023",
+    "disfor-3042-2018",
+    "disfor-3044-2020",
+    "disfor-3045-2021",
+    "disfor-3046-2022",
+    "disfor-3047-2023",
+    "disfor-3048-2018",
+    "disfor-3049-2019",
+    "disfor-3050-2020",
+    "disfor-3052-2022",
+    "disfor-3053-2023",
+    "disfor-3054-2018",
+    "disfor-3055-2019",
+    "disfor-3057-2021",
+    "disfor-3058-2022",
+    "disfor-3060-2018",
+    "disfor-3065-2023",
+    "disfor-3073-2019",
+    "disfor-3074-2020",
+    "disfor-3075-2021",
+    "disfor-3079-2019",
+    "disfor-3081-2021",
+    "disfor-3082-2022",
+    "disfor-3083-2023",
+    "disfor-3084-2018",
+    "disfor-3085-2019",
+    "disfor-3087-2018",
+    "disfor-3089-2023",
+    "disfor-3090-2018",
+    "disfor-3091-2019",
+    "disfor-3092-2020",
+    "disfor-3093-2021",
+    "disfor-3094-2022",
+    "disfor-3095-2023",
+    "disfor-3096-2018",
+    "disfor-3097-2019",
+    "disfor-3100-2022",
+    "disfor-3101-2023",
+    "disfor-3102-2018",
+    "disfor-3104-2020",
+    "disfor-3107-2023",
+    "disfor-3108-2018",
+    "disfor-3116-2020",
+    "disfor-3117-2021",
+    "disfor-3118-2022",
+    "disfor-3119-2023",
+    "disfor-3120-2018",
+    "disfor-3122-2020",
+    "disfor-3124-2022",
+    "disfor-3125-2023",
+    "disfor-3129-2023",
+    "disfor-3131-2023",
+    "disfor-3134-2020",
+    "disfor-3135-2021",
+    "disfor-3136-2022",
+    "disfor-3137-2023",
+    "disfor-3138-2018",
+    "disfor-3139-2019",
+    "disfor-3140-2020",
+    "disfor-3141-2021",
+    "disfor-3142-2022",
+    "disfor-3144-2018",
+    "disfor-3145-2023",
+    "disfor-3147-2021",
+    "disfor-3149-2023",
+    "disfor-3150-2018",
+    "disfor-3151-2019",
+    "disfor-3152-2020",
+    "disfor-3154-2022",
+    "disfor-3159-2021",
+    "disfor-3162-2018",
+    "disfor-3163-2019",
+    "disfor-3164-2020",
+    "disfor-3165-2021",
+    "disfor-3166-2018",
+    "disfor-3169-2019",
+    "disfor-3173-2018",
+    "disfor-3175-2019",
+    "disfor-3179-2023",
+    "disfor-3180-2018",
+    "disfor-3183-2021",
+    "disfor-3187-2019",
+    "disfor-3190-2022",
+    "disfor-3191-2023",
+    "disfor-3197-2023",
+    "disfor-3198-2018",
+    "disfor-3200-2020",
+    "disfor-3202-2022",
+    "disfor-3207-2021",
+    "disfor-3208-2022",
+    "disfor-3210-2018",
+    "disfor-3211-2019",
+    "disfor-3212-2020",
+    "disfor-3213-2021",
+    "disfor-3214-2018",
+    "disfor-3217-2019",
+    "disfor-3218-2020",
+    "disfor-3221-2023",
+    "disfor-3222-2018",
+    "disfor-3224-2020",
+    "disfor-3225-2021",
+    "disfor-3230-2020",
+    "disfor-3233-2023",
+    "disfor-3237-2021",
+    "disfor-3240-2018",
+    "disfor-3241-2019",
+    "disfor-3242-2020",
+    "disfor-3244-2022",
+    "disfor-3245-2023",
+    "disfor-3248-2020",
+    "disfor-3250-2022",
+    "disfor-3252-2018",
+    "disfor-3253-2019",
+    "disfor-3255-2021",
+    "disfor-3256-2023",
+    "disfor-3258-2018",
+    "disfor-3259-2018",
+    "disfor-3261-2021",
+    "disfor-3262-2022",
+    "disfor-3265-2019",
+    "disfor-3266-2020",
+    "disfor-3267-2021",
+    "disfor-3270-2018",
+    "disfor-3271-2019",
+    "disfor-3275-2023",
+    "disfor-3276-2018",
+    "disfor-3277-2019",
+    "disfor-3279-2021",
+    "disfor-3281-2023",
+    "disfor-3282-2018",
+    "disfor-3284-2020",
+    "disfor-3285-2021",
+    "disfor-3288-2018",
+    "disfor-3289-2019",
+    "disfor-3291-2021",
+    "disfor-3292-2022",
+    "disfor-3295-2019",
+    "disfor-3297-2021",
+    "disfor-3299-2023",
+    "disfor-3302-2023",
+    "disfor-3306-2018",
+    "disfor-3308-2020",
+    "disfor-3309-2021",
+    "disfor-3310-2022",
+    "disfor-3311-2023",
+    "disfor-3315-2021",
+    "disfor-3317-2018",
+    "disfor-3318-2018",
+    "disfor-3322-2022",
+    "disfor-3324-2018",
+    "disfor-3329-2018",
+    "disfor-3331-2019",
+    "disfor-3332-2020",
+    "disfor-3339-2021",
+    "disfor-3341-2023",
+    "disfor-3342-2018",
+    "disfor-3344-2020",
+    "disfor-3347-2023",
+    "disfor-3350-2020",
+    "disfor-3357-2022",
+    "disfor-3359-2023",
+    "disfor-3362-2020",
+    "disfor-3367-2019",
+    "disfor-3368-2020",
+    "disfor-3371-2023",
+    "disfor-3372-2018",
+    "disfor-3373-2019",
+    "disfor-3378-2018",
+    "disfor-3385-2019",
+    "disfor-3387-2021",
+    "disfor-3389-2023",
+    "disfor-3390-2023",
+    "disfor-3391-2019",
+    "disfor-3393-2018",
+    "disfor-3395-2018",
+    "disfor-3396-2018",
+    "disfor-3397-2019",
+    "disfor-3399-2018",
+    "disfor-3402-2018",
+    "disfor-3405-2018",
+    "disfor-3406-2018",
+    "disfor-3407-2018",
+    "disfor-3411-2018",
+    "disfor-3412-2019",
+    "disfor-3414-2018",
+    "disfor-3415-2019",
+    "disfor-3419-2018",
+    "disfor-3421-2018",
+    "disfor-3425-2018",
+    "disfor-3426-2019",
+    "disfor-3430-2019",
+    "disfor-3432-2019",
+    "disfor-3435-2019",
+    "disfor-3438-2019",
+    "disfor-3439-2018",
+    "disfor-3441-2018",
+    "disfor-3442-2018",
+    "disfor-3448-2018",
+    "disfor-3449-2018",
+    "disfor-3459-2021",
+    "disfor-3460-2020",
+    "disfor-3462-2018",
+    "disfor-3463-2018",
+    "disfor-3464-2018",
+    "disfor-3465-2018",
+    "disfor-3466-2018",
+    "disfor-3467-2023",
+    "disfor-3468-2018",
+    "disfor-3469-2019",
+    "disfor-3470-2020",
+    "disfor-3471-2020",
+    "disfor-3475-2018",
+    "disfor-3476-2018",
+    "disfor-3477-2019",
+    "disfor-3482-2020",
+    "disfor-3483-2021",
+    "disfor-3484-2020",
+    "disfor-3485-2018",
+    "disfor-3486-2018",
+    "disfor-3487-2019",
+    "disfor-3488-2021",
+    "disfor-3489-2018",
+    "disfor-3490-2021",
+    "disfor-3491-2018",
+    "disfor-3492-2018",
+    "disfor-3494-2018",
+    "disfor-3495-2018",
+    "disfor-3496-2018",
+    "disfor-3497-2021",
+    "disfor-3499-2019",
+    "disfor-3502-2018",
+    "disfor-3503-2021",
+    "disfor-3504-2018",
+    "disfor-3505-2021",
+    "disfor-3507-2020",
+    "disfor-3511-2019",
+    "disfor-3512-2018",
+    "disfor-3513-2020",
+    "disfor-3516-2018",
+    "disfor-3517-2019",
+    "disfor-3518-2018",
+    "disfor-3519-2018",
+    "disfor-3520-2018",
+    "disfor-3521-2020",
+    "disfor-3523-2019",
+    "disfor-3524-2018",
+    "disfor-3525-2018",
+    "disfor-3529-2019",
+    "disfor-3530-2020",
+    "disfor-3531-2021",
+    "disfor-3532-2018",
+    "disfor-3533-2023",
+    "disfor-3534-2018",
+    "disfor-3535-2019",
+    "disfor-3536-2020",
+    "disfor-3537-2021",
+    "disfor-3641-2023",
+    "disfor-3732-2023",
+    "disfor-3733-2019",
+    "disfor-3734-2020",
+    "disfor-3735-2023",
+    "disfor-3736-2022",
+    "disfor-3737-2019",
+    "disfor-3738-2023",
+    "disfor-3739-2019",
+    "disfor-3740-2023",
+    "disfor-3741-2021",
+    "disfor-3742-2022",
+    "disfor-3744-2023",
+    "disfor-3745-2023",
+    "disfor-3747-2021",
+    "disfor-3748-2022",
+    "disfor-3749-2019",
+    "disfor-3751-2019",
+    "disfor-3752-2020",
+    "disfor-3753-2021",
+    "disfor-3754-2023",
+    "disfor-3755-2019",
+    "disfor-3756-2019",
+    "disfor-3757-2023",
+    "disfor-3758-2020",
+    "disfor-3760-2022",
+    "disfor-3761-2019",
+    "disfor-3762-2019",
+    "disfor-3764-2020",
+    "disfor-3765-2019",
+    "disfor-3767-2018",
+    "disfor-3768-2021",
+    "disfor-3769-2019",
+    "disfor-3770-2020",
+    "disfor-3771-2019",
+    "disfor-3773-2019",
+    "disfor-3774-2018",
+    "disfor-3775-2019",
+    "disfor-3776-2020",
+    "disfor-3777-2018",
+    "disfor-3778-2018",
+    "disfor-3779-2018",
+    "disfor-3780-2019",
+    "disfor-3782-2020",
+    "disfor-3783-2018",
+    "disfor-3784-2018",
+    "disfor-3785-2019",
+    "disfor-3786-2018",
+    "disfor-3788-2020",
+    "disfor-3790-2019",
+    "disfor-3791-2019",
+    "disfor-3792-2019",
+    "disfor-3793-2019",
+    "disfor-3794-2020",
+    "disfor-3795-2019"
+  ],
+  "test_ids": [
+    "disfor-380-2018",
+    "disfor-381-2018",
+    "disfor-382-2018",
+    "disfor-383-2018",
+    "disfor-386-2018",
+    "disfor-387-2018",
+    "disfor-388-2018",
+    "disfor-430-2018",
+    "disfor-440-2018",
+    "disfor-441-2018",
+    "disfor-442-2018",
+    "disfor-443-2018",
+    "disfor-444-2018",
+    "disfor-531-2018",
+    "disfor-539-2018",
+    "disfor-540-2018",
+    "disfor-574-2022",
+    "disfor-647-2018",
+    "disfor-649-2018",
+    "disfor-651-2018",
+    "disfor-653-2018",
+    "disfor-664-2018",
+    "disfor-666-2018",
+    "disfor-676-2018",
+    "disfor-683-2018",
+    "disfor-689-2018",
+    "disfor-690-2018",
+    "disfor-694-2018",
+    "disfor-707-2018",
+    "disfor-734-2018",
+    "disfor-752-2018",
+    "disfor-753-2018",
+    "disfor-754-2018",
+    "disfor-755-2018",
+    "disfor-756-2018",
+    "disfor-759-2018",
+    "disfor-760-2018",
+    "disfor-761-2018",
+    "disfor-762-2018",
+    "disfor-763-2019",
+    "disfor-809-2018",
+    "disfor-907-2019",
+    "disfor-908-2018",
+    "disfor-910-2018",
+    "disfor-912-2018",
+    "disfor-922-2021",
+    "disfor-926-2020",
+    "disfor-927-2021",
+    "disfor-928-2022",
+    "disfor-931-2019",
+    "disfor-939-2021",
+    "disfor-940-2022",
+    "disfor-941-2023",
+    "disfor-945-2021",
+    "disfor-948-2018",
+    "disfor-949-2019",
+    "disfor-954-2018",
+    "disfor-966-2018",
+    "disfor-969-2021",
+    "disfor-974-2020",
+    "disfor-977-2023",
+    "disfor-979-2019",
+    "disfor-983-2023",
+    "disfor-984-2018",
+    "disfor-985-2019",
+    "disfor-987-2021",
+    "disfor-997-2019",
+    "disfor-1001-2023",
+    "disfor-1004-2020",
+    "disfor-1023-2021",
+    "disfor-1024-2022",
+    "disfor-1034-2020",
+    "disfor-1039-2019",
+    "disfor-1045-2019",
+    "disfor-1053-2021",
+    "disfor-1056-2018",
+    "disfor-1064-2020",
+    "disfor-1066-2022",
+    "disfor-1074-2018",
+    "disfor-1083-2021",
+    "disfor-1084-2022",
+    "disfor-1086-2018",
+    "disfor-1103-2023",
+    "disfor-1112-2020",
+    "disfor-1114-2022",
+    "disfor-1115-2023",
+    "disfor-1116-2018",
+    "disfor-1117-2019",
+    "disfor-1121-2023",
+    "disfor-1130-2020",
+    "disfor-1131-2021",
+    "disfor-1132-2022",
+    "disfor-1147-2019",
+    "disfor-1149-2021",
+    "disfor-1163-2021",
+    "disfor-1177-2019",
+    "disfor-1178-2020",
+    "disfor-1181-2023",
+    "disfor-1185-2021",
+    "disfor-1187-2023",
+    "disfor-1188-2018",
+    "disfor-1196-2020",
+    "disfor-1197-2022",
+    "disfor-1207-2019",
+    "disfor-1213-2019",
+    "disfor-1228-2022",
+    "disfor-1230-2018",
+    "disfor-1233-2018",
+    "disfor-1250-2020",
+    "disfor-1256-2020",
+    "disfor-1279-2019",
+    "disfor-1283-2023",
+    "disfor-1284-2018",
+    "disfor-1307-2023",
+    "disfor-1308-2018",
+    "disfor-1309-2019",
+    "disfor-1321-2019",
+    "disfor-1323-2021",
+    "disfor-1325-2023",
+    "disfor-1333-2019",
+    "disfor-1334-2020",
+    "disfor-1367-2023",
+    "disfor-1384-2022",
+    "disfor-1386-2018",
+    "disfor-1389-2021",
+    "disfor-1390-2022",
+    "disfor-1392-2018",
+    "disfor-1400-2020",
+    "disfor-1403-2023",
+    "disfor-1404-2018",
+    "disfor-1413-2021",
+    "disfor-1416-2018",
+    "disfor-1418-2020",
+    "disfor-1433-2023",
+    "disfor-1438-2022",
+    "disfor-1439-2023",
+    "disfor-1449-2021",
+    "disfor-1456-2022",
+    "disfor-1478-2020",
+    "disfor-1481-2023",
+    "disfor-1505-2023",
+    "disfor-1520-2020",
+    "disfor-1549-2023",
+    "disfor-1561-2019",
+    "disfor-1574-2020",
+    "disfor-1583-2023",
+    "disfor-1617-2021",
+    "disfor-1621-2023",
+    "disfor-1624-2023",
+    "disfor-1669-2019",
+    "disfor-1671-2019",
+    "disfor-1697-2023",
+    "disfor-1724-2021",
+    "disfor-1728-2019",
+    "disfor-1729-2019",
+    "disfor-1743-2021",
+    "disfor-1744-2021",
+    "disfor-1747-2020",
+    "disfor-1759-2019",
+    "disfor-1765-2019",
+    "disfor-1766-2020",
+    "disfor-1767-2021",
+    "disfor-1775-2023",
+    "disfor-1785-2021",
+    "disfor-1797-2021",
+    "disfor-1806-2018",
+    "disfor-1807-2019",
+    "disfor-1826-2020",
+    "disfor-1841-2023",
+    "disfor-1845-2021",
+    "disfor-1847-2023",
+    "disfor-1848-2018",
+    "disfor-1850-2020",
+    "disfor-1858-2022",
+    "disfor-1868-2020",
+    "disfor-1869-2021",
+    "disfor-1870-2022",
+    "disfor-1881-2021",
+    "disfor-1891-2019",
+    "disfor-1899-2021",
+    "disfor-1903-2019",
+    "disfor-1915-2019",
+    "disfor-1931-2018",
+    "disfor-1933-2019",
+    "disfor-1941-2021",
+    "disfor-1950-2018",
+    "disfor-1972-2022",
+    "disfor-1987-2019",
+    "disfor-1990-2022",
+    "disfor-1992-2018",
+    "disfor-2029-2019",
+    "disfor-2046-2018",
+    "disfor-2051-2023",
+    "disfor-2076-2018",
+    "disfor-2077-2018",
+    "disfor-2094-2018",
+    "disfor-2103-2021",
+    "disfor-2108-2020",
+    "disfor-2109-2021",
+    "disfor-2123-2023",
+    "disfor-2128-2022",
+    "disfor-2136-2018",
+    "disfor-2137-2019",
+    "disfor-2141-2023",
+    "disfor-2146-2022",
+    "disfor-2153-2023",
+    "disfor-2179-2019",
+    "disfor-2205-2021",
+    "disfor-2211-2021",
+    "disfor-2213-2023",
+    "disfor-2214-2018",
+    "disfor-2215-2019",
+    "disfor-2243-2023",
+    "disfor-2246-2020",
+    "disfor-2257-2019",
+    "disfor-2269-2019",
+    "disfor-2276-2020",
+    "disfor-2279-2023",
+    "disfor-2294-2020",
+    "disfor-2297-2023",
+    "disfor-2314-2022",
+    "disfor-2423-2018",
+    "disfor-2426-2018",
+    "disfor-2427-2018",
+    "disfor-2430-2018",
+    "disfor-2439-2021",
+    "disfor-2440-2022",
+    "disfor-2446-2022",
+    "disfor-2459-2023",
+    "disfor-2464-2022",
+    "disfor-2477-2023",
+    "disfor-2483-2023",
+    "disfor-2490-2018",
+    "disfor-2493-2021",
+    "disfor-2529-2021",
+    "disfor-2530-2022",
+    "disfor-2531-2023",
+    "disfor-2532-2018",
+    "disfor-2533-2019",
+    "disfor-2538-2018",
+    "disfor-2539-2019",
+    "disfor-2546-2020",
+    "disfor-2548-2022",
+    "disfor-2554-2022",
+    "disfor-2573-2023",
+    "disfor-2575-2019",
+    "disfor-2578-2022",
+    "disfor-2588-2020",
+    "disfor-2592-2018",
+    "disfor-2597-2023",
+    "disfor-2600-2020",
+    "disfor-2604-2018",
+    "disfor-2608-2022",
+    "disfor-2610-2018",
+    "disfor-2613-2021",
+    "disfor-2614-2022",
+    "disfor-2620-2022",
+    "disfor-2633-2023",
+    "disfor-2653-2018",
+    "disfor-2657-2018",
+    "disfor-2663-2023",
+    "disfor-2664-2018",
+    "disfor-2672-2020",
+    "disfor-2673-2021",
+    "disfor-2674-2022",
+    "disfor-2677-2019",
+    "disfor-2695-2018",
+    "disfor-2699-2019",
+    "disfor-2702-2018",
+    "disfor-2706-2018",
+    "disfor-2707-2018",
+    "disfor-2708-2018",
+    "disfor-2709-2019",
+    "disfor-2717-2018",
+    "disfor-2719-2019",
+    "disfor-2725-2019",
+    "disfor-2727-2018",
+    "disfor-2729-2018",
+    "disfor-2731-2019",
+    "disfor-2732-2019",
+    "disfor-2733-2020",
+    "disfor-2735-2020",
+    "disfor-2739-2020",
+    "disfor-2741-2018",
+    "disfor-2742-2020",
+    "disfor-2744-2018",
+    "disfor-2750-2018",
+    "disfor-2752-2020",
+    "disfor-2763-2019",
+    "disfor-2766-2018",
+    "disfor-2785-2019",
+    "disfor-2789-2018",
+    "disfor-2795-2023",
+    "disfor-2806-2018",
+    "disfor-2807-2023",
+    "disfor-2808-2019",
+    "disfor-2813-2021",
+    "disfor-2816-2020",
+    "disfor-2819-2023",
+    "disfor-2825-2023",
+    "disfor-2857-2019",
+    "disfor-2875-2019",
+    "disfor-2876-2020",
+    "disfor-2893-2019",
+    "disfor-2906-2020",
+    "disfor-2912-2020",
+    "disfor-2918-2020",
+    "disfor-2923-2019",
+    "disfor-2937-2022",
+    "disfor-2938-2022",
+    "disfor-2939-2023",
+    "disfor-2940-2018",
+    "disfor-2941-2019",
+    "disfor-2953-2019",
+    "disfor-2961-2021",
+    "disfor-2971-2019",
+    "disfor-2972-2020",
+    "disfor-2973-2021",
+    "disfor-2982-2018",
+    "disfor-2983-2019",
+    "disfor-2987-2023",
+    "disfor-3001-2019",
+    "disfor-3023-2023",
+    "disfor-3024-2018",
+    "disfor-3031-2019",
+    "disfor-3037-2019",
+    "disfor-3043-2019",
+    "disfor-3062-2022",
+    "disfor-3066-2018",
+    "disfor-3067-2019",
+    "disfor-3068-2020",
+    "disfor-3070-2023",
+    "disfor-3086-2020",
+    "disfor-3098-2020",
+    "disfor-3109-2019",
+    "disfor-3113-2023",
+    "disfor-3132-2018",
+    "disfor-3133-2019",
+    "disfor-3156-2018",
+    "disfor-3157-2019",
+    "disfor-3174-2018",
+    "disfor-3177-2021",
+    "disfor-3181-2019",
+    "disfor-3184-2023",
+    "disfor-3185-2023",
+    "disfor-3189-2021",
+    "disfor-3192-2023",
+    "disfor-3194-2020",
+    "disfor-3199-2019",
+    "disfor-3201-2021",
+    "disfor-3203-2023",
+    "disfor-3205-2019",
+    "disfor-3215-2018",
+    "disfor-3216-2018",
+    "disfor-3219-2021",
+    "disfor-3220-2023",
+    "disfor-3226-2022",
+    "disfor-3227-2023",
+    "disfor-3232-2022",
+    "disfor-3235-2019",
+    "disfor-3246-2018",
+    "disfor-3247-2019",
+    "disfor-3249-2021",
+    "disfor-3254-2020",
+    "disfor-3280-2022",
+    "disfor-3286-2022",
+    "disfor-3298-2018",
+    "disfor-3303-2018",
+    "disfor-3316-2022",
+    "disfor-3320-2020",
+    "disfor-3321-2021",
+    "disfor-3326-2020",
+    "disfor-3327-2021",
+    "disfor-3328-2022",
+    "disfor-3336-2018",
+    "disfor-3355-2019",
+    "disfor-3356-2020",
+    "disfor-3363-2021",
+    "disfor-3365-2023",
+    "disfor-3366-2018",
+    "disfor-3369-2021",
+    "disfor-3376-2022",
+    "disfor-3382-2022",
+    "disfor-3384-2018",
+    "disfor-3409-2018",
+    "disfor-3413-2023",
+    "disfor-3416-2018",
+    "disfor-3433-2019",
+    "disfor-3436-2019",
+    "disfor-3445-2019",
+    "disfor-3453-2021",
+    "disfor-3455-2018",
+    "disfor-3457-2018",
+    "disfor-3461-2020",
+    "disfor-3472-2018",
+    "disfor-3473-2020",
+    "disfor-3478-2019",
+    "disfor-3479-2018",
+    "disfor-3481-2019",
+    "disfor-3498-2018",
+    "disfor-3500-2018",
+    "disfor-3501-2018",
+    "disfor-3506-2018",
+    "disfor-3508-2021",
+    "disfor-3509-2021",
+    "disfor-3510-2018",
+    "disfor-3515-2018",
+    "disfor-3527-2018",
+    "disfor-3528-2018",
+    "disfor-3553-2019",
+    "disfor-3575-2023",
+    "disfor-3608-2020",
+    "disfor-3609-2021",
+    "disfor-3610-2022",
+    "disfor-3612-2018",
+    "disfor-3672-2019",
+    "disfor-3731-2018",
+    "disfor-3796-2019",
+    "disfor-3797-2019",
+    "disfor-3798-2019",
+    "disfor-3799-2019",
+    "disfor-3800-2019",
+    "disfor-3801-2019",
+    "disfor-3803-2019",
+    "disfor-3805-2019",
+    "disfor-3806-2019",
+    "disfor-3807-2019",
+    "disfor-3808-2019",
+    "disfor-3809-2019",
+    "disfor-3810-2019",
+    "disfor-3811-2019",
+    "disfor-3815-2019",
+    "disfor-3816-2019",
+    "disfor-3817-2019",
+    "disfor-3818-2019",
+    "disfor-3819-2019",
+    "disfor-3820-2019",
+    "disfor-3821-2019",
+    "disfor-3822-2019"
+  ],
+  "supervised_epochs": 880,
+  "pretraining_epochs": 0,
+  "y": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "groups": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    11,
+    12,
+    12,
+    13,
+    13,
+    13,
+    24,
+    28,
+    29,
+    34,
+    36,
+    38,
+    40,
+    36,
+    36,
+    36,
+    36,
+    36,
+    48,
+    36,
+    36,
+    36,
+    52,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    60,
+    52,
+    52,
+    52,
+    52,
+    70,
+    72,
+    73,
+    70,
+    72,
+    78,
+    79,
+    78,
+    78,
+    83,
+    84,
+    79,
+    78,
+    92,
+    103,
+    96,
+    98,
+    99,
+    103,
+    73,
+    100,
+    103,
+    98,
+    100,
+    115,
+    115,
+    122,
+    125,
+    130,
+    137,
+    130,
+    122,
+    73,
+    147,
+    73,
+    78,
+    103,
+    103,
+    84,
+    78,
+    152,
+    78,
+    78,
+    103,
+    70,
+    103,
+    103,
+    159,
+    73,
+    73,
+    165,
+    166,
+    175,
+    170,
+    171,
+    172,
+    175,
+    175,
+    170,
+    185,
+    170,
+    194,
+    170,
+    200,
+    203,
+    220,
+    200,
+    220,
+    219,
+    220,
+    220,
+    225,
+    227,
+    228,
+    228,
+    227,
+    238,
+    246,
+    248,
+    249,
+    250,
+    252,
+    256,
+    257,
+    258,
+    261,
+    261,
+    256,
+    268,
+    268,
+    268,
+    258,
+    249,
+    283,
+    284,
+    294,
+    294,
+    303,
+    304,
+    303,
+    312,
+    303,
+    294,
+    312,
+    294,
+    294,
+    328,
+    331,
+    331,
+    331,
+    284,
+    332,
+    303,
+    338,
+    344,
+    345,
+    346,
+    353,
+    361,
+    369,
+    372,
+    361,
+    383,
+    394,
+    398,
+    400,
+    401,
+    402,
+    407,
+    401,
+    401,
+    400,
+    383,
+    401,
+    426,
+    400,
+    432,
+    400,
+    440,
+    432,
+    449,
+    457,
+    465,
+    467,
+    467,
+    483,
+    492,
+    494,
+    483,
+    497,
+    499,
+    502,
+    505,
+    559,
+    511,
+    502,
+    511,
+    519,
+    522,
+    559,
+    559,
+    505,
+    559,
+    545,
+    502,
+    559,
+    546,
+    559,
+    555,
+    559,
+    559,
+    559,
+    559,
+    559,
+    559,
+    511,
+    577,
+    52,
+    52,
+    559,
+    607,
+    581,
+    585,
+    591,
+    591,
+    591,
+    596,
+    619,
+    619,
+    607,
+    607,
+    607,
+    607,
+    607,
+    628,
+    628,
+    611,
+    612,
+    620,
+    619,
+    620,
+    621,
+    625,
+    628,
+    629,
+    619,
+    628,
+    644,
+    607,
+    619,
+    585,
+    611,
+    619,
+    641,
+    620,
+    644,
+    591,
+    619,
+    611,
+    644,
+    647,
+    585,
+    620,
+    628,
+    644,
+    652,
+    647,
+    653,
+    660,
+    607,
+    619,
+    660,
+    660,
+    655,
+    628,
+    607,
+    656,
+    644,
+    658,
+    659,
+    660,
+    607,
+    660,
+    644,
+    644,
+    672,
+    672,
+    678,
+    683,
+    683,
+    684,
+    687,
+    688,
+    672,
+    689,
+    692,
+    697,
+    698,
+    702,
+    706,
+    710,
+    711,
+    711,
+    721,
+    721,
+    721,
+    721,
+    721,
+    723,
+    730,
+    737,
+    738,
+    739,
+    743,
+    711,
+    737,
+    721,
+    706,
+    706,
+    711,
+    761,
+    737,
+    738,
+    767,
+    738,
+    706,
+    721,
+    773,
+    782,
+    785,
+    844,
+    791,
+    791,
+    840,
+    840,
+    803,
+    844,
+    840,
+    840,
+    807,
+    809,
+    812,
+    840,
+    847,
+    816,
+    817,
+    844,
+    773,
+    791,
+    822,
+    840,
+    847,
+    791,
+    782,
+    840,
+    840,
+    840,
+    782,
+    773,
+    834,
+    840,
+    847,
+    840,
+    844,
+    782,
+    840,
+    782,
+    841,
+    842,
+    844,
+    803,
+    847,
+    782,
+    840,
+    847,
+    847,
+    844,
+    803,
+    840,
+    844,
+    840,
+    773,
+    844,
+    840,
+    847,
+    840,
+    840,
+    791,
+    855,
+    840,
+    773,
+    844,
+    840,
+    840,
+    840,
+    844,
+    791,
+    863,
+    840,
+    807,
+    840,
+    773,
+    844,
+    773,
+    866,
+    866,
+    867,
+    867,
+    867,
+    867,
+    869,
+    870,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873,
+    873
+  ],
+  "probabilities": [
+    0.9985514283180237,
+    0.9984788298606873,
+    0.9982849955558777,
+    0.9986390471458435,
+    0.9982481002807617,
+    0.9981538653373718,
+    0.9981346130371094,
+    0.29739484190940857,
+    0.9986238479614258,
+    0.9986991882324219,
+    0.06545257568359375,
+    0.06554888188838959,
+    0.06868458539247513,
+    0.05246787145733833,
+    0.056017521768808365,
+    0.05747973918914795,
+    0.06533094495534897,
+    0.0602911002933979,
+    0.051836047321558,
+    0.055832456797361374,
+    0.049858368933200836,
+    0.05104975029826164,
+    0.05207490921020508,
+    0.05383436381816864,
+    0.05394865944981575,
+    0.052905503660440445,
+    0.11499658972024918,
+    0.1028183102607727,
+    0.052473895251750946,
+    0.06280478090047836,
+    0.059904951602220535,
+    0.058715805411338806,
+    0.06269089877605438,
+    0.05783478543162346,
+    0.05954299494624138,
+    0.0628107562661171,
+    0.06305103003978729,
+    0.05859611555933952,
+    0.06348871439695358,
+    0.05939885228872299,
+    0.060213398188352585,
+    0.06400417536497116,
+    0.061204515397548676,
+    0.062071796506643295,
+    0.055165354162454605,
+    0.07265543937683105,
+    0.05042191222310066,
+    0.054575201123952866,
+    0.057033151388168335,
+    0.055411919951438904,
+    0.054055649787187576,
+    0.053649917244911194,
+    0.05244718864560127,
+    0.06454432755708694,
+    0.055362094193696976,
+    0.05777813866734505,
+    0.06513789296150208,
+    0.05324823781847954,
+    0.056008581072092056,
+    0.08826425671577454,
+    0.052230726927518845,
+    0.05066525563597679,
+    0.054904889315366745,
+    0.052113547921180725,
+    0.06720185279846191,
+    0.05480513721704483,
+    0.0717868059873581,
+    0.055265605449676514,
+    0.05896735563874245,
+    0.09839632362127304,
+    0.056931935250759125,
+    0.05769769474864006,
+    0.054874006658792496,
+    0.051813457161188126,
+    0.06048984080553055,
+    0.058382317423820496,
+    0.05830639600753784,
+    0.05087844282388687,
+    0.0587029755115509,
+    0.05681648105382919,
+    0.05399966612458229,
+    0.0583982840180397,
+    0.060432497411966324,
+    0.07971824705600739,
+    0.060397956520318985,
+    0.05190887674689293,
+    0.054877880960702896,
+    0.05660697817802429,
+    0.05234203115105629,
+    0.07965471595525742,
+    0.05673883855342865,
+    0.09087849408388138,
+    0.06365789473056793,
+    0.06132885068655014,
+    0.225431889295578,
+    0.07204587012529373,
+    0.058752406388521194,
+    0.06463126838207245,
+    0.05775807425379753,
+    0.16373206675052643,
+    0.08215504884719849,
+    0.06220759078860283,
+    0.8778696656227112,
+    0.06086618825793266,
+    0.06031939387321472,
+    0.06353902816772461,
+    0.05778925493359566,
+    0.696707546710968,
+    0.060395725071430206,
+    0.056831441819667816,
+    0.056442782282829285,
+    0.059958744794130325,
+    0.057912345975637436,
+    0.05551190301775932,
+    0.05766182765364647,
+    0.05998927727341652,
+    0.05778485909104347,
+    0.059017766267061234,
+    0.060296617448329926,
+    0.05737734213471413,
+    0.058725349605083466,
+    0.06063283979892731,
+    0.059796422719955444,
+    0.05925193801522255,
+    0.059092916548252106,
+    0.059283554553985596,
+    0.06108530983328819,
+    0.058861907571554184,
+    0.060077521950006485,
+    0.05762655660510063,
+    0.06023745983839035,
+    0.05827254056930542,
+    0.06039874255657196,
+    0.062308214604854584,
+    0.06179981306195259,
+    0.06440239399671555,
+    0.061593059450387955,
+    0.049210719764232635,
+    0.05570349469780922,
+    0.06631099432706833,
+    0.06391976773738861,
+    0.05774421989917755,
+    0.061745014041662216,
+    0.06535004824399948,
+    0.059168536216020584,
+    0.06295886635780334,
+    0.06373487412929535,
+    0.058262843638658524,
+    0.05918978899717331,
+    0.9986673593521118,
+    0.9975462555885315,
+    0.06130277365446091,
+    0.9984690546989441,
+    0.99832683801651,
+    0.9982426166534424,
+    0.9971873164176941,
+    0.998297393321991,
+    0.9985404014587402,
+    0.06364499777555466,
+    0.07055535912513733,
+    0.06733890622854233,
+    0.07891354709863663,
+    0.0638524666428566,
+    0.05829270929098129,
+    0.06616970151662827,
+    0.06151420995593071,
+    0.06349493563175201,
+    0.05370183289051056,
+    0.05877191200852394,
+    0.056836456060409546,
+    0.07262491434812546,
+    0.06582011282444,
+    0.0620160773396492,
+    0.1509096920490265,
+    0.06412170082330704,
+    0.05746759474277496,
+    0.05713372305035591,
+    0.062130000442266464,
+    0.05918528512120247,
+    0.05938262864947319,
+    0.055132556706666946,
+    0.15056727826595306,
+    0.9983609318733215,
+    0.0670425072312355,
+    0.9982524514198303,
+    0.05001288652420044,
+    0.07035239040851593,
+    0.06790178269147873,
+    0.060020141303539276,
+    0.06418299674987793,
+    0.060478515923023224,
+    0.06042425334453583,
+    0.8432155847549438,
+    0.06570548564195633,
+    0.06180041283369064,
+    0.08182825893163681,
+    0.07263483107089996,
+    0.055067457258701324,
+    0.17654262483119965,
+    0.06803230196237564,
+    0.059792838990688324,
+    0.09850063174962997,
+    0.28016120195388794,
+    0.0637505054473877,
+    0.05898963287472725,
+    0.07109308242797852,
+    0.060047075152397156,
+    0.05837395787239075,
+    0.06308695673942566,
+    0.05809134617447853,
+    0.059674058109521866,
+    0.08709488064050674,
+    0.0505516454577446,
+    0.07264397293329239,
+    0.06334686279296875,
+    0.060946766287088394,
+    0.06248312443494797,
+    0.059828225523233414,
+    0.0651024580001831,
+    0.26380401849746704,
+    0.06213019788265228,
+    0.06459252536296844,
+    0.056322552263736725,
+    0.05823598429560661,
+    0.06525006890296936,
+    0.0645727887749672,
+    0.05828167125582695,
+    0.06242591142654419,
+    0.06015675887465477,
+    0.06300604343414307,
+    0.06375085562467575,
+    0.99534672498703,
+    0.9608057737350464,
+    0.06642638146877289,
+    0.06129155680537224,
+    0.06463947892189026,
+    0.06335145235061646,
+    0.0575433224439621,
+    0.06212767958641052,
+    0.05941212549805641,
+    0.0501217395067215,
+    0.0642249584197998,
+    0.06447914242744446,
+    0.055266331881284714,
+    0.08715936541557312,
+    0.06574895232915878,
+    0.054267801344394684,
+    0.0697568729519844,
+    0.0802508071064949,
+    0.0661374032497406,
+    0.09140229225158691,
+    0.05177713558077812,
+    0.057340193539857864,
+    0.061990730464458466,
+    0.0579356923699379,
+    0.06245991587638855,
+    0.06610194593667984,
+    0.05968201532959938,
+    0.06219765916466713,
+    0.06655234843492508,
+    0.06036294996738434,
+    0.056061673909425735,
+    0.06348856538534164,
+    0.06279761344194412,
+    0.06236317381262779,
+    0.0553150400519371,
+    0.06607893854379654,
+    0.9983622431755066,
+    0.9983487129211426,
+    0.05966585502028465,
+    0.9981573224067688,
+    0.9985016584396362,
+    0.9983096122741699,
+    0.06642269343137741,
+    0.060875020921230316,
+    0.9984151124954224,
+    0.062481097877025604,
+    0.06259026378393173,
+    0.9984259605407715,
+    0.9982323050498962,
+    0.998415470123291,
+    0.9980679154396057,
+    0.9981885552406311,
+    0.06051252409815788,
+    0.06220771372318268,
+    0.06240231171250343,
+    0.06615228950977325,
+    0.14709097146987915,
+    0.20499268174171448,
+    0.055625662207603455,
+    0.055166877806186676,
+    0.10168968886137009,
+    0.09524297714233398,
+    0.054078664630651474,
+    0.05541401356458664,
+    0.15098610520362854,
+    0.7355528473854065,
+    0.051108960062265396,
+    0.06320441514253616,
+    0.07502426207065582,
+    0.057895973324775696,
+    0.06398539990186691,
+    0.0702558308839798,
+    0.060129474848508835,
+    0.06102059781551361,
+    0.049947891384363174,
+    0.06835200637578964,
+    0.0744788721203804,
+    0.055137209594249725,
+    0.05472538620233536,
+    0.05321400240063667,
+    0.05962779372930527,
+    0.0520535409450531,
+    0.04996802285313606,
+    0.05443444103002548,
+    0.11611156165599823,
+    0.056054383516311646,
+    0.05033792555332184,
+    0.05680444836616516,
+    0.05719558149576187,
+    0.051775671541690826,
+    0.05913667008280754,
+    0.062040142714977264,
+    0.0623721182346344,
+    0.08455485105514526,
+    0.06771601736545563,
+    0.058485791087150574,
+    0.050848111510276794,
+    0.06771709024906158,
+    0.059667352586984634,
+    0.07348451018333435,
+    0.050256628543138504,
+    0.062287211418151855,
+    0.06980912387371063,
+    0.06698612868785858,
+    0.9979426264762878,
+    0.06473954021930695,
+    0.060547489672899246,
+    0.06180140748620033,
+    0.055762503296136856,
+    0.0691901296377182,
+    0.06590963900089264,
+    0.06125930696725845,
+    0.056322552263736725,
+    0.05260780453681946,
+    0.06408455967903137,
+    0.9982129335403442,
+    0.06590752303600311,
+    0.05840032920241356,
+    0.06160374730825424,
+    0.05612783506512642,
+    0.06738469004631042,
+    0.06338083744049072,
+    0.06564296782016754,
+    0.0664239376783371,
+    0.9984616041183472,
+    0.06853428483009338,
+    0.06587285548448563,
+    0.06434470415115356,
+    0.05934806913137436,
+    0.05584951117634773,
+    0.058535099029541016,
+    0.05799032747745514,
+    0.05956822633743286,
+    0.06330887228250504,
+    0.05900953337550163,
+    0.06276028603315353,
+    0.06709694117307663,
+    0.06479335576295853,
+    0.06794384866952896,
+    0.061082448810338974,
+    0.06254574656486511,
+    0.05916081368923187,
+    0.06583636999130249,
+    0.06316859275102615,
+    0.05891316756606102,
+    0.06720156967639923,
+    0.08214615285396576,
+    0.07018158584833145,
+    0.06601165235042572,
+    0.06521496176719666,
+    0.06402736157178879,
+    0.06400744616985321,
+    0.06745589524507523,
+    0.055534981191158295,
+    0.06341695040464401,
+    0.06081756204366684,
+    0.11387093365192413,
+    0.9982873797416687,
+    0.07068434357643127,
+    0.06544996798038483,
+    0.059602510184049606,
+    0.9981568455696106,
+    0.9979355335235596,
+    0.06820505857467651,
+    0.9984121322631836,
+    0.060137514024972916,
+    0.06046160310506821,
+    0.05988870933651924,
+    0.06375685334205627,
+    0.06255772709846497,
+    0.06814998388290405,
+    0.05452438071370125,
+    0.9982540011405945,
+    0.0703764408826828,
+    0.05628536269068718,
+    0.0639895498752594,
+    0.06471619009971619,
+    0.9982922673225403,
+    0.05747070163488388,
+    0.06750088930130005,
+    0.05708620324730873,
+    0.06579864025115967,
+    0.066118024289608,
+    0.0581049807369709,
+    0.05919633060693741,
+    0.21848072111606598,
+    0.9977193474769592,
+    0.060311634093523026,
+    0.05988241359591484,
+    0.06583740562200546,
+    0.05968673899769783,
+    0.06157594546675682,
+    0.05323043093085289,
+    0.060036879032850266,
+    0.056235115975141525,
+    0.07089540362358093,
+    0.06383922696113586,
+    0.05891333147883415,
+    0.05621777102351189,
+    0.06338167190551758,
+    0.07349351793527603,
+    0.06327756494283676,
+    0.0629558116197586,
+    0.06187155842781067,
+    0.0631832703948021,
+    0.06291075050830841,
+    0.06406307220458984,
+    0.06016235426068306
+  ],
+  "metrics": {
+    "macro_f1": 0.9032299892376914,
+    "average_precision": 0.8709105597439759,
+    "roc_auc": 0.9320070388112228,
+    "brier": 0.037672107905934886,
+    "clear_cut_recall": 0.7735849056603774,
+    "confusion_matrix": [
+      [
+        381,
+        5
+      ],
+      [
+        12,
+        41
+      ]
+    ]
+  },
+  "signature_sha256": "b86a80679ab0658dccab2d364c5da684a5cc029ba1241caddb3ac7f836bfe9f8",
+  "seconds": 47.73814024500007,
+  "log": {
+    "best_epoch": 880,
+    "validation_macro_f1": null,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.7334435880184174,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 2,
+        "loss": 0.7153504490852356,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 3,
+        "loss": 0.7654363512992859,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 4,
+        "loss": 0.7022393047809601,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 5,
+        "loss": 0.704148679971695,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 6,
+        "loss": 0.6685552000999451,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 7,
+        "loss": 0.7222349941730499,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 8,
+        "loss": 0.6690205931663513,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 9,
+        "loss": 0.6792827844619751,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 10,
+        "loss": 0.7084275186061859,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 11,
+        "loss": 0.609602153301239,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 12,
+        "loss": 0.6224348247051239,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 13,
+        "loss": 0.6296514570713043,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 14,
+        "loss": 0.6543130874633789,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 15,
+        "loss": 0.6473253965377808,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 16,
+        "loss": 0.623394101858139,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 17,
+        "loss": 0.6141034662723541,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 18,
+        "loss": 0.6097643077373505,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 19,
+        "loss": 0.6561556160449982,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 20,
+        "loss": 0.647445023059845,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 21,
+        "loss": 0.6286628842353821,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 22,
+        "loss": 0.5629461705684662,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 23,
+        "loss": 0.5944230854511261,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 24,
+        "loss": 0.5051873177289963,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 25,
+        "loss": 0.5109238624572754,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 26,
+        "loss": 0.49032509326934814,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 27,
+        "loss": 0.41867150366306305,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 28,
+        "loss": 0.4302435517311096,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 29,
+        "loss": 0.39644987881183624,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 30,
+        "loss": 0.40858015418052673,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 31,
+        "loss": 0.4482574313879013,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 32,
+        "loss": 0.34926310181617737,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 33,
+        "loss": 0.43744707107543945,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 34,
+        "loss": 0.4189603924751282,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 35,
+        "loss": 0.3190757855772972,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 36,
+        "loss": 0.3234769329428673,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 37,
+        "loss": 0.2760164365172386,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 38,
+        "loss": 0.2961232364177704,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 39,
+        "loss": 0.27913376688957214,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 40,
+        "loss": 0.27483178675174713,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 41,
+        "loss": 0.2681931257247925,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 42,
+        "loss": 0.23509714007377625,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 43,
+        "loss": 0.23288100212812424,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 44,
+        "loss": 0.2655033618211746,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 45,
+        "loss": 0.24217385053634644,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 46,
+        "loss": 0.2295757532119751,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 47,
+        "loss": 0.2013363018631935,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 48,
+        "loss": 0.19726388156414032,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 49,
+        "loss": 0.1874908208847046,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 50,
+        "loss": 0.16148055344820023,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 51,
+        "loss": 0.23221245408058167,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 52,
+        "loss": 0.1916414126753807,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 53,
+        "loss": 0.20773673802614212,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 54,
+        "loss": 0.1681622862815857,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 55,
+        "loss": 0.2056039720773697,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 56,
+        "loss": 0.22686279565095901,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 57,
+        "loss": 0.20472117513418198,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 58,
+        "loss": 0.15295621007680893,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 59,
+        "loss": 0.14680980890989304,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 60,
+        "loss": 0.14875275641679764,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 61,
+        "loss": 0.1672641560435295,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 62,
+        "loss": 0.14999588578939438,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 63,
+        "loss": 0.21812913566827774,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 64,
+        "loss": 0.2026103138923645,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 65,
+        "loss": 0.1430918388068676,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 66,
+        "loss": 0.15298593044281006,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 67,
+        "loss": 0.13587477803230286,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 68,
+        "loss": 0.15809064358472824,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 69,
+        "loss": 0.15936697274446487,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 70,
+        "loss": 0.20460647344589233,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 71,
+        "loss": 0.13899439573287964,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 72,
+        "loss": 0.14967938512563705,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 73,
+        "loss": 0.1371568664908409,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 74,
+        "loss": 0.14872924983501434,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 75,
+        "loss": 0.14874088764190674,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 76,
+        "loss": 0.14154985547065735,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 77,
+        "loss": 0.13751423358917236,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 78,
+        "loss": 0.13808482885360718,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 79,
+        "loss": 0.13438308984041214,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 80,
+        "loss": 0.127073235809803,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 81,
+        "loss": 0.30239271745085716,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 82,
+        "loss": 0.14391200244426727,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 83,
+        "loss": 0.14278443902730942,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 84,
+        "loss": 0.13181477785110474,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 85,
+        "loss": 0.1362970471382141,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 86,
+        "loss": 0.14404187351465225,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 87,
+        "loss": 0.22474460303783417,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 88,
+        "loss": 0.14169031381607056,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 89,
+        "loss": 0.14439545571804047,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 90,
+        "loss": 0.14857885241508484,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 91,
+        "loss": 0.14081698656082153,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 92,
+        "loss": 0.13193277269601822,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 93,
+        "loss": 0.16383664309978485,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 94,
+        "loss": 0.14376655966043472,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 95,
+        "loss": 0.1318834349513054,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 96,
+        "loss": 0.17056787014007568,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 97,
+        "loss": 0.13520916551351547,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 98,
+        "loss": 0.2770112305879593,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 99,
+        "loss": 0.14451368153095245,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 100,
+        "loss": 0.1524144485592842,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 101,
+        "loss": 0.14020607620477676,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 102,
+        "loss": 0.1480366736650467,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 103,
+        "loss": 0.16023675352334976,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 104,
+        "loss": 0.18329527974128723,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 105,
+        "loss": 0.1269366331398487,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 106,
+        "loss": 0.1333998218178749,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 107,
+        "loss": 0.163783960044384,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 108,
+        "loss": 0.13903222978115082,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 109,
+        "loss": 0.18567205965518951,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 110,
+        "loss": 0.13697499781847,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 111,
+        "loss": 0.14070934802293777,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 112,
+        "loss": 0.12840655073523521,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 113,
+        "loss": 0.15442877262830734,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 114,
+        "loss": 0.14719528332352638,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 115,
+        "loss": 0.19003693759441376,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 116,
+        "loss": 0.1495514065027237,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 117,
+        "loss": 0.15110919624567032,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 118,
+        "loss": 0.15923118591308594,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 119,
+        "loss": 0.21171855926513672,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 120,
+        "loss": 0.1337677352130413,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 121,
+        "loss": 0.1676134690642357,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 122,
+        "loss": 0.18395698070526123,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 123,
+        "loss": 0.1273384839296341,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 124,
+        "loss": 0.13098011910915375,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 125,
+        "loss": 0.1842731200158596,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 126,
+        "loss": 0.14677441865205765,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 127,
+        "loss": 0.15739502385258675,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 128,
+        "loss": 0.14776762574911118,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 129,
+        "loss": 0.162457175552845,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 130,
+        "loss": 0.12607812136411667,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 131,
+        "loss": 0.14431330561637878,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 132,
+        "loss": 0.16792773455381393,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 133,
+        "loss": 0.1273382380604744,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 134,
+        "loss": 0.1418861523270607,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 135,
+        "loss": 0.12668035551905632,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 136,
+        "loss": 0.1358787566423416,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 137,
+        "loss": 0.1513049378991127,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 138,
+        "loss": 0.1289566196501255,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 139,
+        "loss": 0.13265682756900787,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 140,
+        "loss": 0.13100991398096085,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 141,
+        "loss": 0.13839703798294067,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 142,
+        "loss": 0.13523603975772858,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 143,
+        "loss": 0.13670796155929565,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 144,
+        "loss": 0.13016518205404282,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 145,
+        "loss": 0.12643436342477798,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 146,
+        "loss": 0.14592504128813744,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 147,
+        "loss": 0.17782842367887497,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 148,
+        "loss": 0.1629694141447544,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 149,
+        "loss": 0.1734764277935028,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 150,
+        "loss": 0.1317407377064228,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 151,
+        "loss": 0.1274820640683174,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 152,
+        "loss": 0.1466110199689865,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 153,
+        "loss": 0.12422019988298416,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 154,
+        "loss": 0.3269118592143059,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 155,
+        "loss": 0.16035012528300285,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 156,
+        "loss": 0.13026536256074905,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 157,
+        "loss": 0.12750061228871346,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 158,
+        "loss": 0.1432764269411564,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 159,
+        "loss": 0.14461050927639008,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 160,
+        "loss": 0.1300681307911873,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 161,
+        "loss": 0.12726866453886032,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 162,
+        "loss": 0.12897755205631256,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 163,
+        "loss": 0.12699278444051743,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 164,
+        "loss": 0.14295373111963272,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 165,
+        "loss": 0.21524828672409058,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 166,
+        "loss": 0.1287071891129017,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 167,
+        "loss": 0.13134261965751648,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 168,
+        "loss": 0.2200198546051979,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 169,
+        "loss": 0.14290568605065346,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 170,
+        "loss": 0.13419030606746674,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 171,
+        "loss": 0.12426126375794411,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 172,
+        "loss": 0.12961754202842712,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 173,
+        "loss": 0.13529551029205322,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 174,
+        "loss": 0.1280917525291443,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 175,
+        "loss": 0.13068997114896774,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 176,
+        "loss": 0.1246066763997078,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 177,
+        "loss": 0.1254132315516472,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 178,
+        "loss": 0.1252012550830841,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 179,
+        "loss": 0.17955513298511505,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 180,
+        "loss": 0.1264219768345356,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 181,
+        "loss": 0.13060424476861954,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 182,
+        "loss": 0.12680505961179733,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 183,
+        "loss": 0.13525913655757904,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 184,
+        "loss": 0.15434777736663818,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 185,
+        "loss": 0.1438874714076519,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 186,
+        "loss": 0.12937501817941666,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 187,
+        "loss": 0.1302901953458786,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 188,
+        "loss": 0.15053720027208328,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 189,
+        "loss": 0.13427835702896118,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 190,
+        "loss": 0.1297677606344223,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 191,
+        "loss": 0.14167183637619019,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 192,
+        "loss": 0.2634088546037674,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 193,
+        "loss": 0.12539783120155334,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 194,
+        "loss": 0.12864148244261742,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 195,
+        "loss": 0.16067856550216675,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 196,
+        "loss": 0.1639881432056427,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 197,
+        "loss": 0.18297836184501648,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 198,
+        "loss": 0.1236148439347744,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 199,
+        "loss": 0.1576053872704506,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 200,
+        "loss": 0.13334248214960098,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 201,
+        "loss": 0.14475861564278603,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 202,
+        "loss": 0.13378749042749405,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 203,
+        "loss": 0.13531289249658585,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 204,
+        "loss": 0.1273362934589386,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 205,
+        "loss": 0.1298377588391304,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 206,
+        "loss": 0.12745284289121628,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 207,
+        "loss": 0.15644210577011108,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 208,
+        "loss": 0.13312678039073944,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 209,
+        "loss": 0.1336481273174286,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 210,
+        "loss": 0.13468878716230392,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 211,
+        "loss": 0.14199431985616684,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 212,
+        "loss": 0.12758999317884445,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 213,
+        "loss": 0.14291007071733475,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 214,
+        "loss": 0.1275881566107273,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 215,
+        "loss": 0.1332160159945488,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 216,
+        "loss": 0.14348357170820236,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 217,
+        "loss": 0.14031926542520523,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 218,
+        "loss": 0.13955212384462357,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 219,
+        "loss": 0.12719645351171494,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 220,
+        "loss": 0.14322353154420853,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 221,
+        "loss": 0.12984199076890945,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 222,
+        "loss": 0.14481298997998238,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 223,
+        "loss": 0.14459148049354553,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 224,
+        "loss": 0.12509791553020477,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 225,
+        "loss": 0.13344936072826385,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 226,
+        "loss": 0.1426737830042839,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 227,
+        "loss": 0.14216848835349083,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 228,
+        "loss": 0.13355956971645355,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 229,
+        "loss": 0.34735241532325745,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 230,
+        "loss": 0.27577560395002365,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 231,
+        "loss": 0.14069882035255432,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 232,
+        "loss": 0.1599755361676216,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 233,
+        "loss": 0.1430145427584648,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 234,
+        "loss": 0.1281554512679577,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 235,
+        "loss": 0.1272406131029129,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 236,
+        "loss": 0.17721135914325714,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 237,
+        "loss": 0.13591702282428741,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 238,
+        "loss": 0.13963957130908966,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 239,
+        "loss": 0.12643097341060638,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 240,
+        "loss": 0.17995714023709297,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 241,
+        "loss": 0.14041557908058167,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 242,
+        "loss": 0.15005379915237427,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 243,
+        "loss": 0.12890026718378067,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 244,
+        "loss": 0.13351208716630936,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 245,
+        "loss": 0.12940240651369095,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 246,
+        "loss": 0.12620335817337036,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 247,
+        "loss": 0.160803884267807,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 248,
+        "loss": 0.15951761603355408,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 249,
+        "loss": 0.13445112854242325,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 250,
+        "loss": 0.1691429764032364,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 251,
+        "loss": 0.1718050166964531,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 252,
+        "loss": 0.13043925911188126,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 253,
+        "loss": 0.2038087397813797,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 254,
+        "loss": 0.12827031686902046,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 255,
+        "loss": 0.12835342809557915,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 256,
+        "loss": 0.1458178162574768,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 257,
+        "loss": 0.12838761880993843,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 258,
+        "loss": 0.12521424889564514,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 259,
+        "loss": 0.12555468827486038,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 260,
+        "loss": 0.12502934783697128,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 261,
+        "loss": 0.14232844859361649,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 262,
+        "loss": 0.12273817509412766,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 263,
+        "loss": 0.12327256426215172,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 264,
+        "loss": 0.15919006243348122,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 265,
+        "loss": 0.12709344923496246,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 266,
+        "loss": 0.12761898338794708,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 267,
+        "loss": 0.1428939364850521,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 268,
+        "loss": 0.1332264170050621,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 269,
+        "loss": 0.12493705004453659,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 270,
+        "loss": 0.12350636720657349,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 271,
+        "loss": 0.14156630635261536,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 272,
+        "loss": 0.2049262523651123,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 273,
+        "loss": 0.12743780761957169,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 274,
+        "loss": 0.12807035818696022,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 275,
+        "loss": 0.13245027512311935,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 276,
+        "loss": 0.13289619237184525,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 277,
+        "loss": 0.15587696433067322,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 278,
+        "loss": 0.12247961759567261,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 279,
+        "loss": 0.13258282095193863,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 280,
+        "loss": 0.14106539264321327,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 281,
+        "loss": 0.12347094714641571,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 282,
+        "loss": 0.16685843467712402,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 283,
+        "loss": 0.1238023042678833,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 284,
+        "loss": 0.13296009600162506,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 285,
+        "loss": 0.12653523683547974,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 286,
+        "loss": 0.1423666551709175,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 287,
+        "loss": 0.1301245614886284,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 288,
+        "loss": 0.13280930370092392,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 289,
+        "loss": 0.14123209938406944,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 290,
+        "loss": 0.14170408993959427,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 291,
+        "loss": 0.12315457686781883,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 292,
+        "loss": 0.12364213541150093,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 293,
+        "loss": 0.15566854551434517,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 294,
+        "loss": 0.14141882956027985,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 295,
+        "loss": 0.12678107991814613,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 296,
+        "loss": 0.1272081397473812,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 297,
+        "loss": 0.12698747590184212,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 298,
+        "loss": 0.1959111988544464,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 299,
+        "loss": 0.12347738072276115,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 300,
+        "loss": 0.12395472824573517,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 301,
+        "loss": 0.12754712998867035,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 302,
+        "loss": 0.1818828359246254,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 303,
+        "loss": 0.12481512129306793,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 304,
+        "loss": 0.12389875948429108,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 305,
+        "loss": 0.12911435216665268,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 306,
+        "loss": 0.14607080072164536,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 307,
+        "loss": 0.13360606133937836,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 308,
+        "loss": 0.1241045594215393,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 309,
+        "loss": 0.13384637981653214,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 310,
+        "loss": 0.12310592085123062,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 311,
+        "loss": 0.13309217989444733,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 312,
+        "loss": 0.1228080540895462,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 313,
+        "loss": 0.12309307977557182,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 314,
+        "loss": 0.12298513948917389,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 315,
+        "loss": 0.14368895068764687,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 316,
+        "loss": 0.14216724038124084,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 317,
+        "loss": 0.12704160064458847,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 318,
+        "loss": 0.12763497978448868,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 319,
+        "loss": 0.1302623711526394,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 320,
+        "loss": 0.14383625239133835,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 321,
+        "loss": 0.1357366442680359,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 322,
+        "loss": 0.12379329279065132,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 323,
+        "loss": 0.13221782445907593,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 324,
+        "loss": 0.12716829031705856,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 325,
+        "loss": 0.14145248383283615,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 326,
+        "loss": 0.13277913630008698,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 327,
+        "loss": 0.12398992106318474,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 328,
+        "loss": 0.12630926817655563,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 329,
+        "loss": 0.14153799787163734,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 330,
+        "loss": 0.1268826648592949,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 331,
+        "loss": 0.12686649337410927,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 332,
+        "loss": 0.15512409806251526,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 333,
+        "loss": 0.13240131735801697,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 334,
+        "loss": 0.13279558718204498,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 335,
+        "loss": 0.12694700807332993,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 336,
+        "loss": 0.13225580751895905,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 337,
+        "loss": 0.12353633716702461,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 338,
+        "loss": 0.23304688185453415,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 339,
+        "loss": 0.26677535846829414,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 340,
+        "loss": 0.12398060411214828,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 341,
+        "loss": 0.1399482861161232,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 342,
+        "loss": 0.1343163251876831,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 343,
+        "loss": 0.13414039462804794,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 344,
+        "loss": 0.13349582254886627,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 345,
+        "loss": 0.1337880939245224,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 346,
+        "loss": 0.12635667994618416,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 347,
+        "loss": 0.22495964169502258,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 348,
+        "loss": 0.1333804577589035,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 349,
+        "loss": 0.12412876263260841,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 350,
+        "loss": 0.12441154941916466,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 351,
+        "loss": 0.13279692083597183,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 352,
+        "loss": 0.12654154375195503,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 353,
+        "loss": 0.12366184964776039,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 354,
+        "loss": 0.12828412652015686,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 355,
+        "loss": 0.1415371671319008,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 356,
+        "loss": 0.132589690387249,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 357,
+        "loss": 0.1413206160068512,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 358,
+        "loss": 0.1320868730545044,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 359,
+        "loss": 0.12355345487594604,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 360,
+        "loss": 0.12736255303025246,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 361,
+        "loss": 0.12363400310277939,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 362,
+        "loss": 0.1232956126332283,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 363,
+        "loss": 0.12690255045890808,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 364,
+        "loss": 0.141451396048069,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 365,
+        "loss": 0.13288705050945282,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 366,
+        "loss": 0.1224430613219738,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 367,
+        "loss": 0.132784865796566,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 368,
+        "loss": 0.14134221151471138,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 369,
+        "loss": 0.12378968670964241,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 370,
+        "loss": 0.14150506258010864,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 371,
+        "loss": 0.13233153522014618,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 372,
+        "loss": 0.14171583950519562,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 373,
+        "loss": 0.14097602665424347,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 374,
+        "loss": 0.12618503719568253,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 375,
+        "loss": 0.12203469127416611,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 376,
+        "loss": 0.12674785405397415,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 377,
+        "loss": 0.12645157054066658,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 378,
+        "loss": 0.12607574090361595,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 379,
+        "loss": 0.13377579301595688,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 380,
+        "loss": 0.12212581932544708,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 381,
+        "loss": 0.14666754007339478,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 382,
+        "loss": 0.1325872465968132,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 383,
+        "loss": 0.12841128557920456,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 384,
+        "loss": 0.14187997579574585,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 385,
+        "loss": 0.14162397384643555,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 386,
+        "loss": 0.12357737496495247,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 387,
+        "loss": 0.14204292744398117,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 388,
+        "loss": 0.14146392047405243,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 389,
+        "loss": 0.15635545924305916,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 390,
+        "loss": 0.1265464723110199,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 391,
+        "loss": 0.1322929710149765,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 392,
+        "loss": 0.1272578239440918,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 393,
+        "loss": 0.1429763287305832,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 394,
+        "loss": 0.14145812019705772,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 395,
+        "loss": 0.1267055682837963,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 396,
+        "loss": 0.1264801099896431,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 397,
+        "loss": 0.13238918036222458,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 398,
+        "loss": 0.12322117388248444,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 399,
+        "loss": 0.13212620466947556,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 400,
+        "loss": 0.12823444604873657,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 401,
+        "loss": 0.21197064965963364,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 402,
+        "loss": 0.1553361937403679,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 403,
+        "loss": 0.12342384085059166,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 404,
+        "loss": 0.14260881766676903,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 405,
+        "loss": 0.1276032254099846,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 406,
+        "loss": 0.15799632668495178,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 407,
+        "loss": 0.1344749629497528,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 408,
+        "loss": 0.20938849449157715,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 409,
+        "loss": 0.14149972796440125,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 410,
+        "loss": 0.12325257062911987,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 411,
+        "loss": 0.12673310935497284,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 412,
+        "loss": 0.12141407281160355,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 413,
+        "loss": 0.12309039384126663,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 414,
+        "loss": 0.15500199422240257,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 415,
+        "loss": 0.13199561089277267,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 416,
+        "loss": 0.1411682926118374,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 417,
+        "loss": 0.12644032016396523,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 418,
+        "loss": 0.12658314779400826,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 419,
+        "loss": 0.1318235546350479,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 420,
+        "loss": 0.13210289925336838,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 421,
+        "loss": 0.14711064100265503,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 422,
+        "loss": 0.13272260874509811,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 423,
+        "loss": 0.1318219006061554,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 424,
+        "loss": 0.13255444169044495,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 425,
+        "loss": 0.1327793300151825,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 426,
+        "loss": 0.14149929583072662,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 427,
+        "loss": 0.13480321317911148,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 428,
+        "loss": 0.15562397614121437,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 429,
+        "loss": 0.13210874050855637,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 430,
+        "loss": 0.14137588441371918,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 431,
+        "loss": 0.1411561593413353,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 432,
+        "loss": 0.13594552129507065,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 433,
+        "loss": 0.1619696244597435,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 434,
+        "loss": 0.13430455327033997,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 435,
+        "loss": 0.12741199880838394,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 436,
+        "loss": 0.12905148416757584,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 437,
+        "loss": 0.1336214542388916,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 438,
+        "loss": 0.1333451345562935,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 439,
+        "loss": 0.12689471244812012,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 440,
+        "loss": 0.17657392099499702,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 441,
+        "loss": 0.15485945343971252,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 442,
+        "loss": 0.1548970751464367,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 443,
+        "loss": 0.14116451516747475,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 444,
+        "loss": 0.13356482237577438,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 445,
+        "loss": 0.12626325711607933,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 446,
+        "loss": 0.1263393573462963,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 447,
+        "loss": 0.14137732237577438,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 448,
+        "loss": 0.12319944053888321,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 449,
+        "loss": 0.18543383479118347,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 450,
+        "loss": 0.14112944900989532,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 451,
+        "loss": 0.1267084814608097,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 452,
+        "loss": 0.15474369749426842,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 453,
+        "loss": 0.12635692209005356,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 454,
+        "loss": 0.1412108913064003,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 455,
+        "loss": 0.1264146938920021,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 456,
+        "loss": 0.13369158655405045,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 457,
+        "loss": 0.1270211711525917,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 458,
+        "loss": 0.12300095707178116,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 459,
+        "loss": 0.13214972615242004,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 460,
+        "loss": 0.1263759657740593,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 461,
+        "loss": 0.1324039176106453,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 462,
+        "loss": 0.13203107565641403,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 463,
+        "loss": 0.14088214933872223,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 464,
+        "loss": 0.1290425807237625,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 465,
+        "loss": 0.12149104103446007,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 466,
+        "loss": 0.1320127546787262,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 467,
+        "loss": 0.1321401447057724,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 468,
+        "loss": 0.14592589810490608,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 469,
+        "loss": 0.1264803484082222,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 470,
+        "loss": 0.1410725750029087,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 471,
+        "loss": 0.131899394094944,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 472,
+        "loss": 0.12634777277708054,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 473,
+        "loss": 0.13199157267808914,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 474,
+        "loss": 0.13215024024248123,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 475,
+        "loss": 0.14191940426826477,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 476,
+        "loss": 0.14068780839443207,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 477,
+        "loss": 0.13162019848823547,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 478,
+        "loss": 0.14071019738912582,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 479,
+        "loss": 0.12298812344670296,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 480,
+        "loss": 0.12631314992904663,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 481,
+        "loss": 0.14054377004504204,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 482,
+        "loss": 0.1342315375804901,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 483,
+        "loss": 0.12140535563230515,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 484,
+        "loss": 0.12629540264606476,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 485,
+        "loss": 0.12324875593185425,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 486,
+        "loss": 0.12352277711033821,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 487,
+        "loss": 0.1416497901082039,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 488,
+        "loss": 0.13264835625886917,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 489,
+        "loss": 0.12179897725582123,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 490,
+        "loss": 0.12192129343748093,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 491,
+        "loss": 0.12667076289653778,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 492,
+        "loss": 0.1553482934832573,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 493,
+        "loss": 0.13207515329122543,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 494,
+        "loss": 0.140873771160841,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 495,
+        "loss": 0.1260586455464363,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 496,
+        "loss": 0.12613247334957123,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 497,
+        "loss": 0.15441109240055084,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 498,
+        "loss": 0.12592339888215065,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 499,
+        "loss": 0.12263980880379677,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 500,
+        "loss": 0.21556895971298218,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 501,
+        "loss": 0.12677990645170212,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 502,
+        "loss": 0.12365013360977173,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 503,
+        "loss": 0.15823675692081451,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 504,
+        "loss": 0.13242851197719574,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 505,
+        "loss": 0.13309824466705322,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 506,
+        "loss": 0.12650331109762192,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 507,
+        "loss": 0.12326972931623459,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 508,
+        "loss": 0.12167785316705704,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 509,
+        "loss": 0.13217917829751968,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 510,
+        "loss": 0.14165186509490013,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 511,
+        "loss": 0.20404330641031265,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 512,
+        "loss": 0.15527284890413284,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 513,
+        "loss": 0.1221822053194046,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 514,
+        "loss": 0.1809779554605484,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 515,
+        "loss": 0.12960528582334518,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 516,
+        "loss": 0.1351613849401474,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 517,
+        "loss": 0.1463194265961647,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 518,
+        "loss": 0.14110102131962776,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 519,
+        "loss": 0.13198958337306976,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 520,
+        "loss": 0.1412016898393631,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 521,
+        "loss": 0.13231125473976135,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 522,
+        "loss": 0.1526377946138382,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 523,
+        "loss": 0.13250276446342468,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 524,
+        "loss": 0.1543464995920658,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 525,
+        "loss": 0.1322239190340042,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 526,
+        "loss": 0.1227232851088047,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 527,
+        "loss": 0.14093628898262978,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 528,
+        "loss": 0.1321631669998169,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 529,
+        "loss": 0.12377255409955978,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 530,
+        "loss": 0.1328943446278572,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 531,
+        "loss": 0.13213645666837692,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 532,
+        "loss": 0.13204099237918854,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 533,
+        "loss": 0.1414494812488556,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 534,
+        "loss": 0.13194161653518677,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 535,
+        "loss": 0.12620195001363754,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 536,
+        "loss": 0.15510043874382973,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 537,
+        "loss": 0.12689118832349777,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 538,
+        "loss": 0.12298475205898285,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 539,
+        "loss": 0.12655352801084518,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 540,
+        "loss": 0.12277765572071075,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 541,
+        "loss": 0.12139573320746422,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 542,
+        "loss": 0.1260746344923973,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 543,
+        "loss": 0.13797948509454727,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 544,
+        "loss": 0.13202941417694092,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 545,
+        "loss": 0.12264927476644516,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 546,
+        "loss": 0.1250242218375206,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 547,
+        "loss": 0.12708811461925507,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 548,
+        "loss": 0.12672032415866852,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 549,
+        "loss": 0.15460390225052834,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 550,
+        "loss": 0.12908054888248444,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 551,
+        "loss": 0.14130126684904099,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 552,
+        "loss": 0.12637432292103767,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 553,
+        "loss": 0.14085407555103302,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 554,
+        "loss": 0.12290726602077484,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 555,
+        "loss": 0.12619351968169212,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 556,
+        "loss": 0.1252320073544979,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 557,
+        "loss": 0.15420962870121002,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 558,
+        "loss": 0.14104773104190826,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 559,
+        "loss": 0.12464076280593872,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 560,
+        "loss": 0.1406639888882637,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 561,
+        "loss": 0.1265494041144848,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 562,
+        "loss": 0.1546785831451416,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 563,
+        "loss": 0.14090176299214363,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 564,
+        "loss": 0.14123935624957085,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 565,
+        "loss": 0.1408500298857689,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 566,
+        "loss": 0.12125318497419357,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 567,
+        "loss": 0.1259271614253521,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 568,
+        "loss": 0.1316915899515152,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 569,
+        "loss": 0.12273885309696198,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 570,
+        "loss": 0.12281787768006325,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 571,
+        "loss": 0.1264866441488266,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 572,
+        "loss": 0.12271520495414734,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 573,
+        "loss": 0.12611991167068481,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 574,
+        "loss": 0.1323130801320076,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 575,
+        "loss": 0.12625440955162048,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 576,
+        "loss": 0.12339452654123306,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 577,
+        "loss": 0.12592298537492752,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 578,
+        "loss": 0.2246100753545761,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 579,
+        "loss": 0.14162440598011017,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 580,
+        "loss": 0.1330072358250618,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 581,
+        "loss": 0.12327264249324799,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 582,
+        "loss": 0.12262019515037537,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 583,
+        "loss": 0.12377256900072098,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 584,
+        "loss": 0.12403900176286697,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 585,
+        "loss": 0.12298745661973953,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 586,
+        "loss": 0.13172638416290283,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 587,
+        "loss": 0.12623491510748863,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 588,
+        "loss": 0.13190919905900955,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 589,
+        "loss": 0.12642114609479904,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 590,
+        "loss": 0.13223158568143845,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 591,
+        "loss": 0.14079808071255684,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 592,
+        "loss": 0.12291888892650604,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 593,
+        "loss": 0.12163838744163513,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 594,
+        "loss": 0.1217854805290699,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 595,
+        "loss": 0.2073880285024643,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 596,
+        "loss": 0.12279923260211945,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 597,
+        "loss": 0.1694696694612503,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 598,
+        "loss": 0.1235196515917778,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 599,
+        "loss": 0.1277741640806198,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 600,
+        "loss": 0.13498449325561523,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 601,
+        "loss": 0.12906992435455322,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 602,
+        "loss": 0.12715694308280945,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 603,
+        "loss": 0.12312987446784973,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 604,
+        "loss": 0.1413690485060215,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 605,
+        "loss": 0.13223795592784882,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 606,
+        "loss": 0.12661414220929146,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 607,
+        "loss": 0.12380567193031311,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 608,
+        "loss": 0.15543174371123314,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 609,
+        "loss": 0.14133131131529808,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 610,
+        "loss": 0.14625259116292,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 611,
+        "loss": 0.1542431265115738,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 612,
+        "loss": 0.15458298847079277,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 613,
+        "loss": 0.3042651116847992,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 614,
+        "loss": 0.1349596157670021,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 615,
+        "loss": 0.13207045942544937,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 616,
+        "loss": 0.14433016255497932,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 617,
+        "loss": 0.1325298249721527,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 618,
+        "loss": 0.14067364856600761,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 619,
+        "loss": 0.13166308403015137,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 620,
+        "loss": 0.12301533296704292,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 621,
+        "loss": 0.12622267752885818,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 622,
+        "loss": 0.1264980286359787,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 623,
+        "loss": 0.1320187821984291,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 624,
+        "loss": 0.1319057047367096,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 625,
+        "loss": 0.12305190786719322,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 626,
+        "loss": 0.12634515017271042,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 627,
+        "loss": 0.18253243714571,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 628,
+        "loss": 0.15456000715494156,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 629,
+        "loss": 0.14085037261247635,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 630,
+        "loss": 0.12277869135141373,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 631,
+        "loss": 0.12804310023784637,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 632,
+        "loss": 0.13169070333242416,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 633,
+        "loss": 0.12694000825285912,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 634,
+        "loss": 0.1266215778887272,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 635,
+        "loss": 0.15580443292856216,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 636,
+        "loss": 0.14071692898869514,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 637,
+        "loss": 0.1261429786682129,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 638,
+        "loss": 0.13192911446094513,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 639,
+        "loss": 0.13192076981067657,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 640,
+        "loss": 0.12599650770425797,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 641,
+        "loss": 0.14180855825543404,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 642,
+        "loss": 0.12607939913868904,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 643,
+        "loss": 0.1262742169201374,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 644,
+        "loss": 0.12287488207221031,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 645,
+        "loss": 0.1316719949245453,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 646,
+        "loss": 0.12274295836687088,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 647,
+        "loss": 0.14106881991028786,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 648,
+        "loss": 0.12622357532382011,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 649,
+        "loss": 0.12640543282032013,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 650,
+        "loss": 0.12263130769133568,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 651,
+        "loss": 0.1317986622452736,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 652,
+        "loss": 0.1314893588423729,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 653,
+        "loss": 0.12253155186772346,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 654,
+        "loss": 0.12297876179218292,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 655,
+        "loss": 0.13170570880174637,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 656,
+        "loss": 0.14090101793408394,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 657,
+        "loss": 0.17541711032390594,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 658,
+        "loss": 0.13189184665679932,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 659,
+        "loss": 0.12272137776017189,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 660,
+        "loss": 0.13181931897997856,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 661,
+        "loss": 0.12578556314110756,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 662,
+        "loss": 0.14060914888978004,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 663,
+        "loss": 0.12603940069675446,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 664,
+        "loss": 0.12263587862253189,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 665,
+        "loss": 0.12251464277505875,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 666,
+        "loss": 0.13160517066717148,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 667,
+        "loss": 0.13206632435321808,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 668,
+        "loss": 0.12262419611215591,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 669,
+        "loss": 0.1409689150750637,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 670,
+        "loss": 0.12588045373558998,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 671,
+        "loss": 0.1406477615237236,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 672,
+        "loss": 0.12281796708703041,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 673,
+        "loss": 0.12122839689254761,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 674,
+        "loss": 0.15420030429959297,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 675,
+        "loss": 0.13493433594703674,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 676,
+        "loss": 0.12610884010791779,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 677,
+        "loss": 0.15556181967258453,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 678,
+        "loss": 0.12233087420463562,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 679,
+        "loss": 0.1432415023446083,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 680,
+        "loss": 0.14104540273547173,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 681,
+        "loss": 0.1411433145403862,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 682,
+        "loss": 0.13206975907087326,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 683,
+        "loss": 0.15444162860512733,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 684,
+        "loss": 0.14102019369602203,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 685,
+        "loss": 0.13207558542490005,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 686,
+        "loss": 0.12151772156357765,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 687,
+        "loss": 0.12622757256031036,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 688,
+        "loss": 0.131608746945858,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 689,
+        "loss": 0.1227957010269165,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 690,
+        "loss": 0.12267453968524933,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 691,
+        "loss": 0.1263277269899845,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 692,
+        "loss": 0.3277835547924042,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 693,
+        "loss": 0.1322585642337799,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 694,
+        "loss": 0.1418551579117775,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 695,
+        "loss": 0.17886025458574295,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 696,
+        "loss": 0.14314642921090126,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 697,
+        "loss": 0.1276743747293949,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 698,
+        "loss": 0.1417309194803238,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 699,
+        "loss": 0.13192693889141083,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 700,
+        "loss": 0.1975071281194687,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 701,
+        "loss": 0.1320740282535553,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 702,
+        "loss": 0.13174227625131607,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 703,
+        "loss": 0.14102480560541153,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 704,
+        "loss": 0.1407376527786255,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 705,
+        "loss": 0.14104192703962326,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 706,
+        "loss": 0.13176880776882172,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 707,
+        "loss": 0.12128178030252457,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 708,
+        "loss": 0.1392804980278015,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 709,
+        "loss": 0.15462377667427063,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 710,
+        "loss": 0.14109136164188385,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 711,
+        "loss": 0.13193527609109879,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 712,
+        "loss": 0.1216050423681736,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 713,
+        "loss": 0.140859916806221,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 714,
+        "loss": 0.18295461684465408,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 715,
+        "loss": 0.13239547610282898,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 716,
+        "loss": 0.15457403287291527,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 717,
+        "loss": 0.1549212634563446,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 718,
+        "loss": 0.14159047603607178,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 719,
+        "loss": 0.1229735016822815,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 720,
+        "loss": 0.12613603845238686,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 721,
+        "loss": 0.1544688194990158,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 722,
+        "loss": 0.21230028569698334,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 723,
+        "loss": 0.1407851092517376,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 724,
+        "loss": 0.1548399217426777,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 725,
+        "loss": 0.13195805996656418,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 726,
+        "loss": 0.1219373308122158,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 727,
+        "loss": 0.1274370700120926,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 728,
+        "loss": 0.12629865482449532,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 729,
+        "loss": 0.15543334558606148,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 730,
+        "loss": 0.12637898698449135,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 731,
+        "loss": 0.1411443054676056,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 732,
+        "loss": 0.12600741535425186,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 733,
+        "loss": 0.12604862824082375,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 734,
+        "loss": 0.1322821080684662,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 735,
+        "loss": 0.12183216214179993,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 736,
+        "loss": 0.13216586410999298,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 737,
+        "loss": 0.12140501663088799,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 738,
+        "loss": 0.14077088981866837,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 739,
+        "loss": 0.12585369870066643,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 740,
+        "loss": 0.12603002041578293,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 741,
+        "loss": 0.17526639625430107,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 742,
+        "loss": 0.13791422545909882,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 743,
+        "loss": 0.12313703447580338,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 744,
+        "loss": 0.141195647418499,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 745,
+        "loss": 0.13303657621145248,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 746,
+        "loss": 0.14376559108495712,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 747,
+        "loss": 0.14070895314216614,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 748,
+        "loss": 0.17538505047559738,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 749,
+        "loss": 0.1260870136320591,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 750,
+        "loss": 0.12634771689772606,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 751,
+        "loss": 0.14125671237707138,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 752,
+        "loss": 0.17582117021083832,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 753,
+        "loss": 0.14330579712986946,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 754,
+        "loss": 0.12631095573306084,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 755,
+        "loss": 0.21549974381923676,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 756,
+        "loss": 0.14106156677007675,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 757,
+        "loss": 0.14157652109861374,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 758,
+        "loss": 0.12342430651187897,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 759,
+        "loss": 0.17838622629642487,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 760,
+        "loss": 0.1267581582069397,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 761,
+        "loss": 0.15499450266361237,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 762,
+        "loss": 0.13174422830343246,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 763,
+        "loss": 0.12185483425855637,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 764,
+        "loss": 0.14082123339176178,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 765,
+        "loss": 0.12181190773844719,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 766,
+        "loss": 0.13159748166799545,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 767,
+        "loss": 0.13240181654691696,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 768,
+        "loss": 0.14313871413469315,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 769,
+        "loss": 0.16016902774572372,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 770,
+        "loss": 0.12642502784729004,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 771,
+        "loss": 0.1264042742550373,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 772,
+        "loss": 0.12641825526952744,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 773,
+        "loss": 0.13188538700342178,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 774,
+        "loss": 0.1314433217048645,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 775,
+        "loss": 0.13175304979085922,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 776,
+        "loss": 0.1545223891735077,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 777,
+        "loss": 0.12633242458105087,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 778,
+        "loss": 0.14568039029836655,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 779,
+        "loss": 0.12606392800807953,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 780,
+        "loss": 0.1258566975593567,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 781,
+        "loss": 0.1318155601620674,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 782,
+        "loss": 0.12297477573156357,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 783,
+        "loss": 0.14082760363817215,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 784,
+        "loss": 0.13186050951480865,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 785,
+        "loss": 0.12270068749785423,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 786,
+        "loss": 0.12577342614531517,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 787,
+        "loss": 0.1408771499991417,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 788,
+        "loss": 0.12652595341205597,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 789,
+        "loss": 0.12150555476546288,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 790,
+        "loss": 0.15466535463929176,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 791,
+        "loss": 0.1257898472249508,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 792,
+        "loss": 0.12267892062664032,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 793,
+        "loss": 0.12176685780286789,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 794,
+        "loss": 0.12621240690350533,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 795,
+        "loss": 0.13143201917409897,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 796,
+        "loss": 0.12634913995862007,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 797,
+        "loss": 0.12264236807823181,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 798,
+        "loss": 0.1258177049458027,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 799,
+        "loss": 0.13191299885511398,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 800,
+        "loss": 0.12145137414336205,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 801,
+        "loss": 0.12269344925880432,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 802,
+        "loss": 0.1216077134013176,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 803,
+        "loss": 0.12168802693486214,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 804,
+        "loss": 0.1542162112891674,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 805,
+        "loss": 0.12278468906879425,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 806,
+        "loss": 0.12111599370837212,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 807,
+        "loss": 0.15440570935606956,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 808,
+        "loss": 0.1543538197875023,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 809,
+        "loss": 0.1406506933271885,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 810,
+        "loss": 0.14068179577589035,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 811,
+        "loss": 0.12134852260351181,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 812,
+        "loss": 0.12601719796657562,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 813,
+        "loss": 0.12578585743904114,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 814,
+        "loss": 0.12268971651792526,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 815,
+        "loss": 0.13157307356595993,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 816,
+        "loss": 0.12603849172592163,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 817,
+        "loss": 0.13172519207000732,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 818,
+        "loss": 0.13152693212032318,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 819,
+        "loss": 0.13153085112571716,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 820,
+        "loss": 0.15411153808236122,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 821,
+        "loss": 0.12260371819138527,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 822,
+        "loss": 0.1315639168024063,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 823,
+        "loss": 0.15456603467464447,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 824,
+        "loss": 0.1405026763677597,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 825,
+        "loss": 0.14088355749845505,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 826,
+        "loss": 0.12270413339138031,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 827,
+        "loss": 0.12253288179636002,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 828,
+        "loss": 0.12121761590242386,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 829,
+        "loss": 0.1542830467224121,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 830,
+        "loss": 0.1317090466618538,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 831,
+        "loss": 0.12576544284820557,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 832,
+        "loss": 0.12147195637226105,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 833,
+        "loss": 0.1408350057899952,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 834,
+        "loss": 0.1257895566523075,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 835,
+        "loss": 0.13163039088249207,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 836,
+        "loss": 0.13152259588241577,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 837,
+        "loss": 0.12605047971010208,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 838,
+        "loss": 0.13187231868505478,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 839,
+        "loss": 0.13152318820357323,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 840,
+        "loss": 0.131410114467144,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 841,
+        "loss": 0.14046529307961464,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 842,
+        "loss": 0.12610522657632828,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 843,
+        "loss": 0.12586578354239464,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 844,
+        "loss": 0.12254532799124718,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 845,
+        "loss": 0.14101017266511917,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 846,
+        "loss": 0.13161185383796692,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 847,
+        "loss": 0.14063134789466858,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 848,
+        "loss": 0.13158882409334183,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 849,
+        "loss": 0.12625876814126968,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 850,
+        "loss": 0.12122165784239769,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 851,
+        "loss": 0.15420477092266083,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 852,
+        "loss": 0.13144462928175926,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 853,
+        "loss": 0.15431687235832214,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 854,
+        "loss": 0.1467439979314804,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 855,
+        "loss": 0.1317327842116356,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 856,
+        "loss": 0.12286880984902382,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 857,
+        "loss": 0.131490558385849,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 858,
+        "loss": 0.13689402490854263,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 859,
+        "loss": 0.1408369205892086,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 860,
+        "loss": 0.14090654626488686,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 861,
+        "loss": 0.1225801333785057,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 862,
+        "loss": 0.12628517299890518,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 863,
+        "loss": 0.1315096616744995,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 864,
+        "loss": 0.1579323261976242,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 865,
+        "loss": 0.13173400610685349,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 866,
+        "loss": 0.18103493005037308,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 867,
+        "loss": 0.15411102771759033,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 868,
+        "loss": 0.1317479908466339,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 869,
+        "loss": 0.12124166637659073,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 870,
+        "loss": 0.14049169793725014,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 871,
+        "loss": 0.12275824695825577,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 872,
+        "loss": 0.15479478240013123,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 873,
+        "loss": 0.12973983585834503,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 874,
+        "loss": 0.12592992931604385,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 875,
+        "loss": 0.12261750549077988,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 876,
+        "loss": 0.12267398461699486,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 877,
+        "loss": 0.1213373914361,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 878,
+        "loss": 0.1541125886142254,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 879,
+        "loss": 0.13158104568719864,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 880,
+        "loss": 0.1258922852575779,
+        "validation_macro_f1": null
+      }
+    ],
+    "pretrain_loss": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "members": 10,
+  "cv_fits": 24,
+  "low_label_fits": 18,
+  "heldout_inference_samples": 486,
+  "checks": [
+    "CV-only selection",
+    "five fixed seeds per selected config",
+    "no test in training/calibration",
+    "low-label subsets restricted to training",
+    "member file hashes",
+    "NPZ inference equals evaluation",
+    "raw observation inference equals NPZ inference",
+    "probability normalization",
+    "frozen evaluation bundle"
+  ]
+}

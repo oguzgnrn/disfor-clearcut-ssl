@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "samples": 486,
+  "extracted_model_archive": true,
+  "independent_directory": true,
+  "original_data_directory_required": false,
+  "probabilities_equal": true,
+  "cli_output": "Advanced ensemble predicted 486 samples"
+}

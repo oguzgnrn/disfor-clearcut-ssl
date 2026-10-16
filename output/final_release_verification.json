@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-30T20:16:34.222602+00:00",
+  "archives": {
+    "Orman_SSL_Paper_Paketi.zip": {
+      "status": "passed",
+      "files": 257,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "matches_current_workspace": true,
+      "paper_hub_links": "passed",
+      "bytes": 6421886,
+      "sha256": "51fa7894cc9240841963a2cfca54a9dbd1ef7242703b7fb953ad3d5569b5855a"
+    },
+    "Orman_SSL_Nihai_Model.zip": {
+      "status": "passed",
+      "files": 28,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "matches_current_workspace": true,
+      "bytes": 2655741,
+      "sha256": "4dfe7c80cdd78826bca112f918c65a792883a4540b5684ae14f2fcaf4ee92d09"
+    },
+    "Orman_SSL_Hocaya_Sunum.zip": {
+      "status": "passed",
+      "files": 42,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "matches_current_workspace": true,
+      "paper_hub_links": "passed",
+      "bytes": 1730252,
+      "sha256": "a636666e37a5b4ba16ef060cc41500b360c0c5bfd3ac7ba516d4d848990e1a61"
+    },
+    "Orman_SSL_Proje_Paketi.zip": {
+      "status": "passed",
+      "files": 625,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "matches_current_workspace": true,
+      "paper_hub_links": "passed",
+      "bytes": 97147707,
+      "sha256": "4368f50db9a52ffe52886442cbf5dacc309607eb46af0e1c8d931465964e0d7e"
+    }
+  },
+  "isolated_archive_training": {
+    "status": "passed",
+    "archive_sha256": "51fa7894cc9240841963a2cfca54a9dbd1ef7242703b7fb953ad3d5569b5855a",
+    "fresh_neural_fit": "ssl_transformer48_f0_s7_b0.2",
+    "maximum_probability_difference": 0.0,
+    "isolated_paper_tests": "8 passed",
+    "original_workspace_modified": false
+  },
+  "core_evidence_sha256": "098f35eac6dd75cacb541ac5cc5734a04ae153ed15d35f8c1963d50b22203559"
+}

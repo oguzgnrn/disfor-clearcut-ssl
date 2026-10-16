@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-01T04:56:24.388941+00:00",
+  "method": "Real localhost HTTP upload, frozen 10-member inference, downloads and reversible data selection",
+  "actual_job": {
+    "product": "Orman-SSL",
+    "state": "completed",
+    "kind": "upload",
+    "message": "Yüklenen 2 örnek için tahmin üretildi; doğruluk ölçümü yapılmadı.",
+    "started_at": "2026-10-01T04:56:22.490030+00:00",
+    "finished_at": "2026-10-01T04:56:24.349103+00:00",
+    "elapsed_seconds": 1.86
+  },
+  "samples": 2,
+  "maximum_probability_difference": 0.0,
+  "source": "First two existing DISFOR inference records, IDs renamed for the UI test; not independent data",
+  "checks": [
+    "pickle-free bounded NPZ validation",
+    "real model inference through HTTP upload",
+    "no invented date or coordinates",
+    "historical evaluation remains 486 demo records",
+    "10 historical errors remain available",
+    "24 relative months",
+    "download bytes match active uploaded files",
+    "demo and uploaded data can be reselected",
+    "invalid upload returns 400 and preserves active data",
+    "frozen demo file hashes unchanged"
+  ],
+  "uploaded_output": "output/product_uploads/run-0060407b4f22950dd15e4ce7",
+  "source_sha256": {
+    "scripts/serve_product.py": "d4ecf013409b586b667514b0982345979bd3c1cba28d39434e6282a14b6d65fb",
+    "scripts/product_data.py": "9dfb5b44e03286b8a00c80a3ef7fb0344857c0512075fe5883a2c98d76e45d59",
+    "reports/product.html": "e187a814a3854bc60cd64ec6dbbf0e0e0476788df6912c96630dfe499b43ca5f",
+    "tests/test_product.py": "027ef779c2bdfd39922603d82b0fbdbb27d27485ca8a1d2c1649f01eef58fa90"
+  }
+}

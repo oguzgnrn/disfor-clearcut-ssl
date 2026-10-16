@@ -1,0 +1,177 @@
+{
+  "files": [
+    {
+      "id": 52545710,
+      "name": "GFC000-20231116T130804Z-001.zip",
+      "size": 1422834976,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/52545710",
+      "supplied_md5": "c8c3198e6747fab71dde05ec1e6159bd",
+      "computed_md5": "c8c3198e6747fab71dde05ec1e6159bd",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 52545695,
+      "name": "GFC050-20231116T234408Z-001.zip",
+      "size": 1040574287,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/52545695",
+      "supplied_md5": "e4c0809eabc542a4db9dd2634af10ded",
+      "computed_md5": "e4c0809eabc542a4db9dd2634af10ded",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 52545704,
+      "name": "GFC150-20231117T062302Z-001.zip",
+      "size": 1284657296,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/52545704",
+      "supplied_md5": "1d3dc81dac727283198f370eb2bfc802",
+      "computed_md5": "1d3dc81dac727283198f370eb2bfc802",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 52545707,
+      "name": "GFC200-20231118T004035Z-001.zip",
+      "size": 1344125168,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/52545707",
+      "supplied_md5": "5e2d0952adaf207e7d883fd00119badb",
+      "computed_md5": "5e2d0952adaf207e7d883fd00119badb",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 52545698,
+      "name": "GFC250-20231118T004223Z-001.zip",
+      "size": 1097420451,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/52545698",
+      "supplied_md5": "27610b8c95639e39d29ef6b79f9e8f4a",
+      "computed_md5": "27610b8c95639e39d29ef6b79f9e8f4a",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 52545806,
+      "name": "GFC100-20231117T010026Z-001.zip",
+      "size": 1417437570,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/52545806",
+      "supplied_md5": "ad050620098270143dc99e623d2a0fa3",
+      "computed_md5": "ad050620098270143dc99e623d2a0fa3",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 20769605,
+      "full_name": "Shidong Liu",
+      "first_name": "Shidong",
+      "last_name": "Liu",
+      "is_active": true,
+      "url_name": "Shidong_Liu",
+      "orcid_id": ""
+    },
+    {
+      "id": 19188099,
+      "full_name": "Li Wang",
+      "first_name": "Li",
+      "last_name": "Wang",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 10526203,
+      "full_name": "Wanjuan Song",
+      "first_name": "Wanjuan",
+      "last_name": "Song",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Global_forest_main_disturbance_types_between_2000_and_2020/28465178",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">This dataset describes the main types of disturbances that forests worldwide have experienced over the past 20 years. There may be some forest patches that are subject to various types of disturbances, but this dataset only records the most significant types of disturbances. Mainly using machine learning classification methods, 18 forest disturbance characteristic indicators including global forest disturbance overall characteristics, pre disturbance characteristics, post disturbance characteristics, disturbance potential characteristics, surface cover characteristics, and spatial location are collected and calculated to determine 11 forest disturbance types: other disturbance (0), shifting cultivation (11), forestry replanting (12), plantation renewal (13), deforestation (14), forest fire (15), built-up expansion (18), cropland expansion (19), flood disturbance (20), oil palm cultivation (21), and artificial forest expansion (22). The Spatial resolution of this dataset is 30m. The main types of global forest disturbance are forestry replanting (26.52%), shifting cultivation (26.07%), and forest fires (12.58%), with newly forests accounting for 15.47% of the global forest disturbance area. The large-scale deforestation of natural forests also accounts for 7.94%. The disturbance caused by plantations, oil palm expansion, cropland expansion, and built-up expansion to forests also accounted for 4.63%, 1.54%, 3.88%, and 0.25%, respectively. The validation results based on 16000 sample points show that the accuracy of this dataset is as high as 95%.</p>",
+  "funding": "National Natural Science Foundation of China (Grant No: 42401082);\nNational Key Research and Development Program of China (Grant No:2021YFE0117900);\nPostdoctoral Fellowship Program of CPSF (Grant No: GZC20232757); \nProject funded by China Postdoctoral Science Foundation (Grant No: 2024M763351).",
+  "funding_list": [
+    {
+      "id": 28158074,
+      "title": "National Natural Science Foundation of China (Grant No: 42401082);\nNational Key Research and Development Program of China (Grant No:2021YFE0117900);\nPostdoctoral Fellowship Program of CPSF (Grant No: GZC20232757); \nProject funded by China Postdoctoral Science Foundation (Grant No: 2024M763351).",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 7607049748,
+  "created_date": "2025-02-26T08:30:36Z",
+  "modified_date": "2025-02-26T08:31:36Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Forest",
+    "Forest disturbance",
+    "Deforestation",
+    "Wildfire",
+    "Plantation"
+  ],
+  "keywords": [
+    "Forest",
+    "Forest disturbance",
+    "Deforestation",
+    "Wildfire",
+    "Plantation"
+  ],
+  "categories": [
+    {
+      "id": 25939,
+      "title": "Earth system sciences",
+      "parent_id": 25936,
+      "path": "/25717/25936/25939",
+      "source_id": "379901",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Liu, Shidong; Wang, Li; Song, Wanjuan (2025). Global forest main disturbance types between 2000 and 2020. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28465178.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 28465178,
+  "title": "Global forest main disturbance types between 2000 and 2020",
+  "doi": "10.6084/m9.figshare.28465178.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/28465178",
+  "published_date": "2025-02-26T08:30:36Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/28465178",
+  "url_public_api": "https://api.figshare.com/v2/articles/28465178",
+  "url_private_html": "https://figshare.com/account/articles/28465178",
+  "url_public_html": "https://figshare.com/articles/dataset/Global_forest_main_disturbance_types_between_2000_and_2020/28465178",
+  "timeline": {
+    "posted": "2025-02-26T08:30:36",
+    "firstOnline": "2025-02-26"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

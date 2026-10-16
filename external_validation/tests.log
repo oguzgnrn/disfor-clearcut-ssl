@@ -1,0 +1,29 @@
+test_agreeing_reviews_yield_label_support_without_scores (test_workflow.ExternalWorkflow.test_agreeing_reviews_yield_label_support_without_scores) ... ok
+test_attestations_and_distinct_reviewers_required (test_workflow.ExternalWorkflow.test_attestations_and_distinct_reviewers_required) ... ok
+test_blank_protocol_cannot_freeze (test_workflow.ExternalWorkflow.test_blank_protocol_cannot_freeze) ... ok
+test_campaign_two_stratum_not_treated_as_event (test_workflow.ExternalWorkflow.test_campaign_two_stratum_not_treated_as_event) ... ok
+test_conflict_requires_third_reader_and_can_be_resolved (test_workflow.ExternalWorkflow.test_conflict_requires_third_reader_and_can_be_resolved) ... ok
+test_explicit_exclusion_can_fail_support_gate (test_workflow.ExternalWorkflow.test_explicit_exclusion_can_fail_support_gate) ... ok
+test_extra_review_score_columns_rejected (test_workflow.ExternalWorkflow.test_extra_review_score_columns_rejected) ... ok
+test_five_km_buffer_excludes_close_point (test_workflow.ExternalWorkflow.test_five_km_buffer_excludes_close_point) ... ok
+test_freeze_cannot_overwrite_and_detects_modified_protocol (test_workflow.ExternalWorkflow.test_freeze_cannot_overwrite_and_detects_modified_protocol) ... ok
+test_init_cli_makes_empty_templates_not_fake_data (test_workflow.ExternalWorkflow.test_init_cli_makes_empty_templates_not_fake_data) ... ok
+test_invalid_coordinates_duplicates_and_small_buffer_rejected (test_workflow.ExternalWorkflow.test_invalid_coordinates_duplicates_and_small_buffer_rejected) ... ok
+test_many_points_do_not_replace_independent_positive_groups (test_workflow.ExternalWorkflow.test_many_points_do_not_replace_independent_positive_groups) ... ok
+test_model_integrity_is_bound_before_freeze (test_workflow.ExternalWorkflow.test_model_integrity_is_bound_before_freeze) ... ok
+test_packets_hide_source_ids_events_scores_and_labels (test_workflow.ExternalWorkflow.test_packets_hide_source_ids_events_scores_and_labels) ... ok
+test_positive_without_event_identity_cannot_claim_ready (test_workflow.ExternalWorkflow.test_positive_without_event_identity_cannot_claim_ready) ... ok
+test_prior_disfor_point_alias_excluded (test_workflow.ExternalWorkflow.test_prior_disfor_point_alias_excluded) ... ok
+test_prior_id_excluded_even_far_away (test_workflow.ExternalWorkflow.test_prior_id_excluded_even_far_away) ... ok
+test_same_source_cannot_claim_external_validation (test_workflow.ExternalWorkflow.test_same_source_cannot_claim_external_validation) ... ok
+test_score_or_reference_label_columns_rejected (test_workflow.ExternalWorkflow.test_score_or_reference_label_columns_rejected) ... ok
+test_shared_new_event_cannot_cross_partitions (test_workflow.ExternalWorkflow.test_shared_new_event_cannot_cross_partitions) ... ok
+test_shared_source_event_excluded_when_geographically_far (test_workflow.ExternalWorkflow.test_shared_source_event_excluded_when_geographically_far) ... ok
+test_transitive_spatial_component_cannot_cross_partitions (test_workflow.ExternalWorkflow.test_transitive_spatial_component_cannot_cross_partitions) ... ok
+test_uncertain_or_low_confidence_never_silently_becomes_negative (test_workflow.ExternalWorkflow.test_uncertain_or_low_confidence_never_silently_becomes_negative) ... ok
+test_wrong_reviewer_or_changed_evidence_is_rejected (test_workflow.ExternalWorkflow.test_wrong_reviewer_or_changed_evidence_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.088s
+
+OK

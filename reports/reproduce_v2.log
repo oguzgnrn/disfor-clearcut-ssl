@@ -1,0 +1,212 @@
+{
+  "n": 2213,
+  "groups": 874,
+  "class_counts": [
+    1937,
+    276
+  ],
+  "rejected": {
+    "not_high_confidence": 598,
+    "no_unambiguous_two_year_window": 606,
+    "insufficient_clear_months": 116,
+    "wildfire_excluded_from_primary_task": 289
+  },
+  "sha256": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+  "split": {
+    "train": {
+      "n": 1266,
+      "groups": 524,
+      "class_counts": [
+        1084,
+        182
+      ]
+    },
+    "validation": {
+      "n": 461,
+      "groups": 175,
+      "class_counts": [
+        405,
+        56
+      ]
+    },
+    "test": {
+      "n": 486,
+      "groups": 175,
+      "class_counts": [
+        448,
+        38
+      ]
+    }
+  },
+  "metadata": {
+    "kind": "real",
+    "name": "DISFOR retrospective clear-cut pilot",
+    "classes": [
+      "undisturbed_forest",
+      "clear_cut"
+    ],
+    "channels": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "source": "https://huggingface.co/datasets/JR-DIGITAL/DISFOR/tree/2562332e35c94c2339aeb341ffaed2a99faae7d6",
+    "label_provenance": "DISFOR high-confidence human-interpreted segments; auxiliary sources in sample manifest; not newly collected field ground truth",
+    "group_definition": "Connected components within 5 km plus same source damage polygon/storm; all years of a point kept together. Sampling strata excluded from event union.",
+    "temporal_alignment": "Two full calendar years; event must be in second year, intact forest in preceding year; negatives intact entire window; no event dates in features",
+    "units": "Source-provided DN, no added offset; per-channel standardization fitted on training only",
+    "task": "Retrospective classification of selected 24-month windows, not early warning or continuous map validation",
+    "license": "EUPL-1.2",
+    "monthly_quality": "Median of source clear AND SCL 4/5; at least 6 valid months in each year. Missing months remain missing."
+  },
+  "minimum_cross_split_distance_km": {
+    "train_test": 5.001115474843861,
+    "train_validation": 5.002108948863137,
+    "validation_test": 5.116775527531536
+  }
+}
+real seed=7 budget=0.05 RandomForest: F1=0.675
+real seed=7 budget=0.05 Transformer: F1=0.484
+real seed=7 budget=0.05 SSL_Transformer: F1=0.480
+real seed=7 budget=0.1 RandomForest: F1=0.662
+real seed=7 budget=0.1 Transformer: F1=0.476
+real seed=7 budget=0.1 SSL_Transformer: F1=0.479
+real seed=7 budget=0.2 RandomForest: F1=0.789
+real seed=7 budget=0.2 Transformer: F1=0.495
+real seed=7 budget=0.2 SSL_Transformer: F1=0.497
+real seed=7 budget=1.0 RandomForest: F1=0.852
+real seed=7 budget=1.0 Transformer: F1=0.861
+real seed=7 budget=1.0 SSL_Transformer: F1=0.839
+real seed=17 budget=0.05 RandomForest: F1=0.673
+real seed=17 budget=0.05 Transformer: F1=0.547
+real seed=17 budget=0.05 SSL_Transformer: F1=0.475
+real seed=17 budget=0.1 RandomForest: F1=0.757
+real seed=17 budget=0.1 Transformer: F1=0.491
+real seed=17 budget=0.1 SSL_Transformer: F1=0.479
+real seed=17 budget=0.2 RandomForest: F1=0.825
+real seed=17 budget=0.2 Transformer: F1=0.478
+real seed=17 budget=0.2 SSL_Transformer: F1=0.479
+real seed=17 budget=1.0 RandomForest: F1=0.846
+real seed=17 budget=1.0 Transformer: F1=0.899
+real seed=17 budget=1.0 SSL_Transformer: F1=0.857
+real seed=27 budget=0.05 RandomForest: F1=0.728
+real seed=27 budget=0.05 Transformer: F1=0.480
+real seed=27 budget=0.05 SSL_Transformer: F1=0.480
+real seed=27 budget=0.1 RandomForest: F1=0.795
+real seed=27 budget=0.1 Transformer: F1=0.479
+real seed=27 budget=0.1 SSL_Transformer: F1=0.480
+real seed=27 budget=0.2 RandomForest: F1=0.820
+real seed=27 budget=0.2 Transformer: F1=0.496
+real seed=27 budget=0.2 SSL_Transformer: F1=0.476
+real seed=27 budget=1.0 RandomForest: F1=0.840
+real seed=27 budget=1.0 Transformer: F1=0.871
+real seed=27 budget=1.0 SSL_Transformer: F1=0.761
+{
+  "selection": {
+    "method": "Transformer",
+    "seed": 7,
+    "label_fraction": 1.0,
+    "validation_scores": {
+      "RandomForest": 0.8576935274082998,
+      "Transformer": 0.9324204637963152,
+      "SSL_Transformer": 0.8905720743718414
+    },
+    "selection": "highest mean validation macro-F1 across seeds; seed=7 fixed, no test-based selection",
+    "checkpoint": "models/model.pt",
+    "classes": [
+      "undisturbed_forest",
+      "clear_cut"
+    ],
+    "channels": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "task": "Retrospective classification of selected 24-month windows, not early warning or continuous map validation"
+  },
+  "selected_test_macro_f1": 0.8614507443775736,
+  "selected_confusion_matrix": [
+    [
+      442,
+      6
+    ],
+    [
+      12,
+      26
+    ]
+  ],
+  "spatial_groups_test": 175,
+  "positive_groups_test": 20,
+  "ssl_minus_supervised_at_20_percent": {
+    "mean": -0.005694595072904744,
+    "bootstrap_95_interval": [
+      -0.024456104034106307,
+      0.003021944979560124
+    ],
+    "resamples": 1000,
+    "unit": "spatial connected-component",
+    "conditional_on": "fixed data preparation and geographic split"
+  }
+}
+Predicted 486 samples
+test_duplicate_id_rejected (test_pipeline.ScientificContracts.test_duplicate_id_rejected) ... ok
+test_heldout_values_cannot_change_scaler (test_pipeline.ScientificContracts.test_heldout_values_cannot_change_scaler) ... ok
+test_masked_payload_does_not_change_logits (test_pipeline.ScientificContracts.test_masked_payload_does_not_change_logits) ... ok
+test_missing_values_never_become_ssl_targets (test_pipeline.ScientificContracts.test_missing_values_never_become_ssl_targets) ... ok
+test_nested_label_budgets_and_training_only (test_pipeline.ScientificContracts.test_nested_label_budgets_and_training_only) ... ok
+test_no_group_overlap (test_pipeline.ScientificContracts.test_no_group_overlap) ... ok
+test_normalized_difference_zero_and_nodata (test_pipeline.ScientificContracts.test_normalized_difference_zero_and_nodata) ... ok
+test_real_data_require_provenance (test_pipeline.ScientificContracts.test_real_data_require_provenance) ... ok
+test_saved_result_integrity (test_pipeline.ScientificContracts.test_saved_result_integrity) ... ok
+test_inference_matches_recorded_test (test_real_pipeline.RealPipeline.test_inference_matches_recorded_test) ... ok
+test_nested_real_budgets_and_no_test_overlap (test_real_pipeline.RealPipeline.test_nested_real_budgets_and_no_test_overlap) ... ok
+test_no_label_features (test_real_pipeline.RealPipeline.test_no_label_features) ... ok
+test_real_primary_support (test_real_pipeline.RealPipeline.test_real_primary_support) ... ok
+test_selection_uses_validation (test_real_pipeline.RealPipeline.test_selection_uses_validation) ... ok
+test_source_event_not_split (test_real_pipeline.RealPipeline.test_source_event_not_split) ... ok
+test_spatial_buffer (test_real_pipeline.RealPipeline.test_spatial_buffer) ... ok
+test_unique_points (test_real_pipeline.RealPipeline.test_unique_points) ... ok
+test_wrong_band_order_rejected (test_real_pipeline.RealPipeline.test_wrong_band_order_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.508s
+
+OK
+Updated offline real-data demo and research report.
+/Users/gnrnoguz/Documents/ChatGPT/NidaHocaylaPaper/output/pdf/Orman_SSL_Toplanti_Dosyasi.pdf
+{
+  "status": "passed",
+  "checks": [
+    "Figshare source hashes match saved download manifest",
+    "Sentinel crop hashes match saved manifest",
+    "Sentinel bands and index outputs use identical 20 m UTM grid",
+    "All dNBR threshold counts, masks and hectare conversions recompute exactly",
+    "GFD exact counts cover every cell; QGIS styles are well-formed XML"
+  ]
+}
+{
+  "status": "passed",
+  "checks": [
+    "All pinned DISFOR download hashes match",
+    "Unlabeled CLI inference reproduces all 486 saved predictions and passes quality checks",
+    "Selected-model metrics and GeoJSON support agree with actual test labels",
+    "Seven-page PDF contains text on every page",
+    "All 36 primary real-data runs are present"
+  ],
+  "automated_test_log": "reports/tests_v2.log",
+  "manual_review_record": "docs/TESLIM_KONTROLU.md"
+}

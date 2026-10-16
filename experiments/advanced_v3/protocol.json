@@ -1,0 +1,16 @@
+{
+  "version": "advanced_v3",
+  "task": "Retrospective 24-month Sentinel-2 clear-cut versus undisturbed forest classification",
+  "data": "Existing 2213 high-confidence DISFOR series; unchanged labels, bands, geographic components and outer split",
+  "test_status": "The 486-point test set was examined in earlier project iterations. This is a transparent repeated benchmark, NOT a new external validation.",
+  "selection": "4-fold stratified spatial-group CV within the 1266 training points only; rank mean fold macro-F1 at threshold 0.5. CV scores are tuning scores, not unbiased final performance estimates.",
+  "candidates": ["rf_leaf1", "rf_leaf4", "cnn32", "cnn64", "transformer48", "ssl_transformer48"],
+  "training": {"max_epochs": 80, "minimum_epochs": 20, "patience": 12, "pretrain_epochs": 60, "batch_size": 64, "class_weights": "training-label inverse frequency", "augmentation": "10% random month removal, retain at least one observed month", "ssl": "contiguous month blocks plus band masking; target only truly observed values"},
+  "final_ensemble": "Top two candidate configurations by training CV, five seeds each (7,17,27,37,47), equal probability averaging. Fixed final epochs are max(20, median CV best epoch); no final epoch selection on test or calibration set.",
+  "calibration": "Fit logistic calibration on ensemble logits using the existing 461 validation points. Select threshold on that same development set for macro-F1 over fixed grid 0.10..0.90 step 0.02; ties closest to 0.5. These calibration/threshold fitting scores are not independent estimates.",
+  "label_efficiency": "Weighted supervised Transformer versus matched SSL Transformer at 5%, 10%, 20% training labels, seeds 7,17,27, fixed 40 supervised epochs. Same initialization and labeled subsets; SSL uses all training observations but no labels. Threshold 0.5; no tuning from test results.",
+  "evaluation": "After freezing ensemble, calibration and threshold: confusion matrix, per-class metrics, ROC-AUC, PR-AUC, Brier score, log loss, 2000 spatial-group bootstrap draws (one-class draws discarded), old-model paired comparison and deterministic missing-month stress tests.",
+  "deployment": "Persist every selected member, train-only normalizer, calibration, threshold, hashes, quality flags and member disagreement. No claim of calibrated certainty under geographic shift.",
+  "scope": "No newly collected field truth, no Sentinel-1 fusion and no nationwide operational mapping; those need additional suitable data. Do not fabricate them.",
+  "report": "Machine-readable experiment records and model metadata only; the requested narrative report remains deferred."
+}

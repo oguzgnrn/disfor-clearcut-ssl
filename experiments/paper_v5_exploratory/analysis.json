@@ -1,0 +1,447 @@
+{
+  "status": "complete_verified",
+  "version": "paper_v5_exploratory",
+  "fits": 75,
+  "seeds": [
+    7
+  ],
+  "locations": 2213,
+  "prediction_values": 33195,
+  "summary": [
+    {
+      "radius_km": 5,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 2213,
+      "groups": 874,
+      "fit_seconds_sum": 2.7761920019693207,
+      "macro_f1": 0.8411244666885461,
+      "average_precision": 0.7923638450368469,
+      "roc_auc": 0.909966480363329,
+      "brier": 0.05747849779070082,
+      "clear_cut_recall": 0.7246376811594203,
+      "confusion_matrix": [
+        [
+          1859,
+          78
+        ],
+        [
+          76,
+          200
+        ]
+      ]
+    },
+    {
+      "radius_km": 5,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 2213,
+      "groups": 874,
+      "fit_seconds_sum": 29.017851832002634,
+      "macro_f1": 0.8811753274979701,
+      "average_precision": 0.8560071988203755,
+      "roc_auc": 0.9252654261408274,
+      "brier": 0.045719076868978144,
+      "clear_cut_recall": 0.7934782608695652,
+      "confusion_matrix": [
+        [
+          1879,
+          58
+        ],
+        [
+          57,
+          219
+        ]
+      ]
+    },
+    {
+      "radius_km": 5,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 2213,
+      "groups": 874,
+      "fit_seconds_sum": 11.18049999899813,
+      "macro_f1": 0.8576055039886967,
+      "average_precision": 0.8518143285726327,
+      "roc_auc": 0.9162925635788198,
+      "brier": 0.05599261545606762,
+      "clear_cut_recall": 0.8007246376811594,
+      "confusion_matrix": [
+        [
+          1847,
+          90
+        ],
+        [
+          55,
+          221
+        ]
+      ]
+    },
+    {
+      "radius_km": 5,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 2213,
+      "groups": 874,
+      "fit_seconds_sum": 97.2699890419899,
+      "macro_f1": 0.8726413397693675,
+      "average_precision": 0.8707447564723048,
+      "roc_auc": 0.9446346135140999,
+      "brier": 0.04824618786749605,
+      "clear_cut_recall": 0.8152173913043478,
+      "confusion_matrix": [
+        [
+          1860,
+          77
+        ],
+        [
+          51,
+          225
+        ]
+      ]
+    },
+    {
+      "radius_km": 5,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "step_matched",
+      "n": 2213,
+      "groups": 874,
+      "fit_seconds_sum": 85.76559833301872,
+      "macro_f1": 0.9017207888751153,
+      "average_precision": 0.85026742778243,
+      "roc_auc": 0.9087394222351912,
+      "brier": 0.04080267032657501,
+      "clear_cut_recall": 0.7971014492753623,
+      "confusion_matrix": [
+        [
+          1901,
+          36
+        ],
+        [
+          56,
+          220
+        ]
+      ]
+    },
+    {
+      "radius_km": 10,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 2213,
+      "groups": 205,
+      "fit_seconds_sum": 2.8513365000108024,
+      "macro_f1": 0.8434110046102012,
+      "average_precision": 0.7733852968228712,
+      "roc_auc": 0.9026443476764459,
+      "brier": 0.05702884912487013,
+      "clear_cut_recall": 0.677536231884058,
+      "confusion_matrix": [
+        [
+          1883,
+          54
+        ],
+        [
+          89,
+          187
+        ]
+      ]
+    },
+    {
+      "radius_km": 10,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 2213,
+      "groups": 205,
+      "fit_seconds_sum": 30.280259624996688,
+      "macro_f1": 0.8783516301298606,
+      "average_precision": 0.8675472961526393,
+      "roc_auc": 0.9363257839330206,
+      "brier": 0.04419471888575776,
+      "clear_cut_recall": 0.8152173913043478,
+      "confusion_matrix": [
+        [
+          1867,
+          70
+        ],
+        [
+          51,
+          225
+        ]
+      ]
+    },
+    {
+      "radius_km": 10,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 2213,
+      "groups": 205,
+      "fit_seconds_sum": 11.369771583995316,
+      "macro_f1": 0.8489850864785726,
+      "average_precision": 0.8243988242422307,
+      "roc_auc": 0.8955130075643642,
+      "brier": 0.06015017200639026,
+      "clear_cut_recall": 0.7862318840579711,
+      "confusion_matrix": [
+        [
+          1842,
+          95
+        ],
+        [
+          59,
+          217
+        ]
+      ]
+    },
+    {
+      "radius_km": 10,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 2213,
+      "groups": 205,
+      "fit_seconds_sum": 97.24838791599905,
+      "macro_f1": 0.8515412092699076,
+      "average_precision": 0.8443042683800481,
+      "roc_auc": 0.9351847695150876,
+      "brier": 0.05760537566689983,
+      "clear_cut_recall": 0.8079710144927537,
+      "confusion_matrix": [
+        [
+          1836,
+          101
+        ],
+        [
+          53,
+          223
+        ]
+      ]
+    },
+    {
+      "radius_km": 10,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "step_matched",
+      "n": 2213,
+      "groups": 205,
+      "fit_seconds_sum": 84.9574139600154,
+      "macro_f1": 0.8429181868514075,
+      "average_precision": 0.8172372198505718,
+      "roc_auc": 0.9075048820452963,
+      "brier": 0.06762002980682028,
+      "clear_cut_recall": 0.8043478260869565,
+      "confusion_matrix": [
+        [
+          1826,
+          111
+        ],
+        [
+          54,
+          222
+        ]
+      ]
+    },
+    {
+      "radius_km": 20,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 2213,
+      "groups": 54,
+      "fit_seconds_sum": 2.8289570420165546,
+      "macro_f1": 0.8189876006171807,
+      "average_precision": 0.7425075398552058,
+      "roc_auc": 0.9047888936275279,
+      "brier": 0.06256335682282732,
+      "clear_cut_recall": 0.6884057971014492,
+      "confusion_matrix": [
+        [
+          1847,
+          90
+        ],
+        [
+          86,
+          190
+        ]
+      ]
+    },
+    {
+      "radius_km": 20,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 2213,
+      "groups": 54,
+      "fit_seconds_sum": 28.34944329300197,
+      "macro_f1": 0.7996975365791192,
+      "average_precision": 0.7997244428434078,
+      "roc_auc": 0.9020317538700964,
+      "brier": 0.08129590967657853,
+      "clear_cut_recall": 0.7789855072463768,
+      "confusion_matrix": [
+        [
+          1775,
+          162
+        ],
+        [
+          61,
+          215
+        ]
+      ]
+    },
+    {
+      "radius_km": 20,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 2213,
+      "groups": 54,
+      "fit_seconds_sum": 10.795115332992282,
+      "macro_f1": 0.7772413269022886,
+      "average_precision": 0.7828883318266939,
+      "roc_auc": 0.8922246414221902,
+      "brier": 0.08924966048110372,
+      "clear_cut_recall": 0.7536231884057971,
+      "confusion_matrix": [
+        [
+          1752,
+          185
+        ],
+        [
+          68,
+          208
+        ]
+      ]
+    },
+    {
+      "radius_km": 20,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 2213,
+      "groups": 54,
+      "fit_seconds_sum": 96.87658383300004,
+      "macro_f1": 0.8436543657467398,
+      "average_precision": 0.8426105662617234,
+      "roc_auc": 0.9236848405946743,
+      "brier": 0.05814515115203442,
+      "clear_cut_recall": 0.8043478260869565,
+      "confusion_matrix": [
+        [
+          1827,
+          110
+        ],
+        [
+          54,
+          222
+        ]
+      ]
+    },
+    {
+      "radius_km": 20,
+      "seed": 7,
+      "budget": 0.2,
+      "method": "step_matched",
+      "n": 2213,
+      "groups": 54,
+      "fit_seconds_sum": 85.7388034589967,
+      "macro_f1": 0.821616696164158,
+      "average_precision": 0.7824502462712652,
+      "roc_auc": 0.8692173015196067,
+      "brier": 0.07431814665981469,
+      "clear_cut_recall": 0.7463768115942029,
+      "confusion_matrix": [
+        [
+          1823,
+          114
+        ],
+        [
+          70,
+          206
+        ]
+      ]
+    }
+  ],
+  "radius_5_v4_reproduction": [
+    {
+      "method": "rf_leaf4",
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "interpretation": "Reproduction check of seed 7, not independent confirmation."
+    },
+    {
+      "method": "cnn64",
+      "maximum_probability_difference": 0.0,
+      "interpretation": "Reproduction check of seed 7, not independent confirmation."
+    },
+    {
+      "method": "transformer48",
+      "maximum_probability_difference": 0.0,
+      "interpretation": "Reproduction check of seed 7, not independent confirmation."
+    },
+    {
+      "method": "ssl_transformer48",
+      "maximum_probability_difference": 0.0,
+      "interpretation": "Reproduction check of seed 7, not independent confirmation."
+    },
+    {
+      "method": "step_matched",
+      "maximum_probability_difference": 0.0,
+      "interpretation": "Reproduction check of seed 7, not independent confirmation."
+    }
+  ],
+  "country": {
+    "status": "not_evaluated_missing_country_metadata",
+    "source_columns": [
+      "sample_id",
+      "original_sample_id",
+      "interpreter",
+      "dataset",
+      "source",
+      "source_description",
+      "s2_tile",
+      "cluster_id",
+      "cluster_description",
+      "comment",
+      "confidence",
+      "geometry"
+    ],
+    "country_columns": [],
+    "retained_manifest_columns": [
+      "id",
+      "sample_id",
+      "year",
+      "label",
+      "lon",
+      "lat",
+      "dataset",
+      "source",
+      "source_description",
+      "confidence",
+      "source_cluster",
+      "cluster_description",
+      "group",
+      "split"
+    ],
+    "countries": null,
+    "per_country_class_support": null,
+    "per_country_event_support": null,
+    "reason": "Neither the pinned raw sample table nor retained manifest supplies per-location country labels.",
+    "policy": "No country is guessed from coordinates, source text, S2 tile or campaign. Leave-country-out is not run.",
+    "future_requirement": "A provenance-checked country field or separately documented boundary join would be a new derived attribute, not an original DISFOR label."
+  },
+  "limitations": [
+    "Same-source retrospective cohort, not external data.",
+    "Architectures and original recipes were developed on this dataset.",
+    "Only seed 7 and 20 percent labels in this bounded extension.",
+    "No radius, fold or model recipe selected by scores.",
+    "Descriptive results only; no seed SD, p-values or confirmatory confidence intervals. One seed and sparse independent positive components limit inference.",
+    "One-seed pooled OOF metrics by radius and method; changes combine radius grouping and induced fold/training changes, not a causal radius effect."
+  ]
+}

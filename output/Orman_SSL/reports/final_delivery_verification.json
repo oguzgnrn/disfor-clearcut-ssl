@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-30T20:14:01.373834+00:00",
+  "tests": {
+    "count": 58,
+    "failures": 0,
+    "seconds": 3.23,
+    "log": "reports/final_delivery_tests.log"
+  },
+  "environment": {
+    "status": "passed",
+    "message": "Environment and inference assets: OK"
+  },
+  "scientific_records": {
+    "status": "passed",
+    "fits": 180,
+    "oof_predictions": 79668,
+    "checks": [
+      "frozen code/data/protocol SHA-256",
+      "exact declared jobs",
+      "fold identities",
+      "paired labeled subsets",
+      "training/test disjointness",
+      "prediction ranges and label alignment",
+      "fixed epochs and no validation selection",
+      "pretraining histories",
+      "complete OOF reconstruction",
+      "recomputed macro-F1 and average precision"
+    ]
+  },
+  "trained_model": {
+    "status": "passed",
+    "members": 10,
+    "cv_fits": 24,
+    "low_label_fits": 18,
+    "heldout_inference_samples": 486,
+    "checks": [
+      "CV-only selection",
+      "five fixed seeds per selected config",
+      "no test in training/calibration",
+      "low-label subsets restricted to training",
+      "member file hashes",
+      "NPZ inference equals evaluation",
+      "raw observation inference equals NPZ inference",
+      "probability normalization",
+      "frozen evaluation bundle"
+    ]
+  },
+  "real_product_run": {
+    "samples": 486,
+    "maximum_probability_difference": 0.0,
+    "raw_inputs_and_geojson": "identical to frozen reference",
+    "provenance": "output/product_demo/manifest.json",
+    "note": "Browser-triggered real inference on previously examined data; not new validation or retraining."
+  },
+  "document": {
+    "status": "passed",
+    "pages": 11,
+    "visual_review": "All 11 pages reviewed in the earlier render; pixel comparison confirms 10 unchanged pages. Updated page 8 visually re-inspected after matching the actual product button label; no clipping, overlap or missing Turkish glyphs.",
+    "pdf_sha256": "9f420233b6812191c92da7870fe578ed978042d87bb89fd1a25fba8895b68b94",
+    "docx_sha256": "39fc2e474d5f7daa65876a9dec8a43d822a2296c11f3ac09ec25b73656c4283a",
+    "independent_content_review": "Metrics, uncertainty intervals, subgroup support and model/version boundaries compared against recorded evidence",
+    "review_date": "2026-09-30",
+    "render_directory": "tmp/final_report_render_v2",
+    "changed_pages": [
+      8
+    ],
+    "unchanged_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "change": "Product action label corrected to Örnek veride analizi çalıştır in the report and meeting guide."
+  },
+  "browser": {
+    "status": "passed",
+    "checked_at": "2026-09-30T20:13:57.167604+00:00",
+    "method": "Manual browser interaction through Codex in-app browser; real localhost process; downloads checked via HTTP",
+    "source_sha256": {
+      "scripts/serve_product.py": "0b3488e8f529b7b88fef80138168c747aa548301364806aa97f9f97127796a45",
+      "reports/product.html": "c986731690d9f92d14efde64aa26cf9978f535f1a98c5e25a14da24bdfc80117"
+    },
+    "observed": {
+      "samples": 486,
+      "predicted_cuts": 28,
+      "cut_filter_2019": 13,
+      "empty_search_count": 0,
+      "empty_selection": "Sonuç bulunamadı",
+      "historical_macro_f1_display": "0,9187",
+      "error_buttons": 10,
+      "selected_missed_id": "disfor-1664-2018",
+      "selected_missed_score": "0,0176",
+      "monthly_quality_cells": 24,
+      "console_errors": 0
+    },
+    "visual_review": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "mobile_document_width": 390,
+      "mobile_horizontal_overflow": false,
+      "result": "Readable controls, cards, chart and geographic scatter; temporary viewport reset."
+    },
+    "real_job": {
+      "product": "Orman-SSL",
+      "state": "completed",
+      "message": "486 örnek ham veriden yeniden işlendi.",
+      "started_at": "2026-09-30T20:13:09.094430+00:00",
+      "finished_at": "2026-09-30T20:13:13.963424+00:00",
+      "elapsed_seconds": 4.87
+    },
+    "http_checks": [
+      {
+        "path": "/research",
+        "status": 200,
+        "bytes": 40929
+      },
+      {
+        "path": "/guide",
+        "status": 200,
+        "bytes": 9132
+      },
+      {
+        "path": "/output/final/Orman_SSL_Arastirma_ve_Urun_Raporu.pdf",
+        "status": 200,
+        "bytes": 391427
+      },
+      {
+        "path": "/output/paper/Orman_SSL_Manuscript.docx",
+        "status": 200,
+        "bytes": 378653
+      },
+      {
+        "path": "/download/predictions.json",
+        "status": 200,
+        "bytes": 76735
+      },
+      {
+        "path": "/download/predictions.geojson",
+        "status": 200,
+        "bytes": 196094
+      },
+      {
+        "path": "/download/manifest.json",
+        "status": 200,
+        "bytes": 92068
+      }
+    ],
+    "download_bytes_equal_active_files": true,
+    "scope": "Previously examined 486 records; this verifies the product and real inference, not independent field accuracy."
+  },
+  "delivery_files": {
+    "README.md": "da7b65c02e09ae12b317d10a620c003e2dbe54de5b1961a0fb68df55b0778bdc",
+    "URUNU_AC.command": "c39931c0177f51a12d017495cd2bec8da073a0442cafae3186163417f3b73d0b",
+    "docs/GORUSME_AKISI_VE_SORULAR.md": "329ab2ea040051a9bc1226831979636440ccae40691e696fa3c1af19cf92c60d",
+    "docs/URUN_KILAVUZU.md": "b39fe97b9bf5fb40a35d3c5d1dd388e2a07e3122132024e3e0d48a4f1b99d666",
+    "docs/ARASTIRMA_VE_URUN_RAPORU.md": "641d1b9046a3ac1efad8e1fa3c8105ea507e38fa405e1f790f592c03af99f99d",
+    "docs/NIHAI_BILIMSEL_DENETIM.md": "3c5b02a9dd0e4e7ebadd8fd80a1074ebb6cb0838de3f2a3f4fc27a01dd42acfb",
+    "docs/NIHAI_TEKNIK_DENETIM.md": "d552514a58baf409ba3eaf29a9960b06019fe60ea9479f5394a270ca3a24990d",
+    "reports/final_science_review.json": "a8621fbfffdfdcefde12d4ce7542d792eb9197f1ac4c73ab4c9509db7ccad7b1",
+    "reports/final_engineering_review.json": "b7980b6da05f3cac87c408e1c8da6b7241475d437d546965efe659f3e7257252",
+    "output/paper/Orman_SSL_Manuscript.docx": "c82048f1bbf1e6249f8f91afd30ca219763e2f7f778053f40f05514e3d48cf20",
+    "output/pdf/Orman_SSL_Manuscript.pdf": "2808f409c35d5901270536088780b9480e96351c92e6796fccb427a0da637b69"
+  },
+  "scope": "Local macOS CPU checks; 180 existing fits audited, one fit freshly reproduced in the archive smoke check; no external field validation."
+}

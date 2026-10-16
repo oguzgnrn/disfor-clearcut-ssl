@@ -1,0 +1,2865 @@
+{
+  "status": "passed",
+  "expected_pages": 15,
+  "original_lessons": 38,
+  "retained_lessons": 38,
+  "retained_blocks": 259,
+  "sourcefiles": 52,
+  "mapping": [
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 2,
+      "kind": "h",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 5,
+      "kind": "h",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 0,
+      "block": 7,
+      "kind": "check",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "block": 2,
+      "kind": "table",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 1,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 1,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 2,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "block": 2,
+      "kind": "table",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 3,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 4,
+      "kind": "h",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 4,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 2,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 5,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 6,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 6,
+      "block": 1,
+      "kind": "figure",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 6,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 6,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 6,
+      "block": 4,
+      "kind": "check",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "block": 1,
+      "kind": "figure",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "01_temeller.json",
+      "lesson": 7,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 3,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 0,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 1,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 2,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 4,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 3,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 4,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 5,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 5,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 6,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        5
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 7,
+      "block": 5,
+      "kind": "check",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 8,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 8,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 8,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 8,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 8,
+      "block": 4,
+      "kind": "check",
+      "destination_section": 6,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "02_modeller_ve_deneyler.json",
+      "lesson": 9,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        6
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 0,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 1,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 7,
+      "lesson_heading_pdf_pages": [
+        7
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 2,
+      "kind": "h",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 4,
+      "kind": "code",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 5,
+      "kind": "h",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 7,
+      "kind": "code",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 8,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 2,
+      "block": 9,
+      "kind": "check",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 3,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 3,
+      "block": 1,
+      "kind": "bullets",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 3,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 3,
+      "block": 3,
+      "kind": "check",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 3,
+      "kind": "code",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 4,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 8,
+      "lesson_heading_pdf_pages": [
+        8
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 1,
+      "kind": "code",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 2,
+      "kind": "table",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 7,
+      "kind": "code",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 5,
+      "block": 8,
+      "kind": "check",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 2,
+      "kind": "bullets",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 3,
+      "kind": "table",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "03_dosyalar_ve_gosterim.json",
+      "lesson": 6,
+      "block": 6,
+      "kind": "check",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 0,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 0,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 0,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 0,
+      "block": 3,
+      "kind": "bullets",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 0,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 9,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 7,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 1,
+      "block": 8,
+      "kind": "bullets",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 5,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 7,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 8,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 9,
+      "kind": "h",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 10,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 2,
+      "block": 11,
+      "kind": "p",
+      "destination_section": 10,
+      "lesson_heading_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 5,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 7,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 8,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 9,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 10,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 3,
+      "block": 11,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "block": 2,
+      "kind": "bullets",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "block": 4,
+      "kind": "bullets",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 4,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 5,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 12,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 5,
+      "block": 1,
+      "kind": "p",
+      "destination_section": 12,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 5,
+      "block": 2,
+      "kind": "bullets",
+      "destination_section": 12,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 6,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 12,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 6,
+      "block": 1,
+      "kind": "bullets",
+      "destination_section": 12,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 6,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 12,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 2,
+      "kind": "bullets",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 3,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 5,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 7,
+      "kind": "h",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "04_hocaya_hazirlik.json",
+      "lesson": 7,
+      "block": 8,
+      "kind": "p",
+      "destination_section": 11,
+      "lesson_heading_pdf_pages": [
+        12
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 0,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 0,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 0,
+      "block": 2,
+      "kind": "check",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 1,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 1,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 1,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 2,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 2,
+      "block": 1,
+      "kind": "table",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 2,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 2,
+      "block": 3,
+      "kind": "p",
+      "destination_section": 13,
+      "lesson_heading_pdf_pages": [
+        13
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 1,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 3,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 4,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 5,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 6,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 7,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 8,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 9,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 10,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 11,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 12,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 13,
+      "kind": "link",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 14,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 3,
+      "block": 15,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 0,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 1,
+      "kind": "h",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 2,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 3,
+      "kind": "table",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 4,
+      "kind": "h",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 5,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 6,
+      "kind": "h",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 7,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    },
+    {
+      "module": "05_basvuru.json",
+      "lesson": 4,
+      "block": 8,
+      "kind": "p",
+      "destination_section": 14,
+      "lesson_heading_pdf_pages": [
+        14
+      ]
+    }
+  ],
+  "source_sha256": {
+    "docs/egitim/01_temeller.json": "1b946c0588f5953d5146acfa48b1bdadbfe5728a4cfb2f98c5d46eedc6fa6eb4",
+    "docs/egitim/02_modeller_ve_deneyler.json": "ac9e62caef386903545e96f293e2265b74d64c1c4548a5c0740763b9f52402b8",
+    "docs/egitim/03_dosyalar_ve_gosterim.json": "002b7d3ae2b5c488c9d4541187229bc5c05bf050cce59ee2978607804ac6dcc4",
+    "docs/egitim/04_hocaya_hazirlik.json": "c7f25c643a86b4931135ccb2d46e07a2dcfc606022c72051f018a8ced93a9829",
+    "docs/egitim/05_basvuru.json": "1bb6a13888eb4757a75c109e51527577dabe85881729ef4589f25a5292374ed4"
+  },
+  "compact_sha256": {
+    "docs/egitim/kisa/01_temeller.json": "9cb50eca9b53ece2697601d4fd06141ff817a04ae27a550187938f734503d9c0",
+    "docs/egitim/kisa/02_modeller_ve_deneyler.json": "29a4a835142df4890e1526e396b9be5b12a630ead8b72dc946f02432f8fc5675",
+    "docs/egitim/kisa/03_dosyalar_ve_gosterim.json": "3c6f2bfe83480da947f72615e9cfb8f3b56e144c0bc4625b163c5524d6f9c699",
+    "docs/egitim/kisa/04_hocaya_hazirlik.json": "b0e8d2689f6a0d874e25c81a88e2f7de8e11b1ff3211842e43039a2a3511bdf1",
+    "docs/egitim/kisa/05_basvuru.json": "4e3d88a742a8460b354ba165da18f748f7eae3723fa1ec3ca79f68ddd1faf528"
+  },
+  "figures": "Same observations and predictions, redrawn with compact placement; workflow labels retained",
+  "body_font": "Carlito 10.5 pt; table text 10.1–10.2 pt; no miniature body text",
+  "layout": [
+    {
+      "section": 1,
+      "title": "Proje ve uydu ölçümleri",
+      "lessons": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "section": 2,
+      "title": "Örneğin yapısı ve veri hazırlama",
+      "lessons": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "section": 3,
+      "title": "Öğrenme tahmin ve gerçek örnekler",
+      "lessons": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "section": 4,
+      "title": "Model aileleri ve özdenetimli öğrenme",
+      "lessons": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "section": 5,
+      "title": "Adil deney ve coğrafi değerlendirme",
+      "lessons": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "section": 6,
+      "title": "Başarı hesabı ve deney sonuçları",
+      "lessons": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "section": 7,
+      "title": "Sınırlar sürümler ve dosya haritası",
+      "lessons": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "section": 8,
+      "title": "Ürünü açma ve canlı gösterim",
+      "lessons": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "section": 9,
+      "title": "Eğitim kaydı paketler ve çalışma programı",
+      "lessons": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "section": 10,
+      "title": "Hocaya anlatım ve ilk beş soru",
+      "lessons": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "section": 11,
+      "title": "Zor sorular sonraki deney ve toplantı",
+      "lessons": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "section": 12,
+      "title": "Kendini sınama ve cevap anahtarı",
+      "lessons": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "section": 13,
+      "title": "Sözlük ve teknik başvuru",
+      "lessons": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "section": 14,
+      "title": "Kaynaklar ve son tekrar",
+      "lessons": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "section": 15,
+      "title": "Dosya dayanakları ve okuma rotası",
+      "lessons": []
+    }
+  ],
+  "actual_pdf_pages": 15,
+  "semantic_review": "All five modules compared with the original; topic, examples, commands, numeric tables, limitations, questions, answers and source references retained. Wording shortened and repeated explanations consolidated.",
+  "rendered_text_elements_checked": 631,
+  "missing_rendered_text_elements": 0,
+  "visual_review": "All 15 full-resolution rendered pages inspected; corrected chart orientation and axis label spacing on page 3, then re-rendered and inspected that page. Remaining 14 page images were unchanged.",
+  "qa_report": "reports/compact_learning_guide_document_qa.json"
+}

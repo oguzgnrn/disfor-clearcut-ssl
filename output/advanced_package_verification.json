@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "files": 28,
+  "checks": [
+    "safe paths",
+    "unique entries",
+    "CRC",
+    "all SHA-256 hashes",
+    "manifest coverage"
+  ],
+  "path": "output/Orman_SSL_Nihai_Model.zip",
+  "bytes": 2655741,
+  "sha256": "4dfe7c80cdd78826bca112f918c65a792883a4540b5684ae14f2fcaf4ee92d09"
+}

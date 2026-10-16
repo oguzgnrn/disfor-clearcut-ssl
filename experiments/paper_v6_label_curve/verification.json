@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "fits": 225,
+  "pooled_vectors": 45,
+  "checks": [
+    "v4 and v6 signatures",
+    "exact declared run IDs",
+    "declared label allocation",
+    "OOF once per location",
+    "label alignment",
+    "metrics recomputed",
+    "fixed epoch histories and no validation selection"
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "pages": [
+    {
+      "title": "Araştırma sürümü ile ürün sürümünü ayırmak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Araştırma aynı veride yöntemleri karşılaştırıp hangi koşulda hangi sonucun çıktığını ölçer; ürün eğitimli modeli kolay açılan arayüze bağlar. İlki bilimsel soruyu inceler; ikincisi örnekleri gösterip yeniden tahmin üretir. Birlikte sunulabilir, fakat sonuç sayıları ayrıdır."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Sürüm",
+            "Ne için var",
+            "Hangi sonuçla konuşulur"
+          ],
+          "rows": [
+            [
+              "paper_v4",
+              "Bilimsel karşılaştırma ve kontrol deneyleri",
+              "2.213 konum üzerinde beş coğrafi kat ve üç seed"
+            ],
+            [
+              "advanced_v3",
+              "Uygulamada çalışan kayıtlı model",
+              "Daha önce incelenmiş 486 örnekte ayrı değerlendirme"
+            ],
+            [
+              "Ürün arayüzü 1.1",
+              "Nokta seçme ve NPZ yükleyip modeli çalıştırma",
+              "Tahmin, gözlem kalitesi, spektral seri ve indirme"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "paper_v4 içindeki 180 eğitim koşusu; yöntem, coğrafi kat, rastgele başlangıç ve etiket miktarı birleşimleridir, 180 ayrı icat değildir. advanced_v3, beş SSL Transformer ve beş CNN’den oluşan on eğitimli modelin sonuçlarını birleştirir. Ekrandaki düğme kayıtlı modellerle tahmin üretir; eğitim başlatmaz."
+        },
+        {
+          "kind": "h",
+          "text": "Tamamlanmış olanı nasıl anlatırsın"
+        },
+        {
+          "kind": "p",
+          "text": "Gerçek veri hazırlama, eğitim kayıtları, karşılaştırmalar, çıkarım modeli, yerel arayüz, Türkçe rapor ve İngilizce makale hazır. Makale dosyası dergi kabulünü; çalışan ürün Türkiye’de bağımsız saha başarısını kanıtlamaz. Saha doğrulaması geliştirme kararlarında kullanılmamış uygun değerlendirme verisi gerektirir."
+        },
+        {
+          "kind": "p",
+          "text": "Ekranda “advanced_v3 modelini çalıştırıyorum”, tabloda “paper_v4 karşılaştırmalarına geçiyorum” de; böylece deneyleri ayırırsın. Kesim skoru tek örneğindir; makaledeki macro-F1 birçok örneğin tahminlerinden hesaplanan toplu ölçüttür."
+        },
+        {
+          "kind": "check",
+          "question": "Analizi yeniden çalıştırınca 180 deney de yeniden eğitilir mi?",
+          "answer": "Hayır. Ham örnek gözlemler işlenir, kayıtlı advanced_v3 ağırlıkları tahmin üretir. paper_v4 eğitimleri ayrı deney dosyaları ve eğitim komutundadır."
+        }
+      ],
+      "sourcefiles": [
+        "README.md",
+        "models/advanced_v3/bundle.json",
+        "experiments/paper_v4/completion.json",
+        "scripts/run_advanced.py",
+        "reports/product.html"
+      ]
+    },
+    {
+      "title": "Gerekli dosyaları bulmak ve kanıta ulaşmak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Klasörleri ezberleme; açacağın dosyayı ve kanıtını öğren. Yollar proje ana klasöründen başlar: output/final, output içindeki final klasörüdür. .pdf/.json uzantıları içerik türüdür."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "İhtiyacın",
+            "Açılacak yer"
+          ],
+          "rows": [
+            [
+              "Canlı ürünü açmak",
+              "URUNU_AC.command"
+            ],
+            [
+              "Türkçe sonuç raporunu okumak",
+              "output/final/Orman_SSL_Arastirma_ve_Urun_Raporu.pdf"
+            ],
+            [
+              "İngilizce makaleyi okumak",
+              "output/pdf/Orman_SSL_Manuscript.pdf"
+            ],
+            [
+              "Araştırmayı tarayıcıda incelemek",
+              "reports/paper_v4.html"
+            ],
+            [
+              "Bir iddianın kaynağını bulmak",
+              "paper/CLAIM_LEDGER.md"
+            ],
+            [
+              "Ürün modelinin kapsamını öğrenmek",
+              "models/advanced_v3/model_card.json"
+            ],
+            [
+              "Son denetimin neyi kontrol ettiğini görmek",
+              "reports/final_delivery_verification.json"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "İlk görüşmenin ana belgesi Türkçe rapordur. PDF sabit görünümle okumak/paylaşmak; aynı klasördeki aynı adlı .docx düzenlemek içindir. İngilizce makale daha resmî bilimsel anlatımdır; amaçları farklı olduğundan raporla başlıklarının aynı olması gerekmez."
+        },
+        {
+          "kind": "h",
+          "text": "Bir sayı sorulduğunda izleyeceğin yol"
+        },
+        {
+          "kind": "p",
+          "text": "“SSL sayısı nereden geliyor?” sorusunda paper/CLAIM_LEDGER.md içindeki iddiaya bak. Toplu sayılar experiments/paper_v4/analysis.json, tek deneyler experiments/paper_v4/runs içindedir. Ürünün 486 örneklik sonucu models/advanced_v3/model_card.json dosyasındadır; araştırma ortalamasıyla karıştırma."
+        },
+        {
+          "kind": "p",
+          "text": "Klasörün varlığı tamamlanma kanıtı değildir. Kontrol kaydında status, incelenen dosyalar ve tarihi birlikte oku. “passed”, belirtilen teknik kontrollerin geçtiğini söyler; bilimsel yenilik veya dış saha doğruluğunu garantilemez. Sunumda ana raporu açık tut; ham veriye dalma, kanıta yalnız sorulan noktayı göstermek için geç."
+        },
+        {
+          "kind": "check",
+          "question": "Hoca yalnız okumak istiyorsa önce neyi açarsın?",
+          "answer": "Türkçe araştırma ve ürün raporunun PDF’sini. JSON kayıtları ayrıntılı kanıttır; ilk açıklamanın yerini tutmaz."
+        }
+      ],
+      "sourcefiles": [
+        "README.md",
+        "paper/CLAIM_LEDGER.md",
+        "models/advanced_v3/model_card.json",
+        "experiments/paper_v4/analysis.json",
+        "reports/final_delivery_verification.json",
+        "scripts/package_project.py"
+      ]
+    },
+    {
+      "title": "Mac bilgisayarda ürünü açmak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu bilgisayardaki proje ortamı hazırdır. Finder’da NidaHocaylaPaper içindeki URUNU_AC.command dosyasına çift tıkla. Terminal, ardından tarayıcı ürün adresinde açılır. Uygulama Terminal’de çalışır; görüşmede açık tut. Tarayıcı kullanımı internete veri gönderildiğini göstermez; uygulama aynı bilgisayardadır."
+        },
+        {
+          "kind": "p",
+          "text": "Tarayıcı açılmazsa Terminal’deki adresi adres çubuğuna yapıştır: varsayılan http://127.0.0.1:8765. 127.0.0.1 kendi bilgisayarın, 8765 bağlantı numarasıdır. Projeyi internette aramak yerine adresi kullan. Açılıştaki 486 kayıt başlangıç verisinin yüklendiğini gösterir."
+        },
+        {
+          "kind": "h",
+          "text": "Başka bir bilgisayara taşırsan"
+        },
+        {
+          "kind": "p",
+          "text": "Tam proje ZIP’i kodu, veriyi ve modelleri içerir; bilgisayara özgü .venv ortamını içermez. Yeni bilgisayarda Python 3.11 gerekir; ilk kurulumdaki bağımlılık indirmeleri internet gerektirebilir. Terminal’de proje klasöründeyken aşağıdaki komutla ortamı hazırla; ardından URUNU_AC.command ile aç. PDF okumak kurulum gerektirmez."
+        },
+        {
+          "kind": "code",
+          "text": "bash scripts/setup.sh"
+        },
+        {
+          "kind": "h",
+          "text": "Çift tıklama izin hatası verirse"
+        },
+        {
+          "kind": "p",
+          "text": "Çalıştırma izni eksikse Terminal’i aç; cd ve boşluk yaz, proje klasörünü Finder’dan Terminal’e sürükle, Enter’a bas. Doğru klasörde aşağıdaki komutu çalıştır. ZIP’in içini değil, dışarı çıkarılmış proje klasörünü kullan."
+        },
+        {
+          "kind": "code",
+          "text": "bash URUNU_AC.command"
+        },
+        {
+          "kind": "p",
+          "text": "“Orman-SSL ortamı bulunamadı” kurulum gerektiğini söyler; çift tıklama sorunu değildir. “Address already in use”, bağlantı numarasının kullanımda olduğunu belirtir. Kendi açtığın eski ürün Terminal’ini Ctrl+C ile durdurup yeniden aç. Terminal kapanınca tarayıcıda kalan sayfa yeni analiz yapamaz; sunucuyu yeniden başlat."
+        },
+        {
+          "kind": "check",
+          "question": "Çalışırken Terminal’i kapatabilir misin?",
+          "answer": "Sunum boyunca açık tut: arayüz Terminal’deki yerel sunucuyla konuşur. İşin bitince Ctrl+C ile durdur."
+        }
+      ],
+      "sourcefiles": [
+        "URUNU_AC.command",
+        "scripts/setup.sh",
+        "scripts/serve_product.py",
+        "docs/URUN_KILAVUZU.md",
+        "scripts/package_project.py"
+      ]
+    },
+    {
+      "title": "Beş dakikada gerçek bir gösterim yapmak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bütün düğmelere basmak yerine gözlemden tahmine geçişi anlat. Dosyalardan doğrulanmış aşağıdaki iki kimlik aynı geçmiş değerlendirme kümesindendir. Referansları kaynak görüntü yorumlarıdır; yeni saha ziyareti yapıldığını söyleme."
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "İlk dakika: “Örnekleri keşfet”te 486 kayıt ve 28 kesim tahminini göster; “Tüm tahminler” ve “Tüm yıllar” seçili olsun. “Mekânsal görünüm” gerçek koordinatları gösterir; altlık harita veya kesintisiz orman sınırı içermez.",
+            "İkinci dakika: “Örnek kimliği ara…” alanına disfor-1733-2019 yazıp listedeki örneğe tıkla. “Kesim tahmini” ve 0,9981 skor görünür; referans etiketi de kesimdir. Dönem Ocak 2018–Aralık 2019; iki yılda da 10 gözlenen ay.",
+            "Üçüncü dakika: “24 aylık spektral iz”de B04, B08, B12’yi göster: “10 model bandının üçünü görüyoruz.” Boş aylar bağlanmaz, değerler kaynak DN’dir. Grafik olayın nedenini tek başına kanıtlamaz.",
+            "Dördüncü dakika: “Geçmiş değerlendirme”yi aç; “Yanlış sınıflandırılan örnekler”de disfor-1664-2018’e tıkla. Filtreler sıfırlanır, örnek açılır. Referans kesimken model orman demiştir; kesim skoru 0,0176. Dönem 2017–2018; iki yılda da dokuz gözlenen ay.",
+            "Beşinci dakika: “Örnek veride analizi çalıştır”a bas. “Analiz çalışıyor…” bitince yeniden üretim durumunu göster. “Tüm sonuçları indir”den JSON veya GeoJSON seç. Ham gözlemler yeniden işlenir; model yeniden eğitilmez."
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Aramada açık filtre örneği gizleyebilir; görünmezse filtreleri sıfırla. İndirme, süzülen noktayı değil aktif analizin tüm sonuçlarını verir. “Yüzde 99 kesin kesim” yerine “modelin kalibre edilmiş kesim skoru 0,9981” de. Kaçırılan örnek de kalite koşulunu karşılar: yeterli gözlem doğru tahmini garantilemez."
+        },
+        {
+          "kind": "check",
+          "question": "Kaçırılan örneği göstermek sunumu zayıflatır mı?",
+          "answer": "Hayır; hatayı ve sınırları bildiğini gösterir. Buradan dış doğrulamanın gerekliliğini açıklayabilirsin."
+        }
+      ],
+      "sourcefiles": [
+        "reports/product.html",
+        "reports/product_ui_verification.json",
+        "output/advanced_prediction/predictions.json",
+        "output/advanced_prediction/manifest.json",
+        "data/examples/inference_windows.json",
+        "data/disfor/sample_manifest.json"
+      ]
+    },
+    {
+      "title": "Veri ve model dosyalarının dilini okumak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Uzantı dosya türünü anlatır: okunabilir metin veya büyük sayısal diziler. Hepsini Word’de açma; veri, model, sonuç ve açıklamayı ayır."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Tür",
+            "Bu projedeki anlamı"
+          ],
+          "rows": [
+            [
+              "JSON",
+              "Anahtar ve değerlerle yazılmış okunabilir kayıt; örneğin predictions ve classes."
+            ],
+            [
+              "GeoJSON",
+              "JSON biçiminde coğrafi kayıt; geometry konumu, properties açıklayıcı alanları taşır."
+            ],
+            [
+              "NPZ",
+              "NumPy sayısal dizi arşivi; x, observed, days ve ids gibi alanları saklar."
+            ],
+            [
+              "PT",
+              "PyTorch model dosyası; öğrenilmiş ağırlıkları ve ilgili model bilgilerini taşır."
+            ],
+            [
+              "Parquet",
+              "Ham gözlemler gibi büyük tabloları saklamak için kullanılan dosya biçimi."
+            ],
+            [
+              "model_card.json",
+              "Modelin görevi, veri kapsamı, değerlendirmesi ve kullanım sınırları."
+            ],
+            [
+              "manifest.json",
+              "Hangi girdinin ve modelin kullanıldığını gösteren kaynak ve bütünlük kaydı."
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "predictions.json içinde ids kimlikleri, predictions sayısal sınıf kararları, probabilities iki sınıfın skorlarıdır. classes sırası undisturbed_forest, clear_cut olduğundan 0 orman, 1 kesimdir. Kimlik, karar ve skoru aynı liste konumunda eşleştir; kaydırırsan yanlış örneğe bağlarsın."
+        },
+        {
+          "kind": "code",
+          "text": "\"classes\": [\"undisturbed_forest\", \"clear_cut\"]\n\"threshold\": 0.5\n\"quality_eligible\": [true, true]"
+        },
+        {
+          "kind": "p",
+          "text": "Bu kesit mevcut dosyadaki alanları gösterir; tam JSON değildir. threshold karar eşiğidir. quality_eligible=true aylık gözlem koşulunun karşılandığını söyler; tahminin doğruluğunu söylemez. GeoJSON coordinates sırası boylam, enlemdir; ters çevirmek konumu bozar."
+        },
+        {
+          "kind": "p",
+          "text": "Yeni girdide docs/VERI_SOZLESMESI.md esas alınır. x: N örnek × 24 ay × 10 bant; observed: gözlenen hücreler; days: zaman; metadata: bant sırası ve birim. Eğitim etiketi y çıkarımda gerekmez. DN yerine rastgele 0–1 yansıtım koymak, aynı dosya adına rağmen sözleşmeyi değiştirir."
+        },
+        {
+          "kind": "check",
+          "question": "PT’yi değiştirerek tahmini elle düzeltebilir misin?",
+          "answer": "Hayır; model dosyası sonuç tablosu değildir. Tahmin JSON’da incelenir; model değişikliği ayrı eğitim, sürüm ve değerlendirme gerektirir."
+        }
+      ],
+      "sourcefiles": [
+        "docs/VERI_SOZLESMESI.md",
+        "output/advanced_prediction/predictions.json",
+        "output/advanced_prediction/predictions.geojson",
+        "output/advanced_prediction/manifest.json",
+        "models/advanced_v3/model_card.json",
+        "models/advanced_v3/bundle.json"
+      ]
+    },
+    {
+      "title": "Bir eğitim kaydını deney defteri gibi okumak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Gerçek eğitimi yalnız başarı sayısı kanıtlamaz: ayarlar, günlük ve eğitim dışı tahminler birlikte okunur. Dosyada f0 coğrafi kat 0, s7 rastgele başlangıç seed 7, b0.2 yaklaşık yüzde 20 etiket bütçesidir."
+        },
+        {
+          "kind": "code",
+          "text": "experiments/paper_v4/runs/ssl_transformer48_f0_s7_b0.2.json"
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Dosyadaki alan",
+            "Bu koşuda okuduğun bilgi"
+          ],
+          "rows": [
+            [
+              "method",
+              "ssl_transformer48 adlı SSL Transformer yöntemi"
+            ],
+            [
+              "n_train ve n_labeled",
+              "1.774 eğitim örneği; 356 etiketli örnek"
+            ],
+            [
+              "epochs",
+              "40 denetimli eğitim turu"
+            ],
+            [
+              "train_ids ve test_ids",
+              "Eğitim kimlikleri ve ayrı tutulan 439 test kimliği"
+            ],
+            [
+              "log.history",
+              "Tur numarası ile eğitim kaybının kaydı"
+            ],
+            [
+              "y ve probabilities",
+              "Referans etiketler ile ayrı tutulan örneklerin kesim skorları"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Ayarlardan sonra log.history’ye bak: ilk tur loss ≈0,7594, kırkıncı tur 0,2119. Loss eğitim amacı bakımından hatayı özetler. Düşmesi eğitim verisine uyumun geliştiğini gösterir; saha başarısının aynı oranda arttığını göstermez. log.pretrain_loss ayrı SSL ön eğitimin kayıplarıdır; amaçları farklı olduğundan iki aşamanın kaybını aynı ölçek gibi karşılaştırma."
+        },
+        {
+          "kind": "p",
+          "text": "Sonra kimlik ayrımını kontrol et: bu kayıtta train_ids ve test_ids kesişmez; probabilities ayrı tutulan örneklerin skorlarıdır. Coğrafi kat tahminleri birleşince her örneğin kendisini görmeyen kat modelinden aldığı OOF tahminleri oluşur. experiments/paper_v4/oof_predictions.npz içindeki ssl_transformer48_0.2, üç seed için 3 × 2.213 değer taşır."
+        },
+        {
+          "kind": "p",
+          "text": "Hash dijital parmak izidir: SHA-256 eşitliği aynı baytları gösterir, bilimsel doğruluğu değil. signature.json kod/veri/protokol imzalarını; verification.json 180 koşu, ayrım ve OOF’nin yeniden kurulması kontrollerini saklar. Günlük tek başına yetmez; bağlantılı kayıtları ve tekrar üretimi birlikte değerlendir."
+        },
+        {
+          "kind": "p",
+          "text": "Kontrol edilen OOF’nin SHA-256 değeri aşağıdadır. Kopyayı karşılaştırırken bütün karakterler eşleşmelidir."
+        },
+        {
+          "kind": "code",
+          "text": "0df39e930d829cddd9c60d6d56efffb4e6cd0d0349c98778d72213e5a43ee14b"
+        },
+        {
+          "kind": "check",
+          "question": "Loss azalınca “Model dış sahada doğrulandı” diyebilir misin?",
+          "answer": "Hayır. Kayıp öğrenme sürecini anlatır; dış doğrulama, geliştirmede kullanılmamış uygun veride ayrı ölçüm gerektirir."
+        }
+      ],
+      "sourcefiles": [
+        "experiments/paper_v4/runs/ssl_transformer48_f0_s7_b0.2.json",
+        "experiments/paper_v4/oof_predictions.npz",
+        "experiments/paper_v4/signature.json",
+        "experiments/paper_v4/verification.json",
+        "scripts/verify_paper.py"
+      ]
+    },
+    {
+      "title": "Sorun çıkarsa gösterimi sürdürmek ve doğru paketi paylaşmak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Görüşmeden önce Türkçe PDF’yi ve reports/paper_v4.html dosyasını açıp kontrol et. Araştırma HTML’i hazır sonuçları çevrimdışı gösterir. Canlı reports/product.html sunucu gerektirir; çift tıklamak aynı işlevi sağlamaz. Bunları ayırmak zaman kaybını önler; canlı gösterim tek anlatım yolun değildir."
+        },
+        {
+          "kind": "h",
+          "text": "Bir hata olduğunda sırayla düşün"
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "Sayfa açılmazsa ürün Terminal’ini ve adresi kontrol et; kapatıp açmadan önce mesajı oku.",
+            "Analiz başarısızsa önceki kayıtlı sonuçları göster; yeni denemenin tamamlanmadığını söyle. Günlük: output/product_demo/inference.log.",
+            "Kurulum/güvenlik engeli hemen çözülmezse Türkçe PDF ve çevrimdışı araştırma özetine geç; hazır sonuçla o anda yapılan çıkarımı ayır."
+          ]
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "ZIP paketi",
+            "Hangi ihtiyaç için"
+          ],
+          "rows": [
+            [
+              "Orman_SSL_Hocaya_Sunum.zip",
+              "Rapor, makale ve görüşme belgelerini okuyup değerlendirmek."
+            ],
+            [
+              "Orman_SSL_Proje_Paketi.zip",
+              "Canlı ürünü, ham veriyi, modelleri ve bütün proje kodunu taşımak."
+            ],
+            [
+              "Orman_SSL_Paper_Paketi.zip",
+              "İşlenmiş veri ve 180 koşu kaydıyla bilimsel deneyi tekrar üretmek."
+            ],
+            [
+              "Orman_SSL_Nihai_Model.zip",
+              "Hazır etiketsiz NPZ girdisinde advanced_v3 çıkarımı yapmak."
+            ]
+          ],
+          "widths": [
+            6.5,
+            10.3
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Dört ZIP output içindedir. Paper komutu tamamlanmış kayıtları önbellekten kullanır; sıfırdan eğitim için ayrı kopyada paper/SUPPLEMENT.md’yi izle. Sunum paketi okumak içindir; ham gözlem/ürün ağırlığı içermez. Paper bilimsel karşılaştırma paketidir, canlı ürün için değildir. Nihai model hazır girdiden tahmin üretir; ham gözlem hazırlama ve tam eğitim tam proje paketindedir. Her ZIP’in README’si kapsamını açıklar."
+        },
+        {
+          "kind": "p",
+          "text": "Önce Türkçe sonuç PDF’si ve Hocaya_Sunum paketini paylaşım için seç; İngilizce makale pakettedir. Ürünü çalıştırmak isteyen hocaya Proje_Paketi ve ürün kılavuzunu seç. Dosyalar yerelde hazırdır, otomatik gönderilmemiştir. Aynı adlı eski indirme kopyasını değil son sürümü kullan."
+        },
+        {
+          "kind": "check",
+          "question": "Sunum ZIP’i canlı modeli açmıyorsa ilk kontrolün?",
+          "answer": "Paket kapsamı. Sunum arşivi okumak içindir; canlı ürün tam proje paketi, uygun Python ortamı ve kurulum gerektirir."
+        }
+      ],
+      "sourcefiles": [
+        "scripts/package_project.py",
+        "scripts/package_paper.py",
+        "scripts/package_advanced.py",
+        "docs/URUN_KILAVUZU.md",
+        "reports/paper_v4.html",
+        "reports/product.html"
+      ]
+    }
+  ]
+}

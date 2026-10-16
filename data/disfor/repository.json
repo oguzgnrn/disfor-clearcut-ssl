@@ -1,0 +1,117 @@
+{
+  "_id": "69500c7b785ac06cb1e57a51",
+  "id": "JR-DIGITAL/DISFOR",
+  "author": "JR-DIGITAL",
+  "sha": "2562332e35c94c2339aeb341ffaed2a99faae7d6",
+  "lastModified": "2026-03-09T16:17:27.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:image-classification",
+    "task_categories:tabular-classification",
+    "task_categories:time-series-forecasting",
+    "language:en",
+    "language:de",
+    "license:eupl-1.2",
+    "size_categories:1K<n<10K",
+    "format:json",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "doi:10.57967/hf/7983",
+    "region:us",
+    "NRT",
+    "Sentinel-2",
+    "Remote-sensing",
+    "Forest",
+    "Change-detection"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDISFOR\n\t\n\nDISFOR offers dense labelled satellite time-series data on forest disturbance timing and agents of disturbance. It contains 3823 unique time-series. \nEach time-series corresponds to a single 10x10m Sentinel-2 pixel. \n\n\t\n\t\t\n\t\n\t\n\t\tUsage\n\t\n\nA Python package is available at https://github.com/JR-DIGITAL/DISFOR. It offers utilities to load and filter the available data.\nSee the github page for installation instructions. There are also usage guides available in the\u2026 See the full description on the dataset page: https://huggingface.co/datasets/JR-DIGITAL/DISFOR.",
+  "downloads": 140,
+  "likes": 0,
+  "cardData": {
+    "license": "eupl-1.2",
+    "task_categories": [
+      "image-classification",
+      "tabular-classification",
+      "time-series-forecasting"
+    ],
+    "language": [
+      "en",
+      "de"
+    ],
+    "tags": [
+      "NRT",
+      "Sentinel-2",
+      "Remote-sensing",
+      "Forest",
+      "Change-detection"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "classes.json"
+    },
+    {
+      "rfilename": "compress.sh"
+    },
+    {
+      "rfilename": "compress_and_upload.md"
+    },
+    {
+      "rfilename": "disfor-0-499.tar.zst"
+    },
+    {
+      "rfilename": "disfor-1000-1499.tar.zst"
+    },
+    {
+      "rfilename": "disfor-1500-1999.tar.zst"
+    },
+    {
+      "rfilename": "disfor-2000-2499.tar.zst"
+    },
+    {
+      "rfilename": "disfor-2500-2999.tar.zst"
+    },
+    {
+      "rfilename": "disfor-3000-3499.tar.zst"
+    },
+    {
+      "rfilename": "disfor-3500-3999.tar.zst"
+    },
+    {
+      "rfilename": "disfor-500-999.tar.zst"
+    },
+    {
+      "rfilename": "id_mapping.csv"
+    },
+    {
+      "rfilename": "labels.parquet"
+    },
+    {
+      "rfilename": "pixel_data.parquet"
+    },
+    {
+      "rfilename": "samples.parquet"
+    },
+    {
+      "rfilename": "train_ids.json"
+    },
+    {
+      "rfilename": "val_ids.json"
+    }
+  ],
+  "createdAt": "2025-12-27T16:42:35.000Z",
+  "usedStorage": 34637791096
+}

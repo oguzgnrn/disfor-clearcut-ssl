@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "jobs": 180,
+  "signature": {
+    "scripts/train_paper.py": "662a3a1b4df972ddc9d22518a2b0e0f281cda4c95c515aa8499053e40c5523c6",
+    "src/orman_ssl/advanced.py": "1bc3fa293416eb204f2f1061018e4c357090996b497532994dacd8fbe31e04ee",
+    "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18",
+    "src/orman_ssl/inputs.py": "a23b6baa03a3d4a2758d446d67225f74dca7d8d625467874099f6f7a93aa63b5",
+    "data/processed/real_series.npz": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+    "experiments/paper_v4/protocol.json": "96ed5e7ab4006a8462f74517e9565f88986e085b024c3a0c483b2b1de61ed23f"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pages": 17,
+  "visual_review": "All 17 page images inspected on 2026-10-16 (LibreOffice headless render of the DOCX): Sections 5.1-5.2, Tables 5-6, Figures 4-5 and the 26-entry reference list render without clipped tables or figures.",
+  "pdf_sha256": "fdd0a2f121c2ed3550f026792adb54afb5c1ea71d796b264d0db470ab27755a8",
+  "docx_sha256": "c43da8e9222c85d16c07b1f7e7c757e8558a6d76b79563259e83476250a97091",
+  "review_date": "2026-10-16"
+}

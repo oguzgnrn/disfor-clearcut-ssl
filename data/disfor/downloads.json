@@ -1,0 +1,40 @@
+{
+  "revision": "2562332e35c94c2339aeb341ffaed2a99faae7d6",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 6293,
+      "sha256": "ea7ebca87523ca4e24686de081b718c45e26768931c075048bcbeee8292b1d43"
+    },
+    {
+      "name": "classes.json",
+      "bytes": 758,
+      "sha256": "8c0ee798c8e2ba2fc85e98584f35647fd720f7845b2e684ad5ae14d54fc3150e"
+    },
+    {
+      "name": "samples.parquet",
+      "bytes": 161063,
+      "sha256": "82c6deebb431f6b91f4cce25a25f27e0b9754c08de9271d6336db4af7e992fe9"
+    },
+    {
+      "name": "labels.parquet",
+      "bytes": 109436,
+      "sha256": "017ece3222be9fe0d3197d35f837040cc0fb97248ad5f5058d6554bb911f503a"
+    },
+    {
+      "name": "pixel_data.parquet",
+      "bytes": 65718460,
+      "sha256": "04f60deef402465df3e0321084489976b3b7c3905a6e0f06963bb42f81a01cc3"
+    },
+    {
+      "name": "train_ids.json",
+      "bytes": 33477,
+      "sha256": "316df9ed292ddd9d4da899e4de8515df561e95b3fc8309fc930723ccbe419fa3"
+    },
+    {
+      "name": "val_ids.json",
+      "bytes": 3637,
+      "sha256": "bbda635c31cc0f7e6954fab71f0944e595ffa81270b6385fb7d2495fb0d9c794"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "fits": 90,
+  "unique_locations": 2213,
+  "oof_values": 39834,
+  "classifier_reconstruction_max_probability_difference": 1.6723595006595815e-06,
+  "checks": [
+    "source and result hashes",
+    "exact paired folds and label IDs",
+    "training-only scaler",
+    "classifier coefficient reconstruction",
+    "all OOF coverage",
+    "metrics recalculated"
+  ],
+  "scope": "Frozen linear probes on historical cohort; not external validation"
+}

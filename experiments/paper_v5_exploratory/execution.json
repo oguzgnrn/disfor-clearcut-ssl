@@ -1,0 +1,430 @@
+{
+  "scope": "bounded_declared_run",
+  "new_fits": 70,
+  "workers": 2,
+  "elapsed_wall_seconds": 318.7730421669985,
+  "completed_records": 75,
+  "result": [
+    {
+      "name": "r5_f0_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5781474169925787,
+      "macro_f1": 0.9034740545294635
+    },
+    {
+      "name": "r5_f0_s7_transformer48",
+      "cached": false,
+      "seconds": 2.5211399580002762,
+      "macro_f1": 0.9035109028862283
+    },
+    {
+      "name": "r5_f0_s7_cnn64",
+      "cached": false,
+      "seconds": 6.055154458008474,
+      "macro_f1": 0.9384660473769384
+    },
+    {
+      "name": "r5_f0_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.459568959005992,
+      "macro_f1": 0.9168560606060605
+    },
+    {
+      "name": "r5_f1_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5449763340002391,
+      "macro_f1": 0.7840928486089777
+    },
+    {
+      "name": "r5_f0_s7_step_matched",
+      "cached": false,
+      "seconds": 17.123201125010382,
+      "macro_f1": 0.9296864412000246
+    },
+    {
+      "name": "r5_f1_s7_transformer48",
+      "cached": false,
+      "seconds": 2.157318708006642,
+      "macro_f1": 0.862959263674539
+    },
+    {
+      "name": "r5_f1_s7_cnn64",
+      "cached": false,
+      "seconds": 6.002464541001245,
+      "macro_f1": 0.8272790409759339
+    },
+    {
+      "name": "r5_f1_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.64416529198934,
+      "macro_f1": 0.8808449178552085
+    },
+    {
+      "name": "r5_f2_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5262853339954745,
+      "macro_f1": 0.8175394900701317
+    },
+    {
+      "name": "r5_f1_s7_step_matched",
+      "cached": false,
+      "seconds": 17.253742625005543,
+      "macro_f1": 0.9260678159760729
+    },
+    {
+      "name": "r5_f2_s7_transformer48",
+      "cached": false,
+      "seconds": 2.1641191249946132,
+      "macro_f1": 0.7931046705341636
+    },
+    {
+      "name": "r5_f2_s7_cnn64",
+      "cached": false,
+      "seconds": 5.640121416989132,
+      "macro_f1": 0.8260735991451279
+    },
+    {
+      "name": "r5_f2_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.395236083000782,
+      "macro_f1": 0.8409843072601819
+    },
+    {
+      "name": "r5_f2_s7_step_matched",
+      "cached": false,
+      "seconds": 17.083717874993454,
+      "macro_f1": 0.8455329734307188
+    },
+    {
+      "name": "r5_f3_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5354494169878308,
+      "macro_f1": 0.8585915224108518
+    },
+    {
+      "name": "r5_f3_s7_transformer48",
+      "cached": false,
+      "seconds": 2.1791716250008903,
+      "macro_f1": 0.8687680605839174
+    },
+    {
+      "name": "r5_f3_s7_cnn64",
+      "cached": false,
+      "seconds": 5.63404945799266,
+      "macro_f1": 0.943573264781491
+    },
+    {
+      "name": "r5_f3_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.476001167000504,
+      "macro_f1": 0.8979307137874912
+    },
+    {
+      "name": "r5_f4_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5913334999931976,
+      "macro_f1": 0.8394065965720869
+    },
+    {
+      "name": "r5_f3_s7_step_matched",
+      "cached": false,
+      "seconds": 17.150058708008146,
+      "macro_f1": 0.9210025706940874
+    },
+    {
+      "name": "r5_f4_s7_transformer48",
+      "cached": false,
+      "seconds": 2.158750582995708,
+      "macro_f1": 0.8557913950456324
+    },
+    {
+      "name": "r5_f4_s7_cnn64",
+      "cached": false,
+      "seconds": 5.686061958011123,
+      "macro_f1": 0.8798541174520287
+    },
+    {
+      "name": "r5_f4_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.295017540993285,
+      "macro_f1": 0.8289117706440541
+    },
+    {
+      "name": "r10_f1_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5779798330040649,
+      "macro_f1": 0.854143040058533
+    },
+    {
+      "name": "r5_f4_s7_step_matched",
+      "cached": false,
+      "seconds": 17.15487800000119,
+      "macro_f1": 0.8810878066121579
+    },
+    {
+      "name": "r10_f1_s7_transformer48",
+      "cached": false,
+      "seconds": 2.1735180410032626,
+      "macro_f1": 0.8966023140275416
+    },
+    {
+      "name": "r10_f1_s7_cnn64",
+      "cached": false,
+      "seconds": 5.650102875006269,
+      "macro_f1": 0.9395776761026176
+    },
+    {
+      "name": "r10_f1_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.43760783300968,
+      "macro_f1": 0.9021563498982854
+    },
+    {
+      "name": "r10_f2_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5359063329960918,
+      "macro_f1": 0.8875370096225019
+    },
+    {
+      "name": "r10_f1_s7_step_matched",
+      "cached": false,
+      "seconds": 17.12912970900652,
+      "macro_f1": 0.9488971945367295
+    },
+    {
+      "name": "r10_f2_s7_transformer48",
+      "cached": false,
+      "seconds": 2.175159459002316,
+      "macro_f1": 0.8185677242373577
+    },
+    {
+      "name": "r10_f2_s7_cnn64",
+      "cached": false,
+      "seconds": 5.717738250008551,
+      "macro_f1": 0.8954003700357127
+    },
+    {
+      "name": "r10_f2_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.319646624993766,
+      "macro_f1": 0.7941651828516642
+    },
+    {
+      "name": "r10_f3_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5458782500063535,
+      "macro_f1": 0.7650195421552205
+    },
+    {
+      "name": "r10_f2_s7_step_matched",
+      "cached": false,
+      "seconds": 17.171600542002125,
+      "macro_f1": 0.8264302248677249
+    },
+    {
+      "name": "r10_f3_s7_transformer48",
+      "cached": false,
+      "seconds": 2.176605499989819,
+      "macro_f1": 0.8346672195728799
+    },
+    {
+      "name": "r10_f3_s7_cnn64",
+      "cached": false,
+      "seconds": 5.653712790997815,
+      "macro_f1": 0.8083715012722646
+    },
+    {
+      "name": "r10_f3_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.47574991598958,
+      "macro_f1": 0.8101734743244178
+    },
+    {
+      "name": "r10_f3_s7_step_matched",
+      "cached": false,
+      "seconds": 17.144511083999532,
+      "macro_f1": 0.8137873055905842
+    },
+    {
+      "name": "r10_f4_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.6049981670075795,
+      "macro_f1": 0.8712166241273616
+    },
+    {
+      "name": "r10_f4_s7_transformer48",
+      "cached": false,
+      "seconds": 2.6613030840089777,
+      "macro_f1": 0.833537733571532
+    },
+    {
+      "name": "r10_f4_s7_cnn64",
+      "cached": false,
+      "seconds": 6.902680874991347,
+      "macro_f1": 0.9197247951454548
+    },
+    {
+      "name": "r10_f4_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 20.341109083994525,
+      "macro_f1": 0.9035776614310647
+    },
+    {
+      "name": "r20_f0_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5647811250091763,
+      "macro_f1": 0.8608265563323346
+    },
+    {
+      "name": "r10_f4_s7_step_matched",
+      "cached": false,
+      "seconds": 17.2744510420016,
+      "macro_f1": 0.8968166383701188
+    },
+    {
+      "name": "r20_f0_s7_transformer48",
+      "cached": false,
+      "seconds": 2.1245792499976233,
+      "macro_f1": 0.8854368932038835
+    },
+    {
+      "name": "r20_f0_s7_cnn64",
+      "cached": false,
+      "seconds": 5.625721041986253,
+      "macro_f1": 0.9043302008476137
+    },
+    {
+      "name": "r20_f0_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.010178875003476,
+      "macro_f1": 0.9029804727646454
+    },
+    {
+      "name": "r20_f1_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5427819580072537,
+      "macro_f1": 0.8520070604339525
+    },
+    {
+      "name": "r20_f0_s7_step_matched",
+      "cached": false,
+      "seconds": 16.957833624997875,
+      "macro_f1": 0.8660257290665201
+    },
+    {
+      "name": "r20_f1_s7_transformer48",
+      "cached": false,
+      "seconds": 2.178767915989738,
+      "macro_f1": 0.7548141959099228
+    },
+    {
+      "name": "r20_f1_s7_cnn64",
+      "cached": false,
+      "seconds": 5.678289749994292,
+      "macro_f1": 0.8171034482758621
+    },
+    {
+      "name": "r20_f1_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.634200041997246,
+      "macro_f1": 0.8583711010397228
+    },
+    {
+      "name": "r20_f2_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.6033139170031063,
+      "macro_f1": 0.8474043259171217
+    },
+    {
+      "name": "r20_f1_s7_step_matched",
+      "cached": false,
+      "seconds": 17.33353870899009,
+      "macro_f1": 0.8502536878699615
+    },
+    {
+      "name": "r20_f2_s7_transformer48",
+      "cached": false,
+      "seconds": 2.1736149589996785,
+      "macro_f1": 0.8415987020959397
+    },
+    {
+      "name": "r20_f2_s7_cnn64",
+      "cached": false,
+      "seconds": 5.783915417006938,
+      "macro_f1": 0.8979999999999999
+    },
+    {
+      "name": "r20_f2_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.44086433299526,
+      "macro_f1": 0.86631339527681
+    },
+    {
+      "name": "r20_f3_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5736546249972889,
+      "macro_f1": 0.725452196382429
+    },
+    {
+      "name": "r20_f2_s7_step_matched",
+      "cached": false,
+      "seconds": 17.286484750002273,
+      "macro_f1": 0.8794854609197773
+    },
+    {
+      "name": "r20_f3_s7_transformer48",
+      "cached": false,
+      "seconds": 2.172539125007461,
+      "macro_f1": 0.8380335365853658
+    },
+    {
+      "name": "r20_f3_s7_cnn64",
+      "cached": false,
+      "seconds": 5.688457125012064,
+      "macro_f1": 0.8116041964241738
+    },
+    {
+      "name": "r20_f3_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.583065333004924,
+      "macro_f1": 0.8282668158647271
+    },
+    {
+      "name": "r20_f3_s7_step_matched",
+      "cached": false,
+      "seconds": 17.267034499993315,
+      "macro_f1": 0.824536331300813
+    },
+    {
+      "name": "r20_f4_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5444254169997294,
+      "macro_f1": 0.7795669340747391
+    },
+    {
+      "name": "r20_f4_s7_transformer48",
+      "cached": false,
+      "seconds": 2.1456140829977812,
+      "macro_f1": 0.6389999108777173
+    },
+    {
+      "name": "r20_f4_s7_cnn64",
+      "cached": false,
+      "seconds": 5.573059959002421,
+      "macro_f1": 0.6463170185851902
+    },
+    {
+      "name": "r20_f4_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 19.208275249999133,
+      "macro_f1": 0.764337816177668
+    },
+    {
+      "name": "r20_f4_s7_step_matched",
+      "cached": false,
+      "seconds": 16.893911875013146,
+      "macro_f1": 0.7156386536161488
+    }
+  ],
+  "note": "Pilot cost is a local concurrency-specific estimate, not a hardware-independent benchmark."
+}

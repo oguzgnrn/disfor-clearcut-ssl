@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-10-01T04:51:45.030022+00:00",
+  "files": {
+    "scripts/train_presto_probe.py": "5f385d34993c2be2c99bd4c4227772a80b53e2b2763f28983cde4edce150552c",
+    "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18",
+    "src/orman_ssl/inputs.py": "a23b6baa03a3d4a2758d446d67225f74dca7d8d625467874099f6f7a93aa63b5",
+    "scripts/train_paper.py": "662a3a1b4df972ddc9d22518a2b0e0f281cda4c95c515aa8499053e40c5523c6",
+    "data/processed/real_series.npz": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+    "data/disfor/sample_manifest.json": "977eb41362b09464a3afc98e6bffe3ccb374cdda5443158055b22bc5c1980fd0",
+    "experiments/paper_v4/folds.json": "d714a3da72951aba14167b3a334f9fd6d373a15cd10173bd1de96c218663e5e7",
+    "requirements-lock.txt": "2f660489bde168f2531dd396fb9d18675bdb3b79ff2f2a0f16ee97e73fdc564d",
+    "requirements-presto.txt": "0dc658f832c48aa0e589df2a8bb689fce28bf61054dbf13064d9b016a8d9b4e3",
+    "third_party/presto/PROVENANCE.json": "4536afc4f3af19db08322b1f4d123e2324e4bb9430c914fcaf1cf27136fae3bc",
+    "experiments/presto_v1_exploratory/protocol.json": "d27c74790007b22d63976b0a2cee40fb89def2588a6ca0c78c2f1c55caa8239d"
+  }
+}

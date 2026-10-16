@@ -1,0 +1,363 @@
+{
+  "status": "supported_for_descriptive_radius_sensitivity",
+  "locations": 2213,
+  "class_counts": [
+    1937,
+    276
+  ],
+  "radii": [
+    {
+      "radius_km": 5,
+      "groups": 874,
+      "positive_groups": 141,
+      "largest_component": 45,
+      "median_component": 1.0,
+      "folds": [
+        {
+          "fold": 0,
+          "test_class_counts": [
+            385,
+            54
+          ],
+          "training_class_counts": [
+            1552,
+            222
+          ],
+          "labeled_class_counts": [
+            311,
+            45
+          ],
+          "test_groups": 175,
+          "test_positive_groups": 26,
+          "nearest_train_test_km": 5.002108948863137,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 1,
+          "test_class_counts": [
+            386,
+            54
+          ],
+          "training_class_counts": [
+            1551,
+            222
+          ],
+          "labeled_class_counts": [
+            311,
+            45
+          ],
+          "test_groups": 164,
+          "test_positive_groups": 24,
+          "nearest_train_test_km": 5.010988546794412,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 2,
+          "test_class_counts": [
+            391,
+            58
+          ],
+          "training_class_counts": [
+            1546,
+            218
+          ],
+          "labeled_class_counts": [
+            310,
+            44
+          ],
+          "test_groups": 184,
+          "test_positive_groups": 30,
+          "nearest_train_test_km": 5.001115474843861,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 3,
+          "test_class_counts": [
+            386,
+            53
+          ],
+          "training_class_counts": [
+            1551,
+            223
+          ],
+          "labeled_class_counts": [
+            311,
+            45
+          ],
+          "test_groups": 178,
+          "test_positive_groups": 36,
+          "nearest_train_test_km": 5.001115474843861,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 4,
+          "test_class_counts": [
+            389,
+            57
+          ],
+          "training_class_counts": [
+            1548,
+            219
+          ],
+          "labeled_class_counts": [
+            310,
+            44
+          ],
+          "test_groups": 173,
+          "test_positive_groups": 25,
+          "nearest_train_test_km": 5.002108948863137,
+          "step_matched_epochs": 320
+        }
+      ]
+    },
+    {
+      "radius_km": 10,
+      "groups": 205,
+      "positive_groups": 41,
+      "largest_component": 304,
+      "median_component": 2.0,
+      "folds": [
+        {
+          "fold": 0,
+          "test_class_counts": [
+            388,
+            55
+          ],
+          "training_class_counts": [
+            1549,
+            221
+          ],
+          "labeled_class_counts": [
+            310,
+            45
+          ],
+          "test_groups": 41,
+          "test_positive_groups": 7,
+          "nearest_train_test_km": 10.00262118766312,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 1,
+          "test_class_counts": [
+            388,
+            55
+          ],
+          "training_class_counts": [
+            1549,
+            221
+          ],
+          "labeled_class_counts": [
+            310,
+            45
+          ],
+          "test_groups": 46,
+          "test_positive_groups": 9,
+          "nearest_train_test_km": 10.00262118766312,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 2,
+          "test_class_counts": [
+            386,
+            56
+          ],
+          "training_class_counts": [
+            1551,
+            220
+          ],
+          "labeled_class_counts": [
+            311,
+            44
+          ],
+          "test_groups": 41,
+          "test_positive_groups": 2,
+          "nearest_train_test_km": 10.111633271032982,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 3,
+          "test_class_counts": [
+            388,
+            55
+          ],
+          "training_class_counts": [
+            1549,
+            221
+          ],
+          "labeled_class_counts": [
+            310,
+            45
+          ],
+          "test_groups": 44,
+          "test_positive_groups": 13,
+          "nearest_train_test_km": 10.038344957269237,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 4,
+          "test_class_counts": [
+            387,
+            55
+          ],
+          "training_class_counts": [
+            1550,
+            221
+          ],
+          "labeled_class_counts": [
+            310,
+            45
+          ],
+          "test_groups": 33,
+          "test_positive_groups": 10,
+          "nearest_train_test_km": 10.068365872503277,
+          "step_matched_epochs": 320
+        }
+      ]
+    },
+    {
+      "radius_km": 20,
+      "groups": 54,
+      "positive_groups": 20,
+      "largest_component": 306,
+      "median_component": 5.0,
+      "folds": [
+        {
+          "fold": 0,
+          "test_class_counts": [
+            410,
+            62
+          ],
+          "training_class_counts": [
+            1527,
+            214
+          ],
+          "labeled_class_counts": [
+            306,
+            43
+          ],
+          "test_groups": 3,
+          "test_positive_groups": 2,
+          "nearest_train_test_km": 53.05624073850762,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 1,
+          "test_class_counts": [
+            371,
+            54
+          ],
+          "training_class_counts": [
+            1566,
+            222
+          ],
+          "labeled_class_counts": [
+            314,
+            45
+          ],
+          "test_groups": 17,
+          "test_positive_groups": 4,
+          "nearest_train_test_km": 20.3482922484076,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 2,
+          "test_class_counts": [
+            372,
+            53
+          ],
+          "training_class_counts": [
+            1565,
+            223
+          ],
+          "labeled_class_counts": [
+            313,
+            45
+          ],
+          "test_groups": 17,
+          "test_positive_groups": 3,
+          "nearest_train_test_km": 21.4685196202931,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 3,
+          "test_class_counts": [
+            372,
+            53
+          ],
+          "training_class_counts": [
+            1565,
+            223
+          ],
+          "labeled_class_counts": [
+            313,
+            45
+          ],
+          "test_groups": 11,
+          "test_positive_groups": 6,
+          "nearest_train_test_km": 20.3482922484076,
+          "step_matched_epochs": 320
+        },
+        {
+          "fold": 4,
+          "test_class_counts": [
+            412,
+            54
+          ],
+          "training_class_counts": [
+            1525,
+            222
+          ],
+          "labeled_class_counts": [
+            305,
+            45
+          ],
+          "test_groups": 6,
+          "test_positive_groups": 5,
+          "nearest_train_test_km": 21.4685196202931,
+          "step_matched_epochs": 320
+        }
+      ]
+    }
+  ],
+  "country": {
+    "status": "not_evaluated_missing_country_metadata",
+    "source_columns": [
+      "sample_id",
+      "original_sample_id",
+      "interpreter",
+      "dataset",
+      "source",
+      "source_description",
+      "s2_tile",
+      "cluster_id",
+      "cluster_description",
+      "comment",
+      "confidence",
+      "geometry"
+    ],
+    "country_columns": [],
+    "retained_manifest_columns": [
+      "id",
+      "sample_id",
+      "year",
+      "label",
+      "lon",
+      "lat",
+      "dataset",
+      "source",
+      "source_description",
+      "confidence",
+      "source_cluster",
+      "cluster_description",
+      "group",
+      "split"
+    ],
+    "countries": null,
+    "per_country_class_support": null,
+    "per_country_event_support": null,
+    "reason": "Neither the pinned raw sample table nor retained manifest supplies per-location country labels.",
+    "policy": "No country is guessed from coordinates, source text, S2 tile or campaign. Leave-country-out is not run.",
+    "future_requirement": "A provenance-checked country field or separately documented boundary join would be a new derived attribute, not an original DISFOR label."
+  },
+  "limitation": "At 10 and 20 km some test folds have only two positive components; point counts must not be treated as independent event support."
+}

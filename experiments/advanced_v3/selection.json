@@ -1,0 +1,101 @@
+{
+  "ranking": [
+    {
+      "config": {
+        "name": "ssl_transformer48",
+        "kind": "transformer",
+        "width": 48,
+        "dropout": 0.15,
+        "lr": 0.0005,
+        "ssl": true
+      },
+      "mean_macro_f1": 0.9427943548988961,
+      "std": 0.029538768237649185,
+      "final_epochs": 36
+    },
+    {
+      "config": {
+        "name": "cnn64",
+        "kind": "cnn",
+        "width": 64,
+        "dropout": 0.2,
+        "lr": 0.001
+      },
+      "mean_macro_f1": 0.9409303836743532,
+      "std": 0.025061613456348223,
+      "final_epochs": 21
+    },
+    {
+      "config": {
+        "name": "cnn32",
+        "kind": "cnn",
+        "width": 32,
+        "dropout": 0.15,
+        "lr": 0.001
+      },
+      "mean_macro_f1": 0.9395667586834946,
+      "std": 0.019504871629162035,
+      "final_epochs": 22
+    },
+    {
+      "config": {
+        "name": "transformer48",
+        "kind": "transformer",
+        "width": 48,
+        "dropout": 0.15,
+        "lr": 0.0005
+      },
+      "mean_macro_f1": 0.9297216243091335,
+      "std": 0.04638488964477761,
+      "final_epochs": 40
+    },
+    {
+      "config": {
+        "name": "rf_leaf4",
+        "kind": "rf",
+        "leaf": 4
+      },
+      "mean_macro_f1": 0.8672648930910123,
+      "std": 0.061315568786932735,
+      "final_epochs": 20
+    },
+    {
+      "config": {
+        "name": "rf_leaf1",
+        "kind": "rf",
+        "leaf": 1
+      },
+      "mean_macro_f1": 0.8655490430354168,
+      "std": 0.056093743852137626,
+      "final_epochs": 20
+    }
+  ],
+  "selected": [
+    {
+      "config": {
+        "name": "ssl_transformer48",
+        "kind": "transformer",
+        "width": 48,
+        "dropout": 0.15,
+        "lr": 0.0005,
+        "ssl": true
+      },
+      "mean_macro_f1": 0.9427943548988961,
+      "std": 0.029538768237649185,
+      "final_epochs": 36
+    },
+    {
+      "config": {
+        "name": "cnn64",
+        "kind": "cnn",
+        "width": 64,
+        "dropout": 0.2,
+        "lr": 0.001
+      },
+      "mean_macro_f1": 0.9409303836743532,
+      "std": 0.025061613456348223,
+      "final_epochs": 21
+    }
+  ],
+  "criterion": "Mean training-only spatial CV macro-F1; no test selection"
+}

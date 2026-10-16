@@ -1,0 +1,1131 @@
+{
+  "status": "support_audit_only",
+  "candidates": 111,
+  "class_counts": [
+    110,
+    1
+  ],
+  "rejections": {
+    "previously_used_point": 2213,
+    "not_high_confidence": 598,
+    "within_five_km_of_used_point": 476,
+    "no_eligible_2017_or_2024_window": 259,
+    "shared_source_event": 123,
+    "insufficient_monthly_support": 42
+  },
+  "minimum_distance_km": 5.075658247086252,
+  "windows": [
+    {
+      "id": "probe-40-2017",
+      "sample_id": 40,
+      "target_year": 2017,
+      "lon": -5.193930205161754,
+      "lat": 36.49428144254875,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 7.004722077122834
+    },
+    {
+      "id": "probe-257-2017",
+      "sample_id": 257,
+      "target_year": 2017,
+      "lon": 14.408560102018175,
+      "lat": 61.80033428026495,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 7.063479317858796
+    },
+    {
+      "id": "probe-262-2017",
+      "sample_id": 262,
+      "target_year": 2017,
+      "lon": 14.46582062466537,
+      "lat": 61.78862298323157,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 9.76019573940774
+    },
+    {
+      "id": "probe-268-2017",
+      "sample_id": 268,
+      "target_year": 2017,
+      "lon": 14.439227255403772,
+      "lat": 61.78633217646946,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.345569647256848
+    },
+    {
+      "id": "probe-270-2017",
+      "sample_id": 270,
+      "target_year": 2017,
+      "lon": 14.425058752104315,
+      "lat": 61.81760915956224,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.629214106545176
+    },
+    {
+      "id": "probe-272-2017",
+      "sample_id": 272,
+      "target_year": 2017,
+      "lon": 14.366977377030103,
+      "lat": 61.81975984063178,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.29324909340691
+    },
+    {
+      "id": "probe-275-2017",
+      "sample_id": 275,
+      "target_year": 2017,
+      "lon": 14.398954081962115,
+      "lat": 61.797578876003435,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.4894572429618
+    },
+    {
+      "id": "probe-276-2017",
+      "sample_id": 276,
+      "target_year": 2017,
+      "lon": 14.416499117533704,
+      "lat": 61.79071985831776,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 7.216205719573932
+    },
+    {
+      "id": "probe-278-2017",
+      "sample_id": 278,
+      "target_year": 2017,
+      "lon": 14.503597604258731,
+      "lat": 61.794189590485544,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 11.802393124451246
+    },
+    {
+      "id": "probe-279-2017",
+      "sample_id": 279,
+      "target_year": 2017,
+      "lon": 14.441234612928639,
+      "lat": 61.832864876759984,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 10.244459854664
+    },
+    {
+      "id": "probe-280-2017",
+      "sample_id": 280,
+      "target_year": 2017,
+      "lon": 14.449011475612593,
+      "lat": 61.80825481264031,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 9.359182186126018
+    },
+    {
+      "id": "probe-282-2017",
+      "sample_id": 282,
+      "target_year": 2017,
+      "lon": 14.451099919574085,
+      "lat": 61.78693268052008,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.97302240983823
+    },
+    {
+      "id": "probe-284-2017",
+      "sample_id": 284,
+      "target_year": 2017,
+      "lon": 14.452644972536822,
+      "lat": 61.803134881118325,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 9.370676525576592
+    },
+    {
+      "id": "probe-285-2017",
+      "sample_id": 285,
+      "target_year": 2017,
+      "lon": 14.433955823697483,
+      "lat": 61.8165331962865,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.98810377293535
+    },
+    {
+      "id": "probe-286-2017",
+      "sample_id": 286,
+      "target_year": 2017,
+      "lon": 14.392790552923366,
+      "lat": 61.83614318129455,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.54182579949923
+    },
+    {
+      "id": "probe-287-2017",
+      "sample_id": 287,
+      "target_year": 2017,
+      "lon": 14.406228208782025,
+      "lat": 61.833304115648005,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.828369595936604
+    },
+    {
+      "id": "probe-289-2017",
+      "sample_id": 289,
+      "target_year": 2017,
+      "lon": 14.365762574176117,
+      "lat": 61.81875660191481,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.169923384566457
+    },
+    {
+      "id": "probe-290-2017",
+      "sample_id": 290,
+      "target_year": 2017,
+      "lon": 14.408560102018175,
+      "lat": 61.80033428026495,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 7.063479317858796
+    },
+    {
+      "id": "probe-292-2017",
+      "sample_id": 292,
+      "target_year": 2017,
+      "lon": 14.475465609530662,
+      "lat": 61.820795149129005,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 11.163871302246806
+    },
+    {
+      "id": "probe-294-2017",
+      "sample_id": 294,
+      "target_year": 2017,
+      "lon": 14.46582062466537,
+      "lat": 61.78862298323157,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 9.76019573940774
+    },
+    {
+      "id": "probe-297-2017",
+      "sample_id": 297,
+      "target_year": 2017,
+      "lon": 14.439227255403772,
+      "lat": 61.78633217646946,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.345569647256848
+    },
+    {
+      "id": "probe-301-2017",
+      "sample_id": 301,
+      "target_year": 2017,
+      "lon": 14.366977377030103,
+      "lat": 61.81975984063178,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.29324909340691
+    },
+    {
+      "id": "probe-304-2017",
+      "sample_id": 304,
+      "target_year": 2017,
+      "lon": 14.398954081962115,
+      "lat": 61.797578876003435,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.4894572429618
+    },
+    {
+      "id": "probe-305-2017",
+      "sample_id": 305,
+      "target_year": 2017,
+      "lon": 14.416499117533704,
+      "lat": 61.79071985831776,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 7.216205719573932
+    },
+    {
+      "id": "probe-307-2017",
+      "sample_id": 307,
+      "target_year": 2017,
+      "lon": 14.503597604258731,
+      "lat": 61.794189590485544,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 11.802393124451246
+    },
+    {
+      "id": "probe-308-2017",
+      "sample_id": 308,
+      "target_year": 2017,
+      "lon": 14.441234612928639,
+      "lat": 61.832864876759984,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 10.244459854664
+    },
+    {
+      "id": "probe-309-2017",
+      "sample_id": 309,
+      "target_year": 2017,
+      "lon": 14.449011475612593,
+      "lat": 61.80825481264031,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 9.359182186126018
+    },
+    {
+      "id": "probe-311-2017",
+      "sample_id": 311,
+      "target_year": 2017,
+      "lon": 14.451099919574085,
+      "lat": 61.78693268052008,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.97302240983823
+    },
+    {
+      "id": "probe-313-2017",
+      "sample_id": 313,
+      "target_year": 2017,
+      "lon": 14.452644972536822,
+      "lat": 61.803134881118325,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 9.370676525576592
+    },
+    {
+      "id": "probe-315-2017",
+      "sample_id": 315,
+      "target_year": 2017,
+      "lon": 14.433955823697483,
+      "lat": 61.8165331962865,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.98810377293535
+    },
+    {
+      "id": "probe-316-2017",
+      "sample_id": 316,
+      "target_year": 2017,
+      "lon": 14.392790552923366,
+      "lat": 61.83614318129455,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.54182579949923
+    },
+    {
+      "id": "probe-317-2017",
+      "sample_id": 317,
+      "target_year": 2017,
+      "lon": 14.406228208782025,
+      "lat": 61.833304115648005,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 8.828369595936604
+    },
+    {
+      "id": "probe-319-2017",
+      "sample_id": 319,
+      "target_year": 2017,
+      "lon": 14.365762574176117,
+      "lat": 61.81875660191481,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.169923384566457
+    },
+    {
+      "id": "probe-320-2017",
+      "sample_id": 320,
+      "target_year": 2017,
+      "lon": 13.497810990307102,
+      "lat": 61.62116498709883,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 15.253302423463385
+    },
+    {
+      "id": "probe-321-2017",
+      "sample_id": 321,
+      "target_year": 2017,
+      "lon": 13.540965086282986,
+      "lat": 61.63058979111791,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 17.262046296348565
+    },
+    {
+      "id": "probe-326-2017",
+      "sample_id": 326,
+      "target_year": 2017,
+      "lon": 13.574707450966372,
+      "lat": 61.64096332253785,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 19.19294151421941
+    },
+    {
+      "id": "probe-327-2017",
+      "sample_id": 327,
+      "target_year": 2017,
+      "lon": 13.580254932189556,
+      "lat": 61.6397785604621,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 19.249578590573424
+    },
+    {
+      "id": "probe-328-2017",
+      "sample_id": 328,
+      "target_year": 2017,
+      "lon": 13.547540711746056,
+      "lat": 61.62798339601889,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 17.199030363675167
+    },
+    {
+      "id": "probe-330-2017",
+      "sample_id": 330,
+      "target_year": 2017,
+      "lon": 13.530810163788404,
+      "lat": 61.61950350315832,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 15.93020913668643
+    },
+    {
+      "id": "probe-331-2017",
+      "sample_id": 331,
+      "target_year": 2017,
+      "lon": 13.575510158688033,
+      "lat": 61.619848228106115,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 17.319824720316433
+    },
+    {
+      "id": "probe-332-2017",
+      "sample_id": 332,
+      "target_year": 2017,
+      "lon": 13.520668618647484,
+      "lat": 61.59528376069332,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 13.39152848963194
+    },
+    {
+      "id": "probe-335-2017",
+      "sample_id": 335,
+      "target_year": 2017,
+      "lon": 13.553589899183706,
+      "lat": 61.593728921915265,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 14.350474449612504
+    },
+    {
+      "id": "probe-336-2017",
+      "sample_id": 336,
+      "target_year": 2017,
+      "lon": 13.631965974895406,
+      "lat": 61.61366377042976,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 18.83715881193153
+    },
+    {
+      "id": "probe-337-2017",
+      "sample_id": 337,
+      "target_year": 2017,
+      "lon": 13.526282184256797,
+      "lat": 61.600664749233054,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 14.05090775267966
+    },
+    {
+      "id": "probe-338-2017",
+      "sample_id": 338,
+      "target_year": 2017,
+      "lon": 13.540697621062534,
+      "lat": 61.607817918629344,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 15.141610591500822
+    },
+    {
+      "id": "probe-341-2017",
+      "sample_id": 341,
+      "target_year": 2017,
+      "lon": 13.567636027726723,
+      "lat": 61.61503352978476,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 16.641727666231553
+    },
+    {
+      "id": "probe-342-2017",
+      "sample_id": 342,
+      "target_year": 2017,
+      "lon": 13.58725267378508,
+      "lat": 61.629752941824876,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 18.569614565225827
+    },
+    {
+      "id": "probe-344-2017",
+      "sample_id": 344,
+      "target_year": 2017,
+      "lon": 13.59785775848411,
+      "lat": 61.63672443504224,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 19.525586296486427
+    },
+    {
+      "id": "probe-345-2017",
+      "sample_id": 345,
+      "target_year": 2017,
+      "lon": 13.53905389839665,
+      "lat": 61.6218443430705,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 16.3823244375032
+    },
+    {
+      "id": "probe-346-2017",
+      "sample_id": 346,
+      "target_year": 2017,
+      "lon": 13.497810990307102,
+      "lat": 61.62116498709883,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 15.253302423463385
+    },
+    {
+      "id": "probe-351-2017",
+      "sample_id": 351,
+      "target_year": 2017,
+      "lon": 13.530810163788404,
+      "lat": 61.61950350315832,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 15.93020913668643
+    },
+    {
+      "id": "probe-352-2017",
+      "sample_id": 352,
+      "target_year": 2017,
+      "lon": 13.575510158688033,
+      "lat": 61.619848228106115,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 17.319824720316433
+    },
+    {
+      "id": "probe-353-2017",
+      "sample_id": 353,
+      "target_year": 2017,
+      "lon": 13.520668618647484,
+      "lat": 61.59528376069332,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 13.39152848963194
+    },
+    {
+      "id": "probe-356-2017",
+      "sample_id": 356,
+      "target_year": 2017,
+      "lon": 13.553589899183706,
+      "lat": 61.593728921915265,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 14.350474449612504
+    },
+    {
+      "id": "probe-357-2017",
+      "sample_id": 357,
+      "target_year": 2017,
+      "lon": 13.631965974895406,
+      "lat": 61.61366377042976,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 18.83715881193153
+    },
+    {
+      "id": "probe-359-2017",
+      "sample_id": 359,
+      "target_year": 2017,
+      "lon": 13.526282184256797,
+      "lat": 61.600664749233054,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 14.05090775267966
+    },
+    {
+      "id": "probe-360-2017",
+      "sample_id": 360,
+      "target_year": 2017,
+      "lon": 13.540697621062534,
+      "lat": 61.607817918629344,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 15.141610591500822
+    },
+    {
+      "id": "probe-363-2017",
+      "sample_id": 363,
+      "target_year": 2017,
+      "lon": 13.567636027726723,
+      "lat": 61.61503352978476,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 16.641727666231553
+    },
+    {
+      "id": "probe-364-2017",
+      "sample_id": 364,
+      "target_year": 2017,
+      "lon": 13.58725267378508,
+      "lat": 61.629752941824876,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 18.569614565225827
+    },
+    {
+      "id": "probe-366-2017",
+      "sample_id": 366,
+      "target_year": 2017,
+      "lon": 13.509773135499586,
+      "lat": 62.13790621879104,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 16.127489866222867
+    },
+    {
+      "id": "probe-395-2017",
+      "sample_id": 395,
+      "target_year": 2017,
+      "lon": 13.383691642348,
+      "lat": 61.35611538902072,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 13.130278787756547
+    },
+    {
+      "id": "probe-429-2017",
+      "sample_id": 429,
+      "target_year": 2017,
+      "lon": 13.496218785095897,
+      "lat": 61.5386870364022,
+      "label": 1,
+      "dataset": 1,
+      "distance_km": 7.976148861602754
+    },
+    {
+      "id": "probe-536-2017",
+      "sample_id": 536,
+      "target_year": 2017,
+      "lon": 10.370119043768135,
+      "lat": 49.82644542497668,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 18.384829243721214
+    },
+    {
+      "id": "probe-546-2017",
+      "sample_id": 546,
+      "target_year": 2017,
+      "lon": 10.637328569002085,
+      "lat": 49.81291778220979,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 23.320203091001044
+    },
+    {
+      "id": "probe-547-2017",
+      "sample_id": 547,
+      "target_year": 2017,
+      "lon": 10.795627424044474,
+      "lat": 49.796883860463375,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 29.412073579304575
+    },
+    {
+      "id": "probe-548-2017",
+      "sample_id": 548,
+      "target_year": 2017,
+      "lon": 10.794827939708554,
+      "lat": 49.79773273199343,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 29.42745143052704
+    },
+    {
+      "id": "probe-652-2017",
+      "sample_id": 652,
+      "target_year": 2017,
+      "lon": 10.072383452616993,
+      "lat": 51.53769595035633,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 5.075658247086252
+    },
+    {
+      "id": "probe-658-2017",
+      "sample_id": 658,
+      "target_year": 2017,
+      "lon": 10.316225122971051,
+      "lat": 51.6684308215441,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.338294737958599
+    },
+    {
+      "id": "probe-699-2017",
+      "sample_id": 699,
+      "target_year": 2017,
+      "lon": 9.67328283298528,
+      "lat": 51.47436934289417,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.464641465359752
+    },
+    {
+      "id": "probe-703-2017",
+      "sample_id": 703,
+      "target_year": 2017,
+      "lon": 9.819168513359047,
+      "lat": 51.520648096596155,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 11.352757527435884
+    },
+    {
+      "id": "probe-725-2017",
+      "sample_id": 725,
+      "target_year": 2017,
+      "lon": 12.744639012650104,
+      "lat": 51.11917402293094,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 23.747573347502904
+    },
+    {
+      "id": "probe-726-2017",
+      "sample_id": 726,
+      "target_year": 2017,
+      "lon": 12.64009379889046,
+      "lat": 51.217017261950865,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 20.20325229681019
+    },
+    {
+      "id": "probe-727-2017",
+      "sample_id": 727,
+      "target_year": 2017,
+      "lon": 12.826297867246172,
+      "lat": 50.73082759551129,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.38673955030409
+    },
+    {
+      "id": "probe-728-2017",
+      "sample_id": 728,
+      "target_year": 2017,
+      "lon": 12.572664387195308,
+      "lat": 51.131079169765485,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 29.799510644278918
+    },
+    {
+      "id": "probe-730-2017",
+      "sample_id": 730,
+      "target_year": 2017,
+      "lon": 12.772898596546185,
+      "lat": 51.13518719084811,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 21.33600459982571
+    },
+    {
+      "id": "probe-836-2017",
+      "sample_id": 836,
+      "target_year": 2017,
+      "lon": 10.534144915000065,
+      "lat": 49.811801812851336,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 20.498243237644886
+    },
+    {
+      "id": "probe-851-2017",
+      "sample_id": 851,
+      "target_year": 2017,
+      "lon": 13.594805797000054,
+      "lat": 51.196510047189804,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.184125281791124
+    },
+    {
+      "id": "probe-852-2017",
+      "sample_id": 852,
+      "target_year": 2017,
+      "lon": 13.683517715000047,
+      "lat": 51.213266747193714,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.822647984222889
+    },
+    {
+      "id": "probe-853-2017",
+      "sample_id": 853,
+      "target_year": 2017,
+      "lon": 13.695443176000028,
+      "lat": 51.140672998176996,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 6.102844937697239
+    },
+    {
+      "id": "probe-863-2017",
+      "sample_id": 863,
+      "target_year": 2017,
+      "lon": 12.814784796000017,
+      "lat": 50.69323317707189,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.91725398665188
+    },
+    {
+      "id": "probe-864-2017",
+      "sample_id": 864,
+      "target_year": 2017,
+      "lon": 12.814292773000034,
+      "lat": 50.694123277072066,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.96260349797083
+    },
+    {
+      "id": "probe-865-2017",
+      "sample_id": 865,
+      "target_year": 2017,
+      "lon": 12.813465015000071,
+      "lat": 50.691623384071505,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.99041086219975
+    },
+    {
+      "id": "probe-866-2017",
+      "sample_id": 866,
+      "target_year": 2017,
+      "lon": 12.81226097800005,
+      "lat": 50.69048066107124,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 56.06144819970876
+    },
+    {
+      "id": "probe-867-2017",
+      "sample_id": 867,
+      "target_year": 2017,
+      "lon": 12.812501312000055,
+      "lat": 50.69762294407295,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 56.132432647424146
+    },
+    {
+      "id": "probe-868-2017",
+      "sample_id": 868,
+      "target_year": 2017,
+      "lon": 12.812937984000026,
+      "lat": 50.69700962607279,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 56.09390829122277
+    },
+    {
+      "id": "probe-869-2017",
+      "sample_id": 869,
+      "target_year": 2017,
+      "lon": 12.800565749000048,
+      "lat": 50.7025734430741,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 57.03365033459188
+    },
+    {
+      "id": "probe-870-2017",
+      "sample_id": 870,
+      "target_year": 2017,
+      "lon": 12.825822505000072,
+      "lat": 50.69281143007174,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.139314847129555
+    },
+    {
+      "id": "probe-871-2017",
+      "sample_id": 871,
+      "target_year": 2017,
+      "lon": 12.824665409000035,
+      "lat": 50.69438551907216,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.23985023536133
+    },
+    {
+      "id": "probe-872-2017",
+      "sample_id": 872,
+      "target_year": 2017,
+      "lon": 12.83281386900006,
+      "lat": 50.69209836607158,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 54.641108967626316
+    },
+    {
+      "id": "probe-873-2017",
+      "sample_id": 873,
+      "target_year": 2017,
+      "lon": 12.831261607000041,
+      "lat": 50.69403750307205,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 54.77383752198874
+    },
+    {
+      "id": "probe-874-2017",
+      "sample_id": 874,
+      "target_year": 2017,
+      "lon": 12.848360838000078,
+      "lat": 50.690796747071296,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 53.53668659980174
+    },
+    {
+      "id": "probe-875-2017",
+      "sample_id": 875,
+      "target_year": 2017,
+      "lon": 12.854040737000041,
+      "lat": 50.69480049507223,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 53.190035703203264
+    },
+    {
+      "id": "probe-876-2017",
+      "sample_id": 876,
+      "target_year": 2017,
+      "lon": 12.86763405200003,
+      "lat": 50.693645140071986,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 52.22407616651537
+    },
+    {
+      "id": "probe-877-2017",
+      "sample_id": 877,
+      "target_year": 2017,
+      "lon": 12.855803218000057,
+      "lat": 50.69035011707123,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 53.010139201021666
+    },
+    {
+      "id": "probe-878-2017",
+      "sample_id": 878,
+      "target_year": 2017,
+      "lon": 12.831522345000057,
+      "lat": 50.686885419070336,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 54.67103330741374
+    },
+    {
+      "id": "probe-879-2017",
+      "sample_id": 879,
+      "target_year": 2017,
+      "lon": 12.828605228000072,
+      "lat": 50.731030509080966,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.2227999610768
+    },
+    {
+      "id": "probe-880-2017",
+      "sample_id": 880,
+      "target_year": 2017,
+      "lon": 12.821650336000062,
+      "lat": 50.7337303510816,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.67280076663657
+    },
+    {
+      "id": "probe-881-2017",
+      "sample_id": 881,
+      "target_year": 2017,
+      "lon": 12.816238292000035,
+      "lat": 50.7347921180818,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 56.03754171412076
+    },
+    {
+      "id": "probe-882-2017",
+      "sample_id": 882,
+      "target_year": 2017,
+      "lon": 12.817737011000078,
+      "lat": 50.7341739660817,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 55.94063473345174
+    },
+    {
+      "id": "probe-883-2017",
+      "sample_id": 883,
+      "target_year": 2017,
+      "lon": 12.74516150400007,
+      "lat": 51.11931547217211,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 23.718165951490334
+    },
+    {
+      "id": "probe-884-2017",
+      "sample_id": 884,
+      "target_year": 2017,
+      "lon": 12.752884610000017,
+      "lat": 51.13231883317512,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 22.179022964165828
+    },
+    {
+      "id": "probe-885-2017",
+      "sample_id": 885,
+      "target_year": 2017,
+      "lon": 12.719373452000067,
+      "lat": 51.12126248717257,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 24.325968671810358
+    },
+    {
+      "id": "probe-886-2017",
+      "sample_id": 886,
+      "target_year": 2017,
+      "lon": 12.751973905000053,
+      "lat": 51.13193493417505,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 22.24438742970066
+    },
+    {
+      "id": "probe-887-2017",
+      "sample_id": 887,
+      "target_year": 2017,
+      "lon": 12.76648297400004,
+      "lat": 51.1256692551736,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 22.484873334966508
+    },
+    {
+      "id": "probe-888-2017",
+      "sample_id": 888,
+      "target_year": 2017,
+      "lon": 12.766080412000065,
+      "lat": 51.11978029717227,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 23.104636195075027
+    },
+    {
+      "id": "probe-889-2017",
+      "sample_id": 889,
+      "target_year": 2017,
+      "lon": 12.815372700000067,
+      "lat": 51.16918749418362,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 16.783540202554363
+    },
+    {
+      "id": "probe-892-2017",
+      "sample_id": 892,
+      "target_year": 2017,
+      "lon": 12.572393437000075,
+      "lat": 51.13144799117491,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 29.785391062559675
+    },
+    {
+      "id": "probe-893-2017",
+      "sample_id": 893,
+      "target_year": 2017,
+      "lon": 12.820762634000062,
+      "lat": 51.18916748918821,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 14.552291004116855
+    },
+    {
+      "id": "probe-894-2017",
+      "sample_id": 894,
+      "target_year": 2017,
+      "lon": 12.610488462000038,
+      "lat": 51.13429055717558,
+      "label": 0,
+      "dataset": 1,
+      "distance_km": 27.668468734919678
+    },
+    {
+      "id": "probe-2229-2024",
+      "sample_id": 2229,
+      "target_year": 2024,
+      "lon": 13.995333265935903,
+      "lat": 50.60076537901079,
+      "label": 0,
+      "dataset": 2,
+      "distance_km": 6.814409886875838
+    },
+    {
+      "id": "probe-2284-2024",
+      "sample_id": 2284,
+      "target_year": 2024,
+      "lon": 14.421541718792033,
+      "lat": 50.59308386830521,
+      "label": 0,
+      "dataset": 2,
+      "distance_km": 6.976374715620967
+    }
+  ],
+  "rule": "Unused high-confidence points only; 2017/2024; >5 km from every previously used point; no shared event",
+  "limitation": "Same-source temporal probe, not independent external data. No model scores computed by this audit."
+}

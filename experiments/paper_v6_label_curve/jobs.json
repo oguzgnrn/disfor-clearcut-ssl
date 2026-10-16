@@ -1,0 +1,1352 @@
+[
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 0,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 1,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 2,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 3,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 17,
+    "budget": 0.5,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.05,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.1,
+    "method": "step_matched"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "rf_leaf4"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "cnn64"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "ssl_transformer48"
+  },
+  {
+    "fold": 4,
+    "seed": 27,
+    "budget": 0.5,
+    "method": "step_matched"
+  }
+]

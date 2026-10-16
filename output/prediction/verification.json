@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "n": 486,
+  "checks": [
+    "Raw label-free observations reproduce x, mask, days and IDs exactly",
+    "Predictions and scores match frozen model evaluation",
+    "GeoJSON IDs and WGS84 points match input windows"
+  ]
+}

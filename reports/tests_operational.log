@@ -1,0 +1,34 @@
+test_channel_count_rejected_before_broadcast (test_inference_workflow.InputContracts.test_channel_count_rejected_before_broadcast) ... ok
+test_empty_batch_rejected (test_inference_workflow.InputContracts.test_empty_batch_rejected) ... ok
+test_incorrect_id_dimensions_rejected (test_inference_workflow.InputContracts.test_incorrect_id_dimensions_rejected) ... ok
+test_labels_cannot_change_prepared_features (test_inference_workflow.InputContracts.test_labels_cannot_change_prepared_features) ... ok
+test_leap_calendar_templates_accepted (test_inference_workflow.InputContracts.test_leap_calendar_templates_accepted) ... ok
+test_missing_month_payload_does_not_affect_inference (test_inference_workflow.InputContracts.test_missing_month_payload_does_not_affect_inference) ... ok
+test_monthly_median_cloud_mask_and_missingness (test_inference_workflow.InputContracts.test_monthly_median_cloud_mask_and_missingness) ... ok
+test_no_usable_observation_fails_before_prediction (test_inference_workflow.InputContracts.test_no_usable_observation_fails_before_prediction) ... ok
+test_reflectance_units_rejected (test_inference_workflow.InputContracts.test_reflectance_units_rejected) ... ok
+test_string_false_not_interpreted_as_true (test_inference_workflow.InputContracts.test_string_false_not_interpreted_as_true) ... ok
+test_timestamps_cannot_be_unix_or_month_indices (test_inference_workflow.InputContracts.test_timestamps_cannot_be_unix_or_month_indices) ... ok
+test_duplicate_id_rejected (test_pipeline.ScientificContracts.test_duplicate_id_rejected) ... ok
+test_heldout_values_cannot_change_scaler (test_pipeline.ScientificContracts.test_heldout_values_cannot_change_scaler) ... ok
+test_masked_payload_does_not_change_logits (test_pipeline.ScientificContracts.test_masked_payload_does_not_change_logits) ... ok
+test_missing_values_never_become_ssl_targets (test_pipeline.ScientificContracts.test_missing_values_never_become_ssl_targets) ... ok
+test_nested_label_budgets_and_training_only (test_pipeline.ScientificContracts.test_nested_label_budgets_and_training_only) ... ok
+test_no_group_overlap (test_pipeline.ScientificContracts.test_no_group_overlap) ... ok
+test_normalized_difference_zero_and_nodata (test_pipeline.ScientificContracts.test_normalized_difference_zero_and_nodata) ... ok
+test_real_data_require_provenance (test_pipeline.ScientificContracts.test_real_data_require_provenance) ... ok
+test_saved_result_integrity (test_pipeline.ScientificContracts.test_saved_result_integrity) ... ok
+test_inference_matches_recorded_test (test_real_pipeline.RealPipeline.test_inference_matches_recorded_test) ... ok
+test_nested_real_budgets_and_no_test_overlap (test_real_pipeline.RealPipeline.test_nested_real_budgets_and_no_test_overlap) ... ok
+test_no_label_features (test_real_pipeline.RealPipeline.test_no_label_features) ... ok
+test_real_primary_support (test_real_pipeline.RealPipeline.test_real_primary_support) ... ok
+test_selection_uses_validation (test_real_pipeline.RealPipeline.test_selection_uses_validation) ... ok
+test_source_event_not_split (test_real_pipeline.RealPipeline.test_source_event_not_split) ... ok
+test_spatial_buffer (test_real_pipeline.RealPipeline.test_spatial_buffer) ... ok
+test_unique_points (test_real_pipeline.RealPipeline.test_unique_points) ... ok
+test_wrong_band_order_rejected (test_real_pipeline.RealPipeline.test_wrong_band_order_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.589s
+
+OK

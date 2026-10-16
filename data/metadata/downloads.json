@@ -1,0 +1,40 @@
+[
+  {
+    "path": "data/raw/GFC22.tif",
+    "member": "GFC0/GFC22.tif",
+    "url": "https://ndownloader.figshare.com/files/52545710",
+    "sha256": "c7373ed49362f72037774ce1dc581e4ab2893a2801eb305f2ec41237dce255c7",
+    "crs": "EPSG:4326",
+    "bounds": [
+      11.675583410758247,
+      -25.380191553757253,
+      18.000082337073326,
+      -18.20004731931833
+    ],
+    "shape": [
+      26643,
+      23468
+    ],
+    "nodata": null,
+    "dtype": "int16"
+  },
+  {
+    "path": "data/raw/GFC30.tif",
+    "member": "GFC0/GFC30.tif",
+    "url": "https://ndownloader.figshare.com/files/52545710",
+    "sha256": "881b158c36e0ae65ae8df00ea7dcf0277a4709f02918504f1cc4092a35bd0955",
+    "crs": "EPSG:4326",
+    "bounds": [
+      163.285152226894,
+      -23.052027831904688,
+      170.444814872855,
+      -18.477626742111262
+    ],
+    "shape": [
+      16974,
+      26567
+    ],
+    "nodata": null,
+    "dtype": "int16"
+  }
+]

@@ -1,0 +1,9 @@
+Python 3.11.9
+macOS-26.2-arm64-arm-64bit
+numpy==2.3.5
+scikit-learn==1.8.0
+torch==2.12.0
+matplotlib==3.10.9
+rasterio==1.4.4
+requests==2.34.2
+remotezip==0.12.3

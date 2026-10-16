@@ -1,0 +1,74 @@
+{
+  "n": 2213,
+  "groups": 874,
+  "class_counts": [
+    1937,
+    276
+  ],
+  "rejected": {
+    "not_high_confidence": 598,
+    "no_unambiguous_two_year_window": 606,
+    "insufficient_clear_months": 116,
+    "wildfire_excluded_from_primary_task": 289
+  },
+  "sha256": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+  "split": {
+    "train": {
+      "n": 1266,
+      "groups": 524,
+      "class_counts": [
+        1084,
+        182
+      ]
+    },
+    "validation": {
+      "n": 461,
+      "groups": 175,
+      "class_counts": [
+        405,
+        56
+      ]
+    },
+    "test": {
+      "n": 486,
+      "groups": 175,
+      "class_counts": [
+        448,
+        38
+      ]
+    }
+  },
+  "metadata": {
+    "kind": "real",
+    "name": "DISFOR retrospective clear-cut pilot",
+    "classes": [
+      "undisturbed_forest",
+      "clear_cut"
+    ],
+    "channels": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "source": "https://huggingface.co/datasets/JR-DIGITAL/DISFOR/tree/2562332e35c94c2339aeb341ffaed2a99faae7d6",
+    "label_provenance": "DISFOR high-confidence human-interpreted segments; auxiliary sources in sample manifest; not newly collected field ground truth",
+    "group_definition": "Connected components within 5 km plus same source damage polygon/storm; all years of a point kept together. Sampling strata excluded from event union.",
+    "temporal_alignment": "Two full calendar years; event must be in second year, intact forest in preceding year; negatives intact entire window; no event dates in features",
+    "units": "Source-provided DN, no added offset; per-channel standardization fitted on training only",
+    "task": "Retrospective classification of selected 24-month windows, not early warning or continuous map validation",
+    "license": "EUPL-1.2",
+    "monthly_quality": "Median of source clear AND SCL 4/5; at least 6 valid months in each year. Missing months remain missing."
+  },
+  "minimum_cross_split_distance_km": {
+    "train_test": 5.001115474843861,
+    "train_validation": 5.002108948863137,
+    "validation_test": 5.116775527531536
+  }
+}

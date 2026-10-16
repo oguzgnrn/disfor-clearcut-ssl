@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "archive_sha256": "51fa7894cc9240841963a2cfca54a9dbd1ef7242703b7fb953ad3d5569b5855a",
+  "fresh_neural_fit": "ssl_transformer48_f0_s7_b0.2",
+  "maximum_probability_difference": 0.0,
+  "isolated_paper_tests": "8 passed",
+  "original_workspace_modified": false
+}

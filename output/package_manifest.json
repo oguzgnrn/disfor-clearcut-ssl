@@ -1,0 +1,18 @@
+[
+  {
+    "path": "output/Orman_SSL_Proje_Paketi.zip",
+    "files": 1169,
+    "bytes": 127666045,
+    "sha256": "bda4958a9e41f2b7e4036293b30395cc5e7cc038bd47096fd336b6f0f8d3ec81",
+    "zip_crc_check": "passed",
+    "sha256_manifest_check": "passed"
+  },
+  {
+    "path": "output/Orman_SSL_Hocaya_Sunum.zip",
+    "files": 55,
+    "bytes": 3079026,
+    "sha256": "9fceca60ba3ba50f11cf2702a7054c976a8cd89f51cabc98ed21763aff78d692",
+    "zip_crc_check": "passed",
+    "sha256_manifest_check": "passed"
+  }
+]

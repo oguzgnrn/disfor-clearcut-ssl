@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-30T20:13:57.167604+00:00",
+  "method": "Manual browser interaction through Codex in-app browser; real localhost process; downloads checked via HTTP",
+  "source_sha256": {
+    "scripts/serve_product.py": "0b3488e8f529b7b88fef80138168c747aa548301364806aa97f9f97127796a45",
+    "reports/product.html": "c986731690d9f92d14efde64aa26cf9978f535f1a98c5e25a14da24bdfc80117"
+  },
+  "observed": {
+    "samples": 486,
+    "predicted_cuts": 28,
+    "cut_filter_2019": 13,
+    "empty_search_count": 0,
+    "empty_selection": "Sonuç bulunamadı",
+    "historical_macro_f1_display": "0,9187",
+    "error_buttons": 10,
+    "selected_missed_id": "disfor-1664-2018",
+    "selected_missed_score": "0,0176",
+    "monthly_quality_cells": 24,
+    "console_errors": 0
+  },
+  "visual_review": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "mobile_document_width": 390,
+    "mobile_horizontal_overflow": false,
+    "result": "Readable controls, cards, chart and geographic scatter; temporary viewport reset."
+  },
+  "real_job": {
+    "product": "Orman-SSL",
+    "state": "completed",
+    "message": "486 örnek ham veriden yeniden işlendi.",
+    "started_at": "2026-09-30T20:13:09.094430+00:00",
+    "finished_at": "2026-09-30T20:13:13.963424+00:00",
+    "elapsed_seconds": 4.87
+  },
+  "http_checks": [
+    {
+      "path": "/research",
+      "status": 200,
+      "bytes": 40929
+    },
+    {
+      "path": "/guide",
+      "status": 200,
+      "bytes": 9132
+    },
+    {
+      "path": "/output/final/Orman_SSL_Arastirma_ve_Urun_Raporu.pdf",
+      "status": 200,
+      "bytes": 391427
+    },
+    {
+      "path": "/output/paper/Orman_SSL_Manuscript.docx",
+      "status": 200,
+      "bytes": 378653
+    },
+    {
+      "path": "/download/predictions.json",
+      "status": 200,
+      "bytes": 76735
+    },
+    {
+      "path": "/download/predictions.geojson",
+      "status": 200,
+      "bytes": 196094
+    },
+    {
+      "path": "/download/manifest.json",
+      "status": 200,
+      "bytes": 92068
+    }
+  ],
+  "download_bytes_equal_active_files": true,
+  "scope": "Previously examined 486 records; this verifies the product and real inference, not independent field accuracy."
+}

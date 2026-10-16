@@ -1,0 +1,15 @@
+{
+  "description": "Aday dosyası bu alanlara sahip JSON nesnelerinden oluşan bir listedir. Bu şema veri değildir; gerçek adaylar henüz yoktur. Etiket ve model skoru alanları yasaktır.",
+  "fields": {
+    "id": "Benzersiz koordinatör kimliği",
+    "source_namespace": "Gerçek veri kaynağı; DISFOR kaynaklı örnekte DISFOR kullanın",
+    "sample_id": "Kaynakta noktanın kalıcı kimliği; metin biçimi",
+    "target_year": "İki tam yıllık pencerenin ikinci yılı; tamsayı",
+    "lon": "WGS84 boylam; sayı",
+    "lat": "WGS84 enlem; sayı",
+    "event_namespace": "Olay kaynağı veya bilinmiyorsa boş metin. DISFOR kampanya 1 için DISFOR:dataset:1; kampanya 3 için DISFOR:dataset:3",
+    "event_id": "Aynı gerçek olayı paylaşan kayıtlarda aynı kimlik; bilinmiyorsa boş metin",
+    "partition": "test veya development; sonuçlar görülmeden atanır",
+    "evidence_ref": "Yorumlayıcının model skorları içermeyen kaynak görüntü ve kayıtları bulacağı yol veya açıklama"
+  }
+}

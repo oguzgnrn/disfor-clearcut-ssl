@@ -1,0 +1,410 @@
+{
+  "status": "complete",
+  "fits": 90,
+  "summary": [
+    {
+      "method": "presto_pretrained_geo",
+      "budget": 0.2,
+      "seed_results": [
+        {
+          "seed": 7,
+          "macro_f1": 0.6599795343778798,
+          "pr_auc": 0.463539929028097,
+          "roc_auc": 0.8087659835544282,
+          "brier": 0.13853060737476156,
+          "confusion_matrix": [
+            [
+              1588,
+              349
+            ],
+            [
+              98,
+              178
+            ]
+          ]
+        },
+        {
+          "seed": 17,
+          "macro_f1": 0.6918181296120826,
+          "pr_auc": 0.5114230015051038,
+          "roc_auc": 0.8346857159958998,
+          "brier": 0.1237382750201531,
+          "confusion_matrix": [
+            [
+              1639,
+              298
+            ],
+            [
+              90,
+              186
+            ]
+          ]
+        },
+        {
+          "seed": 27,
+          "macro_f1": 0.7062484747229871,
+          "pr_auc": 0.5264245465067282,
+          "roc_auc": 0.8319379288156643,
+          "brier": 0.11672562603237395,
+          "confusion_matrix": [
+            [
+              1678,
+              259
+            ],
+            [
+              94,
+              182
+            ]
+          ]
+        }
+      ],
+      "macro_f1_mean": 0.6860153795709832,
+      "macro_f1_std": 0.023673986592764304,
+      "average_precision_mean": 0.5004624923466431,
+      "brier_mean": 0.1263315028090962
+    },
+    {
+      "method": "presto_pretrained_constant",
+      "budget": 0.2,
+      "seed_results": [
+        {
+          "seed": 7,
+          "macro_f1": 0.7048822859449562,
+          "pr_auc": 0.5571791694956713,
+          "roc_auc": 0.8383575378031172,
+          "brier": 0.12066547732714959,
+          "confusion_matrix": [
+            [
+              1650,
+              287
+            ],
+            [
+              83,
+              193
+            ]
+          ]
+        },
+        {
+          "seed": 17,
+          "macro_f1": 0.7029380940075229,
+          "pr_auc": 0.554352114852757,
+          "roc_auc": 0.8508095590821007,
+          "brier": 0.11852139276564505,
+          "confusion_matrix": [
+            [
+              1646,
+              291
+            ],
+            [
+              83,
+              193
+            ]
+          ]
+        },
+        {
+          "seed": 27,
+          "macro_f1": 0.7168285005073949,
+          "pr_auc": 0.5548464317410812,
+          "roc_auc": 0.8524668357612624,
+          "brier": 0.11496310978708664,
+          "confusion_matrix": [
+            [
+              1674,
+              263
+            ],
+            [
+              83,
+              193
+            ]
+          ]
+        }
+      ],
+      "macro_f1_mean": 0.7082162934866246,
+      "macro_f1_std": 0.007521472787881905,
+      "average_precision_mean": 0.555459238696503,
+      "brier_mean": 0.11804999329329376
+    },
+    {
+      "method": "presto_random_constant",
+      "budget": 0.2,
+      "seed_results": [
+        {
+          "seed": 7,
+          "macro_f1": 0.5562604972712474,
+          "pr_auc": 0.25003641125093623,
+          "roc_auc": 0.6941969129013191,
+          "brier": 0.20518825469073174,
+          "confusion_matrix": [
+            [
+              1351,
+              586
+            ],
+            [
+              113,
+              163
+            ]
+          ]
+        },
+        {
+          "seed": 17,
+          "macro_f1": 0.5749696438995914,
+          "pr_auc": 0.26440732951532286,
+          "roc_auc": 0.7092227634246894,
+          "brier": 0.20216944080269694,
+          "confusion_matrix": [
+            [
+              1384,
+              553
+            ],
+            [
+              105,
+              171
+            ]
+          ]
+        },
+        {
+          "seed": 27,
+          "macro_f1": 0.5837266226954289,
+          "pr_auc": 0.2792878083744213,
+          "roc_auc": 0.6988694604685267,
+          "brier": 0.19591672720388206,
+          "confusion_matrix": [
+            [
+              1423,
+              514
+            ],
+            [
+              110,
+              166
+            ]
+          ]
+        }
+      ],
+      "macro_f1_mean": 0.5716522546220891,
+      "macro_f1_std": 0.014030353351504793,
+      "average_precision_mean": 0.2645771830468935,
+      "brier_mean": 0.20109147423243692
+    },
+    {
+      "method": "presto_pretrained_geo",
+      "budget": 1.0,
+      "seed_results": [
+        {
+          "seed": 7,
+          "macro_f1": 0.7495708633875926,
+          "pr_auc": 0.7077302345630344,
+          "roc_auc": 0.8960423634336677,
+          "brier": 0.1021803785496084,
+          "confusion_matrix": [
+            [
+              1690,
+              247
+            ],
+            [
+              61,
+              215
+            ]
+          ]
+        },
+        {
+          "seed": 17,
+          "macro_f1": 0.7495708633875926,
+          "pr_auc": 0.7077264427799504,
+          "roc_auc": 0.8960442339491068,
+          "brier": 0.1021810206741279,
+          "confusion_matrix": [
+            [
+              1690,
+              247
+            ],
+            [
+              61,
+              215
+            ]
+          ]
+        },
+        {
+          "seed": 27,
+          "macro_f1": 0.7495708633875926,
+          "pr_auc": 0.7077317081505385,
+          "roc_auc": 0.896046104464546,
+          "brier": 0.10218089208716373,
+          "confusion_matrix": [
+            [
+              1690,
+              247
+            ],
+            [
+              61,
+              215
+            ]
+          ]
+        }
+      ],
+      "macro_f1_mean": 0.7495708633875925,
+      "macro_f1_std": 1.3597399555105182e-16,
+      "average_precision_mean": 0.7077294618311744,
+      "brier_mean": 0.10218076377030001
+    },
+    {
+      "method": "presto_pretrained_constant",
+      "budget": 1.0,
+      "seed_results": [
+        {
+          "seed": 7,
+          "macro_f1": 0.7799061144925807,
+          "pr_auc": 0.7611242851584892,
+          "roc_auc": 0.9149757207095988,
+          "brier": 0.09232463104134588,
+          "confusion_matrix": [
+            [
+              1732,
+              205
+            ],
+            [
+              55,
+              221
+            ]
+          ]
+        },
+        {
+          "seed": 17,
+          "macro_f1": 0.7799061144925807,
+          "pr_auc": 0.7611242851584892,
+          "roc_auc": 0.9149757207095988,
+          "brier": 0.09232489690325033,
+          "confusion_matrix": [
+            [
+              1732,
+              205
+            ],
+            [
+              55,
+              221
+            ]
+          ]
+        },
+        {
+          "seed": 27,
+          "macro_f1": 0.7799061144925807,
+          "pr_auc": 0.761126979864684,
+          "roc_auc": 0.9149719796787202,
+          "brier": 0.09232519811726764,
+          "confusion_matrix": [
+            [
+              1732,
+              205
+            ],
+            [
+              55,
+              221
+            ]
+          ]
+        }
+      ],
+      "macro_f1_mean": 0.7799061144925807,
+      "macro_f1_std": 0.0,
+      "average_precision_mean": 0.7611251833938875,
+      "brier_mean": 0.09232490868728795
+    },
+    {
+      "method": "presto_random_constant",
+      "budget": 1.0,
+      "seed_results": [
+        {
+          "seed": 7,
+          "macro_f1": 0.6436329889575737,
+          "pr_auc": 0.4417084701952869,
+          "roc_auc": 0.80841993819817,
+          "brier": 0.1704411703054756,
+          "confusion_matrix": [
+            [
+              1494,
+              443
+            ],
+            [
+              76,
+              200
+            ]
+          ]
+        },
+        {
+          "seed": 17,
+          "macro_f1": 0.6436329889575737,
+          "pr_auc": 0.4416903991881941,
+          "roc_auc": 0.8084161971672915,
+          "brier": 0.17044176136352238,
+          "confusion_matrix": [
+            [
+              1494,
+              443
+            ],
+            [
+              76,
+              200
+            ]
+          ]
+        },
+        {
+          "seed": 27,
+          "macro_f1": 0.6436329889575737,
+          "pr_auc": 0.4416835365068517,
+          "roc_auc": 0.8084199381981699,
+          "brier": 0.1704418204515294,
+          "confusion_matrix": [
+            [
+              1494,
+              443
+            ],
+            [
+              76,
+              200
+            ]
+          ]
+        }
+      ],
+      "macro_f1_mean": 0.6436329889575737,
+      "macro_f1_std": 0.0,
+      "average_precision_mean": 0.4416941352967776,
+      "brier_mean": 0.17044158404017576
+    }
+  ],
+  "encoder_logs": {
+    "presto_pretrained_geo": {
+      "seconds": 1.0574310420051916,
+      "visible_token_min": 72,
+      "visible_token_max": 144,
+      "encoder_parameters": 404160,
+      "frozen": true
+    },
+    "presto_pretrained_constant": {
+      "seconds": 1.0206732499937061,
+      "visible_token_min": 72,
+      "visible_token_max": 144,
+      "encoder_parameters": 404160,
+      "frozen": true
+    },
+    "presto_random_constant": {
+      "seconds": 1.013890458008973,
+      "visible_token_min": 72,
+      "visible_token_max": 144,
+      "encoder_parameters": 404160,
+      "frozen": true
+    }
+  },
+  "limitations": [
+    "Same adaptively examined DISFOR cohort, not external validation",
+    "Pretraining data may overlap geographically/temporally; not independently audited",
+    "Source DN harmonization/offset compatibility is not independently established",
+    "Frozen linear probing only; does not evaluate fully fine-tuned Presto",
+    "Pretrained model has external data/compute; not a compute-matched SSL control",
+    "Random encoder uses one initialization; label seeds do not capture initialization uncertainty"
+  ],
+  "source_dn_percentiles": [
+    0.0,
+    99.0,
+    1156.5,
+    4484.5,
+    65535.0
+  ]
+}

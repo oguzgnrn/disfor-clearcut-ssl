@@ -1,0 +1,18 @@
+{
+  "scripts/scientific_v5.py": "46a6968fbf7404df01e7b5b0be42716b4fe067218c8e972580b126c869529bab",
+  "src/orman_ssl/advanced.py": "1bc3fa293416eb204f2f1061018e4c357090996b497532994dacd8fbe31e04ee",
+  "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18",
+  "src/orman_ssl/inputs.py": "a23b6baa03a3d4a2758d446d67225f74dca7d8d625467874099f6f7a93aa63b5",
+  "data/processed/real_series.npz": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+  "data/disfor/sample_manifest.json": "977eb41362b09464a3afc98e6bffe3ccb374cdda5443158055b22bc5c1980fd0",
+  "data/disfor/samples.parquet": "82c6deebb431f6b91f4cce25a25f27e0b9754c08de9271d6336db4af7e992fe9",
+  "experiments/paper_v4/signature.json": "82b7e691258135d4f6f2ce78eaeaa2fa08e3943c64b08662d2465da388c95d88",
+  "requirements-lock.txt": "2f660489bde168f2531dd396fb9d18675bdb3b79ff2f2a0f16ee97e73fdc564d",
+  "experiments/paper_v5_exploratory/protocol.json": "eb64bc932719684e5add6cdc547a6f2268fcc27db98cd08788823c51feba7505",
+  "experiments/paper_v5_exploratory/groups.json": "7c04bd634d12cc5b84f15d21463cb506f993c85cc658fff41958e87a1bb08960",
+  "experiments/paper_v5_exploratory/support_audit.json": "85a3266abf33e12ebf117124a0dda10ebdd974c2b1171a959d516ad1ca09014b",
+  "experiments/paper_v5_exploratory/jobs.json": "84f2978f8fb146e99e826a99fe1ebf7e95e441946d001925db6abafed659a809",
+  "experiments/paper_v5_exploratory/folds_r5.json": "70a1358bca235553fa5568190161abded36bdf53c427e25cfd7c43fc46fe557c",
+  "experiments/paper_v5_exploratory/folds_r10.json": "7777ad626af32e5caf2f72ceb1e0d12d19fcd70db7b86b408eef491409daab31",
+  "experiments/paper_v5_exploratory/folds_r20.json": "e2f7e11573411a49f26c26e51650414902a75f32547f9499c2d28c4f8bbfc6de"
+}

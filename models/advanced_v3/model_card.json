@@ -1,0 +1,141 @@
+{
+  "name": "Orman-SSL advanced_v3",
+  "status": "trained and verified local research model",
+  "task": "Retrospective clear-cut versus undisturbed forest; two full calendar years; 10 Sentinel-2 DN bands",
+  "architecture": [
+    {
+      "config": {
+        "name": "ssl_transformer48",
+        "kind": "transformer",
+        "width": 48,
+        "dropout": 0.15,
+        "lr": 0.0005,
+        "ssl": true
+      },
+      "members": 5,
+      "epochs": 36
+    },
+    {
+      "config": {
+        "name": "cnn64",
+        "kind": "cnn",
+        "width": 64,
+        "dropout": 0.2,
+        "lr": 0.001
+      },
+      "members": 5,
+      "epochs": 21
+    }
+  ],
+  "selection": "Four spatial-group folds inside training only; fixed top-two rule",
+  "training_points": 1266,
+  "calibration_points": 461,
+  "benchmark_points": 486,
+  "benchmark_positive_points": 38,
+  "benchmark_spatial_groups": 175,
+  "benchmark_positive_groups": 20,
+  "threshold": 0.5,
+  "calibration": {
+    "slope": 1.4209698458105833,
+    "intercept": -2.1766242893584375
+  },
+  "metrics": {
+    "macro_f1": 0.9187236604455148,
+    "confusion_matrix": [
+      [
+        448,
+        0
+      ],
+      [
+        10,
+        28
+      ]
+    ],
+    "per_class": {
+      "undisturbed_forest": {
+        "precision": 0.9781659388646288,
+        "recall": 1.0,
+        "f1-score": 0.9889624724061811,
+        "support": 448.0
+      },
+      "clear_cut": {
+        "precision": 1.0,
+        "recall": 0.7368421052631579,
+        "f1-score": 0.8484848484848485,
+        "support": 38.0
+      },
+      "accuracy": 0.9794238683127572,
+      "macro avg": {
+        "precision": 0.9890829694323144,
+        "recall": 0.868421052631579,
+        "f1-score": 0.9187236604455148,
+        "support": 486.0
+      },
+      "weighted avg": {
+        "precision": 0.9798731288299459,
+        "recall": 0.9794238683127572,
+        "f1-score": 0.9779786252682992,
+        "support": 486.0
+      }
+    },
+    "roc_auc": 0.9919525375939849,
+    "pr_auc": 0.9358732107250052,
+    "brier": 0.017876505022692273,
+    "log_loss": 0.06438785452510479
+  },
+  "paired_comparison": {
+    "requested": 2000,
+    "valid": 2000,
+    "one_class_draws_discarded": 0,
+    "unit": "spatial connected component",
+    "macro_f1_95_interval": [
+      0.8562223255573639,
+      0.9588909692658925
+    ],
+    "paired_difference_95_interval": [
+      0.021498402132110926,
+      0.12420086768154441
+    ],
+    "point_difference": 0.05727291606794116
+  },
+  "evaluation_status": "Previously examined 486-point benchmark; not an untouched external test",
+  "acceptance": {
+    "status": "passed",
+    "members": 10,
+    "cv_fits": 24,
+    "low_label_fits": 18,
+    "heldout_inference_samples": 486,
+    "checks": [
+      "CV-only selection",
+      "five fixed seeds per selected config",
+      "no test in training/calibration",
+      "low-label subsets restricted to training",
+      "member file hashes",
+      "NPZ inference equals evaluation",
+      "raw observation inference equals NPZ inference",
+      "probability normalization",
+      "frozen evaluation bundle"
+    ]
+  },
+  "calibration_limits": "Fitted on the 461 development points; not guaranteed under geographic or temporal shift",
+  "disagreement_limits": "Member standard deviation is model disagreement, not a calibrated confidence interval",
+  "quality": "At least six observed months in each year; unsuitable samples flagged in output",
+  "data_source": "https://huggingface.co/datasets/JR-DIGITAL/DISFOR/tree/2562332e35c94c2339aeb341ffaed2a99faae7d6",
+  "data_license": "EUPL-1.2",
+  "not_validated": [
+    "Turkey external field performance",
+    "Sentinel-1 fusion",
+    "early warning",
+    "all forest disturbance types",
+    "nationwide mapping"
+  ],
+  "entrypoints": [
+    "MODELI_CALISTIR.command",
+    "scripts/run_advanced.py",
+    "python -m orman_ssl.predict_advanced"
+  ],
+  "provenance": {
+    "bundle_sha256": "d8f7c57ea4143e9d243b830de5a68745597a5a7dc3d56857b65fa9d4573345f8",
+    "protocol_sha256": "bcb86935365b6f2d3ee09e4974f35c341f1f8e5999dd12dab5f871938f663814"
+  }
+}

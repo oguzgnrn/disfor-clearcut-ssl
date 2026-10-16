@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "pages": 14,
+  "visual_review": "All 14 pages rendered (LibreOffice headless, Linux) and inspected as a page montage on 2026-10-16: new pages 10-11 (label-budget curve table and figure; radius-sensitivity table and figure) show no clipping or overlap; reference list extended to 26 entries over pages 13-14. Fonts: Liberation substitutes for Times/Calibri on Linux; a macOS re-render may shift page breaks.",
+  "pdf_sha256": "e58a2331a79e321f11a68e7c3041bb58c1554093411fba8dc5fd1e5046d08674",
+  "docx_sha256": "eb342cd44f070ebcaab3d75c0d1648ed83c7c72c0b519c0dcc16c84bd1f1f72f",
+  "independent_content_review": "Extension numbers compared against experiments/paper_v5_exploratory/analysis.json and experiments/paper_v6_label_curve/analysis.json; paper_v4 numbers unchanged",
+  "review_date": "2026-10-16",
+  "render_directory": "tmp/final_report_render_v3",
+  "changed_pages": [
+    1,
+    10,
+    11,
+    13,
+    14
+  ],
+  "change": "Added extension page (paper_v5 radius sensitivity, paper_v6 label-budget curve), updated date line and 26-entry bibliography."
+}

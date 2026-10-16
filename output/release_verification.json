@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "execution": "ZIP extracted to a different directory containing spaces; independently installed Python 3.11 environment",
+  "tests": 33,
+  "real_training_runs": 36,
+  "all_run_metrics_and_predictions_equal": true,
+  "all_analysis_results_equal": true,
+  "prepared_arrays_equal": true,
+  "heldout_inference_samples": 486,
+  "document_files_unchanged": true,
+  "log": "reports/release_reproduction.log",
+  "scope": "Local research MVP; does not establish external field accuracy"
+}

@@ -1,0 +1,439 @@
+{
+  "pages": [
+    {
+      "title": "Kavram sözlüğü veri ve öğrenme",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu sözlük, bölüm okurken takıldığın kelimeyi hızla bulmak içindir. Tanımı ezberledikten sonra projedeki bir örneğe bağla. Örneğin “maske” dediğinde gerçek eksik gözlem maskesini mi, SSL için yapay olarak saklanan hücreyi mi kastettiğini söyle."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Terim",
+            "Bu projede nasıl düşünmelisin"
+          ],
+          "rows": [
+            [
+              "Uzaktan algılama",
+              "Yeryüzünü sensörle uzaktan ölçme."
+            ],
+            [
+              "Bant",
+              "Belirli bir dalga boyu aralığındaki ölçüm kanalı."
+            ],
+            [
+              "Piksel",
+              "Görüntüde bir alanı temsil eden ölçüm; tek ağaç sayılmaz."
+            ],
+            [
+              "Zaman serisi",
+              "Aynı konumdan zaman boyunca alınan sıralı ölçümler."
+            ],
+            [
+              "DN",
+              "Kaynağın sayısal ölçüm değeri; bu projede yeni yansıtım dönüşümü eklenmedi."
+            ],
+            [
+              "Etiket",
+              "Karşılaştırma için kullanılan kaynak referans sınıfı."
+            ],
+            [
+              "Özellik",
+              "Modelin girdisinden kullandığı bilgi; örneğin bant ölçümü."
+            ],
+            [
+              "Maske",
+              "Hangi hücrelerin gözlendiğini veya bilinçli saklandığını belirten işaret."
+            ],
+            [
+              "Model",
+              "Girdileri tahmine dönüştüren öğrenilmiş kural veya işlev."
+            ],
+            [
+              "Parametre ve ağırlık",
+              "Eğitimle öğrenilen sayısal değer."
+            ],
+            [
+              "Hiperparametre",
+              "Öğrenme hızı gibi eğitimden önce belirlenen ayar."
+            ],
+            [
+              "Loss ve kayıp",
+              "Eğitimde küçültülmeye çalışılan hata hedefi."
+            ],
+            [
+              "Epoch",
+              "İlgili eğitim kümesinin bir kez işlenmesi."
+            ],
+            [
+              "Batch",
+              "Bir güncellemede birlikte işlenen örnek grubu."
+            ],
+            [
+              "Seed",
+              "Rastgele işlemleri başlatan sayı; yeni saha verisi yaratmaz."
+            ],
+            [
+              "SSL",
+              "Sınıf etiketi yerine verinin kendisinden görev kurarak ön öğrenme."
+            ],
+            [
+              "Fine tuning",
+              "Önceden öğrenilmiş modeli etiketli görev için uyarlama."
+            ],
+            [
+              "Çıkarım",
+              "Eğitilmiş modeli kullanarak tahmin üretme."
+            ]
+          ]
+        },
+        {
+          "kind": "check",
+          "question": "Parametre ile hiperparametreye birer örnek ver.",
+          "answer": "Ağın öğrendiği bağlantı ağırlığı parametredir. Eğitim başlamadan belirlediğimiz öğrenme hızı hiperparametredir. İkisi de bir ayar gibi görünebilir; belirlenme biçimleri farklıdır."
+        }
+      ],
+      "sourcefiles": [
+        "paper/SUPPLEMENT.md",
+        "src/orman_ssl/inputs.py"
+      ]
+    },
+    {
+      "title": "Kavram sözlüğü değerlendirme ve dosyalar",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Başarı ölçütleri aynı soruya cevap vermez. Bir sayıyı gördüğünde önce hangi veri üzerinde, hangi eşikle ve hangi sınıf için hesaplandığını sor. Dosya biçimlerini de görevlerine göre ayır; hepsini bir metin belgesi gibi açmaya çalışma."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Terim",
+            "Kısa açıklama"
+          ],
+          "rows": [
+            [
+              "Baseline",
+              "Yeni yöntemin kıyaslandığı temel karşılaştırıcı."
+            ],
+            [
+              "Ablasyon ve kontrol",
+              "Bir tasarım tercihinin katkısını sınayan karşılaştırma."
+            ],
+            [
+              "Fold ve kat",
+              "Çapraz doğrulamada sırayla dış test olan veri bölümü."
+            ],
+            [
+              "OOF",
+              "Her örneğin kendisini eğitimde görmeyen kat modelinden aldığı tahmin."
+            ],
+            [
+              "Veri sızıntısı",
+              "Test bilgisine öğrenme veya seçim aşamasında erişilmesi."
+            ],
+            [
+              "Aşırı uyum",
+              "Eğitimde iyi görünürken yeni örneklere iyi genellenememe."
+            ],
+            [
+              "Precision ve kesinlik",
+              "Kesim dediklerimizin kaçının referansta kesim olduğu."
+            ],
+            [
+              "Recall ve duyarlılık",
+              "Referanstaki kesimlerin kaçını bulduğumuz."
+            ],
+            [
+              "F1",
+              "Kesinlik ve duyarlılığı birlikte özetleyen harmonik ortalama."
+            ],
+            [
+              "Macro F1",
+              "Her sınıfın F1 değerinin eşit ağırlıklı ortalaması."
+            ],
+            [
+              "AP",
+              "Skor sıralamasının kesinlik ve duyarlılık üzerinden özeti."
+            ],
+            [
+              "Kalibrasyon",
+              "Skorların gözlenen sıklıklarla uyumunu geliştirme veya değerlendirme."
+            ],
+            [
+              "Bootstrap",
+              "Belirlenen örnekleme birimlerini yeniden seçerek belirsizliği inceleme."
+            ],
+            [
+              "Ensemble",
+              "Birden fazla modelin çıktılarının birleştirilmesi."
+            ],
+            [
+              "JSON ve GeoJSON",
+              "Yapılandırılmış metin; GeoJSON ayrıca coğrafi geometri taşır."
+            ],
+            [
+              "NPZ ve PT",
+              "Sayısal diziler için arşiv; PyTorch model kaydı için dosya uzantısı."
+            ],
+            [
+              "Manifest ve SHA 256",
+              "İçerik/provenans kaydı ve dosyanın değişip değişmediğini sınayan özet."
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Bir SHA 256 eşleşmesi dosyanın kayıttaki içerikle aynı olduğunu gösterir. Dosyadaki bilimsel yorumun doğru olduğunu tek başına ispatlamaz. Aynı biçimde iyi bir ROC AUC, sabit eşikte bütün kesimlerin yakalandığını söylemez."
+        }
+      ],
+      "sourcefiles": [
+        "paper/SUPPLEMENT.md",
+        "docs/URUN_KILAVUZU.md"
+      ]
+    },
+    {
+      "title": "Teknik ayrıntılar için başvuru sayfası",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu sayfa ezber yükü oluşturmak için değildir. Hocan somut bir ayar sorarsa doğru kaynağı bulmana yardım eder. Bir mimarinin “daha büyük” olmasını otomatik olarak daha iyi sayma; karşılaştırma sonucu ve eğitim düzeni belirleyicidir."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "paper_v4 ayarı",
+            "Sabit düzen"
+          ],
+          "rows": [
+            [
+              "Etiket oranları",
+              "Eğitim bölümünde yüzde 20 ve yüzde 100; test etiketleri ayrı."
+            ],
+            [
+              "Başlangıçlar ve katlar",
+              "Seed 7 17 27; 5 coğrafi kat."
+            ],
+            [
+              "Standart sinir ağı eğitimi",
+              "40 denetimli epoch; batch 64."
+            ],
+            [
+              "SSL ön eğitim",
+              "60 epoch; saklanan gözlenmiş değerlerde Smooth L1 kaybı."
+            ],
+            [
+              "Denetimli kayıp",
+              "Sınıf ağırlıklı çapraz entropi; label smoothing 0,02."
+            ],
+            [
+              "Transformer",
+              "Genişlik 48; 2 katman; 4 attention başlığı; dropout 0,15."
+            ],
+            [
+              "CNN",
+              "Genişlik 64; 3 artık bağlantılı blok; dropout 0,20."
+            ],
+            [
+              "Öğrenme hızı",
+              "CNN 0,001; Transformer 0,0005; SSL ön eğitim 0,001."
+            ],
+            [
+              "Optimizasyon",
+              "AdamW; weight decay 0,01; gradyan norm sınırı 1."
+            ],
+            [
+              "Random forest",
+              "500 ağaç; en küçük yaprak 4; max_features 0,7."
+            ],
+            [
+              "Ek denetimli kontrol",
+              "Yüzde 20 etikette yaklaşık adım eşleşmesi için 320 epoch."
+            ],
+            [
+              "Karar ve belirsizlik",
+              "Eşik 0,50; mekânsal bileşen üzerinden 2.000 bootstrap çekimi."
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Attention başlığı, dizideki ilişkileri hesaplayan paralel dikkat bileşenidir. Dropout, eğitimde bazı ara etkinlikleri rastgele kapatarak aşırı bağımlılığı azaltmayı hedefler. Artık bağlantı, bir bloğun girdisini çıktıya ekleyen bağlantıdır. AdamW güncelleme kuralıdır; gradyan sınırlaması çok büyük güncellemeleri frenler. Bunları kullanmak tek başına yeni yöntem katkısı değildir."
+        },
+        {
+          "kind": "p",
+          "text": "Ürün modeli bu tablonun aynısı değildir. advanced_v3 içinde beş SSL Transformer üyesi 36, beş CNN üyesi 21 denetimli epoch kullanır. Seçim eğitim içindeki dört coğrafi katla yapılmıştır. 461 geliştirme noktasında skor kalibrasyonu vardır; paper_v4 ana deneyinde kalibrasyon yoktur."
+        }
+      ],
+      "sourcefiles": [
+        "paper/SUPPLEMENT.md",
+        "models/advanced_v3/model_card.json"
+      ]
+    },
+    {
+      "title": "Kaynakları hangi soruyla okumalısın",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Önce bu rehberdeki örnekleri çalış; sonra kaynaklara belirli bir soruyla git. Her makaleyi baştan sona okuyup tüm matematiğini anlamak ilk görüşmenin ön koşulu değildir. Aşağıdaki bağlantılar temel bilgi için birincil kaynaklardır; proje içindeki gerçek tercihler için ilgili kod ve protokol dosyasını kullan."
+        },
+        {
+          "kind": "link",
+          "text": "G1 ESA Sentinel 2 cihazı ve bantları",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Instrument"
+        },
+        {
+          "kind": "p",
+          "text": "Soru: Bant ve piksel çözünürlüğü ne demek; neden 13 cihaz bandıyla 10 model girdisi farklı sayılar?"
+        },
+        {
+          "kind": "link",
+          "text": "G2 DISFOR veri kümesinin kaynak makalesi",
+          "url": "https://essd.copernicus.org/preprints/essd-2026-185/"
+        },
+        {
+          "kind": "p",
+          "text": "Soru: Referans etiketler nereden geliyor? 30 Eylül 2026 kontrolünde yayın kaydı değerlendirmedeki ön baskı olarak görünür; bizim projemizle aynı makale değildir."
+        },
+        {
+          "kind": "link",
+          "text": "G3 Copernicus Sentinel 2 işleme ve SCL açıklaması",
+          "url": "https://sentiwiki.copernicus.eu/web/s2-processing"
+        },
+        {
+          "kind": "p",
+          "text": "Soru: Ölçüm kalitesi ve sahne sınıfları nasıl tanımlanıyor? Projemizde uygulanan seçim kodunu ayrıca oku."
+        },
+        {
+          "kind": "link",
+          "text": "G4 scikit learn Average Precision tanımı",
+          "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score.html"
+        },
+        {
+          "kind": "link",
+          "text": "G5 scikit learn F1 tanımı",
+          "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
+        },
+        {
+          "kind": "p",
+          "text": "Soru: AP ile trapez alanı aynı şey mi; macro F1 hangi sınıfları nasıl ortalıyor? Bizim kodumuz AP fonksiyonunu kullanır."
+        },
+        {
+          "kind": "link",
+          "text": "G6 Zerveas ve arkadaşları zaman serilerinde Transformer ön öğrenmesi",
+          "url": "https://github.com/gzerveas/mvts_transformer"
+        },
+        {
+          "kind": "link",
+          "text": "G7 Roberts ve arkadaşları yapılandırılmış veride çapraz doğrulama",
+          "url": "https://epub.uni-regensburg.de/39299/"
+        },
+        {
+          "kind": "link",
+          "text": "G8 Tseng ve arkadaşları Presto",
+          "url": "https://arxiv.org/abs/2304.14065"
+        },
+        {
+          "kind": "link",
+          "text": "G9 Guo ve arkadaşları sinir ağlarında kalibrasyon",
+          "url": "https://proceedings.mlr.press/v70/guo17a.html"
+        },
+        {
+          "kind": "p",
+          "text": "G6–G9 için okuma soruların sırasıyla şunlar olsun: etiketsiz görev nasıl kurulur; rastgele veri ayırmak neden yanıltabilir; uzaktan algılama ön öğrenmesinde daha önce ne yapılmış; model skoru neden doğrudan güven garantisi değildir? Başka çalışmaların skorlarını farklı veri kümelerinde bizim skorlarla yarıştırma."
+        },
+        {
+          "kind": "p",
+          "text": "İngilizce makalenin sekiz kaynaklı tam listesi paper/references.json içindedir. Bu rehberdeki çizimler proje için yeniden üretildi; gerçek örnek grafikleri mevcut veri ve tahminlerden alındı. Sayısal sonuçlar 30 Eylül teslim denetimiyle eşleşir."
+        }
+      ],
+      "sourcefiles": [
+        "paper/references.json",
+        "reports/final_delivery_verification.json"
+      ]
+    },
+    {
+      "title": "Görüşmeden hemen önce son tekrar",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu sayfayı görüşmeden önce aç. Önce sesli anlat, sonra doğru dosyayı gerçekten bul. Sınavdaki eksiklerini tamamlamadan yalnız bu sayfayı ezberlemek, sorunun devamında zorlanmana neden olur."
+        },
+        {
+          "kind": "h",
+          "text": "Otuz saniyede projem"
+        },
+        {
+          "kind": "p",
+          "text": "“Gerçek Sentinel 2 zaman serilerinde orman kesimini geriye dönük sınıflandırıyoruz. 2.213 konumda beş coğrafi kat ve üç başlangıçla 180 eğitim kaydı var. Az etikette SSL kısa eğitimli modele göre iyileşiyor; eğitim adımları eşlendiğinde üstünlüğü sürmüyor. Ayrı bir eğitilmiş ensemble modelini çalışan yerel uygulamada gösterebiliyorum. Sonraki hedefimiz bağımsız veride doğrulama.”"
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Aklında tut",
+            "Nerede göster"
+          ],
+          "rows": [
+            [
+              "2.213 konum ve 276 kesim",
+              "Türkçe raporun veri bölümü"
+            ],
+            [
+              "24 ay ve 10 bant",
+              "Üründeki gözlem serisi ve veri sözleşmesi"
+            ],
+            [
+              "5 kat × 3 seed ve 180 koşu",
+              "paper_v4 protokolü ve runs klasörü"
+            ],
+            [
+              "Yüzde 20 SSL 0,8690",
+              "paper_v4 sonuç tablosu"
+            ],
+            [
+              "Kısa 0,8322 ve adım eşlenmiş 0,8987",
+              "Aynı tablonun karşılaştırıcıları"
+            ],
+            [
+              "Ürün 38 kesimin 28’ini buldu",
+              "Geçmiş değerlendirme matrisi"
+            ],
+            [
+              "58 yazılım testi saha başarımı değildir",
+              "Nihai teslim doğrulaması"
+            ],
+            [
+              "Bağımsız Türkiye doğrulaması yok",
+              "Raporun kapsam ve gelecek çalışma bölümü"
+            ]
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Açılış sırası"
+        },
+        {
+          "kind": "p",
+          "text": "URUNU_AC.command ile ürünü aç. Türkçe sonuç raporunu hazır tut. disfor-1733-2019 örneğinde doğru bulunan kesimi göster; geçmiş değerlendirmeden disfor-1664-2018 kaçırılan kesime geç. Makale tablosundan kısa ve uzun karşılaştırıcı farkını anlat. Son olarak eğitim kaydını ve sonraki deney önerisini aç."
+        },
+        {
+          "kind": "h",
+          "text": "Bilmediğinde kullanacağın cümle"
+        },
+        {
+          "kind": "p",
+          "text": "“Bu ayrıntıyı şu anda ezberden doğru söylemek istemiyorum. İlgili kodu ve deney kaydını açıp kontrol edebilirim. Bulamazsam not alıp kanıtıyla döneceğim.” Bu tutum, rastgele teknik kelimelerle cevap vermekten daha güvenilir bir araştırma alışkanlığıdır."
+        },
+        {
+          "kind": "p",
+          "text": "Toplantıdan üç kararla çıkmaya çalış: hangi araştırma sorusunu ilerleteceğiz, bağımsız değerlendirme verisini nasıl sağlayacağız, benim ve diğer araştırmacıların bir sonraki somut görevleri ne olacak? Yapay zekâ yardımını ve kendi fiilî katkını doğru belirt."
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "paper/AUTHOR_CONFIRMATION.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Not a valid primary three-class evaluation: initial held-out split has only one wildfire observation. Primary task was narrowed based on class support, before inspecting model scores. Results of the in-flight run are retained only for audit.

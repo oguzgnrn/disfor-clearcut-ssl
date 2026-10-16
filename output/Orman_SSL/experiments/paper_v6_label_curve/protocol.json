@@ -1,0 +1,39 @@
+{
+  "version": "paper_v6_label_curve",
+  "purpose": "Label-budget curve extension of the frozen paper_v4 audit: 5, 10 and 50 percent budgets on the identical folds, seeds, recipes and threshold.",
+  "declaration_timing": "Protocol, allocation and signatures written by prepare before any v6 fitting; local UTC event in preparation_event.json; no external preregistration claim.",
+  "cohort": "Unchanged 2213 DISFOR locations; 1937 stable forest and 276 clear-cut; frozen v4 folds (5 km + source-event components).",
+  "budgets": [
+    0.05,
+    0.1,
+    0.5
+  ],
+  "reused_v4_budgets": [
+    0.2,
+    1.0
+  ],
+  "seeds": [
+    7,
+    17,
+    27
+  ],
+  "methods": [
+    "rf_leaf4",
+    "cnn64",
+    "transformer48",
+    "ssl_transformer48",
+    "step_matched"
+  ],
+  "folds": 5,
+  "fits": 225,
+  "label_allocation": "subset(y, train, budget, seed): per-class nested random order, ceiling count, minimum one per class; identical IDs for every method within fold/seed/budget; nested with the v4 20 percent subsets (5/10 percent are subsets of it; 50 percent contains it).",
+  "training": "Frozen advanced.py recipes. RF 500 trees; CNN/Transformer 40 supervised epochs; SSL 60 reconstruction epochs on all outer-training sequences plus 40 supervised epochs; step-matched Transformer epochs = ceil((60*ceil(n_train/64)+40*ceil(n_labeled/64))/ceil(n_labeled/64)). No early stopping, validation selection, calibration or threshold fitting; threshold 0.5.",
+  "estimand": "Per budget and method: three pooled out-of-fold macro-F1 values (one per seed) over all 2213 locations; mean and sample SD across seeds; paired spatial-component bootstrap intervals for SSL minus short Transformer and SSL minus step-matched Transformer.",
+  "uncertainty": "Conditional cluster bootstrap on the fixed cohort and fits; three seeds; no multiplicity adjustment; not external validation.",
+  "limits": [
+    "Same-source retrospective cohort; recipes were developed on this dataset.",
+    "At 5 percent, labeled training sets hold roughly 11 clear-cut examples per fold, so single-seed results are noisy by construction.",
+    "Step matching equalises optimizer updates, not FLOPs, wall time, learning rate or labeled presentations.",
+    "Training hardware differs from paper_v4 (recorded in execution.json); cross-platform float differences at 1e-6 level are expected."
+  ]
+}

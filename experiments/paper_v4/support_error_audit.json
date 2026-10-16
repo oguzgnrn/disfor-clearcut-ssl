@@ -1,0 +1,3405 @@
+{
+  "status": "passed",
+  "analysis_type": "post hoc descriptive support audit; not a new benchmark or model-selection stage",
+  "locations": 2213,
+  "groups": 874,
+  "positive_groups": 141,
+  "largest_component": 45,
+  "median_component_size": 1.0,
+  "duplicate_feature_clusters": [],
+  "cross_fold_duplicate_clusters": [],
+  "shared_event_keys_checked": 215,
+  "strata": [
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8742729194957363,
+      "average_precision_mean": 0.8745467730874958,
+      "confusion_matrices": [
+        [
+          [
+            205,
+            6
+          ],
+          [
+            23,
+            56
+          ]
+        ],
+        [
+          [
+            204,
+            7
+          ],
+          [
+            22,
+            57
+          ]
+        ],
+        [
+          [
+            207,
+            4
+          ],
+          [
+            19,
+            60
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8876652034206686,
+      "average_precision_mean": 0.8834543240117371,
+      "confusion_matrices": [
+        [
+          [
+            207,
+            4
+          ],
+          [
+            19,
+            60
+          ]
+        ],
+        [
+          [
+            205,
+            6
+          ],
+          [
+            16,
+            63
+          ]
+        ],
+        [
+          [
+            196,
+            15
+          ],
+          [
+            15,
+            64
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8571462186131683,
+      "average_precision_mean": 0.8542626938008722,
+      "confusion_matrices": [
+        [
+          [
+            200,
+            11
+          ],
+          [
+            20,
+            59
+          ]
+        ],
+        [
+          [
+            202,
+            9
+          ],
+          [
+            19,
+            60
+          ]
+        ],
+        [
+          [
+            193,
+            18
+          ],
+          [
+            19,
+            60
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8683493842554437,
+      "average_precision_mean": 0.879451270523583,
+      "confusion_matrices": [
+        [
+          [
+            202,
+            9
+          ],
+          [
+            23,
+            56
+          ]
+        ],
+        [
+          [
+            205,
+            6
+          ],
+          [
+            18,
+            61
+          ]
+        ],
+        [
+          [
+            202,
+            9
+          ],
+          [
+            21,
+            58
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8787391083413025,
+      "average_precision_mean": 0.897191926841745,
+      "confusion_matrices": [
+        [
+          [
+            209,
+            2
+          ],
+          [
+            23,
+            56
+          ]
+        ],
+        [
+          [
+            209,
+            2
+          ],
+          [
+            23,
+            56
+          ]
+        ],
+        [
+          [
+            209,
+            2
+          ],
+          [
+            24,
+            55
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.942116269821145,
+      "average_precision_mean": 0.959888430167244,
+      "confusion_matrices": [
+        [
+          [
+            208,
+            3
+          ],
+          [
+            10,
+            69
+          ]
+        ],
+        [
+          [
+            207,
+            4
+          ],
+          [
+            8,
+            71
+          ]
+        ],
+        [
+          [
+            207,
+            4
+          ],
+          [
+            10,
+            69
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9015379227916703,
+      "average_precision_mean": 0.8942852766702499,
+      "confusion_matrices": [
+        [
+          [
+            203,
+            8
+          ],
+          [
+            17,
+            62
+          ]
+        ],
+        [
+          [
+            210,
+            1
+          ],
+          [
+            20,
+            59
+          ]
+        ],
+        [
+          [
+            209,
+            2
+          ],
+          [
+            16,
+            63
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 1,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 290,
+      "class_counts": [
+        211,
+        79
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9192657480935301,
+      "average_precision_mean": 0.9330853815428474,
+      "confusion_matrices": [
+        [
+          [
+            206,
+            5
+          ],
+          [
+            13,
+            66
+          ]
+        ],
+        [
+          [
+            208,
+            3
+          ],
+          [
+            15,
+            64
+          ]
+        ],
+        [
+          [
+            210,
+            1
+          ],
+          [
+            16,
+            63
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8337462408124736,
+      "average_precision_mean": 0.774987304769969,
+      "confusion_matrices": [
+        [
+          [
+            1575,
+            66
+          ],
+          [
+            52,
+            136
+          ]
+        ],
+        [
+          [
+            1578,
+            63
+          ],
+          [
+            52,
+            136
+          ]
+        ],
+        [
+          [
+            1579,
+            62
+          ],
+          [
+            51,
+            137
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8638207641521868,
+      "average_precision_mean": 0.8405253093781759,
+      "confusion_matrices": [
+        [
+          [
+            1591,
+            50
+          ],
+          [
+            37,
+            151
+          ]
+        ],
+        [
+          [
+            1573,
+            68
+          ],
+          [
+            37,
+            151
+          ]
+        ],
+        [
+          [
+            1584,
+            57
+          ],
+          [
+            40,
+            148
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8181159421017075,
+      "average_precision_mean": 0.8364787253529523,
+      "confusion_matrices": [
+        [
+          [
+            1565,
+            76
+          ],
+          [
+            35,
+            153
+          ]
+        ],
+        [
+          [
+            1531,
+            110
+          ],
+          [
+            41,
+            147
+          ]
+        ],
+        [
+          [
+            1504,
+            137
+          ],
+          [
+            32,
+            156
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8634601271813415,
+      "average_precision_mean": 0.8637145692039249,
+      "confusion_matrices": [
+        [
+          [
+            1578,
+            63
+          ],
+          [
+            28,
+            160
+          ]
+        ],
+        [
+          [
+            1579,
+            62
+          ],
+          [
+            39,
+            149
+          ]
+        ],
+        [
+          [
+            1572,
+            69
+          ],
+          [
+            35,
+            153
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8614589962734959,
+      "average_precision_mean": 0.8261208111475856,
+      "confusion_matrices": [
+        [
+          [
+            1606,
+            35
+          ],
+          [
+            52,
+            136
+          ]
+        ],
+        [
+          [
+            1605,
+            36
+          ],
+          [
+            55,
+            133
+          ]
+        ],
+        [
+          [
+            1606,
+            35
+          ],
+          [
+            55,
+            133
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9235818440329812,
+      "average_precision_mean": 0.9163524519154965,
+      "confusion_matrices": [
+        [
+          [
+            1602,
+            39
+          ],
+          [
+            20,
+            168
+          ]
+        ],
+        [
+          [
+            1607,
+            34
+          ],
+          [
+            22,
+            166
+          ]
+        ],
+        [
+          [
+            1623,
+            18
+          ],
+          [
+            25,
+            163
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9348110619698167,
+      "average_precision_mean": 0.9431542681789931,
+      "confusion_matrices": [
+        [
+          [
+            1609,
+            32
+          ],
+          [
+            15,
+            173
+          ]
+        ],
+        [
+          [
+            1613,
+            28
+          ],
+          [
+            18,
+            170
+          ]
+        ],
+        [
+          [
+            1619,
+            22
+          ],
+          [
+            20,
+            168
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 2,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 1829,
+      "class_counts": [
+        1641,
+        188
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9277480903823395,
+      "average_precision_mean": 0.9414936203813099,
+      "confusion_matrices": [
+        [
+          [
+            1606,
+            35
+          ],
+          [
+            16,
+            172
+          ]
+        ],
+        [
+          [
+            1608,
+            33
+          ],
+          [
+            21,
+            167
+          ]
+        ],
+        [
+          [
+            1618,
+            23
+          ],
+          [
+            22,
+            166
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8110248826283493,
+      "average_precision_mean": 0.8399675530231088,
+      "confusion_matrices": [
+        [
+          [
+            79,
+            6
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          [
+            79,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        [
+          [
+            80,
+            5
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8623674341456709,
+      "average_precision_mean": 0.9012639896764426,
+      "confusion_matrices": [
+        [
+          [
+            81,
+            4
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          [
+            78,
+            7
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          [
+            83,
+            2
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.892568797549511,
+      "average_precision_mean": 0.9687803965581745,
+      "confusion_matrices": [
+        [
+          [
+            82,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            82,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            78,
+            7
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9107924478853894,
+      "average_precision_mean": 0.9798591326369106,
+      "confusion_matrices": [
+        [
+          [
+            80,
+            5
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            83,
+            2
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          [
+            83,
+            2
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8211718020541549,
+      "average_precision_mean": 0.8136932044458925,
+      "confusion_matrices": [
+        [
+          [
+            82,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        [
+          [
+            82,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        [
+          [
+            81,
+            4
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9277421347780628,
+      "average_precision_mean": 0.9925925925925929,
+      "confusion_matrices": [
+        [
+          [
+            82,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            82,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            83,
+            2
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9277421347780628,
+      "average_precision_mean": 1.0000000000000002,
+      "confusion_matrices": [
+        [
+          [
+            82,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            82,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            83,
+            2
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "dataset",
+      "value": 3,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 94,
+      "class_counts": [
+        85,
+        9
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9618329601123122,
+      "average_precision_mean": 1.0000000000000002,
+      "confusion_matrices": [
+        [
+          [
+            84,
+            1
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            83,
+            2
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        [
+          [
+            84,
+            1
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": true
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8245406690482019,
+      "average_precision_mean": 0.7476962143091025,
+      "confusion_matrices": [
+        [
+          [
+            558,
+            19
+          ],
+          [
+            22,
+            46
+          ]
+        ],
+        [
+          [
+            557,
+            20
+          ],
+          [
+            22,
+            46
+          ]
+        ],
+        [
+          [
+            559,
+            18
+          ],
+          [
+            24,
+            44
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8570528409741428,
+      "average_precision_mean": 0.8326134550406428,
+      "confusion_matrices": [
+        [
+          [
+            557,
+            20
+          ],
+          [
+            14,
+            54
+          ]
+        ],
+        [
+          [
+            552,
+            25
+          ],
+          [
+            14,
+            54
+          ]
+        ],
+        [
+          [
+            549,
+            28
+          ],
+          [
+            11,
+            57
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8251764546088399,
+      "average_precision_mean": 0.8440869228967198,
+      "confusion_matrices": [
+        [
+          [
+            549,
+            28
+          ],
+          [
+            13,
+            55
+          ]
+        ],
+        [
+          [
+            548,
+            29
+          ],
+          [
+            17,
+            51
+          ]
+        ],
+        [
+          [
+            537,
+            40
+          ],
+          [
+            15,
+            53
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8601384799115982,
+      "average_precision_mean": 0.8667868764802599,
+      "confusion_matrices": [
+        [
+          [
+            555,
+            22
+          ],
+          [
+            11,
+            57
+          ]
+        ],
+        [
+          [
+            555,
+            22
+          ],
+          [
+            17,
+            51
+          ]
+        ],
+        [
+          [
+            556,
+            21
+          ],
+          [
+            14,
+            54
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8495217357492807,
+      "average_precision_mean": 0.7819871777101866,
+      "confusion_matrices": [
+        [
+          [
+            568,
+            9
+          ],
+          [
+            24,
+            44
+          ]
+        ],
+        [
+          [
+            568,
+            9
+          ],
+          [
+            24,
+            44
+          ]
+        ],
+        [
+          [
+            568,
+            9
+          ],
+          [
+            24,
+            44
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9168336778517516,
+      "average_precision_mean": 0.905790960169644,
+      "confusion_matrices": [
+        [
+          [
+            566,
+            11
+          ],
+          [
+            9,
+            59
+          ]
+        ],
+        [
+          [
+            566,
+            11
+          ],
+          [
+            12,
+            56
+          ]
+        ],
+        [
+          [
+            572,
+            5
+          ],
+          [
+            12,
+            56
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9255817398480679,
+      "average_precision_mean": 0.9157870395553371,
+      "confusion_matrices": [
+        [
+          [
+            562,
+            15
+          ],
+          [
+            8,
+            60
+          ]
+        ],
+        [
+          [
+            567,
+            10
+          ],
+          [
+            9,
+            59
+          ]
+        ],
+        [
+          [
+            573,
+            4
+          ],
+          [
+            9,
+            59
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2018,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 645,
+      "class_counts": [
+        577,
+        68
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9161996688302029,
+      "average_precision_mean": 0.9255022388961756,
+      "confusion_matrices": [
+        [
+          [
+            560,
+            17
+          ],
+          [
+            7,
+            61
+          ]
+        ],
+        [
+          [
+            565,
+            12
+          ],
+          [
+            8,
+            60
+          ]
+        ],
+        [
+          [
+            568,
+            9
+          ],
+          [
+            10,
+            58
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.865179194121167,
+      "average_precision_mean": 0.8755097719352406,
+      "confusion_matrices": [
+        [
+          [
+            291,
+            21
+          ],
+          [
+            16,
+            60
+          ]
+        ],
+        [
+          [
+            293,
+            19
+          ],
+          [
+            15,
+            61
+          ]
+        ],
+        [
+          [
+            295,
+            17
+          ],
+          [
+            13,
+            63
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.880079572189096,
+      "average_precision_mean": 0.9033024012340674,
+      "confusion_matrices": [
+        [
+          [
+            296,
+            16
+          ],
+          [
+            11,
+            65
+          ]
+        ],
+        [
+          [
+            289,
+            23
+          ],
+          [
+            10,
+            66
+          ]
+        ],
+        [
+          [
+            295,
+            17
+          ],
+          [
+            14,
+            62
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8843711896810761,
+      "average_precision_mean": 0.9197141898630502,
+      "confusion_matrices": [
+        [
+          [
+            295,
+            17
+          ],
+          [
+            10,
+            66
+          ]
+        ],
+        [
+          [
+            297,
+            15
+          ],
+          [
+            12,
+            64
+          ]
+        ],
+        [
+          [
+            285,
+            27
+          ],
+          [
+            8,
+            68
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9102471148566545,
+      "average_precision_mean": 0.9200322388794623,
+      "confusion_matrices": [
+        [
+          [
+            299,
+            13
+          ],
+          [
+            9,
+            67
+          ]
+        ],
+        [
+          [
+            302,
+            10
+          ],
+          [
+            13,
+            63
+          ]
+        ],
+        [
+          [
+            301,
+            11
+          ],
+          [
+            10,
+            66
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9022436636344672,
+      "average_precision_mean": 0.9137674440425286,
+      "confusion_matrices": [
+        [
+          [
+            303,
+            9
+          ],
+          [
+            13,
+            63
+          ]
+        ],
+        [
+          [
+            303,
+            9
+          ],
+          [
+            15,
+            61
+          ]
+        ],
+        [
+          [
+            302,
+            10
+          ],
+          [
+            14,
+            62
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9425821698744463,
+      "average_precision_mean": 0.9459321764075993,
+      "confusion_matrices": [
+        [
+          [
+            302,
+            10
+          ],
+          [
+            5,
+            71
+          ]
+        ],
+        [
+          [
+            303,
+            9
+          ],
+          [
+            4,
+            72
+          ]
+        ],
+        [
+          [
+            303,
+            9
+          ],
+          [
+            6,
+            70
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9466238966633371,
+      "average_precision_mean": 0.9612504020504943,
+      "confusion_matrices": [
+        [
+          [
+            303,
+            9
+          ],
+          [
+            7,
+            69
+          ]
+        ],
+        [
+          [
+            308,
+            4
+          ],
+          [
+            8,
+            68
+          ]
+        ],
+        [
+          [
+            307,
+            5
+          ],
+          [
+            6,
+            70
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2019,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 388,
+      "class_counts": [
+        312,
+        76
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9435982242811458,
+      "average_precision_mean": 0.9638277267950349,
+      "confusion_matrices": [
+        [
+          [
+            305,
+            7
+          ],
+          [
+            6,
+            70
+          ]
+        ],
+        [
+          [
+            306,
+            6
+          ],
+          [
+            9,
+            67
+          ]
+        ],
+        [
+          [
+            307,
+            5
+          ],
+          [
+            8,
+            68
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.847054849011362,
+      "average_precision_mean": 0.8127663381761611,
+      "confusion_matrices": [
+        [
+          [
+            258,
+            5
+          ],
+          [
+            24,
+            41
+          ]
+        ],
+        [
+          [
+            256,
+            7
+          ],
+          [
+            23,
+            42
+          ]
+        ],
+        [
+          [
+            257,
+            6
+          ],
+          [
+            21,
+            44
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8661393447888702,
+      "average_precision_mean": 0.8335052026201173,
+      "confusion_matrices": [
+        [
+          [
+            258,
+            5
+          ],
+          [
+            19,
+            46
+          ]
+        ],
+        [
+          [
+            254,
+            9
+          ],
+          [
+            16,
+            49
+          ]
+        ],
+        [
+          [
+            255,
+            8
+          ],
+          [
+            21,
+            44
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8345021048671445,
+      "average_precision_mean": 0.8213830964391793,
+      "confusion_matrices": [
+        [
+          [
+            251,
+            12
+          ],
+          [
+            19,
+            46
+          ]
+        ],
+        [
+          [
+            244,
+            19
+          ],
+          [
+            17,
+            48
+          ]
+        ],
+        [
+          [
+            241,
+            22
+          ],
+          [
+            15,
+            50
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8610349210850319,
+      "average_precision_mean": 0.8530506958832969,
+      "confusion_matrices": [
+        [
+          [
+            252,
+            11
+          ],
+          [
+            16,
+            49
+          ]
+        ],
+        [
+          [
+            249,
+            14
+          ],
+          [
+            14,
+            51
+          ]
+        ],
+        [
+          [
+            251,
+            12
+          ],
+          [
+            18,
+            47
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8405638552427543,
+      "average_precision_mean": 0.850222274002692,
+      "confusion_matrices": [
+        [
+          [
+            258,
+            5
+          ],
+          [
+            24,
+            41
+          ]
+        ],
+        [
+          [
+            258,
+            5
+          ],
+          [
+            24,
+            41
+          ]
+        ],
+        [
+          [
+            258,
+            5
+          ],
+          [
+            25,
+            40
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9417556035814695,
+      "average_precision_mean": 0.9542304505691188,
+      "confusion_matrices": [
+        [
+          [
+            259,
+            4
+          ],
+          [
+            7,
+            58
+          ]
+        ],
+        [
+          [
+            257,
+            6
+          ],
+          [
+            6,
+            59
+          ]
+        ],
+        [
+          [
+            258,
+            5
+          ],
+          [
+            8,
+            57
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9261550898697001,
+      "average_precision_mean": 0.9020815827976058,
+      "confusion_matrices": [
+        [
+          [
+            260,
+            3
+          ],
+          [
+            11,
+            54
+          ]
+        ],
+        [
+          [
+            259,
+            4
+          ],
+          [
+            11,
+            54
+          ]
+        ],
+        [
+          [
+            260,
+            3
+          ],
+          [
+            12,
+            53
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2020,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 328,
+      "class_counts": [
+        263,
+        65
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.932853890542796,
+      "average_precision_mean": 0.9306693385429652,
+      "confusion_matrices": [
+        [
+          [
+            260,
+            3
+          ],
+          [
+            9,
+            56
+          ]
+        ],
+        [
+          [
+            259,
+            4
+          ],
+          [
+            11,
+            54
+          ]
+        ],
+        [
+          [
+            262,
+            1
+          ],
+          [
+            12,
+            53
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8801524569415151,
+      "average_precision_mean": 0.8617881984667738,
+      "confusion_matrices": [
+        [
+          [
+            237,
+            9
+          ],
+          [
+            9,
+            31
+          ]
+        ],
+        [
+          [
+            238,
+            8
+          ],
+          [
+            9,
+            31
+          ]
+        ],
+        [
+          [
+            240,
+            6
+          ],
+          [
+            8,
+            32
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8869399704072946,
+      "average_precision_mean": 0.8747393373534154,
+      "confusion_matrices": [
+        [
+          [
+            239,
+            7
+          ],
+          [
+            9,
+            31
+          ]
+        ],
+        [
+          [
+            240,
+            6
+          ],
+          [
+            9,
+            31
+          ]
+        ],
+        [
+          [
+            238,
+            8
+          ],
+          [
+            7,
+            33
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8163287708471424,
+      "average_precision_mean": 0.7998165980412103,
+      "confusion_matrices": [
+        [
+          [
+            239,
+            7
+          ],
+          [
+            10,
+            30
+          ]
+        ],
+        [
+          [
+            221,
+            25
+          ],
+          [
+            10,
+            30
+          ]
+        ],
+        [
+          [
+            225,
+            21
+          ],
+          [
+            10,
+            30
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.864531184246804,
+      "average_precision_mean": 0.8289323685196893,
+      "confusion_matrices": [
+        [
+          [
+            239,
+            7
+          ],
+          [
+            11,
+            29
+          ]
+        ],
+        [
+          [
+            240,
+            6
+          ],
+          [
+            10,
+            30
+          ]
+        ],
+        [
+          [
+            237,
+            9
+          ],
+          [
+            11,
+            29
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8764828702856873,
+      "average_precision_mean": 0.9044757513386572,
+      "confusion_matrices": [
+        [
+          [
+            240,
+            6
+          ],
+          [
+            9,
+            31
+          ]
+        ],
+        [
+          [
+            239,
+            7
+          ],
+          [
+            10,
+            30
+          ]
+        ],
+        [
+          [
+            240,
+            6
+          ],
+          [
+            11,
+            29
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9444121803241462,
+      "average_precision_mean": 0.9472000060055605,
+      "confusion_matrices": [
+        [
+          [
+            243,
+            3
+          ],
+          [
+            6,
+            34
+          ]
+        ],
+        [
+          [
+            245,
+            1
+          ],
+          [
+            5,
+            35
+          ]
+        ],
+        [
+          [
+            245,
+            1
+          ],
+          [
+            6,
+            34
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9352071053239036,
+      "average_precision_mean": 0.9426228349777451,
+      "confusion_matrices": [
+        [
+          [
+            242,
+            4
+          ],
+          [
+            4,
+            36
+          ]
+        ],
+        [
+          [
+            242,
+            4
+          ],
+          [
+            7,
+            33
+          ]
+        ],
+        [
+          [
+            245,
+            1
+          ],
+          [
+            6,
+            34
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2021,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 286,
+      "class_counts": [
+        246,
+        40
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9352394194499457,
+      "average_precision_mean": 0.9534340129673845,
+      "confusion_matrices": [
+        [
+          [
+            244,
+            2
+          ],
+          [
+            5,
+            35
+          ]
+        ],
+        [
+          [
+            242,
+            4
+          ],
+          [
+            6,
+            34
+          ]
+        ],
+        [
+          [
+            243,
+            3
+          ],
+          [
+            6,
+            34
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.7355223541142234,
+      "average_precision_mean": 0.7040832756670214,
+      "confusion_matrices": [
+        [
+          [
+            241,
+            12
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            239,
+            14
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            238,
+            15
+          ],
+          [
+            3,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8208923172295574,
+      "average_precision_mean": 0.7184566874876742,
+      "confusion_matrices": [
+        [
+          [
+            249,
+            4
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            245,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            246,
+            7
+          ],
+          [
+            2,
+            10
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.6965361299839193,
+      "average_precision_mean": 0.7033441210481118,
+      "confusion_matrices": [
+        [
+          [
+            239,
+            14
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            235,
+            18
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            227,
+            26
+          ],
+          [
+            3,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.7484325035114114,
+      "average_precision_mean": 0.7806199242366131,
+      "confusion_matrices": [
+        [
+          [
+            240,
+            13
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            241,
+            12
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        [
+          [
+            239,
+            14
+          ],
+          [
+            3,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.7853619026581254,
+      "average_precision_mean": 0.7570586999876504,
+      "confusion_matrices": [
+        [
+          [
+            246,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            246,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            246,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8188126433063635,
+      "average_precision_mean": 0.7449968633829244,
+      "confusion_matrices": [
+        [
+          [
+            245,
+            8
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            244,
+            9
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            250,
+            3
+          ],
+          [
+            3,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8154233858217922,
+      "average_precision_mean": 0.7897907416139335,
+      "confusion_matrices": [
+        [
+          [
+            245,
+            8
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        [
+          [
+            246,
+            7
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            246,
+            7
+          ],
+          [
+            3,
+            9
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2022,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 265,
+      "class_counts": [
+        253,
+        12
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8459472957583632,
+      "average_precision_mean": 0.8115568959861396,
+      "confusion_matrices": [
+        [
+          [
+            245,
+            8
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        [
+          [
+            246,
+            7
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        [
+          [
+            249,
+            4
+          ],
+          [
+            2,
+            10
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8228113590318724,
+      "average_precision_mean": 0.7599093088765555,
+      "confusion_matrices": [
+        [
+          [
+            274,
+            12
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        [
+          [
+            278,
+            8
+          ],
+          [
+            3,
+            12
+          ]
+        ],
+        [
+          [
+            277,
+            9
+          ],
+          [
+            3,
+            12
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 0.2,
+      "method": "cnn64",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8789531952744899,
+      "average_precision_mean": 0.9507014227602463,
+      "confusion_matrices": [
+        [
+          [
+            280,
+            6
+          ],
+          [
+            1,
+            14
+          ]
+        ],
+        [
+          [
+            276,
+            10
+          ],
+          [
+            1,
+            14
+          ]
+        ],
+        [
+          [
+            280,
+            6
+          ],
+          [
+            1,
+            14
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 0.2,
+      "method": "transformer48",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8007248859297654,
+      "average_precision_mean": 0.957396209455033,
+      "confusion_matrices": [
+        [
+          [
+            274,
+            12
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            270,
+            16
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            260,
+            26
+          ],
+          [
+            0,
+            15
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.856189908982961,
+      "average_precision_mean": 0.9644053771379353,
+      "confusion_matrices": [
+        [
+          [
+            275,
+            11
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            280,
+            6
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        [
+          [
+            273,
+            13
+          ],
+          [
+            0,
+            15
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.8667714987809898,
+      "average_precision_mean": 0.7819680526357566,
+      "confusion_matrices": [
+        [
+          [
+            282,
+            4
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        [
+          [
+            282,
+            4
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        [
+          [
+            282,
+            4
+          ],
+          [
+            3,
+            12
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 1.0,
+      "method": "cnn64",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9279266859686971,
+      "average_precision_mean": 1.0,
+      "confusion_matrices": [
+        [
+          [
+            277,
+            9
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            281,
+            5
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            285,
+            1
+          ],
+          [
+            0,
+            15
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 1.0,
+      "method": "transformer48",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9336436359388234,
+      "average_precision_mean": 0.9973856209150327,
+      "confusion_matrices": [
+        [
+          [
+            282,
+            4
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            283,
+            3
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            280,
+            6
+          ],
+          [
+            0,
+            15
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    },
+    {
+      "field": "year",
+      "value": 2023,
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "n": 301,
+      "class_counts": [
+        286,
+        15
+      ],
+      "both_classes": true,
+      "macro_f1_mean": 0.9379089506674282,
+      "average_precision_mean": 0.9973856209150327,
+      "confusion_matrices": [
+        [
+          [
+            282,
+            4
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            281,
+            5
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        [
+          [
+            283,
+            3
+          ],
+          [
+            0,
+            15
+          ]
+        ]
+      ],
+      "limited_positive_support": false
+    }
+  ],
+  "review_candidates": 81,
+  "limitations": [
+    "Subgroup results are descriptive; no subgroup-selected model or threshold",
+    "Subgroups with only one class have null macro-F1 and AP",
+    "Fewer than 10 positives is marked as limited support, not a formal inference cutoff",
+    "A persistent model error does not establish a label error; all original labels remain unchanged"
+  ]
+}

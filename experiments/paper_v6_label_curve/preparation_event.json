@@ -1,0 +1,7 @@
+{
+  "prepared_at_utc": "2026-10-16T14:50:52.217292+00:00",
+  "run_files_present": 0,
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130"
+}

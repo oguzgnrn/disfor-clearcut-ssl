@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "Figshare source hashes match saved download manifest",
+    "Sentinel crop hashes match saved manifest",
+    "Sentinel bands and index outputs use identical 20 m UTM grid",
+    "All dNBR threshold counts, masks and hectare conversions recompute exactly",
+    "GFD exact counts cover every cell; QGIS styles are well-formed XML"
+  ]
+}

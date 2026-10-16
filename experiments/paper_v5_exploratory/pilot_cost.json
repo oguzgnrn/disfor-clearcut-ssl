@@ -1,0 +1,40 @@
+{
+  "scope": "pilot",
+  "new_fits": 5,
+  "workers": 1,
+  "elapsed_wall_seconds": 44.05560374999186,
+  "completed_records": 5,
+  "result": [
+    {
+      "name": "r10_f0_s7_rf_leaf4",
+      "cached": false,
+      "seconds": 0.5865739169967128,
+      "macro_f1": 0.8237392989616623
+    },
+    {
+      "name": "r10_f0_s7_cnn64",
+      "cached": false,
+      "seconds": 6.356024833992706,
+      "macro_f1": 0.8253471001289305
+    },
+    {
+      "name": "r10_f0_s7_transformer48",
+      "cached": false,
+      "seconds": 2.183185499990941,
+      "macro_f1": 0.8629201180615063
+    },
+    {
+      "name": "r10_f0_s7_ssl_transformer48",
+      "cached": false,
+      "seconds": 18.674274458011496,
+      "macro_f1": 0.8502964578661178
+    },
+    {
+      "name": "r10_f0_s7_step_matched",
+      "cached": false,
+      "seconds": 16.237721583005623,
+      "macro_f1": 0.7458769539652947
+    }
+  ],
+  "note": "Pilot cost is a local concurrency-specific estimate, not a hardware-independent benchmark."
+}

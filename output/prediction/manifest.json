@@ -1,0 +1,4873 @@
+{
+  "source": "JR-DIGITAL/DISFOR pinned revision 2562332e35c94c2339aeb341ffaed2a99faae7d6; source DN",
+  "observations_sha256": "04f60deef402465df3e0321084489976b3b7c3905a6e0f06963bb42f81a01cc3",
+  "windows_sha256": "4b68da1700e8f9e8caeb054046be2c580739c240e2d80f240d4e32604576a93c",
+  "checkpoint_sha256": "742bd8109eb3642adaf4b4baf4c977d28f59a80a87bd231b663d63da291ace19",
+  "samples": [
+    {
+      "id": "disfor-230-2018",
+      "sample_id": "230",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-236-2019",
+      "sample_id": "236",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-494-2018",
+      "sample_id": "494",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-495-2018",
+      "sample_id": "495",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-496-2018",
+      "sample_id": "496",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-498-2018",
+      "sample_id": "498",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-499-2018",
+      "sample_id": "499",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-500-2020",
+      "sample_id": "500",
+      "target_year": 2020,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-501-2018",
+      "sample_id": "501",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-502-2018",
+      "sample_id": "502",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-503-2018",
+      "sample_id": "503",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        6
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-504-2018",
+      "sample_id": "504",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-505-2019",
+      "sample_id": "505",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-506-2018",
+      "sample_id": "506",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        6
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-531-2018",
+      "sample_id": "531",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-537-2018",
+      "sample_id": "537",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-538-2018",
+      "sample_id": "538",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-539-2018",
+      "sample_id": "539",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-541-2019",
+      "sample_id": "541",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-542-2018",
+      "sample_id": "542",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-549-2022",
+      "sample_id": "549",
+      "target_year": 2022,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-550-2022",
+      "sample_id": "550",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-552-2018",
+      "sample_id": "552",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-553-2022",
+      "sample_id": "553",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-556-2022",
+      "sample_id": "556",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-557-2023",
+      "sample_id": "557",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-558-2022",
+      "sample_id": "558",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-559-2022",
+      "sample_id": "559",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-560-2022",
+      "sample_id": "560",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-561-2022",
+      "sample_id": "561",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-562-2022",
+      "sample_id": "562",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-563-2023",
+      "sample_id": "563",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-564-2018",
+      "sample_id": "564",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-566-2022",
+      "sample_id": "566",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-567-2023",
+      "sample_id": "567",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-568-2023",
+      "sample_id": "568",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-570-2018",
+      "sample_id": "570",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-571-2022",
+      "sample_id": "571",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-572-2022",
+      "sample_id": "572",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-573-2022",
+      "sample_id": "573",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-575-2023",
+      "sample_id": "575",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-646-2018",
+      "sample_id": "646",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-647-2018",
+      "sample_id": "647",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-648-2018",
+      "sample_id": "648",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-651-2018",
+      "sample_id": "651",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-653-2018",
+      "sample_id": "653",
+      "target_year": 2018,
+      "observed_months": [
+        6,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-654-2018",
+      "sample_id": "654",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-656-2018",
+      "sample_id": "656",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-657-2018",
+      "sample_id": "657",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-661-2018",
+      "sample_id": "661",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-664-2018",
+      "sample_id": "664",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-666-2018",
+      "sample_id": "666",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-676-2018",
+      "sample_id": "676",
+      "target_year": 2018,
+      "observed_months": [
+        6,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-681-2018",
+      "sample_id": "681",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-683-2018",
+      "sample_id": "683",
+      "target_year": 2018,
+      "observed_months": [
+        6,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-690-2018",
+      "sample_id": "690",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-691-2018",
+      "sample_id": "691",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-693-2018",
+      "sample_id": "693",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-694-2018",
+      "sample_id": "694",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-695-2018",
+      "sample_id": "695",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-700-2018",
+      "sample_id": "700",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-707-2018",
+      "sample_id": "707",
+      "target_year": 2018,
+      "observed_months": [
+        6,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-709-2018",
+      "sample_id": "709",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-721-2018",
+      "sample_id": "721",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-723-2018",
+      "sample_id": "723",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-724-2018",
+      "sample_id": "724",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-750-2018",
+      "sample_id": "750",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-786-2018",
+      "sample_id": "786",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-788-2018",
+      "sample_id": "788",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-789-2018",
+      "sample_id": "789",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-790-2018",
+      "sample_id": "790",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-791-2018",
+      "sample_id": "791",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-804-2018",
+      "sample_id": "804",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-806-2018",
+      "sample_id": "806",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-807-2018",
+      "sample_id": "807",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-809-2018",
+      "sample_id": "809",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-837-2018",
+      "sample_id": "837",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-859-2019",
+      "sample_id": "859",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-918-2018",
+      "sample_id": "918",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-920-2020",
+      "sample_id": "920",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-924-2018",
+      "sample_id": "924",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-944-2020",
+      "sample_id": "944",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-953-2023",
+      "sample_id": "953",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-961-2019",
+      "sample_id": "961",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-962-2020",
+      "sample_id": "962",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-977-2023",
+      "sample_id": "977",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1018-2018",
+      "sample_id": "1018",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1026-2018",
+      "sample_id": "1026",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1027-2019",
+      "sample_id": "1027",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1031-2023",
+      "sample_id": "1031",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1035-2021",
+      "sample_id": "1035",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1036-2022",
+      "sample_id": "1036",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1037-2023",
+      "sample_id": "1037",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1039-2019",
+      "sample_id": "1039",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1041-2021",
+      "sample_id": "1041",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1052-2020",
+      "sample_id": "1052",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1053-2021",
+      "sample_id": "1053",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1059-2021",
+      "sample_id": "1059",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1077-2021",
+      "sample_id": "1077",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1085-2023",
+      "sample_id": "1085",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1089-2021",
+      "sample_id": "1089",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1090-2022",
+      "sample_id": "1090",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1093-2019",
+      "sample_id": "1093",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1100-2020",
+      "sample_id": "1100",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1101-2021",
+      "sample_id": "1101",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1104-2018",
+      "sample_id": "1104",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1106-2020",
+      "sample_id": "1106",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1140-2018",
+      "sample_id": "1140",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1158-2018",
+      "sample_id": "1158",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1175-2023",
+      "sample_id": "1175",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1176-2018",
+      "sample_id": "1176",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1182-2018",
+      "sample_id": "1182",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1198-2022",
+      "sample_id": "1198",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1199-2023",
+      "sample_id": "1199",
+      "target_year": 2023,
+      "observed_months": [
+        9,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1202-2020",
+      "sample_id": "1202",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1204-2022",
+      "sample_id": "1204",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1253-2023",
+      "sample_id": "1253",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1256-2020",
+      "sample_id": "1256",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1257-2021",
+      "sample_id": "1257",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1258-2022",
+      "sample_id": "1258",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1264-2022",
+      "sample_id": "1264",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1286-2020",
+      "sample_id": "1286",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1297-2019",
+      "sample_id": "1297",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1303-2019",
+      "sample_id": "1303",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1320-2018",
+      "sample_id": "1320",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1324-2022",
+      "sample_id": "1324",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1325-2023",
+      "sample_id": "1325",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1330-2022",
+      "sample_id": "1330",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1333-2019",
+      "sample_id": "1333",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1336-2022",
+      "sample_id": "1336",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1344-2018",
+      "sample_id": "1344",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1351-2019",
+      "sample_id": "1351",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1367-2023",
+      "sample_id": "1367",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1369-2019",
+      "sample_id": "1369",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1371-2021",
+      "sample_id": "1371",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1372-2022",
+      "sample_id": "1372",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1373-2023",
+      "sample_id": "1373",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1377-2021",
+      "sample_id": "1377",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1395-2021",
+      "sample_id": "1395",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1397-2023",
+      "sample_id": "1397",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1402-2022",
+      "sample_id": "1402",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1408-2022",
+      "sample_id": "1408",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1410-2018",
+      "sample_id": "1410",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1414-2022",
+      "sample_id": "1414",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1421-2023",
+      "sample_id": "1421",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1423-2019",
+      "sample_id": "1423",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1424-2020",
+      "sample_id": "1424",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1425-2021",
+      "sample_id": "1425",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1430-2020",
+      "sample_id": "1430",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1431-2021",
+      "sample_id": "1431",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1437-2021",
+      "sample_id": "1437",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1446-2018",
+      "sample_id": "1446",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1451-2023",
+      "sample_id": "1451",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1457-2023",
+      "sample_id": "1457",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1466-2020",
+      "sample_id": "1466",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1467-2018",
+      "sample_id": "1467",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1469-2023",
+      "sample_id": "1469",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1470-2018",
+      "sample_id": "1470",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1481-2023",
+      "sample_id": "1481",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1482-2018",
+      "sample_id": "1482",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1487-2023",
+      "sample_id": "1487",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1492-2022",
+      "sample_id": "1492",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1493-2023",
+      "sample_id": "1493",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1496-2020",
+      "sample_id": "1496",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1497-2021",
+      "sample_id": "1497",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1508-2020",
+      "sample_id": "1508",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1523-2023",
+      "sample_id": "1523",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1532-2020",
+      "sample_id": "1532",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1550-2020",
+      "sample_id": "1550",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1554-2018",
+      "sample_id": "1554",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1560-2018",
+      "sample_id": "1560",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1562-2020",
+      "sample_id": "1562",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1569-2021",
+      "sample_id": "1569",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1576-2022",
+      "sample_id": "1576",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1588-2022",
+      "sample_id": "1588",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1594-2022",
+      "sample_id": "1594",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1612-2022",
+      "sample_id": "1612",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1627-2023",
+      "sample_id": "1627",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1628-2020",
+      "sample_id": "1628",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1651-2019",
+      "sample_id": "1651",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1653-2021",
+      "sample_id": "1653",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1656-2020",
+      "sample_id": "1656",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1660-2019",
+      "sample_id": "1660",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1664-2018",
+      "sample_id": "1664",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1677-2021",
+      "sample_id": "1677",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1681-2018",
+      "sample_id": "1681",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1686-2018",
+      "sample_id": "1686",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1688-2018",
+      "sample_id": "1688",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1700-2019",
+      "sample_id": "1700",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1702-2019",
+      "sample_id": "1702",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1705-2019",
+      "sample_id": "1705",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1709-2019",
+      "sample_id": "1709",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1718-2020",
+      "sample_id": "1718",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1730-2020",
+      "sample_id": "1730",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1731-2021",
+      "sample_id": "1731",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1733-2019",
+      "sample_id": "1733",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1734-2020",
+      "sample_id": "1734",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1743-2021",
+      "sample_id": "1743",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1754-2020",
+      "sample_id": "1754",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1755-2021",
+      "sample_id": "1755",
+      "target_year": 2021,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1762-2022",
+      "sample_id": "1762",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1766-2020",
+      "sample_id": "1766",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1769-2023",
+      "sample_id": "1769",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1776-2018",
+      "sample_id": "1776",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1784-2020",
+      "sample_id": "1784",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1788-2018",
+      "sample_id": "1788",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1790-2020",
+      "sample_id": "1790",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1805-2023",
+      "sample_id": "1805",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1812-2018",
+      "sample_id": "1812",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1815-2018",
+      "sample_id": "1815",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1817-2019",
+      "sample_id": "1817",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1818-2020",
+      "sample_id": "1818",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1829-2023",
+      "sample_id": "1829",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1841-2023",
+      "sample_id": "1841",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1845-2021",
+      "sample_id": "1845",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1848-2018",
+      "sample_id": "1848",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1859-2023",
+      "sample_id": "1859",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1868-2020",
+      "sample_id": "1868",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1869-2021",
+      "sample_id": "1869",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1871-2023",
+      "sample_id": "1871",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1872-2018",
+      "sample_id": "1872",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1874-2020",
+      "sample_id": "1874",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1875-2021",
+      "sample_id": "1875",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1883-2023",
+      "sample_id": "1883",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1884-2018",
+      "sample_id": "1884",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1885-2019",
+      "sample_id": "1885",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1891-2019",
+      "sample_id": "1891",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1898-2020",
+      "sample_id": "1898",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1902-2018",
+      "sample_id": "1902",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1904-2020",
+      "sample_id": "1904",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1906-2022",
+      "sample_id": "1906",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1908-2018",
+      "sample_id": "1908",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1910-2020",
+      "sample_id": "1910",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1917-2021",
+      "sample_id": "1917",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1920-2018",
+      "sample_id": "1920",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1923-2021",
+      "sample_id": "1923",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1924-2022",
+      "sample_id": "1924",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1930-2022",
+      "sample_id": "1930",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1939-2019",
+      "sample_id": "1939",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1940-2020",
+      "sample_id": "1940",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1945-2019",
+      "sample_id": "1945",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1979-2023",
+      "sample_id": "1979",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1980-2018",
+      "sample_id": "1980",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-1996-2022",
+      "sample_id": "1996",
+      "target_year": 2022,
+      "observed_months": [
+        6,
+        6
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2016-2018",
+      "sample_id": "2016",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2029-2019",
+      "sample_id": "2029",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2053-2019",
+      "sample_id": "2053",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2069-2023",
+      "sample_id": "2069",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2076-2018",
+      "sample_id": "2076",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2121-2021",
+      "sample_id": "2121",
+      "target_year": 2021,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2123-2023",
+      "sample_id": "2123",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2134-2022",
+      "sample_id": "2134",
+      "target_year": 2022,
+      "observed_months": [
+        7,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2136-2018",
+      "sample_id": "2136",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2138-2020",
+      "sample_id": "2138",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2160-2018",
+      "sample_id": "2160",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2161-2019",
+      "sample_id": "2161",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2163-2021",
+      "sample_id": "2163",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2169-2021",
+      "sample_id": "2169",
+      "target_year": 2021,
+      "observed_months": [
+        8,
+        6
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2173-2019",
+      "sample_id": "2173",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2186-2020",
+      "sample_id": "2186",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2191-2019",
+      "sample_id": "2191",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2192-2020",
+      "sample_id": "2192",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2199-2021",
+      "sample_id": "2199",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2200-2022",
+      "sample_id": "2200",
+      "target_year": 2022,
+      "observed_months": [
+        6,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2204-2020",
+      "sample_id": "2204",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2206-2022",
+      "sample_id": "2206",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2208-2018",
+      "sample_id": "2208",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2212-2022",
+      "sample_id": "2212",
+      "target_year": 2022,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2215-2019",
+      "sample_id": "2215",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2218-2022",
+      "sample_id": "2218",
+      "target_year": 2022,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2222-2020",
+      "sample_id": "2222",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2225-2023",
+      "sample_id": "2225",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2241-2021",
+      "sample_id": "2241",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2245-2019",
+      "sample_id": "2245",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2249-2023",
+      "sample_id": "2249",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2253-2021",
+      "sample_id": "2253",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2280-2018",
+      "sample_id": "2280",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2285-2018",
+      "sample_id": "2285",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2288-2020",
+      "sample_id": "2288",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2290-2022",
+      "sample_id": "2290",
+      "target_year": 2022,
+      "observed_months": [
+        6,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2304-2018",
+      "sample_id": "2304",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2305-2019",
+      "sample_id": "2305",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2306-2018",
+      "sample_id": "2306",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2307-2021",
+      "sample_id": "2307",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2314-2022",
+      "sample_id": "2314",
+      "target_year": 2022,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2315-2023",
+      "sample_id": "2315",
+      "target_year": 2023,
+      "observed_months": [
+        9,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2318-2020",
+      "sample_id": "2318",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2330-2020",
+      "sample_id": "2330",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2336-2020",
+      "sample_id": "2336",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2345-2018",
+      "sample_id": "2345",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2378-2020",
+      "sample_id": "2378",
+      "target_year": 2020,
+      "observed_months": [
+        8,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2383-2019",
+      "sample_id": "2383",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2384-2018",
+      "sample_id": "2384",
+      "target_year": 2018,
+      "observed_months": [
+        6,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2410-2018",
+      "sample_id": "2410",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2431-2019",
+      "sample_id": "2431",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2445-2021",
+      "sample_id": "2445",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2452-2022",
+      "sample_id": "2452",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2453-2023",
+      "sample_id": "2453",
+      "target_year": 2023,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2463-2021",
+      "sample_id": "2463",
+      "target_year": 2021,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2465-2023",
+      "sample_id": "2465",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2467-2019",
+      "sample_id": "2467",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2470-2022",
+      "sample_id": "2470",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2474-2020",
+      "sample_id": "2474",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2480-2020",
+      "sample_id": "2480",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2482-2022",
+      "sample_id": "2482",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2485-2019",
+      "sample_id": "2485",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2492-2020",
+      "sample_id": "2492",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2506-2022",
+      "sample_id": "2506",
+      "target_year": 2022,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2520-2018",
+      "sample_id": "2520",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2522-2020",
+      "sample_id": "2522",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2536-2022",
+      "sample_id": "2536",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2537-2023",
+      "sample_id": "2537",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2538-2018",
+      "sample_id": "2538",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2539-2019",
+      "sample_id": "2539",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2544-2018",
+      "sample_id": "2544",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2551-2019",
+      "sample_id": "2551",
+      "target_year": 2019,
+      "observed_months": [
+        8,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2552-2020",
+      "sample_id": "2552",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2561-2023",
+      "sample_id": "2561",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2563-2019",
+      "sample_id": "2563",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2565-2021",
+      "sample_id": "2565",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2568-2018",
+      "sample_id": "2568",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2574-2018",
+      "sample_id": "2574",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2585-2023",
+      "sample_id": "2585",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2591-2023",
+      "sample_id": "2591",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2592-2018",
+      "sample_id": "2592",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2595-2021",
+      "sample_id": "2595",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2604-2018",
+      "sample_id": "2604",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2608-2022",
+      "sample_id": "2608",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2616-2018",
+      "sample_id": "2616",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2623-2019",
+      "sample_id": "2623",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2626-2022",
+      "sample_id": "2626",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2627-2023",
+      "sample_id": "2627",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2629-2019",
+      "sample_id": "2629",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2632-2022",
+      "sample_id": "2632",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2635-2019",
+      "sample_id": "2635",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2650-2022",
+      "sample_id": "2650",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2654-2020",
+      "sample_id": "2654",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2658-2022",
+      "sample_id": "2658",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2660-2019",
+      "sample_id": "2660",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2663-2023",
+      "sample_id": "2663",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2667-2021",
+      "sample_id": "2667",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2669-2018",
+      "sample_id": "2669",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2674-2022",
+      "sample_id": "2674",
+      "target_year": 2022,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2680-2022",
+      "sample_id": "2680",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2683-2019",
+      "sample_id": "2683",
+      "target_year": 2019,
+      "observed_months": [
+        7,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2702-2018",
+      "sample_id": "2702",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2706-2018",
+      "sample_id": "2706",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2711-2018",
+      "sample_id": "2711",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2717-2018",
+      "sample_id": "2717",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2727-2018",
+      "sample_id": "2727",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2728-2019",
+      "sample_id": "2728",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2729-2018",
+      "sample_id": "2729",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2730-2018",
+      "sample_id": "2730",
+      "target_year": 2018,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2732-2019",
+      "sample_id": "2732",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2739-2020",
+      "sample_id": "2739",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2744-2018",
+      "sample_id": "2744",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2751-2018",
+      "sample_id": "2751",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2752-2020",
+      "sample_id": "2752",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2759-2018",
+      "sample_id": "2759",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2761-2020",
+      "sample_id": "2761",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2763-2019",
+      "sample_id": "2763",
+      "target_year": 2019,
+      "observed_months": [
+        8,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2766-2018",
+      "sample_id": "2766",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2784-2018",
+      "sample_id": "2784",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2785-2019",
+      "sample_id": "2785",
+      "target_year": 2019,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2787-2021",
+      "sample_id": "2787",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2789-2018",
+      "sample_id": "2789",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2791-2019",
+      "sample_id": "2791",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2793-2021",
+      "sample_id": "2793",
+      "target_year": 2021,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2797-2019",
+      "sample_id": "2797",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2801-2023",
+      "sample_id": "2801",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2819-2023",
+      "sample_id": "2819",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2892-2018",
+      "sample_id": "2892",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2908-2022",
+      "sample_id": "2908",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2930-2020",
+      "sample_id": "2930",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2931-2021",
+      "sample_id": "2931",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2932-2022",
+      "sample_id": "2932",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2933-2023",
+      "sample_id": "2933",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2934-2018",
+      "sample_id": "2934",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2956-2022",
+      "sample_id": "2956",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2959-2019",
+      "sample_id": "2959",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2966-2020",
+      "sample_id": "2966",
+      "target_year": 2020,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2969-2023",
+      "sample_id": "2969",
+      "target_year": 2023,
+      "observed_months": [
+        12,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2986-2022",
+      "sample_id": "2986",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-2991-2021",
+      "sample_id": "2991",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3040-2022",
+      "sample_id": "3040",
+      "target_year": 2022,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3045-2021",
+      "sample_id": "3045",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3049-2019",
+      "sample_id": "3049",
+      "target_year": 2019,
+      "observed_months": [
+        12,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3066-2018",
+      "sample_id": "3066",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3079-2019",
+      "sample_id": "3079",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3081-2021",
+      "sample_id": "3081",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3084-2018",
+      "sample_id": "3084",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3085-2019",
+      "sample_id": "3085",
+      "target_year": 2019,
+      "observed_months": [
+        7,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3087-2018",
+      "sample_id": "3087",
+      "target_year": 2018,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3096-2018",
+      "sample_id": "3096",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3098-2020",
+      "sample_id": "3098",
+      "target_year": 2020,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3101-2023",
+      "sample_id": "3101",
+      "target_year": 2023,
+      "observed_months": [
+        7,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3102-2018",
+      "sample_id": "3102",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3107-2023",
+      "sample_id": "3107",
+      "target_year": 2023,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3109-2019",
+      "sample_id": "3109",
+      "target_year": 2019,
+      "observed_months": [
+        7,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3116-2020",
+      "sample_id": "3116",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3117-2021",
+      "sample_id": "3117",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3119-2023",
+      "sample_id": "3119",
+      "target_year": 2023,
+      "observed_months": [
+        7,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3120-2018",
+      "sample_id": "3120",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3122-2020",
+      "sample_id": "3122",
+      "target_year": 2020,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3124-2022",
+      "sample_id": "3124",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3125-2023",
+      "sample_id": "3125",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3131-2023",
+      "sample_id": "3131",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3134-2020",
+      "sample_id": "3134",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3135-2021",
+      "sample_id": "3135",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3137-2023",
+      "sample_id": "3137",
+      "target_year": 2023,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3140-2020",
+      "sample_id": "3140",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3152-2020",
+      "sample_id": "3152",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3163-2019",
+      "sample_id": "3163",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3166-2018",
+      "sample_id": "3166",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3169-2019",
+      "sample_id": "3169",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3175-2019",
+      "sample_id": "3175",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3190-2022",
+      "sample_id": "3190",
+      "target_year": 2022,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3197-2023",
+      "sample_id": "3197",
+      "target_year": 2023,
+      "observed_months": [
+        10,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3211-2019",
+      "sample_id": "3211",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3217-2019",
+      "sample_id": "3217",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3219-2021",
+      "sample_id": "3219",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3221-2023",
+      "sample_id": "3221",
+      "target_year": 2023,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3222-2018",
+      "sample_id": "3222",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3230-2020",
+      "sample_id": "3230",
+      "target_year": 2020,
+      "observed_months": [
+        8,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3232-2022",
+      "sample_id": "3232",
+      "target_year": 2022,
+      "observed_months": [
+        10,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3237-2021",
+      "sample_id": "3237",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3240-2018",
+      "sample_id": "3240",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3241-2019",
+      "sample_id": "3241",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3245-2023",
+      "sample_id": "3245",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3248-2020",
+      "sample_id": "3248",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3249-2021",
+      "sample_id": "3249",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3256-2023",
+      "sample_id": "3256",
+      "target_year": 2023,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3261-2021",
+      "sample_id": "3261",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3265-2019",
+      "sample_id": "3265",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3266-2020",
+      "sample_id": "3266",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3270-2018",
+      "sample_id": "3270",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3276-2018",
+      "sample_id": "3276",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3285-2021",
+      "sample_id": "3285",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3289-2019",
+      "sample_id": "3289",
+      "target_year": 2019,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3291-2021",
+      "sample_id": "3291",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3295-2019",
+      "sample_id": "3295",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3297-2021",
+      "sample_id": "3297",
+      "target_year": 2021,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3299-2023",
+      "sample_id": "3299",
+      "target_year": 2023,
+      "observed_months": [
+        6,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3306-2018",
+      "sample_id": "3306",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3308-2020",
+      "sample_id": "3308",
+      "target_year": 2020,
+      "observed_months": [
+        6,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3309-2021",
+      "sample_id": "3309",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3317-2018",
+      "sample_id": "3317",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3320-2020",
+      "sample_id": "3320",
+      "target_year": 2020,
+      "observed_months": [
+        7,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3326-2020",
+      "sample_id": "3326",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3327-2021",
+      "sample_id": "3327",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3328-2022",
+      "sample_id": "3328",
+      "target_year": 2022,
+      "observed_months": [
+        7,
+        6
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3329-2018",
+      "sample_id": "3329",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3344-2020",
+      "sample_id": "3344",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3350-2020",
+      "sample_id": "3350",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3363-2021",
+      "sample_id": "3363",
+      "target_year": 2021,
+      "observed_months": [
+        8,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3371-2023",
+      "sample_id": "3371",
+      "target_year": 2023,
+      "observed_months": [
+        8,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3387-2021",
+      "sample_id": "3387",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3389-2023",
+      "sample_id": "3389",
+      "target_year": 2023,
+      "observed_months": [
+        8,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3391-2019",
+      "sample_id": "3391",
+      "target_year": 2019,
+      "observed_months": [
+        7,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3396-2018",
+      "sample_id": "3396",
+      "target_year": 2018,
+      "observed_months": [
+        7,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3406-2018",
+      "sample_id": "3406",
+      "target_year": 2018,
+      "observed_months": [
+        8,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3412-2019",
+      "sample_id": "3412",
+      "target_year": 2019,
+      "observed_months": [
+        8,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3464-2018",
+      "sample_id": "3464",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3466-2018",
+      "sample_id": "3466",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3477-2019",
+      "sample_id": "3477",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3489-2018",
+      "sample_id": "3489",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3491-2018",
+      "sample_id": "3491",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3496-2018",
+      "sample_id": "3496",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3499-2019",
+      "sample_id": "3499",
+      "target_year": 2019,
+      "observed_months": [
+        6,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3502-2018",
+      "sample_id": "3502",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        7
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3503-2021",
+      "sample_id": "3503",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3511-2019",
+      "sample_id": "3511",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        8
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3513-2020",
+      "sample_id": "3513",
+      "target_year": 2020,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3516-2018",
+      "sample_id": "3516",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3520-2018",
+      "sample_id": "3520",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3524-2018",
+      "sample_id": "3524",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3529-2019",
+      "sample_id": "3529",
+      "target_year": 2019,
+      "observed_months": [
+        9,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3530-2020",
+      "sample_id": "3530",
+      "target_year": 2020,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3531-2021",
+      "sample_id": "3531",
+      "target_year": 2021,
+      "observed_months": [
+        10,
+        10
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3532-2018",
+      "sample_id": "3532",
+      "target_year": 2018,
+      "observed_months": [
+        10,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3533-2023",
+      "sample_id": "3533",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        12
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3534-2018",
+      "sample_id": "3534",
+      "target_year": 2018,
+      "observed_months": [
+        9,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3535-2019",
+      "sample_id": "3535",
+      "target_year": 2019,
+      "observed_months": [
+        10,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3536-2020",
+      "sample_id": "3536",
+      "target_year": 2020,
+      "observed_months": [
+        11,
+        11
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3537-2021",
+      "sample_id": "3537",
+      "target_year": 2021,
+      "observed_months": [
+        12,
+        9
+      ],
+      "quality_eligible": true
+    },
+    {
+      "id": "disfor-3641-2023",
+      "sample_id": "3641",
+      "target_year": 2023,
+      "observed_months": [
+        11,
+        10
+      ],
+      "quality_eligible": true
+    }
+  ],
+  "n": 486,
+  "quality_eligible": 486,
+  "mapped_samples": 486,
+  "input_sha256": "c2bfdbdebdc2551b3229ea480827801e87319c8b4c59b3fc0492e028ee2937e7",
+  "predictions_sha256": "1474209b084355ea2848396367679b128cc189e6cc0fef33f04fbbf29ff22701"
+}

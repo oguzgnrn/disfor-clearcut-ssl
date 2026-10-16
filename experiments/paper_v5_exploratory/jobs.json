@@ -1,0 +1,527 @@
+[
+  {
+    "radius_km": 5,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 5,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 5,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 5,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 5,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 5,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 5,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 5,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 5,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 5,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 5,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 5,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 5,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 5,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 5,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 5,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 10,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 10,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 10,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 10,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 10,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 10,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 10,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 10,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 10,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 10,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 10,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 10,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 10,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 10,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 10,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 10,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 20,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 20,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 20,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 0,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 20,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 20,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 20,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 1,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 20,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 20,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 20,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 2,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 20,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 20,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 20,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 3,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  },
+  {
+    "radius_km": 20,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "rf_leaf4"
+  },
+  {
+    "radius_km": 20,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "cnn64"
+  },
+  {
+    "radius_km": 20,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "ssl_transformer48"
+  },
+  {
+    "radius_km": 20,
+    "fold": 4,
+    "seed": 7,
+    "budget": 0.2,
+    "method": "step_matched"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "python_tests": 45,
+  "javascript_filter_cases": 6,
+  "raw_data_exact_rebuild": true,
+  "model_repeat_max_probability_difference": 0.0,
+  "error_review_candidates": 81,
+  "primary_experiment_fits": 180,
+  "primary_models_and_labels_changed": false,
+  "browser_visual_check": "not performed: local file URL blocked by browser security policy",
+  "archives": [
+    {
+      "name": "Orman_SSL_Paper_Paketi.zip",
+      "bytes": 5968741,
+      "local_hub_links_checked": 8,
+      "sha256": "a7d198da23e20d0198d1adfa07dd0133313218572390cd768f8f53932926c804"
+    },
+    {
+      "name": "Orman_SSL_Hocaya_Sunum.zip",
+      "bytes": 1211574,
+      "local_hub_links_checked": 8,
+      "sha256": "26087283722f15a250c3a40df37912caa2ada07dc4263baf9909852f27891c6d"
+    },
+    {
+      "name": "Orman_SSL_Proje_Paketi.zip",
+      "bytes": 96303712,
+      "local_hub_links_checked": 8,
+      "sha256": "54daddcd1492503abf842009cdb9c1cf8c9d8995da0bd53a003dcfd6977ae10f"
+    }
+  ]
+}

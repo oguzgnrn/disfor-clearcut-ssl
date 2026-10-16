@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "raw_files_checked": 7,
+  "source_revision": "2562332e35c94c2339aeb341ffaed2a99faae7d6",
+  "arrays_rebuilt": [
+    "x",
+    "observed",
+    "days",
+    "y",
+    "groups",
+    "ids",
+    "metadata"
+  ],
+  "locations": 2213,
+  "all_array_values_equal": true,
+  "sample_manifest_equal": true,
+  "execution": "isolated temporary directory; original cohort preserved",
+  "preparation_script_sha256": "08835639099bb7df63a10a0d6a49e6a5bd8030fa00e340ade36145baad0f5e51",
+  "sample_manifest_sha256": "977eb41362b09464a3afc98e6bffe3ccb374cdda5443158055b22bc5c1980fd0"
+}

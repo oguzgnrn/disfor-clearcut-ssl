@@ -1,0 +1,349 @@
+{
+  "config": {
+    "name": "transformer48",
+    "kind": "transformer",
+    "width": 48,
+    "dropout": 0.15,
+    "lr": 0.0005
+  },
+  "seed": 17,
+  "fraction": 0.1,
+  "labeled_ids": [
+    "disfor-2025-2021",
+    "disfor-1165-2019",
+    "disfor-1567-2019",
+    "disfor-2244-2018",
+    "disfor-1780-2022",
+    "disfor-1548-2018",
+    "disfor-2082-2018",
+    "disfor-1761-2021",
+    "disfor-1896-2018",
+    "disfor-1795-2019",
+    "disfor-1759-2019",
+    "disfor-3806-2019",
+    "disfor-1447-2019",
+    "disfor-1132-2022",
+    "disfor-1438-2022",
+    "disfor-3039-2021",
+    "disfor-1146-2018",
+    "disfor-3321-2021",
+    "disfor-955-2019",
+    "disfor-1263-2021",
+    "disfor-2483-2023",
+    "disfor-1150-2022",
+    "disfor-1385-2023",
+    "disfor-1449-2021",
+    "disfor-2919-2021",
+    "disfor-3749-2019",
+    "disfor-1566-2018",
+    "disfor-2749-2019",
+    "disfor-2938-2022",
+    "disfor-697-2018",
+    "disfor-3737-2019",
+    "disfor-3280-2022",
+    "disfor-2031-2021",
+    "disfor-3462-2018",
+    "disfor-3047-2023",
+    "disfor-2414-2020",
+    "disfor-3332-2020",
+    "disfor-1843-2019",
+    "disfor-2217-2018",
+    "disfor-752-2018",
+    "disfor-2170-2022",
+    "disfor-2615-2023",
+    "disfor-2448-2018",
+    "disfor-2439-2021",
+    "disfor-3002-2020",
+    "disfor-833-2018",
+    "disfor-1427-2023",
+    "disfor-3372-2018",
+    "disfor-829-2018",
+    "disfor-942-2018",
+    "disfor-2125-2019",
+    "disfor-2976-2018",
+    "disfor-1771-2019",
+    "disfor-2909-2023",
+    "disfor-3020-2020",
+    "disfor-3416-2018",
+    "disfor-2928-2018",
+    "disfor-907-2019",
+    "disfor-3800-2019",
+    "disfor-2021-2023",
+    "disfor-2576-2020",
+    "disfor-827-2018",
+    "disfor-3357-2022",
+    "disfor-2188-2022",
+    "disfor-926-2020",
+    "disfor-3368-2020",
+    "disfor-2636-2020",
+    "disfor-1535-2023",
+    "disfor-2677-2019",
+    "disfor-1277-2023",
+    "disfor-687-2018",
+    "disfor-1894-2022",
+    "disfor-2167-2019",
+    "disfor-1561-2019",
+    "disfor-1957-2019",
+    "disfor-971-2023",
+    "disfor-3104-2020",
+    "disfor-1777-2019",
+    "disfor-1546-2022",
+    "disfor-2802-2018",
+    "disfor-2129-2023",
+    "disfor-2913-2021",
+    "disfor-2923-2019",
+    "disfor-2807-2023",
+    "disfor-2803-2019",
+    "disfor-1335-2021",
+    "disfor-1838-2020",
+    "disfor-1486-2022",
+    "disfor-650-2018",
+    "disfor-1915-2019",
+    "disfor-954-2018",
+    "disfor-1984-2022",
+    "disfor-1011-2021",
+    "disfor-2914-2022",
+    "disfor-1542-2018",
+    "disfor-1471-2019",
+    "disfor-1387-2019",
+    "disfor-2421-2018",
+    "disfor-2983-2019",
+    "disfor-972-2018",
+    "disfor-2017-2019",
+    "disfor-1478-2020",
+    "disfor-2126-2020",
+    "disfor-2921-2023",
+    "disfor-1505-2023",
+    "disfor-2275-2019",
+    "disfor-2984-2020",
+    "disfor-1501-2019",
+    "disfor-1517-2023",
+    "disfor-2419-2021",
+    "disfor-3471-2020",
+    "disfor-368-2018",
+    "disfor-3738-2023",
+    "disfor-2709-2019",
+    "disfor-1756-2019",
+    "disfor-3441-2018",
+    "disfor-3521-2020",
+    "disfor-1239-2021",
+    "disfor-1727-2021",
+    "disfor-1726-2021",
+    "disfor-1638-2022",
+    "disfor-2735-2020",
+    "disfor-452-2018",
+    "disfor-474-2020",
+    "disfor-1197-2022",
+    "disfor-1685-2019",
+    "disfor-469-2022",
+    "disfor-3390-2023"
+  ],
+  "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.1_17.pt",
+  "log": {
+    "best_epoch": 40,
+    "validation_macro_f1": null,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.766517162322998,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 2,
+        "loss": 0.753118246793747,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 3,
+        "loss": 0.713422030210495,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 4,
+        "loss": 0.6981266736984253,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 5,
+        "loss": 0.7213242948055267,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 6,
+        "loss": 0.7118574976921082,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 7,
+        "loss": 0.6634833514690399,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 8,
+        "loss": 0.6625846028327942,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 9,
+        "loss": 0.6790569424629211,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 10,
+        "loss": 0.6273159384727478,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 11,
+        "loss": 0.6577141284942627,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 12,
+        "loss": 0.6435644328594208,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 13,
+        "loss": 0.6521135568618774,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 14,
+        "loss": 0.6582654118537903,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 15,
+        "loss": 0.6322887539863586,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 16,
+        "loss": 0.611209899187088,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 17,
+        "loss": 0.6049556732177734,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 18,
+        "loss": 0.6257849037647247,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 19,
+        "loss": 0.6231323778629303,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 20,
+        "loss": 0.61162069439888,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 21,
+        "loss": 0.5892704725265503,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 22,
+        "loss": 0.5612721741199493,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 23,
+        "loss": 0.5766924768686295,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 24,
+        "loss": 0.5190409272909164,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 25,
+        "loss": 0.5150437653064728,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 26,
+        "loss": 0.5040917098522186,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 27,
+        "loss": 0.4836302101612091,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 28,
+        "loss": 0.4877612739801407,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 29,
+        "loss": 0.44662369787693024,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 30,
+        "loss": 0.38805051147937775,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 31,
+        "loss": 0.3686869293451309,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 32,
+        "loss": 0.41473834216594696,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 33,
+        "loss": 0.3817419856786728,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 34,
+        "loss": 0.3686864674091339,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 35,
+        "loss": 0.3412778675556183,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 36,
+        "loss": 0.38672809302806854,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 37,
+        "loss": 0.30562520027160645,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 38,
+        "loss": 0.3012268394231796,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 39,
+        "loss": 0.25302577018737793,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 40,
+        "loss": 0.2471553087234497,
+        "validation_macro_f1": null
+      }
+    ],
+    "pretrain_loss": []
+  }
+}

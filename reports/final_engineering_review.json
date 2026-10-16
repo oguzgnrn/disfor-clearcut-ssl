@@ -1,0 +1,255 @@
+{
+  "status": "passed_with_documented_scope",
+  "reviewed_at": "2026-09-26T23:33:08.673888+00:00",
+  "scope": "Independent local engineering verification of frozen model, saved scientific records and pre-finalization release archives. Product UI work and subsequent regenerated archives require their own final checks.",
+  "test_suite": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "tests": 45,
+    "failures": 0,
+    "skips": 0,
+    "seconds": 0.679,
+    "modules": {
+      "test_advanced": 4,
+      "test_delivery": 4,
+      "test_inference_workflow": 11,
+      "test_paper": 8,
+      "test_pipeline": 9,
+      "test_real_pipeline": 9
+    },
+    "log": "reports/final_engineering_tests.log"
+  },
+  "environment": {
+    "command": ".venv/bin/python scripts/check_environment.py",
+    "status": "passed",
+    "python": "3.11.9 (main, Jul 27 2025, 18:25:56) [Clang 15.0.0 (clang-1500.3.9.4)]",
+    "dependency_check": "Exact direct dependency versions from requirements.txt; this review did not install into a new environment"
+  },
+  "frozen_scientific_signature": {
+    "status": "passed",
+    "sha256": {
+      "scripts/train_paper.py": "662a3a1b4df972ddc9d22518a2b0e0f281cda4c95c515aa8499053e40c5523c6",
+      "src/orman_ssl/advanced.py": "1bc3fa293416eb204f2f1061018e4c357090996b497532994dacd8fbe31e04ee",
+      "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18",
+      "src/orman_ssl/inputs.py": "a23b6baa03a3d4a2758d446d67225f74dca7d8d625467874099f6f7a93aa63b5",
+      "data/processed/real_series.npz": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+      "experiments/paper_v4/protocol.json": "96ed5e7ab4006a8462f74517e9565f88986e085b024c3a0c483b2b1de61ed23f"
+    }
+  },
+  "paper_record_recomputation": {
+    "command": ".venv/bin/python scripts/verify_paper.py",
+    "result": {
+      "status": "passed",
+      "fits": 180,
+      "oof_predictions": 79668,
+      "checks": [
+        "frozen code/data/protocol SHA-256",
+        "exact declared jobs",
+        "fold identities",
+        "paired labeled subsets",
+        "training/test disjointness",
+        "prediction ranges and label alignment",
+        "fixed epochs and no validation selection",
+        "pretraining histories",
+        "complete OOF reconstruction",
+        "recomputed macro-F1 and average precision"
+      ]
+    }
+  },
+  "advanced_acceptance": {
+    "command": ".venv/bin/python scripts/verify_advanced.py",
+    "result": {
+      "status": "passed",
+      "members": 10,
+      "cv_fits": 24,
+      "low_label_fits": 18,
+      "heldout_inference_samples": 486,
+      "checks": [
+        "CV-only selection",
+        "five fixed seeds per selected config",
+        "no test in training/calibration",
+        "low-label subsets restricted to training",
+        "member file hashes",
+        "NPZ inference equals evaluation",
+        "raw observation inference equals NPZ inference",
+        "probability normalization",
+        "frozen evaluation bundle"
+      ]
+    }
+  },
+  "fresh_fit_archive_smoke": {
+    "command": ".venv/bin/python scripts/smoke_paper_archive.py",
+    "result": {
+      "status": "passed",
+      "archive_sha256": "1fa3edbd2d6875dacd3d1d72a8f7c29f5698ff6359b67bac53a7539153ecc14d",
+      "fresh_neural_fit": "ssl_transformer48_f0_s7_b0.2",
+      "maximum_probability_difference": 0.0,
+      "isolated_paper_tests": "8 passed",
+      "original_workspace_modified": false
+    },
+    "interpretation": "One fit was removed and genuinely retrained inside an isolated archive extraction; the other 179 completed fits were reused."
+  },
+  "inference_runtime": {
+    "status": "passed",
+    "tested_at": "2026-09-27",
+    "checks": [
+      {
+        "name": "advanced_raw_observations",
+        "command": [
+          "/Users/gnrnoguz/Documents/ChatGPT/NidaHocaylaPaper/.venv/bin/python",
+          "scripts/run_advanced.py",
+          "--out",
+          "/var/folders/67/bn82mz595c9_c0xd2lb63lth0000gn/T/orman final inference yqu_ot_x/raw"
+        ],
+        "cwd": "/Users/gnrnoguz/Documents/ChatGPT/NidaHocaylaPaper",
+        "exit_code": 0,
+        "seconds": 4.822,
+        "stdout": "Tamamlandı: 486 örnek, 486 kalite koşuluna uygun, 486 harita noktası.\nÇıktılar: /private/var/folders/67/bn82mz595c9_c0xd2lb63lth0000gn/T/orman final inference yqu_ot_x/raw\nBu örnek mevcut test verisini tekrar işler; yeni bağımsız saha doğrulaması değildir.\n",
+        "stderr": ""
+      },
+      {
+        "name": "relocated_model_archive",
+        "command": [
+          "/Users/gnrnoguz/Documents/ChatGPT/NidaHocaylaPaper/.venv/bin/python",
+          "-c",
+          "import runpy,sys;sys.path.insert(0,'src');sys.argv=['orman_ssl.predict_advanced','--bundle','models/advanced_v3/bundle.json','--data','data/processed/test_inference.npz','--out','predictions.json'];runpy.run_module('orman_ssl.predict_advanced',run_name='__main__')"
+        ],
+        "cwd": "/var/folders/67/bn82mz595c9_c0xd2lb63lth0000gn/T/orman final inference yqu_ot_x/portable archive/Orman_SSL",
+        "exit_code": 0,
+        "seconds": 2.375,
+        "stdout": "Advanced ensemble predicted 486 samples\n",
+        "stderr": ""
+      }
+    ],
+    "n": 486,
+    "raw_to_saved_probability_max_difference": 0.0,
+    "raw_to_portable_probability_max_difference": 0.0,
+    "raw_input_fields_identical": [
+      "x",
+      "observed",
+      "days",
+      "ids"
+    ],
+    "geojson_points_match_windows": true,
+    "portable_archive_sha256": "4dfe7c80cdd78826bca112f918c65a792883a4540b5684ae14f2fcaf4ee92d09",
+    "portable_archive_verification": {
+      "status": "passed",
+      "files": 28,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ]
+    },
+    "portable_runtime": "current installed pinned Python environment; no fresh dependency installation in this audit"
+  },
+  "release_snapshot": {
+    "Orman_SSL_Nihai_Model.zip": {
+      "status": "passed",
+      "files": 28,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "sha256": "4dfe7c80cdd78826bca112f918c65a792883a4540b5684ae14f2fcaf4ee92d09",
+      "bytes": 2655741
+    },
+    "Orman_SSL_Hocaya_Sunum.zip": {
+      "status": "passed",
+      "files": 25,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "paper_hub_missing_local_links": [],
+      "sha256": "641cb4630cb8610a87d13ce750f0fc98fb31810572625b76cb4d3d78829cc336",
+      "bytes": 1211632
+    },
+    "Orman_SSL_Proje_Paketi.zip": {
+      "status": "passed",
+      "files": 599,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "paper_hub_missing_local_links": [],
+      "sha256": "277005e0b98ace2e3963b387ea417489d16bcc3236ec70d716518e597777192b",
+      "bytes": 96303766
+    },
+    "Orman_SSL_Paper_Paketi.zip": {
+      "status": "passed",
+      "files": 274,
+      "checks": [
+        "safe paths",
+        "unique entries",
+        "CRC",
+        "all SHA-256 hashes",
+        "manifest coverage"
+      ],
+      "paper_hub_missing_local_links": [],
+      "sha256": "1fa3edbd2d6875dacd3d1d72a8f7c29f5698ff6359b67bac53a7539153ecc14d",
+      "bytes": 5968795
+    }
+  },
+  "html_links": {
+    "reports/paper_v4.html": {
+      "local_links": 8,
+      "missing": []
+    },
+    "reports/demo.html": {
+      "local_links": 4,
+      "missing": []
+    }
+  },
+  "findings": [
+    {
+      "severity": "information",
+      "title": "No retraining needed for the current frozen release",
+      "evidence": "All frozen signatures matched; one scientific fit reproduced probability arrays exactly; deployed 10-member inference reproduced 486 saved predictions exactly."
+    },
+    {
+      "severity": "documentation",
+      "title": "Compact paper archive contains generic full-project README and scripts",
+      "impact": "Legacy/raw inference and advanced deployment commands in the generic README require files available only in the full project/model archives. The eight paper tests and paper/SUPPLEMENT.md reproduction path are valid in the compact archive.",
+      "recommendation": "State archive scope in a package-specific entry document; do not present a generic README command as executable in every archive.",
+      "fix_owner": "final packaging stage"
+    },
+    {
+      "severity": "information",
+      "title": "Previous full-suite count excludes product UI tests being added during finalization",
+      "impact": "45 denotes the exact core suite run in this audit, not a prediction about the later final test count.",
+      "fix_owner": "final integration stage"
+    },
+    {
+      "severity": "scope",
+      "title": "Engineering verification does not establish external field accuracy",
+      "evidence": "Advanced deployment uses the previously examined 486-point benchmark; paper_v4 is a retrospective spatial audit. No new independent field dataset was collected in this review."
+    }
+  ],
+  "retraining_decision": {
+    "required_now": false,
+    "reason": "Model artifacts, frozen protocol, source signatures and repeat inference are consistent. Repeating all 180 fits would not resolve the scientific generalization limitation.",
+    "triggers": [
+      "A deliberate new protocol or feature design must use a new experiment version.",
+      "Future external labelled data should be evaluated with the current frozen model before any adaptation."
+    ]
+  },
+  "limits": [
+    "Local macOS CPU runtime only; no new clean dependency installation or cross-platform claim.",
+    "Only one paper fit was freshly trained; all 180 saved records were independently recomputed and verified.",
+    "Release snapshot hashes identify pre-finalization archives; regenerated archives need a fresh manifest/hash check.",
+    "Product frontend/API security, usability and browser behavior were delegated to a separate implementation/test audit."
+  ],
+  "training_or_protocol_files_changed": false,
+  "code_fixes_required": false
+}

@@ -1,0 +1,52 @@
+{
+  "version": "paper_v5_exploratory",
+  "purpose": "Descriptive spatial-radius sensitivity extension, separate from frozen paper_v4",
+  "declaration_timing": "Protocol and signatures created by prepare before v5 fitting. Actual UTC event in preparation_event.json; no external preregistration claim.",
+  "cohort": "Unchanged 2213 DISFOR locations; 1937 forest and 276 clear-cut.",
+  "radii_km": [
+    5,
+    10,
+    20
+  ],
+  "grouping": "Transitive distance graph plus campaign 1/3 source-event identifiers; campaign 2 sampling strata are not events.",
+  "folds": 5,
+  "split_seed": 4192026,
+  "seeds": [
+    7
+  ],
+  "label_budgets": [
+    0.2
+  ],
+  "methods": [
+    "rf_leaf4",
+    "cnn64",
+    "transformer48",
+    "ssl_transformer48",
+    "step_matched"
+  ],
+  "fits": 75,
+  "label_allocation": "Same class-stratified ceiling-count label IDs for every method within radius/fold/seed.",
+  "training": "Reuse frozen advanced.py recipes. 40 supervised epochs; SSL adds 60 reconstruction epochs. Step-matched supervised epochs computed from optimizer updates. No early stopping or test-based selection; threshold 0.5.",
+  "estimand": "One-seed pooled OOF metrics by radius and method; changes combine radius grouping and induced fold/training changes, not a causal radius effect.",
+  "uncertainty": "Descriptive results only; no seed SD, p-values or confirmatory confidence intervals. One seed and sparse independent positive components limit inference.",
+  "pilot": {
+    "radius_km": 10,
+    "fold": 0,
+    "methods": [
+      "rf_leaf4",
+      "cnn64",
+      "transformer48",
+      "ssl_transformer48",
+      "step_matched"
+    ],
+    "purpose": "Measure full-recipe CPU cost; pilot jobs are retained in the declared 75 fits."
+  },
+  "country_evaluation": "Not run: source country labels absent; no invented country assignments.",
+  "checkpoints": "Every new fitted model retained with SHA-256; old v4 weights and data untouched.",
+  "limits": [
+    "Same-source retrospective cohort, not external data.",
+    "Architectures and original recipes were developed on this dataset.",
+    "Only seed 7 and 20 percent labels in this bounded extension.",
+    "No radius, fold or model recipe selected by scores."
+  ]
+}

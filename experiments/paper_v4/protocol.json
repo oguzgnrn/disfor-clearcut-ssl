@@ -1,0 +1,18 @@
+{
+  "version": "paper_v4",
+  "frozen_before_new_scores": true,
+  "purpose": "Retrospective geographically grouped audit of low-label clear-cut classification; no first-of-kind architecture or untouched external validation claim",
+  "development_history": "Architectures and recipes were developed on this dataset in prior v2/v3 work. New folds prevent direct fit/evaluation overlap but cannot erase dataset-level adaptive development. v3's repeatedly examined 486-point test is secondary, not primary paper evidence.",
+  "data": "Unchanged 2213 high-confidence DISFOR series, one 24-month window per location, 1937 intact / 276 clear-cut; components within 5 km or shared source event remain indivisible",
+  "partition": "5-fold StratifiedGroupKFold shuffle random_state=4192026 over all 2213 points; three training seeds 7,17,27; no fold or seed selected by outcomes",
+  "budgets": [0.2, 1.0],
+  "primary_methods": ["rf_leaf4", "cnn64", "transformer48", "ssl_transformer48"],
+  "training": "All neural methods fixed 40 supervised epochs; weighted CE and 10% month removal as v3. SSL has 60 pretraining epochs on outer-training observations only. No early stopping, validation labels, calibration or threshold fitting; threshold 0.5 for all methods.",
+  "ablations_at_20_percent": ["iid_ssl with observed-cell masking probability 1/3 matching expected block-plus-band coverage", "step_matched_supervised with ceil((60*ceil(n_train/64)+40*ceil(n_labeled/64))/ceil(n_labeled/64)) epochs, matching optimizer-step budget within one epoch", "mask_only_random_forest", "metadata_only_random_forest using longitude latitude target year and source campaign index"],
+  "initialization_and_subsets": "Paired model seeds, identical nested per-class labeled subsets; no outer-test normalization or pretraining; metadata and mask controls use the same labeled points",
+  "primary_endpoint": "Pooled out-of-fold macro-F1 difference SSL minus supervised at 20% labels, averaged over three seeds; paired spatial-component bootstrap 2000 draws with three seeds kept together and class support checked",
+  "secondary_endpoints": "PR-AUC, ROC-AUC, class recall, Brier, full-label results, masking and compute controls. Secondary paired bootstrap intervals are exploratory, not multiplicity-adjusted significance tests.",
+  "generalization_probe": "Attempt unused high-confidence 2017/2024 windows and exclude every previously used point, points within 5 km of used points, and shared event identifiers. Document support before scoring. If inadequate, report insufficiency rather than claiming external validation.",
+  "reporting": "Report all 180 fits: 120 primary and 60 controls. Negative findings and sampling-confound diagnostics retained. No outcome-driven retraining or main-claim changes concealed.",
+  "reproducibility": "Freeze protocol/code/data hashes, each fold's IDs and groups, class counts, per-fit training records, predictions, environment and timing"
+}

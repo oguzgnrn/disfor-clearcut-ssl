@@ -1,0 +1,349 @@
+{
+  "config": {
+    "name": "transformer48",
+    "kind": "transformer",
+    "width": 48,
+    "dropout": 0.15,
+    "lr": 0.0005
+  },
+  "seed": 7,
+  "fraction": 0.1,
+  "labeled_ids": [
+    "disfor-3025-2019",
+    "disfor-3749-2019",
+    "disfor-2990-2020",
+    "disfor-1799-2023",
+    "disfor-1300-2022",
+    "disfor-1955-2023",
+    "disfor-465-2018",
+    "disfor-2964-2018",
+    "disfor-1074-2018",
+    "disfor-3262-2022",
+    "disfor-1971-2021",
+    "disfor-1314-2018",
+    "disfor-1439-2023",
+    "disfor-1321-2019",
+    "disfor-1621-2023",
+    "disfor-2963-2023",
+    "disfor-2876-2020",
+    "disfor-827-2018",
+    "disfor-2952-2018",
+    "disfor-2675-2018",
+    "disfor-1988-2020",
+    "disfor-1873-2019",
+    "disfor-3104-2020",
+    "disfor-2027-2023",
+    "disfor-1565-2023",
+    "disfor-931-2019",
+    "disfor-3052-2022",
+    "disfor-554-2022",
+    "disfor-3803-2019",
+    "disfor-672-2018",
+    "disfor-3336-2018",
+    "disfor-3467-2023",
+    "disfor-1345-2019",
+    "disfor-2928-2018",
+    "disfor-3149-2023",
+    "disfor-2976-2018",
+    "disfor-1933-2019",
+    "disfor-2602-2022",
+    "disfor-2795-2023",
+    "disfor-1934-2020",
+    "disfor-2631-2021",
+    "disfor-2132-2020",
+    "disfor-1223-2023",
+    "disfor-3043-2019",
+    "disfor-1226-2020",
+    "disfor-2975-2023",
+    "disfor-2951-2023",
+    "disfor-3181-2019",
+    "disfor-1099-2019",
+    "disfor-2612-2020",
+    "disfor-3761-2019",
+    "disfor-1043-2023",
+    "disfor-1564-2022",
+    "disfor-1607-2023",
+    "disfor-2227-2019",
+    "disfor-1348-2022",
+    "disfor-3367-2019",
+    "disfor-1485-2021",
+    "disfor-2038-2022",
+    "disfor-1432-2022",
+    "disfor-1078-2022",
+    "disfor-1604-2020",
+    "disfor-1881-2021",
+    "disfor-2217-2018",
+    "disfor-1959-2021",
+    "disfor-1965-2018",
+    "disfor-3373-2019",
+    "disfor-1757-2023",
+    "disfor-1581-2021",
+    "disfor-3133-2019",
+    "disfor-2282-2020",
+    "disfor-1115-2023",
+    "disfor-820-2018",
+    "disfor-926-2020",
+    "disfor-2084-2020",
+    "disfor-2364-2018",
+    "disfor-1188-2018",
+    "disfor-2439-2021",
+    "disfor-2141-2023",
+    "disfor-919-2019",
+    "disfor-2907-2021",
+    "disfor-0-2018",
+    "disfor-2144-2020",
+    "disfor-687-2018",
+    "disfor-3519-2018",
+    "disfor-1063-2019",
+    "disfor-1045-2019",
+    "disfor-2411-2018",
+    "disfor-1134-2018",
+    "disfor-942-2018",
+    "disfor-2105-2023",
+    "disfor-1274-2020",
+    "disfor-1502-2020",
+    "disfor-479-2018",
+    "disfor-3762-2019",
+    "disfor-2018-2020",
+    "disfor-2557-2019",
+    "disfor-3086-2020",
+    "disfor-2929-2019",
+    "disfor-1843-2019",
+    "disfor-1449-2021",
+    "disfor-897-2023",
+    "disfor-1270-2022",
+    "disfor-1263-2021",
+    "disfor-3399-2018",
+    "disfor-2671-2019",
+    "disfor-1631-2023",
+    "disfor-1501-2019",
+    "disfor-1108-2022",
+    "disfor-6-2020",
+    "disfor-447-2019",
+    "disfor-3220-2023",
+    "disfor-2699-2019",
+    "disfor-3471-2020",
+    "disfor-367-2018",
+    "disfor-3457-2018",
+    "disfor-1719-2019",
+    "disfor-2723-2020",
+    "disfor-441-2018",
+    "disfor-1678-2019",
+    "disfor-459-2018",
+    "disfor-1698-2019",
+    "disfor-3439-2018",
+    "disfor-472-2020",
+    "disfor-3509-2021",
+    "disfor-370-2018",
+    "disfor-2733-2020",
+    "disfor-450-2019"
+  ],
+  "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.1_7.pt",
+  "log": {
+    "best_epoch": 40,
+    "validation_macro_f1": null,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.6889694035053253,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 2,
+        "loss": 0.6600301861763,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 3,
+        "loss": 0.6745532751083374,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 4,
+        "loss": 0.6321248114109039,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 5,
+        "loss": 0.6087261736392975,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 6,
+        "loss": 0.6056236326694489,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 7,
+        "loss": 0.6038225293159485,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 8,
+        "loss": 0.5835111737251282,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 9,
+        "loss": 0.5761415362358093,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 10,
+        "loss": 0.5535416007041931,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 11,
+        "loss": 0.5362595617771149,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 12,
+        "loss": 0.5073263496160507,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 13,
+        "loss": 0.49777182936668396,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 14,
+        "loss": 0.5095552206039429,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 15,
+        "loss": 0.47642917931079865,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 16,
+        "loss": 0.4702072888612747,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 17,
+        "loss": 0.44624583423137665,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 18,
+        "loss": 0.45937205851078033,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 19,
+        "loss": 0.45488201081752777,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 20,
+        "loss": 0.4312343895435333,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 21,
+        "loss": 0.4344717264175415,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 22,
+        "loss": 0.3950413763523102,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 23,
+        "loss": 0.35772186517715454,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 24,
+        "loss": 0.37326014041900635,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 25,
+        "loss": 0.41798025369644165,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 26,
+        "loss": 0.3617507666349411,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 27,
+        "loss": 0.4176025837659836,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 28,
+        "loss": 0.3383583724498749,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 29,
+        "loss": 0.37277601659297943,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 30,
+        "loss": 0.3483361601829529,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 31,
+        "loss": 0.304891899228096,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 32,
+        "loss": 0.33333155512809753,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 33,
+        "loss": 0.30461786687374115,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 34,
+        "loss": 0.3009825795888901,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 35,
+        "loss": 0.31651677191257477,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 36,
+        "loss": 0.256122887134552,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 37,
+        "loss": 0.25944414734840393,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 38,
+        "loss": 0.25741761922836304,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 39,
+        "loss": 0.2836785614490509,
+        "validation_macro_f1": null
+      },
+      {
+        "epoch": 40,
+        "loss": 0.262179858982563,
+        "validation_macro_f1": null
+      }
+    ],
+    "pretrain_loss": []
+  }
+}

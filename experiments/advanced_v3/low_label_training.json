@@ -1,0 +1,7220 @@
+[
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 7,
+    "fraction": 0.05,
+    "labeled_ids": [
+      "disfor-3025-2019",
+      "disfor-3749-2019",
+      "disfor-2990-2020",
+      "disfor-1799-2023",
+      "disfor-1300-2022",
+      "disfor-1955-2023",
+      "disfor-465-2018",
+      "disfor-2964-2018",
+      "disfor-1074-2018",
+      "disfor-3262-2022",
+      "disfor-1971-2021",
+      "disfor-1314-2018",
+      "disfor-1439-2023",
+      "disfor-1321-2019",
+      "disfor-1621-2023",
+      "disfor-2963-2023",
+      "disfor-2876-2020",
+      "disfor-827-2018",
+      "disfor-2952-2018",
+      "disfor-2675-2018",
+      "disfor-1988-2020",
+      "disfor-1873-2019",
+      "disfor-3104-2020",
+      "disfor-2027-2023",
+      "disfor-1565-2023",
+      "disfor-931-2019",
+      "disfor-3052-2022",
+      "disfor-554-2022",
+      "disfor-3803-2019",
+      "disfor-672-2018",
+      "disfor-3336-2018",
+      "disfor-3467-2023",
+      "disfor-1345-2019",
+      "disfor-2928-2018",
+      "disfor-3149-2023",
+      "disfor-2976-2018",
+      "disfor-1933-2019",
+      "disfor-2602-2022",
+      "disfor-2795-2023",
+      "disfor-1934-2020",
+      "disfor-2631-2021",
+      "disfor-2132-2020",
+      "disfor-1223-2023",
+      "disfor-3043-2019",
+      "disfor-1226-2020",
+      "disfor-2975-2023",
+      "disfor-2951-2023",
+      "disfor-3181-2019",
+      "disfor-1099-2019",
+      "disfor-2612-2020",
+      "disfor-3761-2019",
+      "disfor-1043-2023",
+      "disfor-1564-2022",
+      "disfor-1607-2023",
+      "disfor-2227-2019",
+      "disfor-6-2020",
+      "disfor-447-2019",
+      "disfor-3220-2023",
+      "disfor-2699-2019",
+      "disfor-3471-2020",
+      "disfor-367-2018",
+      "disfor-3457-2018",
+      "disfor-1719-2019",
+      "disfor-2723-2020",
+      "disfor-441-2018"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.05_7.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7536469101905823,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 1.14020437002182,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.8721770346164703,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6758149862289429,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.5072034448385239,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.424289770424366,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.5417894423007965,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.5175651758909225,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.42246902734041214,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.7329759001731873,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.37695111334323883,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.818077564239502,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.970750242471695,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.4193265587091446,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.4004824161529541,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6324360370635986,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.43441684544086456,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.3615415543317795,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.516251266002655,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.7642914950847626,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.36407625675201416,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.3493873253464699,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.3414839655160904,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.3471399396657944,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.2922337166965008,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.9096472263336182,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.36354151368141174,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.3195015490055084,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.7294443249702454,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.2984439730644226,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.3214576095342636,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.3023115172982216,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.2872617691755295,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.7646157443523407,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.30359122157096863,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.2598460093140602,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.41545602679252625,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.414536252617836,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.2605655938386917,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.29172394424676895,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 7,
+    "fraction": 0.05,
+    "labeled_ids": [
+      "disfor-3025-2019",
+      "disfor-3749-2019",
+      "disfor-2990-2020",
+      "disfor-1799-2023",
+      "disfor-1300-2022",
+      "disfor-1955-2023",
+      "disfor-465-2018",
+      "disfor-2964-2018",
+      "disfor-1074-2018",
+      "disfor-3262-2022",
+      "disfor-1971-2021",
+      "disfor-1314-2018",
+      "disfor-1439-2023",
+      "disfor-1321-2019",
+      "disfor-1621-2023",
+      "disfor-2963-2023",
+      "disfor-2876-2020",
+      "disfor-827-2018",
+      "disfor-2952-2018",
+      "disfor-2675-2018",
+      "disfor-1988-2020",
+      "disfor-1873-2019",
+      "disfor-3104-2020",
+      "disfor-2027-2023",
+      "disfor-1565-2023",
+      "disfor-931-2019",
+      "disfor-3052-2022",
+      "disfor-554-2022",
+      "disfor-3803-2019",
+      "disfor-672-2018",
+      "disfor-3336-2018",
+      "disfor-3467-2023",
+      "disfor-1345-2019",
+      "disfor-2928-2018",
+      "disfor-3149-2023",
+      "disfor-2976-2018",
+      "disfor-1933-2019",
+      "disfor-2602-2022",
+      "disfor-2795-2023",
+      "disfor-1934-2020",
+      "disfor-2631-2021",
+      "disfor-2132-2020",
+      "disfor-1223-2023",
+      "disfor-3043-2019",
+      "disfor-1226-2020",
+      "disfor-2975-2023",
+      "disfor-2951-2023",
+      "disfor-3181-2019",
+      "disfor-1099-2019",
+      "disfor-2612-2020",
+      "disfor-3761-2019",
+      "disfor-1043-2023",
+      "disfor-1564-2022",
+      "disfor-1607-2023",
+      "disfor-2227-2019",
+      "disfor-6-2020",
+      "disfor-447-2019",
+      "disfor-3220-2023",
+      "disfor-2699-2019",
+      "disfor-3471-2020",
+      "disfor-367-2018",
+      "disfor-3457-2018",
+      "disfor-1719-2019",
+      "disfor-2723-2020",
+      "disfor-441-2018"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.05_7.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.8703345060348511,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.8207143545150757,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.6673181653022766,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.7540781199932098,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.5704464316368103,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.4442347288131714,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.5473187863826752,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.4199680909514427,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.4218914955854416,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.7076698839664459,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.36453312635421753,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.8373456001281738,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.899004727602005,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.38548821955919266,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.3799505978822708,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.47056081891059875,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.27423465996980667,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.32231298089027405,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.6676035076379776,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.5237278789281845,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.3058808892965317,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.2986387833952904,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.2893338054418564,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.2953134626150131,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.21378988400101662,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 1.1399983763694763,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.3323519378900528,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.25771914422512054,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.33236798644065857,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.24811246991157532,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.27638036012649536,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.2201583907008171,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.22358860075473785,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.5739548057317734,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.2647523581981659,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.2079179361462593,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.23488344997167587,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.13857148960232735,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.2006685510277748,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.19482553005218506,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.21286801174283027,
+        0.1334353841841221,
+        0.1136282991617918,
+        0.10477683804929257,
+        0.09961715452373028,
+        0.09350232630968094,
+        0.08738747872412204,
+        0.08179820608347654,
+        0.07592813372611999,
+        0.07831571027636527,
+        0.07795543558895587,
+        0.08044282924383879,
+        0.07020100746303796,
+        0.07223410829901696,
+        0.07121012751013041,
+        0.07256328947842121,
+        0.06656835861504078,
+        0.07279375549405813,
+        0.06813594363629819,
+        0.06739879418164492,
+        0.06643475890159607,
+        0.06655460447072983,
+        0.06473635155707598,
+        0.06766745112836361,
+        0.06443821527063846,
+        0.06273955535143613,
+        0.061271566152572635,
+        0.06608966682106257,
+        0.06318580005317927,
+        0.06552867162972689,
+        0.061842081137001514,
+        0.06200181841850281,
+        0.06119249723851681,
+        0.0607121042907238,
+        0.0626654950901866,
+        0.06061846427619457,
+        0.05887655094265938,
+        0.058979695104062556,
+        0.05633836332708597,
+        0.062293739058077335,
+        0.059846062771975995,
+        0.061484267190098765,
+        0.05947230588644743,
+        0.05719539355486632,
+        0.06169657036662102,
+        0.06364015638828277,
+        0.06288948636502027,
+        0.059011217951774594,
+        0.06003007926046848,
+        0.056170265562832354,
+        0.058645693399012086,
+        0.058787963539361957,
+        0.060010415688157084,
+        0.058142257109284404,
+        0.06126984003931284,
+        0.05885420106351376,
+        0.0619584808126092,
+        0.05586774498224258,
+        0.05873039737343788,
+        0.06015376001596451
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 17,
+    "fraction": 0.05,
+    "labeled_ids": [
+      "disfor-2025-2021",
+      "disfor-1165-2019",
+      "disfor-1567-2019",
+      "disfor-2244-2018",
+      "disfor-1780-2022",
+      "disfor-1548-2018",
+      "disfor-2082-2018",
+      "disfor-1761-2021",
+      "disfor-1896-2018",
+      "disfor-1795-2019",
+      "disfor-1759-2019",
+      "disfor-3806-2019",
+      "disfor-1447-2019",
+      "disfor-1132-2022",
+      "disfor-1438-2022",
+      "disfor-3039-2021",
+      "disfor-1146-2018",
+      "disfor-3321-2021",
+      "disfor-955-2019",
+      "disfor-1263-2021",
+      "disfor-2483-2023",
+      "disfor-1150-2022",
+      "disfor-1385-2023",
+      "disfor-1449-2021",
+      "disfor-2919-2021",
+      "disfor-3749-2019",
+      "disfor-1566-2018",
+      "disfor-2749-2019",
+      "disfor-2938-2022",
+      "disfor-697-2018",
+      "disfor-3737-2019",
+      "disfor-3280-2022",
+      "disfor-2031-2021",
+      "disfor-3462-2018",
+      "disfor-3047-2023",
+      "disfor-2414-2020",
+      "disfor-3332-2020",
+      "disfor-1843-2019",
+      "disfor-2217-2018",
+      "disfor-752-2018",
+      "disfor-2170-2022",
+      "disfor-2615-2023",
+      "disfor-2448-2018",
+      "disfor-2439-2021",
+      "disfor-3002-2020",
+      "disfor-833-2018",
+      "disfor-1427-2023",
+      "disfor-3372-2018",
+      "disfor-829-2018",
+      "disfor-942-2018",
+      "disfor-2125-2019",
+      "disfor-2976-2018",
+      "disfor-1771-2019",
+      "disfor-2909-2023",
+      "disfor-3020-2020",
+      "disfor-2419-2021",
+      "disfor-3471-2020",
+      "disfor-368-2018",
+      "disfor-3738-2023",
+      "disfor-2709-2019",
+      "disfor-1756-2019",
+      "disfor-3441-2018",
+      "disfor-3521-2020",
+      "disfor-1239-2021",
+      "disfor-1727-2021"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.05_17.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 1.0250960290431976,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.5979603826999664,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.6149405986070633,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6520518064498901,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6023361831903458,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.8307323455810547,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6856221258640289,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.636966347694397,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6946727633476257,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.7534819543361664,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6506657302379608,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.6048506051301956,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.592699408531189,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5726399719715118,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.6317997574806213,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6538715958595276,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.5991371423006058,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.7896386682987213,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.6413390040397644,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.6432685256004333,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.5399971902370453,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.4738750010728836,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.6070436835289001,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.5407015830278397,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.7173256874084473,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.7507363557815552,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.5162353664636612,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.7408938407897949,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.6964795291423798,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.5237495005130768,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.7469598948955536,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.4411139637231827,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.8978071510791779,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.5801354646682739,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.5953799188137054,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.5270020514726639,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.6150769591331482,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.6956170499324799,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.4843183755874634,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.547709584236145,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 17,
+    "fraction": 0.05,
+    "labeled_ids": [
+      "disfor-2025-2021",
+      "disfor-1165-2019",
+      "disfor-1567-2019",
+      "disfor-2244-2018",
+      "disfor-1780-2022",
+      "disfor-1548-2018",
+      "disfor-2082-2018",
+      "disfor-1761-2021",
+      "disfor-1896-2018",
+      "disfor-1795-2019",
+      "disfor-1759-2019",
+      "disfor-3806-2019",
+      "disfor-1447-2019",
+      "disfor-1132-2022",
+      "disfor-1438-2022",
+      "disfor-3039-2021",
+      "disfor-1146-2018",
+      "disfor-3321-2021",
+      "disfor-955-2019",
+      "disfor-1263-2021",
+      "disfor-2483-2023",
+      "disfor-1150-2022",
+      "disfor-1385-2023",
+      "disfor-1449-2021",
+      "disfor-2919-2021",
+      "disfor-3749-2019",
+      "disfor-1566-2018",
+      "disfor-2749-2019",
+      "disfor-2938-2022",
+      "disfor-697-2018",
+      "disfor-3737-2019",
+      "disfor-3280-2022",
+      "disfor-2031-2021",
+      "disfor-3462-2018",
+      "disfor-3047-2023",
+      "disfor-2414-2020",
+      "disfor-3332-2020",
+      "disfor-1843-2019",
+      "disfor-2217-2018",
+      "disfor-752-2018",
+      "disfor-2170-2022",
+      "disfor-2615-2023",
+      "disfor-2448-2018",
+      "disfor-2439-2021",
+      "disfor-3002-2020",
+      "disfor-833-2018",
+      "disfor-1427-2023",
+      "disfor-3372-2018",
+      "disfor-829-2018",
+      "disfor-942-2018",
+      "disfor-2125-2019",
+      "disfor-2976-2018",
+      "disfor-1771-2019",
+      "disfor-2909-2023",
+      "disfor-3020-2020",
+      "disfor-2419-2021",
+      "disfor-3471-2020",
+      "disfor-368-2018",
+      "disfor-3738-2023",
+      "disfor-2709-2019",
+      "disfor-1756-2019",
+      "disfor-3441-2018",
+      "disfor-3521-2020",
+      "disfor-1239-2021",
+      "disfor-1727-2021"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.05_17.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.9770663380622864,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.6144726425409317,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.6196869611740112,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.7544650435447693,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6175358146429062,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.7655347287654877,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.7681044042110443,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6232522130012512,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6416877508163452,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.7761057019233704,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6867424547672272,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5906733572483063,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.5787927210330963,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5739857703447342,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.6033108532428741,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6067541837692261,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.5952733308076859,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.6654422879219055,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.5961981862783432,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.567645400762558,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.5649753361940384,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.4558561444282532,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.5412941873073578,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.4961295425891876,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.46164970099925995,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.8014736771583557,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.4353983551263809,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.8652392029762268,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.5573253035545349,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.4710562229156494,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.6981011629104614,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.5329160988330841,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.5731340944766998,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.6362279951572418,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.6615632474422455,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.39798472821712494,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.890423446893692,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 1.0251825004816055,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.3410041034221649,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.3830672800540924,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.23623852655291558,
+        0.14919780604541302,
+        0.11777944602072239,
+        0.11292363591492176,
+        0.10415512546896935,
+        0.09619729965925217,
+        0.091548715159297,
+        0.08728215768933296,
+        0.08496686294674874,
+        0.08263501152396202,
+        0.0831385238096118,
+        0.07786811273545027,
+        0.07926024943590164,
+        0.07311757337301969,
+        0.07431326694786548,
+        0.07296665031462908,
+        0.07013982255011797,
+        0.07566920425742865,
+        0.0698268573731184,
+        0.06810765229165554,
+        0.0699758967384696,
+        0.06662566736340522,
+        0.06739097703248262,
+        0.06488910038024187,
+        0.06589489653706551,
+        0.06704486273229122,
+        0.0727264355868101,
+        0.06733081061393023,
+        0.06440250799059868,
+        0.06463541686534882,
+        0.06416015699505806,
+        0.06367506105452776,
+        0.06069659478962421,
+        0.0623378312215209,
+        0.06386481132358313,
+        0.06103088092058897,
+        0.06241773702204227,
+        0.06326422356069088,
+        0.06363149285316468,
+        0.06278427951037883,
+        0.061714847758412364,
+        0.06126214731484651,
+        0.05808417499065399,
+        0.06315320525318384,
+        0.06007098350673914,
+        0.059796682186424734,
+        0.06007031705230474,
+        0.059245552867650986,
+        0.06147437337785959,
+        0.05842489544302225,
+        0.05932533107697964,
+        0.0604405652731657,
+        0.05779357962310314,
+        0.05764846671372652,
+        0.06186104454100132,
+        0.057535510137677194,
+        0.05961108710616827,
+        0.06086759269237518,
+        0.06515428218990564,
+        0.056275455839931966
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 27,
+    "fraction": 0.05,
+    "labeled_ids": [
+      "disfor-2903-2023",
+      "disfor-3515-2018",
+      "disfor-2983-2019",
+      "disfor-2257-2019",
+      "disfor-1577-2023",
+      "disfor-1826-2020",
+      "disfor-3194-2020",
+      "disfor-1821-2021",
+      "disfor-1515-2023",
+      "disfor-3215-2018",
+      "disfor-3483-2021",
+      "disfor-1273-2019",
+      "disfor-1023-2021",
+      "disfor-3091-2019",
+      "disfor-821-2018",
+      "disfor-2205-2021",
+      "disfor-2919-2021",
+      "disfor-2235-2021",
+      "disfor-3805-2019",
+      "disfor-3083-2023",
+      "disfor-1787-2023",
+      "disfor-2127-2021",
+      "disfor-3733-2019",
+      "disfor-1849-2019",
+      "disfor-2987-2023",
+      "disfor-1607-2023",
+      "disfor-1346-2020",
+      "disfor-711-2018",
+      "disfor-3213-2021",
+      "disfor-3755-2019",
+      "disfor-2464-2022",
+      "disfor-0-2018",
+      "disfor-3224-2020",
+      "disfor-2201-2023",
+      "disfor-1194-2018",
+      "disfor-1151-2023",
+      "disfor-3271-2019",
+      "disfor-1418-2020",
+      "disfor-3021-2021",
+      "disfor-2620-2022",
+      "disfor-2364-2018",
+      "disfor-480-2018",
+      "disfor-1650-2018",
+      "disfor-3368-2020",
+      "disfor-3165-2021",
+      "disfor-2283-2018",
+      "disfor-1294-2022",
+      "disfor-824-2018",
+      "disfor-2656-2022",
+      "disfor-2132-2020",
+      "disfor-1480-2022",
+      "disfor-1137-2021",
+      "disfor-3342-2018",
+      "disfor-3037-2019",
+      "disfor-1934-2020",
+      "disfor-2810-2020",
+      "disfor-17-2021",
+      "disfor-469-2022",
+      "disfor-3488-2021",
+      "disfor-3738-2023",
+      "disfor-1669-2019",
+      "disfor-2721-2019",
+      "disfor-2760-2021",
+      "disfor-19-2020",
+      "disfor-3740-2023"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.05_27.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 1.0849940180778503,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.5998308956623077,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.60958132147789,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.5789430141448975,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.5751469731330872,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.5657337754964828,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6422684490680695,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.5701342076063156,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6224414110183716,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.5339975208044052,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.5784059315919876,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5156945884227753,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.5851948708295822,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.6130931079387665,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.5180517435073853,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6447761654853821,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.524760514497757,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.5503408461809158,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.48117876052856445,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.5819925963878632,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.5609471797943115,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.9176766276359558,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.5617476999759674,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.6513785123825073,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.6410260796546936,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.8192173838615417,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.40025967359542847,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.9878019392490387,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.41362784802913666,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.5653133392333984,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.38672445714473724,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.7906372249126434,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.4348551481962204,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.38760799914598465,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 1.3440365493297577,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.3622029721736908,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.3662125989794731,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.5764914751052856,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.6897759139537811,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.6342110186815262,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 27,
+    "fraction": 0.05,
+    "labeled_ids": [
+      "disfor-2903-2023",
+      "disfor-3515-2018",
+      "disfor-2983-2019",
+      "disfor-2257-2019",
+      "disfor-1577-2023",
+      "disfor-1826-2020",
+      "disfor-3194-2020",
+      "disfor-1821-2021",
+      "disfor-1515-2023",
+      "disfor-3215-2018",
+      "disfor-3483-2021",
+      "disfor-1273-2019",
+      "disfor-1023-2021",
+      "disfor-3091-2019",
+      "disfor-821-2018",
+      "disfor-2205-2021",
+      "disfor-2919-2021",
+      "disfor-2235-2021",
+      "disfor-3805-2019",
+      "disfor-3083-2023",
+      "disfor-1787-2023",
+      "disfor-2127-2021",
+      "disfor-3733-2019",
+      "disfor-1849-2019",
+      "disfor-2987-2023",
+      "disfor-1607-2023",
+      "disfor-1346-2020",
+      "disfor-711-2018",
+      "disfor-3213-2021",
+      "disfor-3755-2019",
+      "disfor-2464-2022",
+      "disfor-0-2018",
+      "disfor-3224-2020",
+      "disfor-2201-2023",
+      "disfor-1194-2018",
+      "disfor-1151-2023",
+      "disfor-3271-2019",
+      "disfor-1418-2020",
+      "disfor-3021-2021",
+      "disfor-2620-2022",
+      "disfor-2364-2018",
+      "disfor-480-2018",
+      "disfor-1650-2018",
+      "disfor-3368-2020",
+      "disfor-3165-2021",
+      "disfor-2283-2018",
+      "disfor-1294-2022",
+      "disfor-824-2018",
+      "disfor-2656-2022",
+      "disfor-2132-2020",
+      "disfor-1480-2022",
+      "disfor-1137-2021",
+      "disfor-3342-2018",
+      "disfor-3037-2019",
+      "disfor-1934-2020",
+      "disfor-2810-2020",
+      "disfor-17-2021",
+      "disfor-469-2022",
+      "disfor-3488-2021",
+      "disfor-3738-2023",
+      "disfor-1669-2019",
+      "disfor-2721-2019",
+      "disfor-2760-2021",
+      "disfor-19-2020",
+      "disfor-3740-2023"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.05_27.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 1.194794625043869,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.8892621994018555,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.5910709500312805,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.5093989819288254,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.5428998917341232,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.5092313140630722,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.5405089855194092,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.550712525844574,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.5348703563213348,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.49429717659950256,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6895941495895386,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.4929024279117584,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.5364455282688141,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5251775085926056,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.5124910771846771,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6032247543334961,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.47153064608573914,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.5572159439325333,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.4174725413322449,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.5631135702133179,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.44525834918022156,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.5740405321121216,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.4244828075170517,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.3419002443552017,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.49745146930217743,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.9191132634878159,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.3201528787612915,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.3957535922527313,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.361010417342186,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.3058074414730072,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.3148815706372261,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.3382829576730728,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.33016660809516907,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.28144439309835434,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.5051804035902023,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.1918383575975895,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.26059141755104065,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.33980080485343933,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.25211337208747864,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.2447117418050766,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.25451927110552786,
+        0.1494843278080225,
+        0.12175944857299328,
+        0.10874549113214016,
+        0.09540095180273056,
+        0.09241537600755692,
+        0.08867257311940194,
+        0.08188565410673618,
+        0.08336728233844042,
+        0.07901033237576485,
+        0.07866484746336937,
+        0.07168791517615318,
+        0.08320177737623453,
+        0.07637877240777016,
+        0.07522927485406398,
+        0.06939352154731751,
+        0.07032663747668266,
+        0.07143851984292268,
+        0.06911261640489101,
+        0.06923010405153036,
+        0.0694597776979208,
+        0.06905405819416047,
+        0.06311243791133166,
+        0.06737646870315075,
+        0.06826681420207023,
+        0.06526633892208338,
+        0.06564842835068703,
+        0.063276662863791,
+        0.0638156620785594,
+        0.06419967971742153,
+        0.06515837106853724,
+        0.06511997431516647,
+        0.06453915890306235,
+        0.06396225728094578,
+        0.06388737503439187,
+        0.061176260188221934,
+        0.06668160315603018,
+        0.06120297499001026,
+        0.05992281623184681,
+        0.06142241433262825,
+        0.0617597034201026,
+        0.06255082562565803,
+        0.06322777401655913,
+        0.06296515837311745,
+        0.06014775447547436,
+        0.06197142526507378,
+        0.05952661484479904,
+        0.061894419975578784,
+        0.062419294565916064,
+        0.060150671564042565,
+        0.06183319389820099,
+        0.058509229123592375,
+        0.05928860139101744,
+        0.05561868771910668,
+        0.05910364482551813,
+        0.059081295132637025,
+        0.05854866243898869,
+        0.06260774414986373,
+        0.05818119775503874,
+        0.0570738734677434
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 7,
+    "fraction": 0.1,
+    "labeled_ids": [
+      "disfor-3025-2019",
+      "disfor-3749-2019",
+      "disfor-2990-2020",
+      "disfor-1799-2023",
+      "disfor-1300-2022",
+      "disfor-1955-2023",
+      "disfor-465-2018",
+      "disfor-2964-2018",
+      "disfor-1074-2018",
+      "disfor-3262-2022",
+      "disfor-1971-2021",
+      "disfor-1314-2018",
+      "disfor-1439-2023",
+      "disfor-1321-2019",
+      "disfor-1621-2023",
+      "disfor-2963-2023",
+      "disfor-2876-2020",
+      "disfor-827-2018",
+      "disfor-2952-2018",
+      "disfor-2675-2018",
+      "disfor-1988-2020",
+      "disfor-1873-2019",
+      "disfor-3104-2020",
+      "disfor-2027-2023",
+      "disfor-1565-2023",
+      "disfor-931-2019",
+      "disfor-3052-2022",
+      "disfor-554-2022",
+      "disfor-3803-2019",
+      "disfor-672-2018",
+      "disfor-3336-2018",
+      "disfor-3467-2023",
+      "disfor-1345-2019",
+      "disfor-2928-2018",
+      "disfor-3149-2023",
+      "disfor-2976-2018",
+      "disfor-1933-2019",
+      "disfor-2602-2022",
+      "disfor-2795-2023",
+      "disfor-1934-2020",
+      "disfor-2631-2021",
+      "disfor-2132-2020",
+      "disfor-1223-2023",
+      "disfor-3043-2019",
+      "disfor-1226-2020",
+      "disfor-2975-2023",
+      "disfor-2951-2023",
+      "disfor-3181-2019",
+      "disfor-1099-2019",
+      "disfor-2612-2020",
+      "disfor-3761-2019",
+      "disfor-1043-2023",
+      "disfor-1564-2022",
+      "disfor-1607-2023",
+      "disfor-2227-2019",
+      "disfor-1348-2022",
+      "disfor-3367-2019",
+      "disfor-1485-2021",
+      "disfor-2038-2022",
+      "disfor-1432-2022",
+      "disfor-1078-2022",
+      "disfor-1604-2020",
+      "disfor-1881-2021",
+      "disfor-2217-2018",
+      "disfor-1959-2021",
+      "disfor-1965-2018",
+      "disfor-3373-2019",
+      "disfor-1757-2023",
+      "disfor-1581-2021",
+      "disfor-3133-2019",
+      "disfor-2282-2020",
+      "disfor-1115-2023",
+      "disfor-820-2018",
+      "disfor-926-2020",
+      "disfor-2084-2020",
+      "disfor-2364-2018",
+      "disfor-1188-2018",
+      "disfor-2439-2021",
+      "disfor-2141-2023",
+      "disfor-919-2019",
+      "disfor-2907-2021",
+      "disfor-0-2018",
+      "disfor-2144-2020",
+      "disfor-687-2018",
+      "disfor-3519-2018",
+      "disfor-1063-2019",
+      "disfor-1045-2019",
+      "disfor-2411-2018",
+      "disfor-1134-2018",
+      "disfor-942-2018",
+      "disfor-2105-2023",
+      "disfor-1274-2020",
+      "disfor-1502-2020",
+      "disfor-479-2018",
+      "disfor-3762-2019",
+      "disfor-2018-2020",
+      "disfor-2557-2019",
+      "disfor-3086-2020",
+      "disfor-2929-2019",
+      "disfor-1843-2019",
+      "disfor-1449-2021",
+      "disfor-897-2023",
+      "disfor-1270-2022",
+      "disfor-1263-2021",
+      "disfor-3399-2018",
+      "disfor-2671-2019",
+      "disfor-1631-2023",
+      "disfor-1501-2019",
+      "disfor-1108-2022",
+      "disfor-6-2020",
+      "disfor-447-2019",
+      "disfor-3220-2023",
+      "disfor-2699-2019",
+      "disfor-3471-2020",
+      "disfor-367-2018",
+      "disfor-3457-2018",
+      "disfor-1719-2019",
+      "disfor-2723-2020",
+      "disfor-441-2018",
+      "disfor-1678-2019",
+      "disfor-459-2018",
+      "disfor-1698-2019",
+      "disfor-3439-2018",
+      "disfor-472-2020",
+      "disfor-3509-2021",
+      "disfor-370-2018",
+      "disfor-2733-2020",
+      "disfor-450-2019"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.1_7.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.6889694035053253,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.6600301861763,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.6745532751083374,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6321248114109039,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6087261736392975,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6056236326694489,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6038225293159485,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.5835111737251282,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.5761415362358093,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.5535416007041931,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.5362595617771149,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5073263496160507,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.49777182936668396,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5095552206039429,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.47642917931079865,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.4702072888612747,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.44624583423137665,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.45937205851078033,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.45488201081752777,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.4312343895435333,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.4344717264175415,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.3950413763523102,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.35772186517715454,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.37326014041900635,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.41798025369644165,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.3617507666349411,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.4176025837659836,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.3383583724498749,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.37277601659297943,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.3483361601829529,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.304891899228096,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.33333155512809753,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.30461786687374115,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.3009825795888901,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.31651677191257477,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.256122887134552,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.25944414734840393,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.25741761922836304,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.2836785614490509,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.262179858982563,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 7,
+    "fraction": 0.1,
+    "labeled_ids": [
+      "disfor-3025-2019",
+      "disfor-3749-2019",
+      "disfor-2990-2020",
+      "disfor-1799-2023",
+      "disfor-1300-2022",
+      "disfor-1955-2023",
+      "disfor-465-2018",
+      "disfor-2964-2018",
+      "disfor-1074-2018",
+      "disfor-3262-2022",
+      "disfor-1971-2021",
+      "disfor-1314-2018",
+      "disfor-1439-2023",
+      "disfor-1321-2019",
+      "disfor-1621-2023",
+      "disfor-2963-2023",
+      "disfor-2876-2020",
+      "disfor-827-2018",
+      "disfor-2952-2018",
+      "disfor-2675-2018",
+      "disfor-1988-2020",
+      "disfor-1873-2019",
+      "disfor-3104-2020",
+      "disfor-2027-2023",
+      "disfor-1565-2023",
+      "disfor-931-2019",
+      "disfor-3052-2022",
+      "disfor-554-2022",
+      "disfor-3803-2019",
+      "disfor-672-2018",
+      "disfor-3336-2018",
+      "disfor-3467-2023",
+      "disfor-1345-2019",
+      "disfor-2928-2018",
+      "disfor-3149-2023",
+      "disfor-2976-2018",
+      "disfor-1933-2019",
+      "disfor-2602-2022",
+      "disfor-2795-2023",
+      "disfor-1934-2020",
+      "disfor-2631-2021",
+      "disfor-2132-2020",
+      "disfor-1223-2023",
+      "disfor-3043-2019",
+      "disfor-1226-2020",
+      "disfor-2975-2023",
+      "disfor-2951-2023",
+      "disfor-3181-2019",
+      "disfor-1099-2019",
+      "disfor-2612-2020",
+      "disfor-3761-2019",
+      "disfor-1043-2023",
+      "disfor-1564-2022",
+      "disfor-1607-2023",
+      "disfor-2227-2019",
+      "disfor-1348-2022",
+      "disfor-3367-2019",
+      "disfor-1485-2021",
+      "disfor-2038-2022",
+      "disfor-1432-2022",
+      "disfor-1078-2022",
+      "disfor-1604-2020",
+      "disfor-1881-2021",
+      "disfor-2217-2018",
+      "disfor-1959-2021",
+      "disfor-1965-2018",
+      "disfor-3373-2019",
+      "disfor-1757-2023",
+      "disfor-1581-2021",
+      "disfor-3133-2019",
+      "disfor-2282-2020",
+      "disfor-1115-2023",
+      "disfor-820-2018",
+      "disfor-926-2020",
+      "disfor-2084-2020",
+      "disfor-2364-2018",
+      "disfor-1188-2018",
+      "disfor-2439-2021",
+      "disfor-2141-2023",
+      "disfor-919-2019",
+      "disfor-2907-2021",
+      "disfor-0-2018",
+      "disfor-2144-2020",
+      "disfor-687-2018",
+      "disfor-3519-2018",
+      "disfor-1063-2019",
+      "disfor-1045-2019",
+      "disfor-2411-2018",
+      "disfor-1134-2018",
+      "disfor-942-2018",
+      "disfor-2105-2023",
+      "disfor-1274-2020",
+      "disfor-1502-2020",
+      "disfor-479-2018",
+      "disfor-3762-2019",
+      "disfor-2018-2020",
+      "disfor-2557-2019",
+      "disfor-3086-2020",
+      "disfor-2929-2019",
+      "disfor-1843-2019",
+      "disfor-1449-2021",
+      "disfor-897-2023",
+      "disfor-1270-2022",
+      "disfor-1263-2021",
+      "disfor-3399-2018",
+      "disfor-2671-2019",
+      "disfor-1631-2023",
+      "disfor-1501-2019",
+      "disfor-1108-2022",
+      "disfor-6-2020",
+      "disfor-447-2019",
+      "disfor-3220-2023",
+      "disfor-2699-2019",
+      "disfor-3471-2020",
+      "disfor-367-2018",
+      "disfor-3457-2018",
+      "disfor-1719-2019",
+      "disfor-2723-2020",
+      "disfor-441-2018",
+      "disfor-1678-2019",
+      "disfor-459-2018",
+      "disfor-1698-2019",
+      "disfor-3439-2018",
+      "disfor-472-2020",
+      "disfor-3509-2021",
+      "disfor-370-2018",
+      "disfor-2733-2020",
+      "disfor-450-2019"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.1_7.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.8003564476966858,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7065303921699524,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.6796236336231232,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6552297174930573,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6500743925571442,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6254166662693024,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.5987689793109894,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.5898561477661133,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.5625653564929962,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.5376673340797424,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.5461529195308685,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5019407868385315,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.4707052558660507,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.4970579147338867,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.45475204288959503,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.4163212329149246,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.4085850119590759,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.4204469174146652,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.4040531814098358,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.3585295230150223,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.35194338858127594,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.3573162257671356,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.28531020879745483,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.30148129165172577,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.3278764486312866,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.26661521196365356,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.273308128118515,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.24061739444732666,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.31949055194854736,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.2318408265709877,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.21337202191352844,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.22031405568122864,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.18458428233861923,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.19148682802915573,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.21738701313734055,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.17041665315628052,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.17019224166870117,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.17660145461559296,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.26088280975818634,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.149960957467556,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.21286801174283027,
+        0.1334353841841221,
+        0.1136282991617918,
+        0.10477683804929257,
+        0.09961715452373028,
+        0.09350232630968094,
+        0.08738747872412204,
+        0.08179820608347654,
+        0.07592813372611999,
+        0.07831571027636527,
+        0.07795543558895587,
+        0.08044282924383879,
+        0.07020100746303796,
+        0.07223410829901696,
+        0.07121012751013041,
+        0.07256328947842121,
+        0.06656835861504078,
+        0.07279375549405813,
+        0.06813594363629819,
+        0.06739879418164492,
+        0.06643475890159607,
+        0.06655460447072983,
+        0.06473635155707598,
+        0.06766745112836361,
+        0.06443821527063846,
+        0.06273955535143613,
+        0.061271566152572635,
+        0.06608966682106257,
+        0.06318580005317927,
+        0.06552867162972689,
+        0.061842081137001514,
+        0.06200181841850281,
+        0.06119249723851681,
+        0.0607121042907238,
+        0.0626654950901866,
+        0.06061846427619457,
+        0.05887655094265938,
+        0.058979695104062556,
+        0.05633836332708597,
+        0.062293739058077335,
+        0.059846062771975995,
+        0.061484267190098765,
+        0.05947230588644743,
+        0.05719539355486632,
+        0.06169657036662102,
+        0.06364015638828277,
+        0.06288948636502027,
+        0.059011217951774594,
+        0.06003007926046848,
+        0.056170265562832354,
+        0.058645693399012086,
+        0.058787963539361957,
+        0.060010415688157084,
+        0.058142257109284404,
+        0.06126984003931284,
+        0.05885420106351376,
+        0.0619584808126092,
+        0.05586774498224258,
+        0.05873039737343788,
+        0.06015376001596451
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 17,
+    "fraction": 0.1,
+    "labeled_ids": [
+      "disfor-2025-2021",
+      "disfor-1165-2019",
+      "disfor-1567-2019",
+      "disfor-2244-2018",
+      "disfor-1780-2022",
+      "disfor-1548-2018",
+      "disfor-2082-2018",
+      "disfor-1761-2021",
+      "disfor-1896-2018",
+      "disfor-1795-2019",
+      "disfor-1759-2019",
+      "disfor-3806-2019",
+      "disfor-1447-2019",
+      "disfor-1132-2022",
+      "disfor-1438-2022",
+      "disfor-3039-2021",
+      "disfor-1146-2018",
+      "disfor-3321-2021",
+      "disfor-955-2019",
+      "disfor-1263-2021",
+      "disfor-2483-2023",
+      "disfor-1150-2022",
+      "disfor-1385-2023",
+      "disfor-1449-2021",
+      "disfor-2919-2021",
+      "disfor-3749-2019",
+      "disfor-1566-2018",
+      "disfor-2749-2019",
+      "disfor-2938-2022",
+      "disfor-697-2018",
+      "disfor-3737-2019",
+      "disfor-3280-2022",
+      "disfor-2031-2021",
+      "disfor-3462-2018",
+      "disfor-3047-2023",
+      "disfor-2414-2020",
+      "disfor-3332-2020",
+      "disfor-1843-2019",
+      "disfor-2217-2018",
+      "disfor-752-2018",
+      "disfor-2170-2022",
+      "disfor-2615-2023",
+      "disfor-2448-2018",
+      "disfor-2439-2021",
+      "disfor-3002-2020",
+      "disfor-833-2018",
+      "disfor-1427-2023",
+      "disfor-3372-2018",
+      "disfor-829-2018",
+      "disfor-942-2018",
+      "disfor-2125-2019",
+      "disfor-2976-2018",
+      "disfor-1771-2019",
+      "disfor-2909-2023",
+      "disfor-3020-2020",
+      "disfor-3416-2018",
+      "disfor-2928-2018",
+      "disfor-907-2019",
+      "disfor-3800-2019",
+      "disfor-2021-2023",
+      "disfor-2576-2020",
+      "disfor-827-2018",
+      "disfor-3357-2022",
+      "disfor-2188-2022",
+      "disfor-926-2020",
+      "disfor-3368-2020",
+      "disfor-2636-2020",
+      "disfor-1535-2023",
+      "disfor-2677-2019",
+      "disfor-1277-2023",
+      "disfor-687-2018",
+      "disfor-1894-2022",
+      "disfor-2167-2019",
+      "disfor-1561-2019",
+      "disfor-1957-2019",
+      "disfor-971-2023",
+      "disfor-3104-2020",
+      "disfor-1777-2019",
+      "disfor-1546-2022",
+      "disfor-2802-2018",
+      "disfor-2129-2023",
+      "disfor-2913-2021",
+      "disfor-2923-2019",
+      "disfor-2807-2023",
+      "disfor-2803-2019",
+      "disfor-1335-2021",
+      "disfor-1838-2020",
+      "disfor-1486-2022",
+      "disfor-650-2018",
+      "disfor-1915-2019",
+      "disfor-954-2018",
+      "disfor-1984-2022",
+      "disfor-1011-2021",
+      "disfor-2914-2022",
+      "disfor-1542-2018",
+      "disfor-1471-2019",
+      "disfor-1387-2019",
+      "disfor-2421-2018",
+      "disfor-2983-2019",
+      "disfor-972-2018",
+      "disfor-2017-2019",
+      "disfor-1478-2020",
+      "disfor-2126-2020",
+      "disfor-2921-2023",
+      "disfor-1505-2023",
+      "disfor-2275-2019",
+      "disfor-2984-2020",
+      "disfor-1501-2019",
+      "disfor-1517-2023",
+      "disfor-2419-2021",
+      "disfor-3471-2020",
+      "disfor-368-2018",
+      "disfor-3738-2023",
+      "disfor-2709-2019",
+      "disfor-1756-2019",
+      "disfor-3441-2018",
+      "disfor-3521-2020",
+      "disfor-1239-2021",
+      "disfor-1727-2021",
+      "disfor-1726-2021",
+      "disfor-1638-2022",
+      "disfor-2735-2020",
+      "disfor-452-2018",
+      "disfor-474-2020",
+      "disfor-1197-2022",
+      "disfor-1685-2019",
+      "disfor-469-2022",
+      "disfor-3390-2023"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.1_17.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.766517162322998,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.753118246793747,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.713422030210495,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6981266736984253,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.7213242948055267,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.7118574976921082,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6634833514690399,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6625846028327942,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6790569424629211,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6273159384727478,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6577141284942627,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.6435644328594208,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.6521135568618774,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.6582654118537903,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.6322887539863586,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.611209899187088,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.6049556732177734,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.6257849037647247,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.6231323778629303,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.61162069439888,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.5892704725265503,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.5612721741199493,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.5766924768686295,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.5190409272909164,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.5150437653064728,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.5040917098522186,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.4836302101612091,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.4877612739801407,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.44662369787693024,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.38805051147937775,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.3686869293451309,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.41473834216594696,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.3817419856786728,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.3686864674091339,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.3412778675556183,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.38672809302806854,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.30562520027160645,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.3012268394231796,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.25302577018737793,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.2471553087234497,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 17,
+    "fraction": 0.1,
+    "labeled_ids": [
+      "disfor-2025-2021",
+      "disfor-1165-2019",
+      "disfor-1567-2019",
+      "disfor-2244-2018",
+      "disfor-1780-2022",
+      "disfor-1548-2018",
+      "disfor-2082-2018",
+      "disfor-1761-2021",
+      "disfor-1896-2018",
+      "disfor-1795-2019",
+      "disfor-1759-2019",
+      "disfor-3806-2019",
+      "disfor-1447-2019",
+      "disfor-1132-2022",
+      "disfor-1438-2022",
+      "disfor-3039-2021",
+      "disfor-1146-2018",
+      "disfor-3321-2021",
+      "disfor-955-2019",
+      "disfor-1263-2021",
+      "disfor-2483-2023",
+      "disfor-1150-2022",
+      "disfor-1385-2023",
+      "disfor-1449-2021",
+      "disfor-2919-2021",
+      "disfor-3749-2019",
+      "disfor-1566-2018",
+      "disfor-2749-2019",
+      "disfor-2938-2022",
+      "disfor-697-2018",
+      "disfor-3737-2019",
+      "disfor-3280-2022",
+      "disfor-2031-2021",
+      "disfor-3462-2018",
+      "disfor-3047-2023",
+      "disfor-2414-2020",
+      "disfor-3332-2020",
+      "disfor-1843-2019",
+      "disfor-2217-2018",
+      "disfor-752-2018",
+      "disfor-2170-2022",
+      "disfor-2615-2023",
+      "disfor-2448-2018",
+      "disfor-2439-2021",
+      "disfor-3002-2020",
+      "disfor-833-2018",
+      "disfor-1427-2023",
+      "disfor-3372-2018",
+      "disfor-829-2018",
+      "disfor-942-2018",
+      "disfor-2125-2019",
+      "disfor-2976-2018",
+      "disfor-1771-2019",
+      "disfor-2909-2023",
+      "disfor-3020-2020",
+      "disfor-3416-2018",
+      "disfor-2928-2018",
+      "disfor-907-2019",
+      "disfor-3800-2019",
+      "disfor-2021-2023",
+      "disfor-2576-2020",
+      "disfor-827-2018",
+      "disfor-3357-2022",
+      "disfor-2188-2022",
+      "disfor-926-2020",
+      "disfor-3368-2020",
+      "disfor-2636-2020",
+      "disfor-1535-2023",
+      "disfor-2677-2019",
+      "disfor-1277-2023",
+      "disfor-687-2018",
+      "disfor-1894-2022",
+      "disfor-2167-2019",
+      "disfor-1561-2019",
+      "disfor-1957-2019",
+      "disfor-971-2023",
+      "disfor-3104-2020",
+      "disfor-1777-2019",
+      "disfor-1546-2022",
+      "disfor-2802-2018",
+      "disfor-2129-2023",
+      "disfor-2913-2021",
+      "disfor-2923-2019",
+      "disfor-2807-2023",
+      "disfor-2803-2019",
+      "disfor-1335-2021",
+      "disfor-1838-2020",
+      "disfor-1486-2022",
+      "disfor-650-2018",
+      "disfor-1915-2019",
+      "disfor-954-2018",
+      "disfor-1984-2022",
+      "disfor-1011-2021",
+      "disfor-2914-2022",
+      "disfor-1542-2018",
+      "disfor-1471-2019",
+      "disfor-1387-2019",
+      "disfor-2421-2018",
+      "disfor-2983-2019",
+      "disfor-972-2018",
+      "disfor-2017-2019",
+      "disfor-1478-2020",
+      "disfor-2126-2020",
+      "disfor-2921-2023",
+      "disfor-1505-2023",
+      "disfor-2275-2019",
+      "disfor-2984-2020",
+      "disfor-1501-2019",
+      "disfor-1517-2023",
+      "disfor-2419-2021",
+      "disfor-3471-2020",
+      "disfor-368-2018",
+      "disfor-3738-2023",
+      "disfor-2709-2019",
+      "disfor-1756-2019",
+      "disfor-3441-2018",
+      "disfor-3521-2020",
+      "disfor-1239-2021",
+      "disfor-1727-2021",
+      "disfor-1726-2021",
+      "disfor-1638-2022",
+      "disfor-2735-2020",
+      "disfor-452-2018",
+      "disfor-474-2020",
+      "disfor-1197-2022",
+      "disfor-1685-2019",
+      "disfor-469-2022",
+      "disfor-3390-2023"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.1_17.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7682981491088867,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7928573489189148,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.747251033782959,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.7016772031784058,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.725999265909195,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.7005088329315186,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6664632558822632,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6550704538822174,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6491360068321228,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6044288575649261,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6050527095794678,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5980511605739594,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.6118242740631104,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5931314826011658,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.5713447332382202,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.5094018876552582,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.5014575123786926,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.5021454095840454,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.48781420290470123,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.47962142527103424,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.4333927035331726,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.41829629242420197,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.4147742986679077,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.3751395493745804,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.35640713572502136,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.3516334295272827,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.3271755129098892,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.31040291488170624,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.3323809802532196,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.27914582192897797,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.2797621712088585,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.32137802243232727,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.3170550465583801,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.3042060434818268,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.26857635378837585,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.2957615405321121,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.23274193704128265,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.3045526295900345,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.23601655662059784,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.21767131239175797,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.23623852655291558,
+        0.14919780604541302,
+        0.11777944602072239,
+        0.11292363591492176,
+        0.10415512546896935,
+        0.09619729965925217,
+        0.091548715159297,
+        0.08728215768933296,
+        0.08496686294674874,
+        0.08263501152396202,
+        0.0831385238096118,
+        0.07786811273545027,
+        0.07926024943590164,
+        0.07311757337301969,
+        0.07431326694786548,
+        0.07296665031462908,
+        0.07013982255011797,
+        0.07566920425742865,
+        0.0698268573731184,
+        0.06810765229165554,
+        0.0699758967384696,
+        0.06662566736340522,
+        0.06739097703248262,
+        0.06488910038024187,
+        0.06589489653706551,
+        0.06704486273229122,
+        0.0727264355868101,
+        0.06733081061393023,
+        0.06440250799059868,
+        0.06463541686534882,
+        0.06416015699505806,
+        0.06367506105452776,
+        0.06069659478962421,
+        0.0623378312215209,
+        0.06386481132358313,
+        0.06103088092058897,
+        0.06241773702204227,
+        0.06326422356069088,
+        0.06363149285316468,
+        0.06278427951037883,
+        0.061714847758412364,
+        0.06126214731484651,
+        0.05808417499065399,
+        0.06315320525318384,
+        0.06007098350673914,
+        0.059796682186424734,
+        0.06007031705230474,
+        0.059245552867650986,
+        0.06147437337785959,
+        0.05842489544302225,
+        0.05932533107697964,
+        0.0604405652731657,
+        0.05779357962310314,
+        0.05764846671372652,
+        0.06186104454100132,
+        0.057535510137677194,
+        0.05961108710616827,
+        0.06086759269237518,
+        0.06515428218990564,
+        0.056275455839931966
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 27,
+    "fraction": 0.1,
+    "labeled_ids": [
+      "disfor-2903-2023",
+      "disfor-3515-2018",
+      "disfor-2983-2019",
+      "disfor-2257-2019",
+      "disfor-1577-2023",
+      "disfor-1826-2020",
+      "disfor-3194-2020",
+      "disfor-1821-2021",
+      "disfor-1515-2023",
+      "disfor-3215-2018",
+      "disfor-3483-2021",
+      "disfor-1273-2019",
+      "disfor-1023-2021",
+      "disfor-3091-2019",
+      "disfor-821-2018",
+      "disfor-2205-2021",
+      "disfor-2919-2021",
+      "disfor-2235-2021",
+      "disfor-3805-2019",
+      "disfor-3083-2023",
+      "disfor-1787-2023",
+      "disfor-2127-2021",
+      "disfor-3733-2019",
+      "disfor-1849-2019",
+      "disfor-2987-2023",
+      "disfor-1607-2023",
+      "disfor-1346-2020",
+      "disfor-711-2018",
+      "disfor-3213-2021",
+      "disfor-3755-2019",
+      "disfor-2464-2022",
+      "disfor-0-2018",
+      "disfor-3224-2020",
+      "disfor-2201-2023",
+      "disfor-1194-2018",
+      "disfor-1151-2023",
+      "disfor-3271-2019",
+      "disfor-1418-2020",
+      "disfor-3021-2021",
+      "disfor-2620-2022",
+      "disfor-2364-2018",
+      "disfor-480-2018",
+      "disfor-1650-2018",
+      "disfor-3368-2020",
+      "disfor-3165-2021",
+      "disfor-2283-2018",
+      "disfor-1294-2022",
+      "disfor-824-2018",
+      "disfor-2656-2022",
+      "disfor-2132-2020",
+      "disfor-1480-2022",
+      "disfor-1137-2021",
+      "disfor-3342-2018",
+      "disfor-3037-2019",
+      "disfor-1934-2020",
+      "disfor-529-2018",
+      "disfor-2567-2023",
+      "disfor-3821-2019",
+      "disfor-2438-2020",
+      "disfor-1773-2021",
+      "disfor-1449-2021",
+      "disfor-2385-2018",
+      "disfor-1978-2022",
+      "disfor-1778-2020",
+      "disfor-2133-2021",
+      "disfor-2566-2022",
+      "disfor-2167-2019",
+      "disfor-1764-2018",
+      "disfor-2460-2018",
+      "disfor-2177-2023",
+      "disfor-1212-2018",
+      "disfor-1436-2020",
+      "disfor-1322-2020",
+      "disfor-1252-2022",
+      "disfor-2631-2021",
+      "disfor-455-2018",
+      "disfor-1122-2018",
+      "disfor-1375-2019",
+      "disfor-1308-2018",
+      "disfor-820-2018",
+      "disfor-1825-2019",
+      "disfor-3365-2023",
+      "disfor-2243-2023",
+      "disfor-997-2019",
+      "disfor-1083-2021",
+      "disfor-2478-2018",
+      "disfor-3737-2019",
+      "disfor-2421-2018",
+      "disfor-2554-2022",
+      "disfor-3807-2019",
+      "disfor-2101-2019",
+      "disfor-1916-2020",
+      "disfor-3760-2022",
+      "disfor-2641-2019",
+      "disfor-2184-2018",
+      "disfor-1353-2021",
+      "disfor-2179-2019",
+      "disfor-1823-2023",
+      "disfor-3397-2019",
+      "disfor-2483-2023",
+      "disfor-1311-2021",
+      "disfor-555-2022",
+      "disfor-1448-2020",
+      "disfor-1799-2023",
+      "disfor-2928-2018",
+      "disfor-3202-2022",
+      "disfor-2461-2019",
+      "disfor-3007-2020",
+      "disfor-2040-2018",
+      "disfor-2810-2020",
+      "disfor-17-2021",
+      "disfor-469-2022",
+      "disfor-3488-2021",
+      "disfor-3738-2023",
+      "disfor-1669-2019",
+      "disfor-2721-2019",
+      "disfor-2760-2021",
+      "disfor-19-2020",
+      "disfor-3740-2023",
+      "disfor-2737-2019",
+      "disfor-1745-2018",
+      "disfor-1644-2018",
+      "disfor-1509-2022",
+      "disfor-1893-2021",
+      "disfor-369-2018",
+      "disfor-3435-2019",
+      "disfor-1679-2019",
+      "disfor-1464-2019"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.1_27.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7375340163707733,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7124255001544952,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7238841652870178,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.683159589767456,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6748076677322388,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6588709056377411,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6750319600105286,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6413482427597046,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6586232483386993,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6561919152736664,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6326268911361694,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.6347068548202515,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.6367051601409912,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.6235344409942627,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.6113913953304291,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6298105716705322,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.6193346679210663,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.6071991920471191,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.618009477853775,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.587472677230835,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.5914130806922913,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.588336706161499,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.5881335139274597,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.5898109376430511,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.5404958128929138,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.5421752333641052,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.5326526612043381,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.5246993154287338,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.5233895629644394,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.5088928639888763,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.4969513565301895,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.47756850719451904,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.4610823094844818,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.4636387676000595,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.4254450350999832,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.41837291419506073,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.41943585872650146,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.3803875744342804,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.4095606058835983,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.3961835652589798,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 27,
+    "fraction": 0.1,
+    "labeled_ids": [
+      "disfor-2903-2023",
+      "disfor-3515-2018",
+      "disfor-2983-2019",
+      "disfor-2257-2019",
+      "disfor-1577-2023",
+      "disfor-1826-2020",
+      "disfor-3194-2020",
+      "disfor-1821-2021",
+      "disfor-1515-2023",
+      "disfor-3215-2018",
+      "disfor-3483-2021",
+      "disfor-1273-2019",
+      "disfor-1023-2021",
+      "disfor-3091-2019",
+      "disfor-821-2018",
+      "disfor-2205-2021",
+      "disfor-2919-2021",
+      "disfor-2235-2021",
+      "disfor-3805-2019",
+      "disfor-3083-2023",
+      "disfor-1787-2023",
+      "disfor-2127-2021",
+      "disfor-3733-2019",
+      "disfor-1849-2019",
+      "disfor-2987-2023",
+      "disfor-1607-2023",
+      "disfor-1346-2020",
+      "disfor-711-2018",
+      "disfor-3213-2021",
+      "disfor-3755-2019",
+      "disfor-2464-2022",
+      "disfor-0-2018",
+      "disfor-3224-2020",
+      "disfor-2201-2023",
+      "disfor-1194-2018",
+      "disfor-1151-2023",
+      "disfor-3271-2019",
+      "disfor-1418-2020",
+      "disfor-3021-2021",
+      "disfor-2620-2022",
+      "disfor-2364-2018",
+      "disfor-480-2018",
+      "disfor-1650-2018",
+      "disfor-3368-2020",
+      "disfor-3165-2021",
+      "disfor-2283-2018",
+      "disfor-1294-2022",
+      "disfor-824-2018",
+      "disfor-2656-2022",
+      "disfor-2132-2020",
+      "disfor-1480-2022",
+      "disfor-1137-2021",
+      "disfor-3342-2018",
+      "disfor-3037-2019",
+      "disfor-1934-2020",
+      "disfor-529-2018",
+      "disfor-2567-2023",
+      "disfor-3821-2019",
+      "disfor-2438-2020",
+      "disfor-1773-2021",
+      "disfor-1449-2021",
+      "disfor-2385-2018",
+      "disfor-1978-2022",
+      "disfor-1778-2020",
+      "disfor-2133-2021",
+      "disfor-2566-2022",
+      "disfor-2167-2019",
+      "disfor-1764-2018",
+      "disfor-2460-2018",
+      "disfor-2177-2023",
+      "disfor-1212-2018",
+      "disfor-1436-2020",
+      "disfor-1322-2020",
+      "disfor-1252-2022",
+      "disfor-2631-2021",
+      "disfor-455-2018",
+      "disfor-1122-2018",
+      "disfor-1375-2019",
+      "disfor-1308-2018",
+      "disfor-820-2018",
+      "disfor-1825-2019",
+      "disfor-3365-2023",
+      "disfor-2243-2023",
+      "disfor-997-2019",
+      "disfor-1083-2021",
+      "disfor-2478-2018",
+      "disfor-3737-2019",
+      "disfor-2421-2018",
+      "disfor-2554-2022",
+      "disfor-3807-2019",
+      "disfor-2101-2019",
+      "disfor-1916-2020",
+      "disfor-3760-2022",
+      "disfor-2641-2019",
+      "disfor-2184-2018",
+      "disfor-1353-2021",
+      "disfor-2179-2019",
+      "disfor-1823-2023",
+      "disfor-3397-2019",
+      "disfor-2483-2023",
+      "disfor-1311-2021",
+      "disfor-555-2022",
+      "disfor-1448-2020",
+      "disfor-1799-2023",
+      "disfor-2928-2018",
+      "disfor-3202-2022",
+      "disfor-2461-2019",
+      "disfor-3007-2020",
+      "disfor-2040-2018",
+      "disfor-2810-2020",
+      "disfor-17-2021",
+      "disfor-469-2022",
+      "disfor-3488-2021",
+      "disfor-3738-2023",
+      "disfor-1669-2019",
+      "disfor-2721-2019",
+      "disfor-2760-2021",
+      "disfor-19-2020",
+      "disfor-3740-2023",
+      "disfor-2737-2019",
+      "disfor-1745-2018",
+      "disfor-1644-2018",
+      "disfor-1509-2022",
+      "disfor-1893-2021",
+      "disfor-369-2018",
+      "disfor-3435-2019",
+      "disfor-1679-2019",
+      "disfor-1464-2019"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.1_27.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7823968529701233,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7241331040859222,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7041395306587219,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6625982224941254,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6506148278713226,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6450464129447937,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6582141518592834,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6246799528598785,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6335987150669098,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6315784454345703,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6104921996593475,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5993025004863739,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.6003505885601044,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5402466952800751,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.5451844036579132,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.524347722530365,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.49644070863723755,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.4744842201471329,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.44302721321582794,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.40194785594940186,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.37328627705574036,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.38154640793800354,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.37280382215976715,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.34393538534641266,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.2891707867383957,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.2983703762292862,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.26711998879909515,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.24663500487804413,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.26752113550901413,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.2703532949090004,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.22774731367826462,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.22097745537757874,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.21055667102336884,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.20711754262447357,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.23656782507896423,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.20132244378328323,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.20134322345256805,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.18113797903060913,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.18584391474723816,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.20522873103618622,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.25451927110552786,
+        0.1494843278080225,
+        0.12175944857299328,
+        0.10874549113214016,
+        0.09540095180273056,
+        0.09241537600755692,
+        0.08867257311940194,
+        0.08188565410673618,
+        0.08336728233844042,
+        0.07901033237576485,
+        0.07866484746336937,
+        0.07168791517615318,
+        0.08320177737623453,
+        0.07637877240777016,
+        0.07522927485406398,
+        0.06939352154731751,
+        0.07032663747668266,
+        0.07143851984292268,
+        0.06911261640489101,
+        0.06923010405153036,
+        0.0694597776979208,
+        0.06905405819416047,
+        0.06311243791133166,
+        0.06737646870315075,
+        0.06826681420207023,
+        0.06526633892208338,
+        0.06564842835068703,
+        0.063276662863791,
+        0.0638156620785594,
+        0.06419967971742153,
+        0.06515837106853724,
+        0.06511997431516647,
+        0.06453915890306235,
+        0.06396225728094578,
+        0.06388737503439187,
+        0.061176260188221934,
+        0.06668160315603018,
+        0.06120297499001026,
+        0.05992281623184681,
+        0.06142241433262825,
+        0.0617597034201026,
+        0.06255082562565803,
+        0.06322777401655913,
+        0.06296515837311745,
+        0.06014775447547436,
+        0.06197142526507378,
+        0.05952661484479904,
+        0.061894419975578784,
+        0.062419294565916064,
+        0.060150671564042565,
+        0.06183319389820099,
+        0.058509229123592375,
+        0.05928860139101744,
+        0.05561868771910668,
+        0.05910364482551813,
+        0.059081295132637025,
+        0.05854866243898869,
+        0.06260774414986373,
+        0.05818119775503874,
+        0.0570738734677434
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 7,
+    "fraction": 0.2,
+    "labeled_ids": [
+      "disfor-3025-2019",
+      "disfor-3749-2019",
+      "disfor-2990-2020",
+      "disfor-1799-2023",
+      "disfor-1300-2022",
+      "disfor-1955-2023",
+      "disfor-465-2018",
+      "disfor-2964-2018",
+      "disfor-1074-2018",
+      "disfor-3262-2022",
+      "disfor-1971-2021",
+      "disfor-1314-2018",
+      "disfor-1439-2023",
+      "disfor-1321-2019",
+      "disfor-1621-2023",
+      "disfor-2963-2023",
+      "disfor-2876-2020",
+      "disfor-827-2018",
+      "disfor-2952-2018",
+      "disfor-2675-2018",
+      "disfor-1988-2020",
+      "disfor-1873-2019",
+      "disfor-3104-2020",
+      "disfor-2027-2023",
+      "disfor-1565-2023",
+      "disfor-931-2019",
+      "disfor-3052-2022",
+      "disfor-554-2022",
+      "disfor-3803-2019",
+      "disfor-672-2018",
+      "disfor-3336-2018",
+      "disfor-3467-2023",
+      "disfor-1345-2019",
+      "disfor-2928-2018",
+      "disfor-3149-2023",
+      "disfor-2976-2018",
+      "disfor-1933-2019",
+      "disfor-2602-2022",
+      "disfor-2795-2023",
+      "disfor-1934-2020",
+      "disfor-2631-2021",
+      "disfor-2132-2020",
+      "disfor-1223-2023",
+      "disfor-3043-2019",
+      "disfor-1226-2020",
+      "disfor-2975-2023",
+      "disfor-2951-2023",
+      "disfor-3181-2019",
+      "disfor-1099-2019",
+      "disfor-2612-2020",
+      "disfor-3761-2019",
+      "disfor-1043-2023",
+      "disfor-1564-2022",
+      "disfor-1607-2023",
+      "disfor-2227-2019",
+      "disfor-1348-2022",
+      "disfor-3367-2019",
+      "disfor-1485-2021",
+      "disfor-2038-2022",
+      "disfor-1432-2022",
+      "disfor-1078-2022",
+      "disfor-1604-2020",
+      "disfor-1881-2021",
+      "disfor-2217-2018",
+      "disfor-1959-2021",
+      "disfor-1965-2018",
+      "disfor-3373-2019",
+      "disfor-1757-2023",
+      "disfor-1581-2021",
+      "disfor-3133-2019",
+      "disfor-2282-2020",
+      "disfor-1115-2023",
+      "disfor-820-2018",
+      "disfor-926-2020",
+      "disfor-2084-2020",
+      "disfor-2364-2018",
+      "disfor-1188-2018",
+      "disfor-2439-2021",
+      "disfor-2141-2023",
+      "disfor-919-2019",
+      "disfor-2907-2021",
+      "disfor-0-2018",
+      "disfor-2144-2020",
+      "disfor-687-2018",
+      "disfor-3519-2018",
+      "disfor-1063-2019",
+      "disfor-1045-2019",
+      "disfor-2411-2018",
+      "disfor-1134-2018",
+      "disfor-942-2018",
+      "disfor-2105-2023",
+      "disfor-1274-2020",
+      "disfor-1502-2020",
+      "disfor-479-2018",
+      "disfor-3762-2019",
+      "disfor-2018-2020",
+      "disfor-2557-2019",
+      "disfor-3086-2020",
+      "disfor-2929-2019",
+      "disfor-1843-2019",
+      "disfor-1449-2021",
+      "disfor-897-2023",
+      "disfor-1270-2022",
+      "disfor-1263-2021",
+      "disfor-3399-2018",
+      "disfor-2671-2019",
+      "disfor-1631-2023",
+      "disfor-1501-2019",
+      "disfor-1108-2022",
+      "disfor-2124-2018",
+      "disfor-928-2022",
+      "disfor-1807-2019",
+      "disfor-2518-2022",
+      "disfor-1780-2022",
+      "disfor-2122-2022",
+      "disfor-1458-2018",
+      "disfor-1471-2019",
+      "disfor-1262-2020",
+      "disfor-2905-2019",
+      "disfor-1212-2018",
+      "disfor-3185-2023",
+      "disfor-2028-2018",
+      "disfor-1385-2023",
+      "disfor-1956-2018",
+      "disfor-818-2018",
+      "disfor-1863-2021",
+      "disfor-2008-2022",
+      "disfor-2521-2019",
+      "disfor-754-2018",
+      "disfor-3275-2023",
+      "disfor-1977-2021",
+      "disfor-1364-2020",
+      "disfor-1782-2018",
+      "disfor-1121-2023",
+      "disfor-952-2022",
+      "disfor-3376-2022",
+      "disfor-1984-2022",
+      "disfor-2303-2023",
+      "disfor-2938-2022",
+      "disfor-3495-2018",
+      "disfor-969-2021",
+      "disfor-711-2018",
+      "disfor-1459-2019",
+      "disfor-2489-2023",
+      "disfor-3018-2018",
+      "disfor-1149-2021",
+      "disfor-1299-2021",
+      "disfor-482-2020",
+      "disfor-1692-2018",
+      "disfor-3083-2023",
+      "disfor-1583-2023",
+      "disfor-3820-2019",
+      "disfor-958-2022",
+      "disfor-3395-2018",
+      "disfor-965-2023",
+      "disfor-2420-2018",
+      "disfor-3255-2021",
+      "disfor-2788-2022",
+      "disfor-2126-2020",
+      "disfor-1326-2018",
+      "disfor-1899-2021",
+      "disfor-2555-2023",
+      "disfor-1987-2019",
+      "disfor-2153-2023",
+      "disfor-1124-2020",
+      "disfor-907-2019",
+      "disfor-3481-2019",
+      "disfor-929-2023",
+      "disfor-3092-2020",
+      "disfor-2773-2019",
+      "disfor-1992-2018",
+      "disfor-3065-2023",
+      "disfor-1647-2022",
+      "disfor-2641-2019",
+      "disfor-1327-2019",
+      "disfor-2073-2021",
+      "disfor-697-2018",
+      "disfor-3315-2021",
+      "disfor-2778-2018",
+      "disfor-3741-2021",
+      "disfor-2183-2023",
+      "disfor-2923-2019",
+      "disfor-1835-2023",
+      "disfor-3224-2020",
+      "disfor-1781-2023",
+      "disfor-2025-2021",
+      "disfor-2082-2018",
+      "disfor-2954-2020",
+      "disfor-2129-2023",
+      "disfor-3227-2023",
+      "disfor-3210-2018",
+      "disfor-2205-2021",
+      "disfor-2046-2018",
+      "disfor-1567-2019",
+      "disfor-1231-2019",
+      "disfor-2115-2021",
+      "disfor-2334-2018",
+      "disfor-1503-2021",
+      "disfor-1652-2020",
+      "disfor-2179-2019",
+      "disfor-3462-2018",
+      "disfor-2873-2023",
+      "disfor-2316-2018",
+      "disfor-3612-2018",
+      "disfor-3501-2018",
+      "disfor-1343-2023",
+      "disfor-2566-2022",
+      "disfor-2884-2022",
+      "disfor-1127-2023",
+      "disfor-3008-2020",
+      "disfor-3030-2018",
+      "disfor-3250-2022",
+      "disfor-3187-2019",
+      "disfor-3742-2022",
+      "disfor-3053-2023",
+      "disfor-1640-2020",
+      "disfor-2448-2018",
+      "disfor-6-2020",
+      "disfor-447-2019",
+      "disfor-3220-2023",
+      "disfor-2699-2019",
+      "disfor-3471-2020",
+      "disfor-367-2018",
+      "disfor-3457-2018",
+      "disfor-1719-2019",
+      "disfor-2723-2020",
+      "disfor-441-2018",
+      "disfor-1678-2019",
+      "disfor-459-2018",
+      "disfor-1698-2019",
+      "disfor-3439-2018",
+      "disfor-472-2020",
+      "disfor-3509-2021",
+      "disfor-370-2018",
+      "disfor-2733-2020",
+      "disfor-450-2019",
+      "disfor-3426-2019",
+      "disfor-374-2018",
+      "disfor-473-2020",
+      "disfor-1672-2019",
+      "disfor-2760-2021",
+      "disfor-1087-2022",
+      "disfor-5-2021",
+      "disfor-2354-2020",
+      "disfor-3435-2019",
+      "disfor-235-2019",
+      "disfor-390-2018",
+      "disfor-1810-2019",
+      "disfor-526-2019",
+      "disfor-3460-2020",
+      "disfor-27-2020",
+      "disfor-3732-2023",
+      "disfor-3735-2023",
+      "disfor-2645-2021"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.2_7.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7412516325712204,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.6979703307151794,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7118960618972778,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6806593984365463,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6261223703622818,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6308512389659882,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6087011694908142,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.5711535662412643,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.5534954890608788,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.5297162234783173,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.5024197623133659,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.4669581204652786,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.4446481093764305,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.4595969021320343,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.4509911835193634,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.39626429229974747,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.41806061565876007,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.39732471853494644,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.3575034588575363,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.3423629626631737,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.34529517963528633,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.3007824346423149,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.32518036663532257,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.3145510256290436,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.29675713554024696,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.3073132298886776,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.29521819576621056,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.2917587608098984,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.28549011796712875,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.2822799123823643,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.2748769223690033,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.2800220027565956,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.3143734559416771,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.2674412168562412,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.24010588973760605,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.23178118839859962,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.25294774770736694,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.2543090023100376,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.2225031517446041,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.2223641760647297,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 7,
+    "fraction": 0.2,
+    "labeled_ids": [
+      "disfor-3025-2019",
+      "disfor-3749-2019",
+      "disfor-2990-2020",
+      "disfor-1799-2023",
+      "disfor-1300-2022",
+      "disfor-1955-2023",
+      "disfor-465-2018",
+      "disfor-2964-2018",
+      "disfor-1074-2018",
+      "disfor-3262-2022",
+      "disfor-1971-2021",
+      "disfor-1314-2018",
+      "disfor-1439-2023",
+      "disfor-1321-2019",
+      "disfor-1621-2023",
+      "disfor-2963-2023",
+      "disfor-2876-2020",
+      "disfor-827-2018",
+      "disfor-2952-2018",
+      "disfor-2675-2018",
+      "disfor-1988-2020",
+      "disfor-1873-2019",
+      "disfor-3104-2020",
+      "disfor-2027-2023",
+      "disfor-1565-2023",
+      "disfor-931-2019",
+      "disfor-3052-2022",
+      "disfor-554-2022",
+      "disfor-3803-2019",
+      "disfor-672-2018",
+      "disfor-3336-2018",
+      "disfor-3467-2023",
+      "disfor-1345-2019",
+      "disfor-2928-2018",
+      "disfor-3149-2023",
+      "disfor-2976-2018",
+      "disfor-1933-2019",
+      "disfor-2602-2022",
+      "disfor-2795-2023",
+      "disfor-1934-2020",
+      "disfor-2631-2021",
+      "disfor-2132-2020",
+      "disfor-1223-2023",
+      "disfor-3043-2019",
+      "disfor-1226-2020",
+      "disfor-2975-2023",
+      "disfor-2951-2023",
+      "disfor-3181-2019",
+      "disfor-1099-2019",
+      "disfor-2612-2020",
+      "disfor-3761-2019",
+      "disfor-1043-2023",
+      "disfor-1564-2022",
+      "disfor-1607-2023",
+      "disfor-2227-2019",
+      "disfor-1348-2022",
+      "disfor-3367-2019",
+      "disfor-1485-2021",
+      "disfor-2038-2022",
+      "disfor-1432-2022",
+      "disfor-1078-2022",
+      "disfor-1604-2020",
+      "disfor-1881-2021",
+      "disfor-2217-2018",
+      "disfor-1959-2021",
+      "disfor-1965-2018",
+      "disfor-3373-2019",
+      "disfor-1757-2023",
+      "disfor-1581-2021",
+      "disfor-3133-2019",
+      "disfor-2282-2020",
+      "disfor-1115-2023",
+      "disfor-820-2018",
+      "disfor-926-2020",
+      "disfor-2084-2020",
+      "disfor-2364-2018",
+      "disfor-1188-2018",
+      "disfor-2439-2021",
+      "disfor-2141-2023",
+      "disfor-919-2019",
+      "disfor-2907-2021",
+      "disfor-0-2018",
+      "disfor-2144-2020",
+      "disfor-687-2018",
+      "disfor-3519-2018",
+      "disfor-1063-2019",
+      "disfor-1045-2019",
+      "disfor-2411-2018",
+      "disfor-1134-2018",
+      "disfor-942-2018",
+      "disfor-2105-2023",
+      "disfor-1274-2020",
+      "disfor-1502-2020",
+      "disfor-479-2018",
+      "disfor-3762-2019",
+      "disfor-2018-2020",
+      "disfor-2557-2019",
+      "disfor-3086-2020",
+      "disfor-2929-2019",
+      "disfor-1843-2019",
+      "disfor-1449-2021",
+      "disfor-897-2023",
+      "disfor-1270-2022",
+      "disfor-1263-2021",
+      "disfor-3399-2018",
+      "disfor-2671-2019",
+      "disfor-1631-2023",
+      "disfor-1501-2019",
+      "disfor-1108-2022",
+      "disfor-2124-2018",
+      "disfor-928-2022",
+      "disfor-1807-2019",
+      "disfor-2518-2022",
+      "disfor-1780-2022",
+      "disfor-2122-2022",
+      "disfor-1458-2018",
+      "disfor-1471-2019",
+      "disfor-1262-2020",
+      "disfor-2905-2019",
+      "disfor-1212-2018",
+      "disfor-3185-2023",
+      "disfor-2028-2018",
+      "disfor-1385-2023",
+      "disfor-1956-2018",
+      "disfor-818-2018",
+      "disfor-1863-2021",
+      "disfor-2008-2022",
+      "disfor-2521-2019",
+      "disfor-754-2018",
+      "disfor-3275-2023",
+      "disfor-1977-2021",
+      "disfor-1364-2020",
+      "disfor-1782-2018",
+      "disfor-1121-2023",
+      "disfor-952-2022",
+      "disfor-3376-2022",
+      "disfor-1984-2022",
+      "disfor-2303-2023",
+      "disfor-2938-2022",
+      "disfor-3495-2018",
+      "disfor-969-2021",
+      "disfor-711-2018",
+      "disfor-1459-2019",
+      "disfor-2489-2023",
+      "disfor-3018-2018",
+      "disfor-1149-2021",
+      "disfor-1299-2021",
+      "disfor-482-2020",
+      "disfor-1692-2018",
+      "disfor-3083-2023",
+      "disfor-1583-2023",
+      "disfor-3820-2019",
+      "disfor-958-2022",
+      "disfor-3395-2018",
+      "disfor-965-2023",
+      "disfor-2420-2018",
+      "disfor-3255-2021",
+      "disfor-2788-2022",
+      "disfor-2126-2020",
+      "disfor-1326-2018",
+      "disfor-1899-2021",
+      "disfor-2555-2023",
+      "disfor-1987-2019",
+      "disfor-2153-2023",
+      "disfor-1124-2020",
+      "disfor-907-2019",
+      "disfor-3481-2019",
+      "disfor-929-2023",
+      "disfor-3092-2020",
+      "disfor-2773-2019",
+      "disfor-1992-2018",
+      "disfor-3065-2023",
+      "disfor-1647-2022",
+      "disfor-2641-2019",
+      "disfor-1327-2019",
+      "disfor-2073-2021",
+      "disfor-697-2018",
+      "disfor-3315-2021",
+      "disfor-2778-2018",
+      "disfor-3741-2021",
+      "disfor-2183-2023",
+      "disfor-2923-2019",
+      "disfor-1835-2023",
+      "disfor-3224-2020",
+      "disfor-1781-2023",
+      "disfor-2025-2021",
+      "disfor-2082-2018",
+      "disfor-2954-2020",
+      "disfor-2129-2023",
+      "disfor-3227-2023",
+      "disfor-3210-2018",
+      "disfor-2205-2021",
+      "disfor-2046-2018",
+      "disfor-1567-2019",
+      "disfor-1231-2019",
+      "disfor-2115-2021",
+      "disfor-2334-2018",
+      "disfor-1503-2021",
+      "disfor-1652-2020",
+      "disfor-2179-2019",
+      "disfor-3462-2018",
+      "disfor-2873-2023",
+      "disfor-2316-2018",
+      "disfor-3612-2018",
+      "disfor-3501-2018",
+      "disfor-1343-2023",
+      "disfor-2566-2022",
+      "disfor-2884-2022",
+      "disfor-1127-2023",
+      "disfor-3008-2020",
+      "disfor-3030-2018",
+      "disfor-3250-2022",
+      "disfor-3187-2019",
+      "disfor-3742-2022",
+      "disfor-3053-2023",
+      "disfor-1640-2020",
+      "disfor-2448-2018",
+      "disfor-6-2020",
+      "disfor-447-2019",
+      "disfor-3220-2023",
+      "disfor-2699-2019",
+      "disfor-3471-2020",
+      "disfor-367-2018",
+      "disfor-3457-2018",
+      "disfor-1719-2019",
+      "disfor-2723-2020",
+      "disfor-441-2018",
+      "disfor-1678-2019",
+      "disfor-459-2018",
+      "disfor-1698-2019",
+      "disfor-3439-2018",
+      "disfor-472-2020",
+      "disfor-3509-2021",
+      "disfor-370-2018",
+      "disfor-2733-2020",
+      "disfor-450-2019",
+      "disfor-3426-2019",
+      "disfor-374-2018",
+      "disfor-473-2020",
+      "disfor-1672-2019",
+      "disfor-2760-2021",
+      "disfor-1087-2022",
+      "disfor-5-2021",
+      "disfor-2354-2020",
+      "disfor-3435-2019",
+      "disfor-235-2019",
+      "disfor-390-2018",
+      "disfor-1810-2019",
+      "disfor-526-2019",
+      "disfor-3460-2020",
+      "disfor-27-2020",
+      "disfor-3732-2023",
+      "disfor-3735-2023",
+      "disfor-2645-2021"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.2_7.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.8227204084396362,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7106671035289764,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7159987688064575,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6529262065887451,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6197459399700165,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.5967358946800232,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.5552466958761215,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.5164875537157059,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.500831626355648,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.45868148654699326,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.44174885749816895,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.39849256724119186,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.38546306639909744,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.3858974128961563,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.35397419333457947,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.3519495502114296,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.34250515699386597,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.3322320282459259,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.30177444592118263,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.28545063734054565,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.33127690106630325,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.26862573251128197,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.29372985661029816,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.27923308312892914,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.2763749212026596,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.2751906104385853,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.2574278637766838,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.26323720440268517,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.26555655524134636,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.26601947471499443,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.2521526925265789,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.26118047162890434,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.27831701561808586,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.2304985336959362,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.2131519317626953,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.20994773507118225,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.20965145900845528,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.2116895727813244,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.19062843918800354,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.1920427866280079,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.21286801174283027,
+        0.1334353841841221,
+        0.1136282991617918,
+        0.10477683804929257,
+        0.09961715452373028,
+        0.09350232630968094,
+        0.08738747872412204,
+        0.08179820608347654,
+        0.07592813372611999,
+        0.07831571027636527,
+        0.07795543558895587,
+        0.08044282924383879,
+        0.07020100746303796,
+        0.07223410829901696,
+        0.07121012751013041,
+        0.07256328947842121,
+        0.06656835861504078,
+        0.07279375549405813,
+        0.06813594363629819,
+        0.06739879418164492,
+        0.06643475890159607,
+        0.06655460447072983,
+        0.06473635155707598,
+        0.06766745112836361,
+        0.06443821527063846,
+        0.06273955535143613,
+        0.061271566152572635,
+        0.06608966682106257,
+        0.06318580005317927,
+        0.06552867162972689,
+        0.061842081137001514,
+        0.06200181841850281,
+        0.06119249723851681,
+        0.0607121042907238,
+        0.0626654950901866,
+        0.06061846427619457,
+        0.05887655094265938,
+        0.058979695104062556,
+        0.05633836332708597,
+        0.062293739058077335,
+        0.059846062771975995,
+        0.061484267190098765,
+        0.05947230588644743,
+        0.05719539355486632,
+        0.06169657036662102,
+        0.06364015638828277,
+        0.06288948636502027,
+        0.059011217951774594,
+        0.06003007926046848,
+        0.056170265562832354,
+        0.058645693399012086,
+        0.058787963539361957,
+        0.060010415688157084,
+        0.058142257109284404,
+        0.06126984003931284,
+        0.05885420106351376,
+        0.0619584808126092,
+        0.05586774498224258,
+        0.05873039737343788,
+        0.06015376001596451
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 17,
+    "fraction": 0.2,
+    "labeled_ids": [
+      "disfor-2025-2021",
+      "disfor-1165-2019",
+      "disfor-1567-2019",
+      "disfor-2244-2018",
+      "disfor-1780-2022",
+      "disfor-1548-2018",
+      "disfor-2082-2018",
+      "disfor-1761-2021",
+      "disfor-1896-2018",
+      "disfor-1795-2019",
+      "disfor-1759-2019",
+      "disfor-3806-2019",
+      "disfor-1447-2019",
+      "disfor-1132-2022",
+      "disfor-1438-2022",
+      "disfor-3039-2021",
+      "disfor-1146-2018",
+      "disfor-3321-2021",
+      "disfor-955-2019",
+      "disfor-1263-2021",
+      "disfor-2483-2023",
+      "disfor-1150-2022",
+      "disfor-1385-2023",
+      "disfor-1449-2021",
+      "disfor-2919-2021",
+      "disfor-3749-2019",
+      "disfor-1566-2018",
+      "disfor-2749-2019",
+      "disfor-2938-2022",
+      "disfor-697-2018",
+      "disfor-3737-2019",
+      "disfor-3280-2022",
+      "disfor-2031-2021",
+      "disfor-3462-2018",
+      "disfor-3047-2023",
+      "disfor-2414-2020",
+      "disfor-3332-2020",
+      "disfor-1843-2019",
+      "disfor-2217-2018",
+      "disfor-752-2018",
+      "disfor-2170-2022",
+      "disfor-2615-2023",
+      "disfor-2448-2018",
+      "disfor-2439-2021",
+      "disfor-3002-2020",
+      "disfor-833-2018",
+      "disfor-1427-2023",
+      "disfor-3372-2018",
+      "disfor-829-2018",
+      "disfor-942-2018",
+      "disfor-2125-2019",
+      "disfor-2976-2018",
+      "disfor-1771-2019",
+      "disfor-2909-2023",
+      "disfor-3020-2020",
+      "disfor-3416-2018",
+      "disfor-2928-2018",
+      "disfor-907-2019",
+      "disfor-3800-2019",
+      "disfor-2021-2023",
+      "disfor-2576-2020",
+      "disfor-827-2018",
+      "disfor-3357-2022",
+      "disfor-2188-2022",
+      "disfor-926-2020",
+      "disfor-3368-2020",
+      "disfor-2636-2020",
+      "disfor-1535-2023",
+      "disfor-2677-2019",
+      "disfor-1277-2023",
+      "disfor-687-2018",
+      "disfor-1894-2022",
+      "disfor-2167-2019",
+      "disfor-1561-2019",
+      "disfor-1957-2019",
+      "disfor-971-2023",
+      "disfor-3104-2020",
+      "disfor-1777-2019",
+      "disfor-1546-2022",
+      "disfor-2802-2018",
+      "disfor-2129-2023",
+      "disfor-2913-2021",
+      "disfor-2923-2019",
+      "disfor-2807-2023",
+      "disfor-2803-2019",
+      "disfor-1335-2021",
+      "disfor-1838-2020",
+      "disfor-1486-2022",
+      "disfor-650-2018",
+      "disfor-1915-2019",
+      "disfor-954-2018",
+      "disfor-1984-2022",
+      "disfor-1011-2021",
+      "disfor-2914-2022",
+      "disfor-1542-2018",
+      "disfor-1471-2019",
+      "disfor-1387-2019",
+      "disfor-2421-2018",
+      "disfor-2983-2019",
+      "disfor-972-2018",
+      "disfor-2017-2019",
+      "disfor-1478-2020",
+      "disfor-2126-2020",
+      "disfor-2921-2023",
+      "disfor-1505-2023",
+      "disfor-2275-2019",
+      "disfor-2984-2020",
+      "disfor-1501-2019",
+      "disfor-1517-2023",
+      "disfor-3058-2022",
+      "disfor-1045-2019",
+      "disfor-1326-2018",
+      "disfor-1786-2022",
+      "disfor-1127-2023",
+      "disfor-2312-2020",
+      "disfor-1575-2021",
+      "disfor-1432-2022",
+      "disfor-1782-2018",
+      "disfor-1529-2023",
+      "disfor-3086-2020",
+      "disfor-1318-2022",
+      "disfor-2447-2023",
+      "disfor-671-2018",
+      "disfor-795-2018",
+      "disfor-2779-2019",
+      "disfor-1820-2020",
+      "disfor-3150-2018",
+      "disfor-1103-2023",
+      "disfor-1988-2020",
+      "disfor-1252-2022",
+      "disfor-2894-2020",
+      "disfor-1272-2018",
+      "disfor-1907-2023",
+      "disfor-1331-2023",
+      "disfor-2617-2019",
+      "disfor-1249-2019",
+      "disfor-1853-2023",
+      "disfor-3608-2020",
+      "disfor-574-2022",
+      "disfor-2940-2018",
+      "disfor-2209-2019",
+      "disfor-1293-2021",
+      "disfor-3145-2023",
+      "disfor-1433-2023",
+      "disfor-716-2018",
+      "disfor-834-2018",
+      "disfor-2524-2018",
+      "disfor-3755-2019",
+      "disfor-3037-2019",
+      "disfor-3609-2021",
+      "disfor-554-2022",
+      "disfor-1969-2019",
+      "disfor-1411-2019",
+      "disfor-1990-2022",
+      "disfor-3527-2018",
+      "disfor-3054-2018",
+      "disfor-1516-2022",
+      "disfor-484-2018",
+      "disfor-534-2018",
+      "disfor-3141-2021",
+      "disfor-2952-2018",
+      "disfor-3267-2021",
+      "disfor-3189-2021",
+      "disfor-1353-2021",
+      "disfor-2257-2019",
+      "disfor-897-2023",
+      "disfor-1462-2022",
+      "disfor-1579-2019",
+      "disfor-2936-2020",
+      "disfor-1624-2023",
+      "disfor-2107-2019",
+      "disfor-3065-2023",
+      "disfor-2283-2018",
+      "disfor-1092-2018",
+      "disfor-975-2021",
+      "disfor-1119-2021",
+      "disfor-3213-2021",
+      "disfor-2767-2019",
+      "disfor-1640-2020",
+      "disfor-983-2023",
+      "disfor-754-2018",
+      "disfor-3165-2021",
+      "disfor-3797-2019",
+      "disfor-2389-2019",
+      "disfor-1604-2020",
+      "disfor-798-2018",
+      "disfor-2210-2020",
+      "disfor-1879-2019",
+      "disfor-946-2022",
+      "disfor-1174-2022",
+      "disfor-3180-2018",
+      "disfor-3801-2019",
+      "disfor-1407-2021",
+      "disfor-3397-2019",
+      "disfor-760-2018",
+      "disfor-1480-2022",
+      "disfor-3224-2020",
+      "disfor-3393-2018",
+      "disfor-1391-2023",
+      "disfor-3341-2023",
+      "disfor-2589-2021",
+      "disfor-2911-2019",
+      "disfor-1231-2019",
+      "disfor-1301-2023",
+      "disfor-2521-2019",
+      "disfor-2963-2023",
+      "disfor-3741-2021",
+      "disfor-1570-2022",
+      "disfor-3752-2020",
+      "disfor-1274-2020",
+      "disfor-2074-2022",
+      "disfor-988-2022",
+      "disfor-2871-2021",
+      "disfor-2567-2023",
+      "disfor-1882-2018",
+      "disfor-1504-2018",
+      "disfor-1300-2022",
+      "disfor-2419-2021",
+      "disfor-3471-2020",
+      "disfor-368-2018",
+      "disfor-3738-2023",
+      "disfor-2709-2019",
+      "disfor-1756-2019",
+      "disfor-3441-2018",
+      "disfor-3521-2020",
+      "disfor-1239-2021",
+      "disfor-1727-2021",
+      "disfor-1726-2021",
+      "disfor-1638-2022",
+      "disfor-2735-2020",
+      "disfor-452-2018",
+      "disfor-474-2020",
+      "disfor-1197-2022",
+      "disfor-1685-2019",
+      "disfor-469-2022",
+      "disfor-3390-2023",
+      "disfor-1087-2022",
+      "disfor-14-2020",
+      "disfor-378-2018",
+      "disfor-19-2020",
+      "disfor-2742-2020",
+      "disfor-2718-2019",
+      "disfor-3469-2019",
+      "disfor-3435-2019",
+      "disfor-922-2021",
+      "disfor-1693-2019",
+      "disfor-527-2019",
+      "disfor-473-2020",
+      "disfor-1747-2020",
+      "disfor-449-2019",
+      "disfor-21-2020",
+      "disfor-1745-2018",
+      "disfor-3484-2020",
+      "disfor-3460-2020"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.2_17.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7999210953712463,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7303006798028946,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7032321095466614,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6883217692375183,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6825538873672485,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6643856167793274,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6199371516704559,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6572822481393814,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6061264872550964,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6170062571763992,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.5883984863758087,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.6075459122657776,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.5496050119400024,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.5156141221523285,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.46777140349149704,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.4684741571545601,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.4228316396474838,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.40542468428611755,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.42699436843395233,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.37802401930093765,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.3695419877767563,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.3430025279521942,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.3709195554256439,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.34197232127189636,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.3871794864535332,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.3169843479990959,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.3446032851934433,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.3212764859199524,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.30158427357673645,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.342217817902565,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.30690213292837143,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.3207104057073593,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.2986125200986862,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.3001311421394348,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.363777332007885,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.26473240181803703,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.37297773361206055,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.2853907234966755,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.3126490190625191,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.2932473160326481,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 17,
+    "fraction": 0.2,
+    "labeled_ids": [
+      "disfor-2025-2021",
+      "disfor-1165-2019",
+      "disfor-1567-2019",
+      "disfor-2244-2018",
+      "disfor-1780-2022",
+      "disfor-1548-2018",
+      "disfor-2082-2018",
+      "disfor-1761-2021",
+      "disfor-1896-2018",
+      "disfor-1795-2019",
+      "disfor-1759-2019",
+      "disfor-3806-2019",
+      "disfor-1447-2019",
+      "disfor-1132-2022",
+      "disfor-1438-2022",
+      "disfor-3039-2021",
+      "disfor-1146-2018",
+      "disfor-3321-2021",
+      "disfor-955-2019",
+      "disfor-1263-2021",
+      "disfor-2483-2023",
+      "disfor-1150-2022",
+      "disfor-1385-2023",
+      "disfor-1449-2021",
+      "disfor-2919-2021",
+      "disfor-3749-2019",
+      "disfor-1566-2018",
+      "disfor-2749-2019",
+      "disfor-2938-2022",
+      "disfor-697-2018",
+      "disfor-3737-2019",
+      "disfor-3280-2022",
+      "disfor-2031-2021",
+      "disfor-3462-2018",
+      "disfor-3047-2023",
+      "disfor-2414-2020",
+      "disfor-3332-2020",
+      "disfor-1843-2019",
+      "disfor-2217-2018",
+      "disfor-752-2018",
+      "disfor-2170-2022",
+      "disfor-2615-2023",
+      "disfor-2448-2018",
+      "disfor-2439-2021",
+      "disfor-3002-2020",
+      "disfor-833-2018",
+      "disfor-1427-2023",
+      "disfor-3372-2018",
+      "disfor-829-2018",
+      "disfor-942-2018",
+      "disfor-2125-2019",
+      "disfor-2976-2018",
+      "disfor-1771-2019",
+      "disfor-2909-2023",
+      "disfor-3020-2020",
+      "disfor-3416-2018",
+      "disfor-2928-2018",
+      "disfor-907-2019",
+      "disfor-3800-2019",
+      "disfor-2021-2023",
+      "disfor-2576-2020",
+      "disfor-827-2018",
+      "disfor-3357-2022",
+      "disfor-2188-2022",
+      "disfor-926-2020",
+      "disfor-3368-2020",
+      "disfor-2636-2020",
+      "disfor-1535-2023",
+      "disfor-2677-2019",
+      "disfor-1277-2023",
+      "disfor-687-2018",
+      "disfor-1894-2022",
+      "disfor-2167-2019",
+      "disfor-1561-2019",
+      "disfor-1957-2019",
+      "disfor-971-2023",
+      "disfor-3104-2020",
+      "disfor-1777-2019",
+      "disfor-1546-2022",
+      "disfor-2802-2018",
+      "disfor-2129-2023",
+      "disfor-2913-2021",
+      "disfor-2923-2019",
+      "disfor-2807-2023",
+      "disfor-2803-2019",
+      "disfor-1335-2021",
+      "disfor-1838-2020",
+      "disfor-1486-2022",
+      "disfor-650-2018",
+      "disfor-1915-2019",
+      "disfor-954-2018",
+      "disfor-1984-2022",
+      "disfor-1011-2021",
+      "disfor-2914-2022",
+      "disfor-1542-2018",
+      "disfor-1471-2019",
+      "disfor-1387-2019",
+      "disfor-2421-2018",
+      "disfor-2983-2019",
+      "disfor-972-2018",
+      "disfor-2017-2019",
+      "disfor-1478-2020",
+      "disfor-2126-2020",
+      "disfor-2921-2023",
+      "disfor-1505-2023",
+      "disfor-2275-2019",
+      "disfor-2984-2020",
+      "disfor-1501-2019",
+      "disfor-1517-2023",
+      "disfor-3058-2022",
+      "disfor-1045-2019",
+      "disfor-1326-2018",
+      "disfor-1786-2022",
+      "disfor-1127-2023",
+      "disfor-2312-2020",
+      "disfor-1575-2021",
+      "disfor-1432-2022",
+      "disfor-1782-2018",
+      "disfor-1529-2023",
+      "disfor-3086-2020",
+      "disfor-1318-2022",
+      "disfor-2447-2023",
+      "disfor-671-2018",
+      "disfor-795-2018",
+      "disfor-2779-2019",
+      "disfor-1820-2020",
+      "disfor-3150-2018",
+      "disfor-1103-2023",
+      "disfor-1988-2020",
+      "disfor-1252-2022",
+      "disfor-2894-2020",
+      "disfor-1272-2018",
+      "disfor-1907-2023",
+      "disfor-1331-2023",
+      "disfor-2617-2019",
+      "disfor-1249-2019",
+      "disfor-1853-2023",
+      "disfor-3608-2020",
+      "disfor-574-2022",
+      "disfor-2940-2018",
+      "disfor-2209-2019",
+      "disfor-1293-2021",
+      "disfor-3145-2023",
+      "disfor-1433-2023",
+      "disfor-716-2018",
+      "disfor-834-2018",
+      "disfor-2524-2018",
+      "disfor-3755-2019",
+      "disfor-3037-2019",
+      "disfor-3609-2021",
+      "disfor-554-2022",
+      "disfor-1969-2019",
+      "disfor-1411-2019",
+      "disfor-1990-2022",
+      "disfor-3527-2018",
+      "disfor-3054-2018",
+      "disfor-1516-2022",
+      "disfor-484-2018",
+      "disfor-534-2018",
+      "disfor-3141-2021",
+      "disfor-2952-2018",
+      "disfor-3267-2021",
+      "disfor-3189-2021",
+      "disfor-1353-2021",
+      "disfor-2257-2019",
+      "disfor-897-2023",
+      "disfor-1462-2022",
+      "disfor-1579-2019",
+      "disfor-2936-2020",
+      "disfor-1624-2023",
+      "disfor-2107-2019",
+      "disfor-3065-2023",
+      "disfor-2283-2018",
+      "disfor-1092-2018",
+      "disfor-975-2021",
+      "disfor-1119-2021",
+      "disfor-3213-2021",
+      "disfor-2767-2019",
+      "disfor-1640-2020",
+      "disfor-983-2023",
+      "disfor-754-2018",
+      "disfor-3165-2021",
+      "disfor-3797-2019",
+      "disfor-2389-2019",
+      "disfor-1604-2020",
+      "disfor-798-2018",
+      "disfor-2210-2020",
+      "disfor-1879-2019",
+      "disfor-946-2022",
+      "disfor-1174-2022",
+      "disfor-3180-2018",
+      "disfor-3801-2019",
+      "disfor-1407-2021",
+      "disfor-3397-2019",
+      "disfor-760-2018",
+      "disfor-1480-2022",
+      "disfor-3224-2020",
+      "disfor-3393-2018",
+      "disfor-1391-2023",
+      "disfor-3341-2023",
+      "disfor-2589-2021",
+      "disfor-2911-2019",
+      "disfor-1231-2019",
+      "disfor-1301-2023",
+      "disfor-2521-2019",
+      "disfor-2963-2023",
+      "disfor-3741-2021",
+      "disfor-1570-2022",
+      "disfor-3752-2020",
+      "disfor-1274-2020",
+      "disfor-2074-2022",
+      "disfor-988-2022",
+      "disfor-2871-2021",
+      "disfor-2567-2023",
+      "disfor-1882-2018",
+      "disfor-1504-2018",
+      "disfor-1300-2022",
+      "disfor-2419-2021",
+      "disfor-3471-2020",
+      "disfor-368-2018",
+      "disfor-3738-2023",
+      "disfor-2709-2019",
+      "disfor-1756-2019",
+      "disfor-3441-2018",
+      "disfor-3521-2020",
+      "disfor-1239-2021",
+      "disfor-1727-2021",
+      "disfor-1726-2021",
+      "disfor-1638-2022",
+      "disfor-2735-2020",
+      "disfor-452-2018",
+      "disfor-474-2020",
+      "disfor-1197-2022",
+      "disfor-1685-2019",
+      "disfor-469-2022",
+      "disfor-3390-2023",
+      "disfor-1087-2022",
+      "disfor-14-2020",
+      "disfor-378-2018",
+      "disfor-19-2020",
+      "disfor-2742-2020",
+      "disfor-2718-2019",
+      "disfor-3469-2019",
+      "disfor-3435-2019",
+      "disfor-922-2021",
+      "disfor-1693-2019",
+      "disfor-527-2019",
+      "disfor-473-2020",
+      "disfor-1747-2020",
+      "disfor-449-2019",
+      "disfor-21-2020",
+      "disfor-1745-2018",
+      "disfor-3484-2020",
+      "disfor-3460-2020"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.2_17.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7778872102499008,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7246021777391434,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.700729489326477,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6795209497213364,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6743554323911667,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6486019194126129,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.5979311019182205,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6185097694396973,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.5757993161678314,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.5474440082907677,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.515104167163372,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5133099481463432,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.45280322432518005,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.40245047211647034,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.39955122023820877,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.37889811024069786,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.3569520562887192,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.38317349553108215,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.34277114272117615,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.3406481370329857,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.3668118417263031,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.30813075974583626,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.30896106734871864,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.3548579141497612,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.333363838493824,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.285515233874321,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.31896847859025,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.31941502541303635,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.25412413477897644,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.3140149340033531,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.2722250372171402,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.28604845702648163,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.27175041288137436,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.26743678003549576,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.3377569615840912,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.255484476685524,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.30721455812454224,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.26268966495990753,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.2810276001691818,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.23287004232406616,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.23623852655291558,
+        0.14919780604541302,
+        0.11777944602072239,
+        0.11292363591492176,
+        0.10415512546896935,
+        0.09619729965925217,
+        0.091548715159297,
+        0.08728215768933296,
+        0.08496686294674874,
+        0.08263501152396202,
+        0.0831385238096118,
+        0.07786811273545027,
+        0.07926024943590164,
+        0.07311757337301969,
+        0.07431326694786548,
+        0.07296665031462908,
+        0.07013982255011797,
+        0.07566920425742865,
+        0.0698268573731184,
+        0.06810765229165554,
+        0.0699758967384696,
+        0.06662566736340522,
+        0.06739097703248262,
+        0.06488910038024187,
+        0.06589489653706551,
+        0.06704486273229122,
+        0.0727264355868101,
+        0.06733081061393023,
+        0.06440250799059868,
+        0.06463541686534882,
+        0.06416015699505806,
+        0.06367506105452776,
+        0.06069659478962421,
+        0.0623378312215209,
+        0.06386481132358313,
+        0.06103088092058897,
+        0.06241773702204227,
+        0.06326422356069088,
+        0.06363149285316468,
+        0.06278427951037883,
+        0.061714847758412364,
+        0.06126214731484651,
+        0.05808417499065399,
+        0.06315320525318384,
+        0.06007098350673914,
+        0.059796682186424734,
+        0.06007031705230474,
+        0.059245552867650986,
+        0.06147437337785959,
+        0.05842489544302225,
+        0.05932533107697964,
+        0.0604405652731657,
+        0.05779357962310314,
+        0.05764846671372652,
+        0.06186104454100132,
+        0.057535510137677194,
+        0.05961108710616827,
+        0.06086759269237518,
+        0.06515428218990564,
+        0.056275455839931966
+      ]
+    }
+  },
+  {
+    "config": {
+      "name": "transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005
+    },
+    "seed": 27,
+    "fraction": 0.2,
+    "labeled_ids": [
+      "disfor-2903-2023",
+      "disfor-3515-2018",
+      "disfor-2983-2019",
+      "disfor-2257-2019",
+      "disfor-1577-2023",
+      "disfor-1826-2020",
+      "disfor-3194-2020",
+      "disfor-1821-2021",
+      "disfor-1515-2023",
+      "disfor-3215-2018",
+      "disfor-3483-2021",
+      "disfor-1273-2019",
+      "disfor-1023-2021",
+      "disfor-3091-2019",
+      "disfor-821-2018",
+      "disfor-2205-2021",
+      "disfor-2919-2021",
+      "disfor-2235-2021",
+      "disfor-3805-2019",
+      "disfor-3083-2023",
+      "disfor-1787-2023",
+      "disfor-2127-2021",
+      "disfor-3733-2019",
+      "disfor-1849-2019",
+      "disfor-2987-2023",
+      "disfor-1607-2023",
+      "disfor-1346-2020",
+      "disfor-711-2018",
+      "disfor-3213-2021",
+      "disfor-3755-2019",
+      "disfor-2464-2022",
+      "disfor-0-2018",
+      "disfor-3224-2020",
+      "disfor-2201-2023",
+      "disfor-1194-2018",
+      "disfor-1151-2023",
+      "disfor-3271-2019",
+      "disfor-1418-2020",
+      "disfor-3021-2021",
+      "disfor-2620-2022",
+      "disfor-2364-2018",
+      "disfor-480-2018",
+      "disfor-1650-2018",
+      "disfor-3368-2020",
+      "disfor-3165-2021",
+      "disfor-2283-2018",
+      "disfor-1294-2022",
+      "disfor-824-2018",
+      "disfor-2656-2022",
+      "disfor-2132-2020",
+      "disfor-1480-2022",
+      "disfor-1137-2021",
+      "disfor-3342-2018",
+      "disfor-3037-2019",
+      "disfor-1934-2020",
+      "disfor-529-2018",
+      "disfor-2567-2023",
+      "disfor-3821-2019",
+      "disfor-2438-2020",
+      "disfor-1773-2021",
+      "disfor-1449-2021",
+      "disfor-2385-2018",
+      "disfor-1978-2022",
+      "disfor-1778-2020",
+      "disfor-2133-2021",
+      "disfor-2566-2022",
+      "disfor-2167-2019",
+      "disfor-1764-2018",
+      "disfor-2460-2018",
+      "disfor-2177-2023",
+      "disfor-1212-2018",
+      "disfor-1436-2020",
+      "disfor-1322-2020",
+      "disfor-1252-2022",
+      "disfor-2631-2021",
+      "disfor-455-2018",
+      "disfor-1122-2018",
+      "disfor-1375-2019",
+      "disfor-1308-2018",
+      "disfor-820-2018",
+      "disfor-1825-2019",
+      "disfor-3365-2023",
+      "disfor-2243-2023",
+      "disfor-997-2019",
+      "disfor-1083-2021",
+      "disfor-2478-2018",
+      "disfor-3737-2019",
+      "disfor-2421-2018",
+      "disfor-2554-2022",
+      "disfor-3807-2019",
+      "disfor-2101-2019",
+      "disfor-1916-2020",
+      "disfor-3760-2022",
+      "disfor-2641-2019",
+      "disfor-2184-2018",
+      "disfor-1353-2021",
+      "disfor-2179-2019",
+      "disfor-1823-2023",
+      "disfor-3397-2019",
+      "disfor-2483-2023",
+      "disfor-1311-2021",
+      "disfor-555-2022",
+      "disfor-1448-2020",
+      "disfor-1799-2023",
+      "disfor-2928-2018",
+      "disfor-3202-2022",
+      "disfor-2461-2019",
+      "disfor-3007-2020",
+      "disfor-2040-2018",
+      "disfor-2217-2018",
+      "disfor-2277-2021",
+      "disfor-3252-2018",
+      "disfor-2896-2022",
+      "disfor-2455-2019",
+      "disfor-2209-2019",
+      "disfor-3748-2022",
+      "disfor-2489-2023",
+      "disfor-1502-2020",
+      "disfor-1432-2022",
+      "disfor-2904-2018",
+      "disfor-3016-2022",
+      "disfor-2128-2022",
+      "disfor-2397-2018",
+      "disfor-2057-2023",
+      "disfor-1458-2018",
+      "disfor-2131-2019",
+      "disfor-2048-2020",
+      "disfor-1443-2021",
+      "disfor-1277-2023",
+      "disfor-3339-2021",
+      "disfor-3463-2018",
+      "disfor-1250-2020",
+      "disfor-2026-2022",
+      "disfor-2405-2023",
+      "disfor-3481-2019",
+      "disfor-834-2018",
+      "disfor-1807-2019",
+      "disfor-3799-2019",
+      "disfor-1255-2019",
+      "disfor-3519-2018",
+      "disfor-1043-2023",
+      "disfor-2185-2019",
+      "disfor-968-2020",
+      "disfor-532-2018",
+      "disfor-1926-2018",
+      "disfor-2523-2021",
+      "disfor-1860-2018",
+      "disfor-3253-2019",
+      "disfor-3242-2020",
+      "disfor-3527-2018",
+      "disfor-1545-2021",
+      "disfor-2441-2023",
+      "disfor-2468-2020",
+      "disfor-825-2018",
+      "disfor-2994-2018",
+      "disfor-1071-2021",
+      "disfor-2524-2018",
+      "disfor-910-2018",
+      "disfor-2676-2018",
+      "disfor-1078-2022",
+      "disfor-1278-2018",
+      "disfor-2456-2020",
+      "disfor-3751-2019",
+      "disfor-2976-2018",
+      "disfor-2075-2023",
+      "disfor-3384-2018",
+      "disfor-926-2020",
+      "disfor-1486-2022",
+      "disfor-2298-2018",
+      "disfor-1520-2020",
+      "disfor-2188-2022",
+      "disfor-2917-2019",
+      "disfor-914-2020",
+      "disfor-1579-2019",
+      "disfor-2915-2023",
+      "disfor-3752-2020",
+      "disfor-3512-2018",
+      "disfor-2310-2018",
+      "disfor-975-2021",
+      "disfor-3462-2018",
+      "disfor-929-2023",
+      "disfor-534-2018",
+      "disfor-3742-2022",
+      "disfor-1602-2018",
+      "disfor-1524-2018",
+      "disfor-2911-2019",
+      "disfor-2111-2023",
+      "disfor-1002-2018",
+      "disfor-1327-2019",
+      "disfor-667-2018",
+      "disfor-3817-2019",
+      "disfor-2008-2022",
+      "disfor-1348-2022",
+      "disfor-2475-2021",
+      "disfor-2778-2018",
+      "disfor-1332-2018",
+      "disfor-1434-2018",
+      "disfor-2664-2018",
+      "disfor-697-2018",
+      "disfor-755-2018",
+      "disfor-719-2018",
+      "disfor-1063-2019",
+      "disfor-831-2018",
+      "disfor-650-2018",
+      "disfor-2027-2023",
+      "disfor-1132-2022",
+      "disfor-3279-2021",
+      "disfor-921-2021",
+      "disfor-1382-2020",
+      "disfor-3185-2023",
+      "disfor-3164-2020",
+      "disfor-1964-2020",
+      "disfor-1389-2021",
+      "disfor-1450-2022",
+      "disfor-1777-2019",
+      "disfor-2105-2023",
+      "disfor-3761-2019",
+      "disfor-2810-2020",
+      "disfor-17-2021",
+      "disfor-469-2022",
+      "disfor-3488-2021",
+      "disfor-3738-2023",
+      "disfor-1669-2019",
+      "disfor-2721-2019",
+      "disfor-2760-2021",
+      "disfor-19-2020",
+      "disfor-3740-2023",
+      "disfor-2737-2019",
+      "disfor-1745-2018",
+      "disfor-1644-2018",
+      "disfor-1509-2022",
+      "disfor-1893-2021",
+      "disfor-369-2018",
+      "disfor-3435-2019",
+      "disfor-1679-2019",
+      "disfor-1464-2019",
+      "disfor-461-2018",
+      "disfor-2736-2019",
+      "disfor-22-2018",
+      "disfor-3469-2019",
+      "disfor-473-2020",
+      "disfor-2743-2021",
+      "disfor-440-2018",
+      "disfor-458-2018",
+      "disfor-23-2020",
+      "disfor-3521-2020",
+      "disfor-16-2020",
+      "disfor-235-2019",
+      "disfor-3478-2019",
+      "disfor-1236-2020",
+      "disfor-517-2019",
+      "disfor-462-2018",
+      "disfor-3192-2023",
+      "disfor-3509-2021"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/transformer48_0.2_27.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7564333081245422,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7297799438238144,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7002327740192413,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.7107099443674088,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6907840371131897,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6867355853319168,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.687923401594162,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.7050790786743164,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6758293658494949,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6881958246231079,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.6720926314592361,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.6538467109203339,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.656475618481636,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.6512389034032822,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.6242322772741318,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.6046502143144608,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.5811118185520172,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.5748103857040405,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.5632693022489548,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.5428165271878242,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.5162730291485786,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.5144445300102234,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.502530999481678,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.5239064395427704,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.5115848928689957,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.46869657188653946,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.4465496391057968,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.4258592501282692,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.4363178014755249,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.40595199167728424,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.3693922460079193,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.3851645737886429,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.3782057836651802,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.35870034247636795,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.361470602452755,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.350022129714489,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.32688403129577637,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.3236522004008293,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.32627273350954056,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.2793787941336632,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": []
+    }
+  },
+  {
+    "config": {
+      "name": "ssl_transformer48",
+      "kind": "transformer",
+      "width": 48,
+      "dropout": 0.15,
+      "lr": 0.0005,
+      "ssl": true
+    },
+    "seed": 27,
+    "fraction": 0.2,
+    "labeled_ids": [
+      "disfor-2903-2023",
+      "disfor-3515-2018",
+      "disfor-2983-2019",
+      "disfor-2257-2019",
+      "disfor-1577-2023",
+      "disfor-1826-2020",
+      "disfor-3194-2020",
+      "disfor-1821-2021",
+      "disfor-1515-2023",
+      "disfor-3215-2018",
+      "disfor-3483-2021",
+      "disfor-1273-2019",
+      "disfor-1023-2021",
+      "disfor-3091-2019",
+      "disfor-821-2018",
+      "disfor-2205-2021",
+      "disfor-2919-2021",
+      "disfor-2235-2021",
+      "disfor-3805-2019",
+      "disfor-3083-2023",
+      "disfor-1787-2023",
+      "disfor-2127-2021",
+      "disfor-3733-2019",
+      "disfor-1849-2019",
+      "disfor-2987-2023",
+      "disfor-1607-2023",
+      "disfor-1346-2020",
+      "disfor-711-2018",
+      "disfor-3213-2021",
+      "disfor-3755-2019",
+      "disfor-2464-2022",
+      "disfor-0-2018",
+      "disfor-3224-2020",
+      "disfor-2201-2023",
+      "disfor-1194-2018",
+      "disfor-1151-2023",
+      "disfor-3271-2019",
+      "disfor-1418-2020",
+      "disfor-3021-2021",
+      "disfor-2620-2022",
+      "disfor-2364-2018",
+      "disfor-480-2018",
+      "disfor-1650-2018",
+      "disfor-3368-2020",
+      "disfor-3165-2021",
+      "disfor-2283-2018",
+      "disfor-1294-2022",
+      "disfor-824-2018",
+      "disfor-2656-2022",
+      "disfor-2132-2020",
+      "disfor-1480-2022",
+      "disfor-1137-2021",
+      "disfor-3342-2018",
+      "disfor-3037-2019",
+      "disfor-1934-2020",
+      "disfor-529-2018",
+      "disfor-2567-2023",
+      "disfor-3821-2019",
+      "disfor-2438-2020",
+      "disfor-1773-2021",
+      "disfor-1449-2021",
+      "disfor-2385-2018",
+      "disfor-1978-2022",
+      "disfor-1778-2020",
+      "disfor-2133-2021",
+      "disfor-2566-2022",
+      "disfor-2167-2019",
+      "disfor-1764-2018",
+      "disfor-2460-2018",
+      "disfor-2177-2023",
+      "disfor-1212-2018",
+      "disfor-1436-2020",
+      "disfor-1322-2020",
+      "disfor-1252-2022",
+      "disfor-2631-2021",
+      "disfor-455-2018",
+      "disfor-1122-2018",
+      "disfor-1375-2019",
+      "disfor-1308-2018",
+      "disfor-820-2018",
+      "disfor-1825-2019",
+      "disfor-3365-2023",
+      "disfor-2243-2023",
+      "disfor-997-2019",
+      "disfor-1083-2021",
+      "disfor-2478-2018",
+      "disfor-3737-2019",
+      "disfor-2421-2018",
+      "disfor-2554-2022",
+      "disfor-3807-2019",
+      "disfor-2101-2019",
+      "disfor-1916-2020",
+      "disfor-3760-2022",
+      "disfor-2641-2019",
+      "disfor-2184-2018",
+      "disfor-1353-2021",
+      "disfor-2179-2019",
+      "disfor-1823-2023",
+      "disfor-3397-2019",
+      "disfor-2483-2023",
+      "disfor-1311-2021",
+      "disfor-555-2022",
+      "disfor-1448-2020",
+      "disfor-1799-2023",
+      "disfor-2928-2018",
+      "disfor-3202-2022",
+      "disfor-2461-2019",
+      "disfor-3007-2020",
+      "disfor-2040-2018",
+      "disfor-2217-2018",
+      "disfor-2277-2021",
+      "disfor-3252-2018",
+      "disfor-2896-2022",
+      "disfor-2455-2019",
+      "disfor-2209-2019",
+      "disfor-3748-2022",
+      "disfor-2489-2023",
+      "disfor-1502-2020",
+      "disfor-1432-2022",
+      "disfor-2904-2018",
+      "disfor-3016-2022",
+      "disfor-2128-2022",
+      "disfor-2397-2018",
+      "disfor-2057-2023",
+      "disfor-1458-2018",
+      "disfor-2131-2019",
+      "disfor-2048-2020",
+      "disfor-1443-2021",
+      "disfor-1277-2023",
+      "disfor-3339-2021",
+      "disfor-3463-2018",
+      "disfor-1250-2020",
+      "disfor-2026-2022",
+      "disfor-2405-2023",
+      "disfor-3481-2019",
+      "disfor-834-2018",
+      "disfor-1807-2019",
+      "disfor-3799-2019",
+      "disfor-1255-2019",
+      "disfor-3519-2018",
+      "disfor-1043-2023",
+      "disfor-2185-2019",
+      "disfor-968-2020",
+      "disfor-532-2018",
+      "disfor-1926-2018",
+      "disfor-2523-2021",
+      "disfor-1860-2018",
+      "disfor-3253-2019",
+      "disfor-3242-2020",
+      "disfor-3527-2018",
+      "disfor-1545-2021",
+      "disfor-2441-2023",
+      "disfor-2468-2020",
+      "disfor-825-2018",
+      "disfor-2994-2018",
+      "disfor-1071-2021",
+      "disfor-2524-2018",
+      "disfor-910-2018",
+      "disfor-2676-2018",
+      "disfor-1078-2022",
+      "disfor-1278-2018",
+      "disfor-2456-2020",
+      "disfor-3751-2019",
+      "disfor-2976-2018",
+      "disfor-2075-2023",
+      "disfor-3384-2018",
+      "disfor-926-2020",
+      "disfor-1486-2022",
+      "disfor-2298-2018",
+      "disfor-1520-2020",
+      "disfor-2188-2022",
+      "disfor-2917-2019",
+      "disfor-914-2020",
+      "disfor-1579-2019",
+      "disfor-2915-2023",
+      "disfor-3752-2020",
+      "disfor-3512-2018",
+      "disfor-2310-2018",
+      "disfor-975-2021",
+      "disfor-3462-2018",
+      "disfor-929-2023",
+      "disfor-534-2018",
+      "disfor-3742-2022",
+      "disfor-1602-2018",
+      "disfor-1524-2018",
+      "disfor-2911-2019",
+      "disfor-2111-2023",
+      "disfor-1002-2018",
+      "disfor-1327-2019",
+      "disfor-667-2018",
+      "disfor-3817-2019",
+      "disfor-2008-2022",
+      "disfor-1348-2022",
+      "disfor-2475-2021",
+      "disfor-2778-2018",
+      "disfor-1332-2018",
+      "disfor-1434-2018",
+      "disfor-2664-2018",
+      "disfor-697-2018",
+      "disfor-755-2018",
+      "disfor-719-2018",
+      "disfor-1063-2019",
+      "disfor-831-2018",
+      "disfor-650-2018",
+      "disfor-2027-2023",
+      "disfor-1132-2022",
+      "disfor-3279-2021",
+      "disfor-921-2021",
+      "disfor-1382-2020",
+      "disfor-3185-2023",
+      "disfor-3164-2020",
+      "disfor-1964-2020",
+      "disfor-1389-2021",
+      "disfor-1450-2022",
+      "disfor-1777-2019",
+      "disfor-2105-2023",
+      "disfor-3761-2019",
+      "disfor-2810-2020",
+      "disfor-17-2021",
+      "disfor-469-2022",
+      "disfor-3488-2021",
+      "disfor-3738-2023",
+      "disfor-1669-2019",
+      "disfor-2721-2019",
+      "disfor-2760-2021",
+      "disfor-19-2020",
+      "disfor-3740-2023",
+      "disfor-2737-2019",
+      "disfor-1745-2018",
+      "disfor-1644-2018",
+      "disfor-1509-2022",
+      "disfor-1893-2021",
+      "disfor-369-2018",
+      "disfor-3435-2019",
+      "disfor-1679-2019",
+      "disfor-1464-2019",
+      "disfor-461-2018",
+      "disfor-2736-2019",
+      "disfor-22-2018",
+      "disfor-3469-2019",
+      "disfor-473-2020",
+      "disfor-2743-2021",
+      "disfor-440-2018",
+      "disfor-458-2018",
+      "disfor-23-2020",
+      "disfor-3521-2020",
+      "disfor-16-2020",
+      "disfor-235-2019",
+      "disfor-3478-2019",
+      "disfor-1236-2020",
+      "disfor-517-2019",
+      "disfor-462-2018",
+      "disfor-3192-2023",
+      "disfor-3509-2021"
+    ],
+    "checkpoint": "experiments/advanced_v3/low_labels/ssl_transformer48_0.2_27.pt",
+    "log": {
+      "best_epoch": 40,
+      "validation_macro_f1": null,
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.7715402543544769,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 2,
+          "loss": 0.7016462534666061,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 3,
+          "loss": 0.7232187539339066,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 4,
+          "loss": 0.6925303339958191,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 5,
+          "loss": 0.6730944365262985,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 6,
+          "loss": 0.6616719961166382,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 7,
+          "loss": 0.6416828036308289,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 8,
+          "loss": 0.6537868827581406,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 9,
+          "loss": 0.6211382746696472,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 10,
+          "loss": 0.6056412905454636,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 11,
+          "loss": 0.5849864333868027,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 12,
+          "loss": 0.5668163374066353,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 13,
+          "loss": 0.517807349562645,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 14,
+          "loss": 0.4992188736796379,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 15,
+          "loss": 0.45596467703580856,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 16,
+          "loss": 0.43110643327236176,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 17,
+          "loss": 0.3988267853856087,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 18,
+          "loss": 0.3976072669029236,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 19,
+          "loss": 0.38130180537700653,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 20,
+          "loss": 0.33591269701719284,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 21,
+          "loss": 0.3176471218466759,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 22,
+          "loss": 0.31813499331474304,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 23,
+          "loss": 0.295572642236948,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 24,
+          "loss": 0.31533033400774,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 25,
+          "loss": 0.29231754317879677,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 26,
+          "loss": 0.2767268419265747,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 27,
+          "loss": 0.2961422950029373,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 28,
+          "loss": 0.2384178750216961,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 29,
+          "loss": 0.27776774019002914,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 30,
+          "loss": 0.2478972263634205,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 31,
+          "loss": 0.24036477878689766,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 32,
+          "loss": 0.2652835100889206,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 33,
+          "loss": 0.24949339032173157,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 34,
+          "loss": 0.24325892701745033,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 35,
+          "loss": 0.244072075933218,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 36,
+          "loss": 0.25804267451167107,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 37,
+          "loss": 0.26193318888545036,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 38,
+          "loss": 0.2013753280043602,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 39,
+          "loss": 0.2195913940668106,
+          "validation_macro_f1": null
+        },
+        {
+          "epoch": 40,
+          "loss": 0.1931435763835907,
+          "validation_macro_f1": null
+        }
+      ],
+      "pretrain_loss": [
+        0.25451927110552786,
+        0.1494843278080225,
+        0.12175944857299328,
+        0.10874549113214016,
+        0.09540095180273056,
+        0.09241537600755692,
+        0.08867257311940194,
+        0.08188565410673618,
+        0.08336728233844042,
+        0.07901033237576485,
+        0.07866484746336937,
+        0.07168791517615318,
+        0.08320177737623453,
+        0.07637877240777016,
+        0.07522927485406398,
+        0.06939352154731751,
+        0.07032663747668266,
+        0.07143851984292268,
+        0.06911261640489101,
+        0.06923010405153036,
+        0.0694597776979208,
+        0.06905405819416047,
+        0.06311243791133166,
+        0.06737646870315075,
+        0.06826681420207023,
+        0.06526633892208338,
+        0.06564842835068703,
+        0.063276662863791,
+        0.0638156620785594,
+        0.06419967971742153,
+        0.06515837106853724,
+        0.06511997431516647,
+        0.06453915890306235,
+        0.06396225728094578,
+        0.06388737503439187,
+        0.061176260188221934,
+        0.06668160315603018,
+        0.06120297499001026,
+        0.05992281623184681,
+        0.06142241433262825,
+        0.0617597034201026,
+        0.06255082562565803,
+        0.06322777401655913,
+        0.06296515837311745,
+        0.06014775447547436,
+        0.06197142526507378,
+        0.05952661484479904,
+        0.061894419975578784,
+        0.062419294565916064,
+        0.060150671564042565,
+        0.06183319389820099,
+        0.058509229123592375,
+        0.05928860139101744,
+        0.05561868771910668,
+        0.05910364482551813,
+        0.059081295132637025,
+        0.05854866243898869,
+        0.06260774414986373,
+        0.05818119775503874,
+        0.0570738734677434
+      ]
+    }
+  }
+]

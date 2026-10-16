@@ -1,0 +1,2 @@
+# Optional frozen-encoder extension; install alongside requirements-lock.txt.
+einops==0.8.2

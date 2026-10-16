@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "tests": 33,
+  "isolated_environment": true,
+  "pip_check": "No broken requirements found",
+  "raw_observations_to_predictions": 486,
+  "launcher": "passed",
+  "frozen_model_and_experiment_results": "unchanged",
+  "research_report_and_pdf": "unchanged",
+  "release_verification": "output/release_verification.json"
+}

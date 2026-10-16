@@ -1,0 +1,182 @@
+[
+  {
+    "type": "file",
+    "oid": "1ef325f1b111266a6b26e0196871bd78baa8c2f3",
+    "size": 2461,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "d22cb487ba0cafc0fc96e76724ef9d37f4e81ac7",
+    "size": 6293,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "a177c6e189ee87094521c407a25f51ac20c11573",
+    "size": 758,
+    "path": "classes.json"
+  },
+  {
+    "type": "file",
+    "oid": "9d27ce65711c32728571e788494fbf3a05e49d6e",
+    "size": 592,
+    "path": "compress.sh"
+  },
+  {
+    "type": "file",
+    "oid": "02acbaa58676d88a7ce26615a376810cfd16d103",
+    "size": 343,
+    "path": "compress_and_upload.md"
+  },
+  {
+    "type": "file",
+    "oid": "ab3cde953a30b31d411f0a8fa47d8b05e3dbb9f1",
+    "size": 4240694350,
+    "lfs": {
+      "oid": "ec3e920022cf579461c43902f28cae0a1c2c7bdb62fb67e99991c57ee812bbda",
+      "size": 4240694350,
+      "pointerSize": 135
+    },
+    "xetHash": "31e0ebbe262529ce23da60ef5edc3c8b9afdeba64902c4df76b592adfbf766b2",
+    "path": "disfor-0-499.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "389f467f50d586c42fcd3a24cf1abf12275d9060",
+    "size": 4369245242,
+    "lfs": {
+      "oid": "3da9166c1164e91f77591daa43034a3e2831a7472579b5b2d05c7ccdb5b63ec9",
+      "size": 4369245242,
+      "pointerSize": 135
+    },
+    "xetHash": "0813cb23142c00767d59afda13495e410dcac536334ab538caf97ff8facf7fb1",
+    "path": "disfor-1000-1499.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "bdbb0f2957b083d99790ccff2f0b131c414658d8",
+    "size": 4530033011,
+    "lfs": {
+      "oid": "2e54ed525e1badaff92c0f6851d93c8b783de84cd10a25bb4b751cdf95fbada4",
+      "size": 4530033011,
+      "pointerSize": 135
+    },
+    "xetHash": "1bef2e856fd19fe9971d2e96967ca68605ff4e8b00341560ff45a2696e9fd78a",
+    "path": "disfor-1500-1999.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "738b0b067580ce185edcf8dea190075edff0a56c",
+    "size": 4525338950,
+    "lfs": {
+      "oid": "ea6be48314618e8e5fda0025f6b9cec6379c723985f8647ea808c498554b5768",
+      "size": 4525338950,
+      "pointerSize": 135
+    },
+    "xetHash": "e58e254464ca87437694cfaae8c8ffabe7180501d61cfd95b7a25378853da23e",
+    "path": "disfor-2000-2499.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "4ad93d900ab9c8ec0a5d0577c130516519f269ca",
+    "size": 5287796661,
+    "lfs": {
+      "oid": "c6789d2d1e7d00bb64e830ff784f3eaca01d909b74fb213c7f400b8096e01a51",
+      "size": 5287796661,
+      "pointerSize": 135
+    },
+    "xetHash": "3e94d1c9add0a99ab6631a14ccd20ccd2d445a3eac405a1fd50d2bd9f80119f1",
+    "path": "disfor-2500-2999.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "be4fbf8abc3434e4db0fbee3aca63e556d733bb3",
+    "size": 5660903717,
+    "lfs": {
+      "oid": "f411d31da3ca82d5fc27d8a80f997955303ab19cf498cf8cf1f6bc4e072a58fd",
+      "size": 5660903717,
+      "pointerSize": 135
+    },
+    "xetHash": "fe75647332db5425336b8d19b2ca1b926086a398f6e005bb1b6042937403e560",
+    "path": "disfor-3000-3499.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "c830ceb7dfff6acca98e1fb98d7b6d4a8e713760",
+    "size": 2366811403,
+    "lfs": {
+      "oid": "833a03db7f83c30bbd8bcd5225dfce8f7662c86f0df7fd4b5ab72c78abc97295",
+      "size": 2366811403,
+      "pointerSize": 135
+    },
+    "xetHash": "c6ca6abcf44c1feb0b6dd3d455c790c93c35c5699aee16ab4a7c74e2e542e6a1",
+    "path": "disfor-3500-3999.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "00e8aa78d3c4268a6384adb176ab32c230e83dbf",
+    "size": 3401579527,
+    "lfs": {
+      "oid": "63dc9f18715a6e8da9b49c41f461246485477f41855da2d4090618cb4c9aefea",
+      "size": 3401579527,
+      "pointerSize": 135
+    },
+    "xetHash": "40a552b08ff2b5941990c86e4757dbb3f7e93ca4713014bda3d622436f32cd1b",
+    "path": "disfor-500-999.tar.zst"
+  },
+  {
+    "type": "file",
+    "oid": "437b1277ec67f199df06d8bbd2deabb8d19925f1",
+    "size": 42946,
+    "path": "id_mapping.csv"
+  },
+  {
+    "type": "file",
+    "oid": "b67a5b4dcdb3d4ddc06065cc2e2cd0889e4e2f17",
+    "size": 109436,
+    "lfs": {
+      "oid": "017ece3222be9fe0d3197d35f837040cc0fb97248ad5f5058d6554bb911f503a",
+      "size": 109436,
+      "pointerSize": 131
+    },
+    "xetHash": "1381ede5f2fe66d92dff339be354e9dad1faf4754a3d29095921ce0c364110ef",
+    "path": "labels.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "d11f81d6fc7268ead55c6b2d9e4adfc0aacfcdfa",
+    "size": 65718460,
+    "lfs": {
+      "oid": "04f60deef402465df3e0321084489976b3b7c3905a6e0f06963bb42f81a01cc3",
+      "size": 65718460,
+      "pointerSize": 133
+    },
+    "xetHash": "696a74541cf55c8a3bdc887920ffa0858f228abc733c8b2278476b879647a1e3",
+    "path": "pixel_data.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "81622c6847e18b12af07172c5a8f73c7363aefcf",
+    "size": 161063,
+    "lfs": {
+      "oid": "82c6deebb431f6b91f4cce25a25f27e0b9754c08de9271d6336db4af7e992fe9",
+      "size": 161063,
+      "pointerSize": 131
+    },
+    "xetHash": "be794d951bcd5788ba6b50ba073a7903c2359e42f9801558bfd1f88060f81c80",
+    "path": "samples.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1c8933e48e1044692cc5fdd0b9e522751e2ca183",
+    "size": 33477,
+    "path": "train_ids.json"
+  },
+  {
+    "type": "file",
+    "oid": "f6c82629bc0152cf729e64edd7c303809860a37e",
+    "size": 3637,
+    "path": "val_ids.json"
+  }
+]

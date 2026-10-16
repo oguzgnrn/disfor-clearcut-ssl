@@ -1,0 +1,41 @@
+{
+  "kind": "real_satellite_screening",
+  "shape": [
+    225,
+    182
+  ],
+  "valid_pixels": 40380,
+  "total_pixels": 40950,
+  "jointly_valid_fraction": 0.9860805860805861,
+  "mean_dnbr": -0.03156774491071701,
+  "median_dnbr": -0.03138212859630585,
+  "thresholds": [
+    {
+      "threshold": 0.1,
+      "pixels": 8,
+      "screened_hectares": 0.32
+    },
+    {
+      "threshold": 0.2,
+      "pixels": 1,
+      "screened_hectares": 0.04
+    },
+    {
+      "threshold": 0.3,
+      "pixels": 0,
+      "screened_hectares": 0.0
+    },
+    {
+      "threshold": 0.4,
+      "pixels": 0,
+      "screened_hectares": 0.0
+    }
+  ],
+  "note": "Exploratory thresholds, not calibrated severity classes or verified burned/forest area. No forest mask. Two-date seasonal/soil/moisture effects remain.",
+  "bounds_utm": [
+    615780.0,
+    4082340.0,
+    619420.0,
+    4086840.0
+  ]
+}

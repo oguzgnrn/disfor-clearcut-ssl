@@ -1,0 +1,769 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2026-09-15T22:53:12Z",
+      "timestamp": 1789512792967,
+      "version": "build-2803163510"
+    },
+    "reference-count": 61,
+    "publisher": "Informa UK Limited",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              22
+            ]
+          ],
+          "date-time": "2025-07-22T00:00:00Z",
+          "timestamp": 1753142400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100004543",
+        "name": "China Scholarship Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "202108350057"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "202108350057"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004543",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "32371865"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32371865"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key R&D Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2021YFE0117700-4"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021YFE0117700-4"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key R&D Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2021YFD2200400102"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021YFD2200400102"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "International Journal of Digital Earth"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          25
+        ]
+      ]
+    },
+    "DOI": "10.1080/17538947.2025.2537325",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          23
+        ]
+      ],
+      "date-time": "2025-07-23T00:56:02Z",
+      "timestamp": 1753232162000
+    },
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Self-supervised deep learning for detection of forest disturbance types in a subtropical ecosystem using transformer and Sentinel-1 and Sentinel-2 time series data"
+    ],
+    "prefix": "10.1080",
+    "volume": "18",
+    "author": [
+      {
+        "given": "Ming",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          },
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guiying",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          },
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dengsheng",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          },
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cong",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Canterbury",
+            "place": [
+              "Christchurch, New Zealand"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haotian",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Canterbury",
+            "place": [
+              "Christchurch, New Zealand"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dengqiu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          },
+          {
+            "name": "Fujian Normal University",
+            "place": [
+              "Fuzhou, People’s Republic of China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_3_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.112159"
+      },
+      {
+        "key": "e_1_3_3_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolecon.2022.107702"
+      },
+      {
+        "key": "e_1_3_3_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2018.2818945"
+      },
+      {
+        "key": "e_1_3_3_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.11.011"
+      },
+      {
+        "key": "e_1_3_3_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-015-9928-z"
+      },
+      {
+        "key": "e_1_3_3_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112741"
+      },
+      {
+        "key": "e_1_3_3_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/1622407.1622416"
+      },
+      {
+        "key": "e_1_3_3_9_1",
+        "volume-title": "Proceedings of the 37th international conference on machine learning (ICML)",
+        "author": "Chen T.",
+        "year": "2020",
+        "unstructured": "Chen, T., S. Kornblith, M. Norouzi, and G. Hinton. 2020. “A Simple Framework for Contrastive Learning of Visual Representations.” Proceedings of the 37th international conference on machine learning (ICML), Vienna, Austria, 1597-1607."
+      },
+      {
+        "key": "e_1_3_3_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/36.551935"
+      },
+      {
+        "key": "e_1_3_3_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11676-021-01378-w"
+      },
+      {
+        "key": "e_1_3_3_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0605449103"
+      },
+      {
+        "key": "e_1_3_3_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2023.113787"
+      },
+      {
+        "key": "e_1_3_3_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs14153658"
+      },
+      {
+        "key": "e_1_3_3_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2021.102477"
+      },
+      {
+        "key": "e_1_3_3_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-32692-0_36"
+      },
+      {
+        "key": "e_1_3_3_17_1",
+        "first-page": "315",
+        "article-title": "Deep Sparse Rectifier Neural Networks",
+        "volume": "15",
+        "author": "Glorot X.",
+        "year": "2011",
+        "unstructured": "Glorot, X., A. Bordes, and Y. Bengio. 2011. “Deep Sparse Rectifier Neural Networks.” Proceedings of Machine Learning Research 15:315–323.",
+        "journal-title": "Proceedings of Machine Learning Research"
+      },
+      {
+        "key": "e_1_3_3_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2024.114101"
+      },
+      {
+        "key": "e_1_3_3_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112411"
+      },
+      {
+        "key": "e_1_3_3_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2021.3139099"
+      },
+      {
+        "key": "e_1_3_3_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isprsjprs.2023.09.009"
+      },
+      {
+        "key": "e_1_3_3_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs8010070"
+      },
+      {
+        "key": "e_1_3_3_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LGRS.2021.3069799"
+      },
+      {
+        "key": "e_1_3_3_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10640-022-00719-5"
+      },
+      {
+        "key": "e_1_3_3_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2022.3147513"
+      },
+      {
+        "key": "e_1_3_3_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2021.3109268"
+      },
+      {
+        "key": "e_1_3_3_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "e_1_3_3_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2016.10.040"
+      },
+      {
+        "key": "e_1_3_3_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isprsjprs.2019.04.015"
+      },
+      {
+        "key": "e_1_3_3_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2023.113852"
+      },
+      {
+        "key": "e_1_3_3_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13021-017-0078-9"
+      },
+      {
+        "key": "e_1_3_3_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10071075"
+      },
+      {
+        "key": "e_1_3_3_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11050523"
+      },
+      {
+        "key": "e_1_3_3_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rsase.2022.100907"
+      },
+      {
+        "key": "e_1_3_3_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.03.033"
+      },
+      {
+        "key": "e_1_3_3_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs15030851"
+      },
+      {
+        "key": "e_1_3_3_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2023.113655"
+      },
+      {
+        "key": "e_1_3_3_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2022.113416"
+      },
+      {
+        "key": "e_1_3_3_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2023.113821"
+      },
+      {
+        "key": "e_1_3_3_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.02.003"
+      },
+      {
+        "key": "e_1_3_3_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01004"
+      },
+      {
+        "key": "e_1_3_3_42_1",
+        "volume-title": "Proceedings of the 31st international conference on neural information processing systems",
+        "author": "Vaswani A.",
+        "year": "2017",
+        "unstructured": "Vaswani, A., N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł Kaiser, and I. Polosukhin. 2017. “Attention Is All You Need.” Proceedings of the 31st international conference on neural information processing systems, Red Hook, NY, United States. Curran Associates Inc.."
+      },
+      {
+        "key": "e_1_3_3_43_1",
+        "first-page": "19398",
+        "article-title": "ESA’s Multi-mission Sentinel-1 Toolbox",
+        "volume": "19",
+        "author": "Veci L.",
+        "year": "2017",
+        "unstructured": "Veci, L., J. Lu, M. Foumelis, and M. Engdahl. 2017. “ESA’s Multi-mission Sentinel-1 Toolbox.” EGU General Assembly Conference Abstracts 19:19398.",
+        "journal-title": "EGU General Assembly Conference Abstracts"
+      },
+      {
+        "key": "e_1_3_3_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2009.08.014"
+      },
+      {
+        "key": "e_1_3_3_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IGARSS.2015.7326202"
+      },
+      {
+        "key": "e_1_3_3_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MGRS.2022.3198244"
+      },
+      {
+        "key": "e_1_3_3_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112643"
+      },
+      {
+        "key": "e_1_3_3_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2021.02.046"
+      },
+      {
+        "key": "e_1_3_3_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2023/759"
+      },
+      {
+        "key": "e_1_3_3_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isprsjprs.2023.12.005"
+      },
+      {
+        "key": "e_1_3_3_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSTARS.2022.3150430"
+      },
+      {
+        "key": "e_1_3_3_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2022.3174009"
+      },
+      {
+        "key": "e_1_3_3_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2022.108606"
+      },
+      {
+        "key": "e_1_3_3_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.112167"
+      },
+      {
+        "key": "e_1_3_3_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSTARS.2020.3036602"
+      },
+      {
+        "key": "e_1_3_3_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i9.26317"
+      },
+      {
+        "key": "e_1_3_3_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10095020.2024.2336604"
+      },
+      {
+        "key": "e_1_3_3_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2024.104300"
+      },
+      {
+        "key": "e_1_3_3_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112822"
+      },
+      {
+        "key": "e_1_3_3_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.11.032"
+      },
+      {
+        "key": "e_1_3_3_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2021.3131152"
+      },
+      {
+        "key": "e_1_3_3_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2017/504"
+      }
+    ],
+    "container-title": [
+      "International Journal of Digital Earth"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2025.2537325",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2025-08-25T11:25:29Z",
+      "timestamp": 1756121129000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2537325"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          22
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            25
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/17538947.2025.2537325"
+    ],
+    "URL": "https://doi.org/10.1080/17538947.2025.2537325",
+    "relation": {},
+    "ISSN": [
+      "1753-8947",
+      "1753-8955"
+    ],
+    "issn-type": [
+      {
+        "value": "1753-8947",
+        "type": "print"
+      },
+      {
+        "value": "1753-8955",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tjde20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tjde20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2024-10-30",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-07-07",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-07-22",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "2537325"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "presto_v1_exploratory",
+  "role": "post-hoc exploratory extension; not original paper_v4 protocol",
+  "source_revision": "11e207a668a34336ced1d8e492a1bd5849b96c4a",
+  "folds": "exact paper_v4 folds",
+  "label_budgets": [
+    0.2,
+    1.0
+  ],
+  "label_seeds": [
+    7,
+    17,
+    27
+  ],
+  "methods": [
+    "presto_pretrained_geo",
+    "presto_pretrained_constant",
+    "presto_random_constant"
+  ],
+  "jobs": 90,
+  "encoder": "frozen upstream default Presto, 128 features, 24 months, January start",
+  "random_encoder_seed": 20261001,
+  "missing_modalities": [
+    "S1",
+    "ERA5",
+    "SRTM",
+    "Dynamic World"
+  ],
+  "preprocessing": "Source DN / 10000 per upstream normalization, NDVI from B08/B04; masks retained; no clipping or offsets; no interpolation",
+  "coordinate_control": "constant (0,0) coordinate token, not deletion of the geographic embedding",
+  "linear_probe": {
+    "standardization_fit": "labeled training subset only",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 1e-06,
+    "threshold": 0.5
+  },
+  "selection": "No hyperparameter search, no held-out test adaptation, no early stopping, no production replacement",
+  "limitations": [
+    "Same adaptively examined DISFOR cohort, not external validation",
+    "Pretraining data may overlap geographically/temporally; not independently audited",
+    "Source DN harmonization/offset compatibility is not independently established",
+    "Frozen linear probing only; does not evaluate fully fine-tuned Presto",
+    "Pretrained model has external data/compute; not a compute-matched SSL control",
+    "Random encoder uses one initialization; label seeds do not capture initialization uncertainty"
+  ]
+}

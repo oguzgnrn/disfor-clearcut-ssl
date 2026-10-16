@@ -1,0 +1,21 @@
+{
+  "python": "3.11.9",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "torch": "2.12.0",
+  "device": "cpu",
+  "torch_threads": 2,
+  "packages": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "torch": "2.12.0",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "joblib": "1.5.3"
+  },
+  "code_hashes": {
+    "src/orman_ssl/advanced.py": "1bc3fa293416eb204f2f1061018e4c357090996b497532994dacd8fbe31e04ee",
+    "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18",
+    "src/orman_ssl/inputs.py": "a23b6baa03a3d4a2758d446d67225f74dca7d8d625467874099f6f7a93aa63b5"
+  },
+  "protocol_sha256": "bcb86935365b6f2d3ee09e4974f35c341f1f8e5999dd12dab5f871938f663814"
+}

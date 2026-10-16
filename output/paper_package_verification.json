@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "files": 261,
+  "checks": [
+    "safe paths",
+    "unique entries",
+    "CRC",
+    "all SHA-256 hashes",
+    "manifest coverage"
+  ],
+  "path": "output/Orman_SSL_Paper_Paketi.zip",
+  "bytes": 7630151,
+  "sha256": "004be249c9c13c03850fc51d5b92a2515c3771b00b0b2773786c29c0d5422d87"
+}

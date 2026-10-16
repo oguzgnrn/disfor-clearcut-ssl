@@ -1,0 +1,272 @@
+{
+  "selection": {
+    "method": "Transformer",
+    "seed": 7,
+    "label_fraction": 1.0,
+    "validation_scores": {
+      "RandomForest": 0.8576935274082998,
+      "Transformer": 0.9324204637963152,
+      "SSL_Transformer": 0.8905720743718414
+    },
+    "selection": "highest mean validation macro-F1 across seeds; seed=7 fixed, no test-based selection",
+    "checkpoint": "models/model.pt",
+    "classes": [
+      "undisturbed_forest",
+      "clear_cut"
+    ],
+    "channels": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "task": "Retrospective classification of selected 24-month windows, not early warning or continuous map validation"
+  },
+  "selected_test_macro_f1": 0.8614507443775736,
+  "selected_confusion_matrix": [
+    [
+      442,
+      6
+    ],
+    [
+      12,
+      26
+    ]
+  ],
+  "spatial_groups_test": 175,
+  "positive_groups_test": 20,
+  "ssl_minus_supervised_at_20_percent": {
+    "mean": -0.005694595072904744,
+    "bootstrap_95_interval": [
+      -0.024456104034106307,
+      0.003021944979560124
+    ],
+    "resamples": 1000,
+    "unit": "spatial connected-component",
+    "conditional_on": "fixed data preparation and geographic split"
+  },
+  "robustness": [
+    {
+      "method": "RandomForest",
+      "seed": 7,
+      "drop_rate": 0.0,
+      "macro_f1": 0.7886815171583383
+    },
+    {
+      "method": "Transformer",
+      "seed": 7,
+      "drop_rate": 0.0,
+      "macro_f1": 0.4949477082273863
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 7,
+      "drop_rate": 0.0,
+      "macro_f1": 0.49695227142035653
+    },
+    {
+      "method": "RandomForest",
+      "seed": 17,
+      "drop_rate": 0.0,
+      "macro_f1": 0.8252645730096451
+    },
+    {
+      "method": "Transformer",
+      "seed": 17,
+      "drop_rate": 0.0,
+      "macro_f1": 0.47798066595059074
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 17,
+      "drop_rate": 0.0,
+      "macro_f1": 0.47854077253218885
+    },
+    {
+      "method": "RandomForest",
+      "seed": 27,
+      "drop_rate": 0.0,
+      "macro_f1": 0.8200000000000001
+    },
+    {
+      "method": "Transformer",
+      "seed": 27,
+      "drop_rate": 0.0,
+      "macro_f1": 0.4959415584415584
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 27,
+      "drop_rate": 0.0,
+      "macro_f1": 0.47629310344827586
+    },
+    {
+      "method": "RandomForest",
+      "seed": 7,
+      "drop_rate": 0.2,
+      "macro_f1": 0.7114748537019762
+    },
+    {
+      "method": "Transformer",
+      "seed": 7,
+      "drop_rate": 0.2,
+      "macro_f1": 0.4959415584415584
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 7,
+      "drop_rate": 0.2,
+      "macro_f1": 0.49695227142035653
+    },
+    {
+      "method": "RandomForest",
+      "seed": 17,
+      "drop_rate": 0.2,
+      "macro_f1": 0.745
+    },
+    {
+      "method": "Transformer",
+      "seed": 17,
+      "drop_rate": 0.2,
+      "macro_f1": 0.4774193548387097
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 17,
+      "drop_rate": 0.2,
+      "macro_f1": 0.47854077253218885
+    },
+    {
+      "method": "RandomForest",
+      "seed": 27,
+      "drop_rate": 0.2,
+      "macro_f1": 0.7239057239057238
+    },
+    {
+      "method": "Transformer",
+      "seed": 27,
+      "drop_rate": 0.2,
+      "macro_f1": 0.4949477082273863
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 27,
+      "drop_rate": 0.2,
+      "macro_f1": 0.46943231441048033
+    },
+    {
+      "method": "RandomForest",
+      "seed": 7,
+      "drop_rate": 0.4,
+      "macro_f1": 0.669024045261669
+    },
+    {
+      "method": "Transformer",
+      "seed": 7,
+      "drop_rate": 0.4,
+      "macro_f1": 0.49695227142035653
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 7,
+      "drop_rate": 0.4,
+      "macro_f1": 0.4959415584415584
+    },
+    {
+      "method": "RandomForest",
+      "seed": 17,
+      "drop_rate": 0.4,
+      "macro_f1": 0.7212183789364998
+    },
+    {
+      "method": "Transformer",
+      "seed": 17,
+      "drop_rate": 0.4,
+      "macro_f1": 0.4774193548387097
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 17,
+      "drop_rate": 0.4,
+      "macro_f1": 0.47854077253218885
+    },
+    {
+      "method": "RandomForest",
+      "seed": 27,
+      "drop_rate": 0.4,
+      "macro_f1": 0.6908358383954298
+    },
+    {
+      "method": "Transformer",
+      "seed": 27,
+      "drop_rate": 0.4,
+      "macro_f1": 0.4901960784313726
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 27,
+      "drop_rate": 0.4,
+      "macro_f1": 0.46
+    },
+    {
+      "method": "RandomForest",
+      "seed": 7,
+      "drop_rate": 0.6,
+      "macro_f1": 0.655
+    },
+    {
+      "method": "Transformer",
+      "seed": 7,
+      "drop_rate": 0.6,
+      "macro_f1": 0.47685683530678147
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 7,
+      "drop_rate": 0.6,
+      "macro_f1": 0.4734561213434453
+    },
+    {
+      "method": "RandomForest",
+      "seed": 17,
+      "drop_rate": 0.6,
+      "macro_f1": 0.696969696969697
+    },
+    {
+      "method": "Transformer",
+      "seed": 17,
+      "drop_rate": 0.6,
+      "macro_f1": 0.47685683530678147
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 17,
+      "drop_rate": 0.6,
+      "macro_f1": 0.47629310344827586
+    },
+    {
+      "method": "RandomForest",
+      "seed": 27,
+      "drop_rate": 0.6,
+      "macro_f1": 0.6325031506931524
+    },
+    {
+      "method": "Transformer",
+      "seed": 27,
+      "drop_rate": 0.6,
+      "macro_f1": 0.47342442665382534
+    },
+    {
+      "method": "SSL_Transformer",
+      "seed": 27,
+      "drop_rate": 0.6,
+      "macro_f1": 0.4612244897959184
+    }
+  ]
+}

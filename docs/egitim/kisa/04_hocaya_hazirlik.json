@@ -1,0 +1,376 @@
+{
+  "pages": [
+    {
+      "title": "Yedi günde anlayarak öğrenme",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Yedi gün boyunca günde yaklaşık 45 dakika çalış. Bu öneri uzmanlık veya hoca onayı vaat etmez. Hedef, ezberlemek değil dosyayı kapatınca yapılanı ve nedenini kendi sözlerinle açıklamak; açıklayamıyorsan geri dön."
+        },
+        {
+          "kind": "h",
+          "text": "Her gün aynı öğrenme döngüsünü uygula"
+        },
+        {
+          "kind": "p",
+          "text": "10 dakika oku, 15 dakika örnek çöz, 10 dakika kaynağı kapatıp anlat, 10 dakika kanıtla karşılaştır. Kapalı anlatım aktif hatırlama, karşılaştırma geri bildirimdir. Yanlışlarını listele; ertesi gün önce onları çalış."
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "1. gün: Problemi öğren. Bir konumun iki yılını çiz; girdi, tahmin ve gerçek etiketi ayrı kutulara koy. Hangi yıl sınıflandırılıyor?",
+            "2. gün: Veride gözlenen ve eksik ayları göster. Eksik ölçümün sıfır yansıtım olmadığını günlük yaşamdan örnekle açıkla.",
+            "3. gün: Etiketli öğrenme, maskeli ön eğitim ve çıkarımı birer cümleyle tanımla; kullandıkları verileri yaz.",
+            "4. gün: Ürünün matrisinden bulunan ve kaçırılan kesimleri hesapla. Yüksek doğruluk neden tüm kesimlerin bulunduğunu göstermez?",
+            "5. gün: Kısa Transformer, SSL ve uzun Transformer sonuçlarını yan yana yaz; eğitim bütçesi kontrolünün yorumu nasıl değiştirdiğini sesli anlat.",
+            "6. gün: Üründe bir doğru tahmin ve bir hatayı incele; gerçek çıkarımı çalıştır. Sonuç gösterme ile yeniden eğitimi ayır.",
+            "7. gün: Sınavı kaynaksız çöz, yanıtları kontrol et. Zorlandığın iki konuyu tekrarla ve görüşme provası yap."
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Her gün çizim, hesap, açıklama veya çalışan işlem üret; yalnız okunan sayfayı başarı sayma. Başkasına öğretirken eksiklerini fark etmen, anlamadığın terimleri düzgün söylemenden değerlidir."
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "docs/ARASTIRMA_VE_URUN_RAPORU.md",
+        "README.md"
+      ]
+    },
+    {
+      "title": "Üç uzunlukta dürüst anlatım",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Metinleri kendi anladığın kelimelerle kur; yapmadığın işi sahiplenme. Süreler prova içindir: 2 dakikalık açıklama tablodaki duraklamaları, 7 dakikalık anlatım şekil ve ürün gösterimini içerir; metni okumak tek başına 7 dakika sürmez."
+        },
+        {
+          "kind": "h",
+          "text": "Otuz saniyelik giriş"
+        },
+        {
+          "kind": "p",
+          "text": "Hocam, yapay zekâ desteğiyle hazırlanan projede gerçek uydu gözlemlerinden orman kesimi sınıflandırılıyor. Çalışan model, karşılaştırmalı deneyler ve makale taslağı var. Az etikette SSL kısa eğitime göre yararlı görünüyor; uzun denetimli eğitim daha iyi macro-F1 veriyor. Bağımsız Türkiye doğrulaması henüz yok."
+        },
+        {
+          "kind": "h",
+          "text": "İki dakikalık açıklama"
+        },
+        {
+          "kind": "p",
+          "text": "Bir konumun iki yıllık, 24 aylık Sentinel-2 gözlemleriyle ikinci yıldaki kesimi geriye dönük sınıflandırıyoruz. Araştırmada 2.213 konum, 5 coğrafi kat, 3 seed ve 180 eğitim kaydı var. Yakın noktalar ve ortak olaylar aynı grupta tutuluyor."
+        },
+        {
+          "kind": "p",
+          "text": "Yüzde 20 etikette macro-F1: SSL 0,8690; kısa Transformer 0,8322; yaklaşık adım eşlenmiş uzun Transformer 0,8987. Bu yüzden genel SSL üstünlüğü söylemiyoruz. Ayrı ürün sürümündeki 10 üyeli model, önceden incelenmiş 486 örnekte 38 kesimin 28’ini bulup 10’unu kaçırdı."
+        },
+        {
+          "kind": "p",
+          "text": "Veri hattı ve çıkarım çalışıyor; sonuçlar kayıtlardan yeniden hesaplanabiliyor. Yapay zekâ kodlama, analiz denetimi ve yazıma yardım etti; kendi fiilî katkılarımı ayrıca açıklayacağım. Görüşmede bilimsel yorumu ve bağımsız değerlendirme adımını netleştirmek istiyorum. Güçlü taraf olumlu bulguyu zorlayıcı kontrollerle sınamak; sınır aynı veri kaynağında geliştirme. Bu ayrım tek yüksek skordan önemlidir."
+        },
+        {
+          "kind": "h",
+          "text": "Yedi dakikalık gösterimli anlatım"
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "1. dakika: Girişten sonra bir seriyi aç; girdinin iki yılını ve eksik ayları göster.",
+            "2. dakika: Veri ayrımını çiz. Komşuluk kadar ortak olaylar da birlikte tutulmalı.",
+            "3–4. dakika: Sonuç şekilleriyle kısa eğitimdeki kazancı, uzun kontrolün yorumu nasıl değiştirdiğini anlat; yukarıdaki sonuç paragrafını kullan.",
+            "5. dakika: Ayrı 10 üyeli üründe bulunan ve kaçırılan kesimi göster; gerçek çıkarımı çalıştır.",
+            "6. dakika: Kanıt dosyasını aç. Yeniden hesaplama denetlenebilirlik sağlar; yeni ülke başarısını kanıtlamaz.",
+            "7. dakika: Bağımsız veri ve araştırma sorusu için karar iste; katkı kaydını ve açık sorularını göster."
+          ]
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "paper/AUTHOR_CONFIRMATION.md",
+        "README.md"
+      ]
+    },
+    {
+      "title": "İlk beş soruyu açıklayabilmek",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Soruyu sesli oku, yanıtla, sonra örneğe bak. Terimin anlamı kadar neyi değiştirdiğini açıkla. Yanıtı kopyalamak yerine bir cümle kısaltıp kendi örneğinle anlat."
+        },
+        {
+          "kind": "h",
+          "text": "Birinci soru Bu proje ne yapıyor"
+        },
+        {
+          "kind": "p",
+          "text": "Seçilen konumun iki yıllık uydu gözlemleriyle ikinci yıldaki kesimi sınıflandırır. Hedef 2020 ise 2019 ve 2020 kullanılır. Tam iki yıl gerektiğinden anlık uyarı değildir."
+        },
+        {
+          "kind": "h",
+          "text": "İkinci soru Etiket nereden geliyor"
+        },
+        {
+          "kind": "p",
+          "text": "Etiketler DISFOR’daki insan yorumları ve yardımcı bilgilerdendir; yeni arazi ölçümü yapılmadı. Eğitimdeki referans etiket ile model tahmini ayrıdır. Uyuşmamaları etiketi kesin yanlış yapmaz."
+        },
+        {
+          "kind": "h",
+          "text": "Üçüncü soru Model zaten kayıtlıysa düğme ne yapıyor"
+        },
+        {
+          "kind": "p",
+          "text": "Çıkarım, yeni hazırlanmış girdiden kayıtlı ağırlıklarla skor ve sınıf üretir. Ağırlıklar eğitimde öğrenilen sayılardır; çıkarım bunları yeniden öğrenmez. Ürün hazır sonuçları da gösterir: ekranı açmak yeniden çıkarım çalıştırmak değildir."
+        },
+        {
+          "kind": "h",
+          "text": "Dördüncü soru Neden tek bir başarı yüzdesi yok"
+        },
+        {
+          "kind": "p",
+          "text": "Doğruluk tüm örneklerde doğru karar oranını, kesim duyarlılığı gerçek kesimleri bulma oranını ölçer. Macro-F1 iki sınıfın F1’ini eşit ortalar. Çok sayıda orman örneği doğruluğu yüksek tutarken önemli kesimler kaçabilir."
+        },
+        {
+          "kind": "h",
+          "text": "Beşinci soru Bu veri gerçekten yeterli mi"
+        },
+        {
+          "kind": "p",
+          "text": "2.213 konum kontrollü karşılaştırmayı destekler; her ülkeye yeterlilik kanıtlamaz. 276 kesim, kesim içeren 141 mekânsal bileşen var. Aynı olayın noktaları benzeyebilir; 3 seed yalnız eğitim rastlantısını inceler, yeni saha örneği eklemez."
+        },
+        {
+          "kind": "p",
+          "text": "Prova: Arkadaşın bu beş soruyu yalnız senin anlatımından yanıtlasın. Yanlış anladığını savunmaya geçmeden düzelt; böylece açıklamandaki eksikleri bulursun. Öğrenmenin göstergesi hiç soru almamak değil, somut örnekle yanıtlayabilmektir."
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "docs/ARASTIRMA_VE_URUN_RAPORU.md",
+        "docs/VERI_SOZLESMESI.md"
+      ]
+    },
+    {
+      "title": "Zor sorularda kanıta dönmek",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Cevap sırası: gözlenen sonuç, kontrolün sınadığı şey, sonucun sınırı. Bir kavramı bilmek, ilgili tüm araştırma sonuçlarını bilmek değildir."
+        },
+        {
+          "kind": "h",
+          "text": "Altıncı soru İki farklı maske neden var"
+        },
+        {
+          "kind": "p",
+          "text": "Gözlem maskesi gerçek ölçümleri; ön eğitim maskesi bunlardan geçici gizlenenleri gösterir. Yapılandırılmış maske ardışık aylar ve bantları, bağımsız hücre kontrolü tek tek değerleri gizler. Fark aralığı sıfırı içerdiğinden yapılandırılmış maskenin kesin üstünlüğü gösterilmiş değildir."
+        },
+        {
+          "kind": "h",
+          "text": "Yedinci soru SSL faydalı mı değil mi"
+        },
+        {
+          "kind": "p",
+          "text": "Yüzde 20 etikette SSL kısa Transformer’dan iyi; yaklaşık adım eşlenmiş uzun denetimli kontrol SSL’den iyi macro-F1 verir. Yorum karşılaştırıcıya bağlıdır. Adım eşleme işlem maliyetini veya etiket görülme sayısını tam eşitlemez; tek bir nedensel açıklama kanıtlanmaz."
+        },
+        {
+          "kind": "h",
+          "text": "Sekizinci soru O zaman üründe neden SSL var"
+        },
+        {
+          "kind": "p",
+          "text": "advanced_v3 ayrı üründür: eğitim içi coğrafi seçimde ilk iki tarif CNN ve SSL Transformer’dı; beşer eğitim birleştirildi. paper_v4 başka protokolde tekil modelleri karşılaştırır. Makale testine göre ürünü değiştirmek yerine değişiklik için yeni değerlendirme planlanmalıdır."
+        },
+        {
+          "kind": "h",
+          "text": "Dokuzuncu soru Sızıntı ve aşırı öğrenme çözüldü mü"
+        },
+        {
+          "kind": "p",
+          "text": "Aşırı öğrenmede eğitimde işe yarayan ayrıntılar yeni örneklere taşınmaz; sızıntıda değerlendirme bilgisi öğrenme veya seçime uygunsuz biçimde girer. Coğrafi grup ayrımı, yalnız eğitimde ölçekleme ve dış testin ön eğitimden çıkarılması doğrudan karışmayı sınırlar. Aynı verideki geçmiş geliştirmeler nedeniyle tüm genelleme sorunları çözülmüş değildir."
+        },
+        {
+          "kind": "h",
+          "text": "Onuncu soru Yenilik var mı yayımlanır mı"
+        },
+        {
+          "kind": "p",
+          "text": "Transformer ve maskeli öğrenme yeni icat değil. Aday katkı, eşlenmiş etiket alt kümeleri ve eğitim bütçesi kontrolleriyle şeffaf ampirik karşılaştırmadır. Yayın yeterliliği uzman değerlendirmesi ve literatür konumlandırması gerektirir; kabul, ortak yazarlık veya yeni saha doğrulaması olmuş sayılmaz."
+        },
+        {
+          "kind": "p",
+          "text": "Son iki soruyu kaynaksız yanıtla. Güçlü cümlelerin altını çiz; “tamamen, kesinlikle, her yerde” sözlerini hangi kanıtla savunacağını kontrol et."
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "paper/AUTHOR_CONFIRMATION.md",
+        "paper/SUPPLEMENT.md",
+        "docs/NIHAI_BILIMSEL_DENETIM.md"
+      ]
+    },
+    {
+      "title": "Sonraki deneyi birlikte tasarlamak",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu plan yeni bağımsız saha çalışması içindir. Kör etiketleme ve protokol dondurma araçları hazır; gerçek veri ve insan etiketlemesi hocayla planlanmalı. Türkiye verisi var sayılmıyor. Daha büyük modelden önce kullanım amacını ve gereken bağımsız kanıtı belirle."
+        },
+        {
+          "kind": "h",
+          "text": "Önce soruyu ve veriyi belirle"
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "Hedefi sınırla: iki takvim yıllık kesim sınıflandırmasını yeni bölgeye taşımak örnektir. Yangın erken uyarısı seçilirse görev, etiket ve veri düzeni değişir.",
+            "Bölge ve dönemi skorları görmeden seç; veri erişimi, kaynak hakları, bantlar, ölçek, bulut bilgisi ve aylık desteği araştır. Uygun veri yoksa temin planıyla başla.",
+            "Orman ve kesimlerin seçileceği kaynakları önceden yaz; coğrafi ve olay ilişkilerini kaydet. Tek olaydan 100 yakın nokta, 100 bağımsız olay değildir.",
+            "Yorumlayıcı skoru görmeden etiketlesin. Belirsiz örnekler, ikinci yorumlayıcı ve uzlaşma kuralları önceden belirlensin. Gereken kurumsal izinler ve sorumluluklar gerçek çalışma kapsamına göre netleştirilsin."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Sonra ölçme kuralını dondur"
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "Örneklem hesabını duyarlılık ve yanlış alarm belirsizliğine göre yap; evrensel yeterli sayı yok. 111 adayda 1 kesim, kesim değerlendirmesini desteklemez.",
+            "Geliştirmeye kapalı konum ve olayları baştan ayır; model, eşik ve ana ölçütü sonuçlardan önce sabitle. Teste göre ayar, testin dokunulmamışlığını bitirir.",
+            "Önce dondurulmuş modeli ölç: macro-F1, AP, kesim duyarlılığı ve yanlış alarm sayısını destekleriyle raporla. Uyarlama için ayrı geliştirme verisi, değişmiş modeli ölçmek için başka korunmuş test gerekir."
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Alıştırma: Bir sayfaya bölgeyi, veri adayını, olay birimini, etiketleme sorumlusunu, ana ölçütü ve sabit kararları yaz. Bilinmeyene “bilinmiyor” de; hocayla hangi boşluğun nasıl araştırılacağını kararlaştır."
+        }
+      ],
+      "sourcefiles": [
+        "docs/ARASTIRMA_VE_URUN_RAPORU.md",
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "paper/AUTHOR_CONFIRMATION.md"
+      ]
+    },
+    {
+      "title": "Kaynağı kapat ve kendini sına",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu sınav resmî yeterlik ölçümü değil, çalışma önerisidir. 25 dakika ayır; notları, ürünü ve yanıt bölümünü kapat. Cevaplarını yaz; zihninden doğru bildiğini düşünmek yetmez. Hesap makinesi serbest; işlemin nedenini açıkla."
+        },
+        {
+          "kind": "p",
+          "text": "Toplam 100 puan. Bilmediğini boş bırak veya eksik kısmı yaz; bu eksik kaydı değerlidir. Her yanıta “eminim / kısmen eminim / kontrol etmeliyim” ekle. Bütün soruları bitirmeden yanıt bölümünü açma."
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "1 — 6 puan: Hedef 2020 ise pencere ve modelin sorusu nedir? Neden anlık alarm değildir?",
+            "2 — 6 puan: Eğitim ve kayıtlı modelle çıkarım nasıl ayrılır? Yeni tahmin gerçek etiket ister mi?",
+            "3 — 8 puan: 2.213 konum, 276 kesim, 874 mekânsal bileşen neyi sayar? Neden tüm noktalar bağımsız değildir?",
+            "4 — 8 puan: Kat, seed ve eğitim koşusu nedir? 180 koşu neden 180 bağımsız veri kümesi değildir?",
+            "5 — 10 puan: İki doğrudan sızıntı önlemi söyle. Çalışma neden yine de bağımsız dış doğrulama değildir?",
+            "6 — 10 puan: Gözlem maskesini SSL maskesinden ayır. Ölçülmemiş değer gizlenen eğitim hedefi olabilir mi?",
+            "7 — 8 puan: 0,8322 / 0,8690 / 0,8987 neyi karşılaştırır? Çıkarılamayacak bir iddia söyle.",
+            "8 — 8 puan: Macro-F1 ve doğruluk neden farklı? Orman çoğunluğu yorumu nasıl etkiler?",
+            "9 — 8 puan: 38 gerçek kesimin 28’i bulunduysa kaçırılan sayı ve duyarlılık nedir? İşlemini göster.",
+            "10 — 8 puan: 448 ormanda sıfır yanlış alarm Türkiye’de neyi garanti etmez? Örnek desteğini belirt.",
+            "11 — 10 puan: paper_v4 ve advanced_v3 neden ayrı anlatılır? Üründeki SSL, uzun eğitim kontrolüyle çelişir mi?",
+            "12 — 10 puan: Bağımsız deney için iki karar öner. Yapay zekâ yardımını ve kendi katkını nasıl dürüstçe açıklarsın?"
+          ]
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "docs/ARASTIRMA_VE_URUN_RAPORU.md",
+        "paper/AUTHOR_CONFIRMATION.md"
+      ]
+    },
+    {
+      "title": "Yanıtları kontrol et ve eksiklerini bul",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Önce soruları bitir. Aynı sözcükler değil doğru anlam ve gerekçe aranır. Her yanıttaki iki parçayı ayrı puanla; doğru terimi açıklayamıyorsan ilgili kısmın puanının en fazla yarısını ver. Toplam en çok 100."
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "1: 2019–2020 penceresi, hedef 2020 kesimi (3); tam iki yıl kullanımı anlık alarm değildir (3).",
+            "2: Eğitim ağırlık öğrenir, çıkarım kayıtlı ağırlığı kullanır (3); çıkarım gerçek etiket gerektirmez (3).",
+            "3: 2.213 konum, 276 kesim, 874 bağlı bileşen (4); yakınlık ve ortak olay bağımlılığı (4).",
+            "4: Kat veri ayrımı, seed rastlantı başlangıcı, koşu bir eğitimdir (4); aynı veri tekrar kullanılır (4).",
+            "5: Grup ayrımı ve yalnız eğitimde ölçekleme gibi iki önlem (5); aynı veride geçmiş geliştirmeler (5).",
+            "6: Gerçek gözlem desteği ile yapay gizleme ayrımı (5); ölçülmeyen değer bilinen yeniden kurma hedefi olamaz (5).",
+            "7: Yüzde 20 etikette kısa Transformer 0,8322; SSL 0,8690; uzun Transformer 0,8987 (4); genel SSL üstünlüğü çıkarılamaz (4).",
+            "8: Macro-F1 sınıf F1’lerini eşit ortalar; doğruluk örnek sayar (4); çoğunluk kaçırılan kesimleri gizleyebilir (4).",
+            "9: Kaçırılan 38−28=10 (4); duyarlılık 28/38≈0,7368, yüzde 73,68 (4).",
+            "10: Sıfır, incelenen 448 ormandaki gözlemdir (4); yeni coğrafyaya garanti değildir (4).",
+            "11: Tekil araştırma modelleri ve ayrı ürün birleşimi (5); üyeler önceki eğitim içi seçimle belirlendi (5).",
+            "12: Sonuç öncesi bölge, olay ayrımı veya eşik gibi iki karar (5); yardımı belirtip yalnız gerçek katkını sahiplenmek (5)."
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Puan geçme belgesi değildir. En düşük üç yanıtı, özellikle “eminim” dediğin yanlışları yeniden çalış; ertesi gün farklı örnekle çöz. Yüksek toplam, sürüm ayrımını ve dış doğrulama sınırını açıklayamadığın konuları bildiğini göstermez."
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "docs/ARASTIRMA_VE_URUN_RAPORU.md",
+        "paper/AUTHOR_CONFIRMATION.md"
+      ]
+    },
+    {
+      "title": "Görüşmeyi öğrenmeye ve karara dönüştürmek",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Hazırlık her cevabı bilmek değil; sonucu doğru göstermek, bilinmeyeni ayırmak ve sonraki adımı kaydetmektir. Hocanın sorusunu saldırı değil açıklık ihtiyacı olarak gör."
+        },
+        {
+          "kind": "h",
+          "text": "Toplantıdan önce kontrol et"
+        },
+        {
+          "kind": "bullets",
+          "items": [
+            "Ürünü kendi bilgisayarında açıp gerçek çıkarımı bir kez dene. Sorun varsa gizleme; başladığı adımı ve hata mesajını kaydet.",
+            "Türkçe rapor, İngilizce makale ve görüşme notunu hazır tut. Sayıları kaynakta bul; eski MVP ile güncel tabloyu karıştırma.",
+            "Bir doğru ve bir kaçırılan kesim hazırla; skorun etiket veya doğruluk garantisi olmadığını açıkla.",
+            "Üç açık sorun ve bir karar önerisi yaz. Veri adayını araştırma önerisi, verinin temin edildiği anlamına gelmez."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Bilmediğin soruya nasıl cevap verilir"
+        },
+        {
+          "kind": "p",
+          "text": "“Bu ayrıntıyı güvenle açıklayamıyorum. Bildiğim kısım şu; belirsiz kısmı kod veya kaynaktan kontrol edip gerekçeli yanıt hazırlamak istiyorum.” Soruyu kendi sözlerinle tekrarlayıp doğru anladığını doğrula; bilmediğin terimi açıklat. Tahminle kesin yanıt verme."
+        },
+        {
+          "kind": "h",
+          "text": "Katkı kaydını somut tut"
+        },
+        {
+          "kind": "p",
+          "text": "Kişisel notunda üç sütun kullan: yapılan iş / yapan kişi veya araç / benim kontrolüm. Yalnız yaptıklarını yaz; yapay zekânın kodlama, denetim ve yazım yardımını belirt. Dosyayı okumak ile algoritmayı geliştirmek farklı katkılardır; ikisini doğru adlandır."
+        },
+        {
+          "kind": "h",
+          "text": "Toplantıdan sonra ne kaydedilir"
+        },
+        {
+          "kind": "p",
+          "text": "Aynı gün karar, açık soru, sorumlu ve anlaşılan tarihleri yaz. Öneriyi karardan; onaylanmamış yazarlık/yayını onaydan ayır. Yeni kuralları sonuçlardan önce ayrı sürümde tanımla; hocanın düzeltmesini ve gerekçesini kaydet. Sonraki çalışmayı buradan başlat."
+        }
+      ],
+      "sourcefiles": [
+        "docs/GORUSME_AKISI_VE_SORULAR.md",
+        "paper/AUTHOR_CONFIRMATION.md",
+        "README.md"
+      ]
+    }
+  ]
+}

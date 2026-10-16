@@ -1,0 +1,393 @@
+{
+  "pages": [
+    {
+      "title": "Projenin çözdüğü soruyu kendi cümlenle anlat",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bir orman noktasının iki yıllık uydu ölçümlerini önüne koyduğunu düşün. Soru şu: İlk yıl orman olan bu yer, ikinci yılda kesim geçirmiş mi; yoksa iki yıl boyunca bozulmamış orman olarak mı kalmış? Orman SSL bu iki seçenek arasında sınıflandırma yapan bir araştırma ve yerel uygulama projesidir."
+        },
+        {
+          "kind": "p",
+          "text": "Model tek bir fotoğrafa bakmıyor. Aynı konumun 24 aylık, 10 farklı ışık bandındaki sayı dizisini inceliyor. “Sınıf”, verebileceği cevap kategorisidir. Bu projede 0 bozulmamış orman, 1 kesim demektir. Modelin ürettiği kesim skoru, sabit 0,50 eşiğiyle sınıf kararına dönüştürülür."
+        },
+        {
+          "kind": "h",
+          "text": "Araştırma sorusu ile ürünün görevi"
+        },
+        {
+          "kind": "p",
+          "text": "Ürünün görevi verilen uydu dizisine bir tahmin üretmektir. Araştırmanın sorusu daha farklıdır: Az sayıda etiketimiz varken, önce etiketsiz uydu dizileri üzerinde alıştırma yapan model daha iyi öğrenir mi? Bunu yanıtlamak için farklı modelleri aynı veride ve aynı coğrafi ayrımlarda karşılaştırdık. Eğitimi daha uzun tutmanın etkisini de ayrıca kontrol ettik."
+        },
+        {
+          "kind": "p",
+          "text": "Etiket, kaynak araştırmacıların bir noktaya verdiği referans cevaptır. “Etiketsiz” demek verinin boş olması değil, modelin o verinin sınıf cevabını öğrenme sırasında kullanmaması demektir. Bu ayrım, SSL konusunu anlamanın başlangıcıdır."
+        },
+        {
+          "kind": "h",
+          "text": "Hocaya söyleyebileceğin ilk cümle"
+        },
+        {
+          "kind": "p",
+          "text": "“Gerçek Sentinel 2 zaman serilerinden orman kesimini geriye dönük sınıflandıran bir sistem hazırladık. Araştırmada, az etiketli öğrenmede SSL kazancının eğitim bütçesi kontrol edildiğinde sürüp sürmediğini inceledik.” Bu cümledeki her kelimenin gerekçesini ilerleyen sayfalarda öğreneceksin."
+        },
+        {
+          "kind": "check",
+          "question": "Model gelecekte çıkacak bir orman yangınını haber veriyor mu?",
+          "answer": "Hayır. Görev, seçilmiş iki yıllık pencerede orman kesimini sonradan sınıflandırmaktır. Yangın, geleceği tahmin etme ve erken uyarı bu çalışmada doğrulanmadı."
+        }
+      ],
+      "sourcefiles": [
+        "README.md",
+        "experiments/paper_v4/protocol.json"
+      ]
+    },
+    {
+      "title": "Uydu görüntüsünün içindeki sayılar",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Uzaktan algılama, bir yere dokunmadan sensörle ölçüm yapmaktır. Sentinel 2, yeryüzünden gelen ışığı farklı dalga boylarında ölçen bir uydu görevidir. Bir fotoğrafın kırmızı, yeşil ve mavi kanallarına benzer biçimde farklı “bantlar” vardır; bazıları insan gözünün görmediği ışığı ölçer. Resimde renk gördüğümüz yerde bilgisayar sayılar görür."
+        },
+        {
+          "kind": "p",
+          "text": "Piksel, görüntüdeki küçük bir alanın ölçümüdür. Bir pikseli tek bir ağaçla eş tutamazsın; içinde ağaç, toprak ve başka yüzeyler birlikte bulunabilir. Sentinel 2 cihazının 13 bandı ve banda bağlı 10, 20, 60 metre yer örnekleme ölçekleri vardır. Bizim modelimiz seçilmiş 10 bandın hazır konum serisini kullanır. Bütün bantların doğal çözünürlüğünün aynı olduğunu söyleme. [G1]"
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Kullandığımız bantlar",
+            "Basit karşılığı"
+          ],
+          "rows": [
+            [
+              "B02 B03 B04",
+              "Mavi yeşil kırmızı görünür ışık"
+            ],
+            [
+              "B05 B06 B07",
+              "Bitki örtüsüne ilişkin değişimleri incelemekte yararlı kırmızı kenar bölgesi"
+            ],
+            [
+              "B08 B8A",
+              "Yakın kızılötesi ışık"
+            ],
+            [
+              "B11 B12",
+              "Kısa dalga kızılötesi ışık"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Ağaç örtüsü değişince ışığın ölçülen biçimi de değişebilir. Ancak bulut, gölge, mevsim, nem ve arazi koşulları da ölçümleri değiştirir. Bu yüzden tek bir bandın azalmasını “kesin kesim” diye okumayız. Model birden fazla bant ve ayın birlikte oluşturduğu örüntüleri öğrenmeye çalışır."
+        },
+        {
+          "kind": "p",
+          "text": "Bu projede baştan uydu görüntüsü indirme, pikselleri yeniden örnekleme ve fiziksel yansıtım düzeltme zinciri kurulmadı. DISFOR kaynağında hazır olan konum ölçümleri kullanıldı. Kaynağın DN adı verilen sayısal değerleri korundu; yeni bir yansıtım dönüşümü eklenmedi."
+        },
+        {
+          "kind": "check",
+          "question": "B08 değeri bir ayda düştüyse neden tek başına kesim diyemeyiz?",
+          "answer": "Çünkü aynı değişimin birden fazla nedeni olabilir. Diğer bantlara, önceki ve sonraki aylara, gözlem kalitesine ve bağımsız referans bilgisine birlikte bakmak gerekir."
+        }
+      ],
+      "sourcefiles": [
+        "src/orman_ssl/inputs.py",
+        "paper/SUPPLEMENT.md"
+      ]
+    },
+    {
+      "title": "Bir örneğin biçimi ve zaman penceresi",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Zaman serisi, aynı yerden farklı zamanlarda alınan ölçümlerin sıralı listesidir. Bunu bir kişinin iki yıllık aylık sağlık ölçümlerine benzetebilirsin. Tek bir ölçümden çok, ölçümlerin birlikte nasıl değiştiği önemlidir. Bizde her örnek bir konum, her satır bir ay, her sütun bir uydu bandıdır."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Öğe",
+            "Bu projedeki anlamı"
+          ],
+          "rows": [
+            [
+              "Bir örnek",
+              "Bir konum için tek bir 24 aylık pencere"
+            ],
+            [
+              "x",
+              "24 ay × 10 bantlık sayısal dizi"
+            ],
+            [
+              "observed",
+              "Her ay ve bant için ölçüm mevcut mu bilgisi"
+            ],
+            [
+              "days",
+              "Her ayın 15. gününün pencere başından itibaren gün karşılığı"
+            ],
+            [
+              "y",
+              "Eğitim ve değerlendirmede kullanılan sınıf etiketi"
+            ],
+            [
+              "id",
+              "Örneği dosyalar arasında eşleştiren benzersiz kimlik"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Örneğin target_year 2019 ise pencere Ocak 2018 ile Aralık 2019 arasındadır. Kesim örneğinde ilk yılın bozulmamış orman olması, uygun kesimin ikinci yılda gerçekleşmesi istenir. Negatif örnekte iki yıl boyunca orman referansı vardır. Aylık ölçümler, penceredeki tüm aylar tamamlandıktan sonra geriye dönük incelenir."
+        },
+        {
+          "kind": "p",
+          "text": "x dizisinin tüm veri için biçimi 2213 × 24 × 10 olur. İlk sayı konum adedidir; 24 × 10 ise her konumdaki ölçüm hücreleridir. Hücrelerin bazıları eksiktir. Bu nedenle 2213 × 240 hesabını bağımsız örnek sayısı gibi sunamazsın. Aynı konumun ayları birbirleriyle ilişkilidir."
+        },
+        {
+          "kind": "p",
+          "text": "Etiketler veri kümesinin uygun pencerelerini kurarken kullanıldı. Tahmin programı ise etiket istemez; ölçümleri ve hangi iki yılı inceleyeceğini alır. Bu, seçilmiş ve etiketli bir araştırma verisiyle çalıştığımız gerçeğini ortadan kaldırmaz."
+        },
+        {
+          "kind": "check",
+          "question": "target_year 2020 olan örnek hangi dönemi kapsar?",
+          "answer": "Ocak 2019 ile Aralık 2020. Kesim sınıfındaki uygun olay ikinci takvim yılında aranır; 24 aylık pencere olayın kesin gününü tahmin ettiği anlamına gelmez."
+        }
+      ],
+      "sourcefiles": [
+        "src/orman_ssl/inputs.py",
+        "scripts/prepare_disfor.py"
+      ]
+    },
+    {
+      "title": "Veri nereden geldi ve neden bu kadar örnek kaldı",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "DISFOR, Avrupa orman bozulmalarını incelemek için hazırlanmış açık bir veri kaynağıdır. Kaynak araştırmacılar mevcut bilgiler ve uydu görüntüleriyle yorumlanan referans etiketler sağlamıştır. Bu projede yeni arazi ziyaretleriyle etiket toplanmadı. Bir modelin kendi tahminini doğru cevap kabul edip eğitim verisi diye sunmadık. [G2]"
+        },
+        {
+          "kind": "p",
+          "text": "Kaynağın sabit bir sürümü indirildi. “Sabit sürüm” aynı veriye daha sonra yeniden erişebilmek için kullanılan bir kimliktir. Bizim indirilen konum tablomuz 3.822 kayıt içeriyor; kaynak kartındaki farklı bir sayıyı kendi işlenen örnek sayımız gibi kullanmıyoruz."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "Sıralı seçim adımı",
+            "Konum sayısı"
+          ],
+          "rows": [
+            [
+              "İndirilen konum tablosu",
+              "3.822"
+            ],
+            [
+              "Yüksek güven dışında kalanlar",
+              "−598"
+            ],
+            [
+              "Uygun ve açık iki yıllık pencere olmayanlar",
+              "−606"
+            ],
+            [
+              "Yeterli açık ay gözlemi bulunmayanlar",
+              "−116"
+            ],
+            [
+              "İkili görev dışında bırakılan yangın örnekleri",
+              "−289"
+            ],
+            [
+              "Son çalışma kümesi",
+              "2.213"
+            ],
+            [
+              "Orman ve kesim dağılımı",
+              "1.937 orman ve 276 kesim"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Bu filtreler, hedefi daha tutarlı bir ikili sınıflandırma sorusuna indirger. Bunun karşılığı, sonucun bütün orman bozulmalarını veya bütün coğrafyaları temsil etmemesidir. Kolay yorumlanan ve yeterli gözlemi bulunan noktaları seçmek, gerçek dünyadaki zor örnekleri daha az temsil ediyor olabilir."
+        },
+        {
+          "kind": "p",
+          "text": "Sınıf dengesizliği var: kesim sayısı orman sayısından çok daha az. Hep “orman” diyen bir sistem, çoğunluğu yakaladığı için yüksek doğruluk gösterebilir; buna rağmen tek bir kesimi bulamaz. Bu yüzden sınıfları ayrı değerlendiren ölçütlere ihtiyaç duyuyoruz."
+        },
+        {
+          "kind": "check",
+          "question": "2.213 konumun tamamı sahaya gidilip bizim ölçtüğümüz noktalar mı?",
+          "answer": "Hayır. Kaynak DISFOR etiketleri ve ölçümleri üzerinde tanımlı seçim ve hazırlama adımları uygulandı. Etiketlerin kaynağı ile bizim veri işleme katkımızı ayrı anlatmalısın."
+        }
+      ],
+      "sourcefiles": [
+        "reports/disfor_preparation.json",
+        "data/disfor/downloads.json"
+      ]
+    },
+    {
+      "title": "Ham gözlemden kullanılabilir aylık veriye",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Aynı ayda birden fazla uydu gözlemi olabilir. Önce kaynağın clear alanı doğru olan ve SCL değeri 4 veya 5 olan gözlemler tutulur. SCL, sahne sınıflandırmasıdır; 4 bitki örtüsü, 5 bitkisiz yüzey sınıfıdır. Bitkisiz yüzeyi tutmak mantıklıdır: kesimden sonra yerin görünümü değişebilir. Bu filtre kusursuz bulut temizliği garantisi vermez. [G3]"
+        },
+        {
+          "kind": "p",
+          "text": "Sonra her ay ve bant için medyan alınır. Medyan, sıralanan sayıların ortasındaki değerdir. Öğretici bir örnek: 100, 110 ve 900 değerlerinde medyan 110 olur. Aşırı değerin ortalamaya etkisi daha büyüktür. Bu üç sayı gerçek deney verisi değildir; aylık özetlemenin mantığını göstermek içindir."
+        },
+        {
+          "kind": "p",
+          "text": "Bir ayda uygun ölçüm yoksa o ayın değeri uydurulmaz. Eksiklik observed adlı maske ile kaydedilir. “Maske”, hangi hücrelerin kullanılabileceğini belirten doğru veya yanlış işaretidir. Eksik ayı sıfır saymak, sensörün gerçekten sıfır ölçtüğünü iddia etmek olur. Aylık hazırlamada zamanlar arası ara değer doldurma yapılmaz."
+        },
+        {
+          "kind": "p",
+          "text": "Bir örneğin kalite koşuluna uygun sayılması için her takvim yılında en az altı gözlenen ay gerekir. Kod bu sayımı en az bir gözlenen bandı bulunan ay üzerinden yapar. Arayüzde tamamen yeşil ay hücresi ise 10 bandın da gözlendiğini gösterir. Kalite uygunluğu ve tahmin doğruluğu ayrı kavramlardır."
+        },
+        {
+          "kind": "h",
+          "text": "Ölçekleme neden yalnız eğitimde öğreniliyor"
+        },
+        {
+          "kind": "p",
+          "text": "Bantların sayısal ölçekleri farklı olabilir. Model hazırlığında eğitim verisindeki gözlenen değerlerden ortalama ve standart sapma öğrenilir; değerler bu ölçülerle ölçeklenir. Test verisinin genel bilgisini bile baştan öğrenme sürecine katmamak için test değerlerinden yeni bir ölçekleyici hesaplanmaz. Eksikliği işaretleyen maske model boyunca korunur."
+        },
+        {
+          "kind": "check",
+          "question": "Ayı eksik olan örnekte çizgiyi neden kesik görüyorsun?",
+          "answer": "Çünkü ölçmediğimiz bir dönemi ölçülmüş gibi çizmek istemiyoruz. Boşluk, veri kalitesi hakkında görünür bir bilgidir; tek başına kesim kanıtı değildir."
+        }
+      ],
+      "sourcefiles": [
+        "src/orman_ssl/inputs.py",
+        "src/orman_ssl/experiment.py",
+        "reports/product.html"
+      ]
+    },
+    {
+      "title": "Öğrenme tahmin ve ölçme üç ayrı iştir",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bir öğrenciye örnek sorular ve çözümleri verildiğini düşün. Öğrenme sırasında öğrenci yaklaşımını düzeltir. Sınavda ise yeni bir soruya cevabını verir. Cevabı değerlendirmek için bir cevap anahtarı gerekir. Makine öğrenmesinde de eğitim, çıkarım ve değerlendirme farklı adımlardır."
+        },
+        {
+          "kind": "table",
+          "headers": [
+            "İşlem",
+            "Ne kullanır",
+            "Ne değişir"
+          ],
+          "rows": [
+            [
+              "Eğitim",
+              "Ölçümler ve yönteme göre sınıf etiketleri",
+              "Modelin öğrenilen sayıları"
+            ],
+            [
+              "Çıkarım",
+              "Yeni veya mevcut ölçümler ve kayıtlı model",
+              "Tahmin dosyası"
+            ],
+            [
+              "Değerlendirme",
+              "Tahminler ve referans etiketler",
+              "Başarı ve hata ölçümleri"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Üründe “Örnek veride analizi çalıştır” düğmesine basınca model yeniden eğitilmez. Hazır ağırlıklar kullanılarak aynı paketli ham gözlemler işlenir ve tahminler yeniden üretilir. Ağırlıklar, eğitim sonunda modelin öğrendiği çok sayıdaki sayısal parametredir. Düğmeye tekrar basmak yeni bir bilimsel deney veya bağımsız test yaratmaz."
+        },
+        {
+          "kind": "p",
+          "text": "Bir tahminin kesim skoru 0,80 ise ürün sabit eşik 0,50 olduğu için “kesim” der. Skor 0,30 ise “orman” der. Bu sayılar öğretici örnektir. “0,80 skor” ifadesi, yeni bir ülkede bu tahminin kesinlikle yüzde 80 doğru olduğu anlamına gelmez. Skorun bu şekilde yorumlanabilmesi için hedef koşullarda ayrıca kalibrasyon ve doğrulama gerekir."
+        },
+        {
+          "kind": "p",
+          "text": "Bir diğer fark, yazılım testi ile model başarımıdır. Geçen 58 test; dosyaların, veri kontrollerinin ve işlem akışının beklendiği gibi çalışmasını denetler. Bir program bütün yazılım testlerini geçip yeni bir bölgede kötü tahmin yapabilir. Başarımın kanıtı, uygun biçimde ayrılmış veri ve referans etiketlerle yapılan ölçümdür."
+        },
+        {
+          "kind": "check",
+          "question": "Çalıştır düğmesi başarılı olduysa modelin Türkiye performansını kanıtladık mı?",
+          "answer": "Hayır. Çalıştırma, mevcut veriyle çıkarım akışını doğrular. Türkiye performansı, geliştirmede kullanılmamış ve yeterli referans bilgisi olan Türkiye verisinde ayrıca ölçülmelidir."
+        }
+      ],
+      "sourcefiles": [
+        "scripts/serve_product.py",
+        "reports/final_delivery_verification.json"
+      ]
+    },
+    {
+      "title": "İki gerçek örneği birlikte oku",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Aşağıdaki grafikler ürünün kullandığı gerçek aylık girdiden çizildi. Üst örnek doğru bulunan kesim; alt örnek referansı kesim olduğu hâlde modelin orman dediği noktadır. Her çizgi bir bandın zaman içinde değişimidir. Boş aylar çizgide birleştirilmez."
+        },
+        {
+          "kind": "figure",
+          "path": "docs/egitim/assets/gercek_ornekler.png",
+          "caption": "Şekil 1. advanced_v3 ürünündeki iki örneğin B04 B08 B12 gözlemleri. Kaynak DN ölçeği korunur. Skorlar 10 bant ve bütün pencereyi kullanan modelin çıktısıdır."
+        },
+        {
+          "kind": "p",
+          "text": "Önce yatay eksende ayları, sonra bandın rengini ve dikey eksendeki ölçüm birimini bul. Dikey kesik çizgi ikinci yılın başlangıcıdır; olayın gerçek kesim günü değildir. Bir çizginin değiştiği anı doğrudan olay tarihi olarak ilan etme."
+        },
+        {
+          "kind": "p",
+          "text": "İki örnek de referansta kesimdir. Birinin skoru çok yüksekken diğerinin düşük olması, modelin hata yapabildiğini görünür kılar. Bu iki örnek, açıklama amacıyla seçildi; modelin toplam başarımı bütün değerlendirme kümesinden hesaplanır. Grafikteki üç bant, modelin kullandığı on bandın yalnız bir bölümüdür."
+        },
+        {
+          "kind": "check",
+          "question": "Alt örneğin skoru düşük diye kaynak etiketini orman yapabilir miyiz?",
+          "answer": "Hayır. Model ile referans çelişiyorsa ayrı kanıtlarla incelenir. Model kararı, kendi başına referans etiketini değiştirme gerekçesi değildir."
+        }
+      ],
+      "sourcefiles": [
+        "output/advanced_prediction/input.npz",
+        "output/advanced_prediction/predictions.json",
+        "data/disfor/sample_manifest.json"
+      ]
+    },
+    {
+      "title": "Bütün sistemi tek akışta birleştir",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Şimdi parçaları bir araya getir. Veri hazırlama, öğrenme ve kullanım tek bir dosya değildir. Her adımın belirli bir girdisi, görevi ve çıktısı vardır. Bu ayrımı kurabilirsen hocanın “Bu sayı nereden geldi?” sorusuna doğru kanıtı açarak cevap verirsin."
+        },
+        {
+          "kind": "figure",
+          "path": "docs/egitim/assets/is_akisi.png",
+          "caption": "Şekil 2. Araştırma ve ürün yolları. Aynı veri ailesinden gelirler; farklı değerlendirme protokolleri kullanırlar."
+        },
+        {
+          "kind": "p",
+          "text": "Bilimsel yol, yöntemleri karşılaştırmak içindir. paper_v4 sürümünde aynı etiket alt kümeleri ve coğrafi katlar kullanılır. Her yöntemin kendi dış test tahminleri birleştirilir; karşılaştırma tablosu buradan çıkar. Test sonucu, o koşunun modelini eğitmek için geri beslenmez."
+        },
+        {
+          "kind": "p",
+          "text": "Ürün yolu, eldeki eğitilmiş sistemi kullanılabilir hâle getirir. advanced_v3 sürümünde beş CNN ile beş SSL Transformer birlikte çalışır. Arayüz bu birleşimin tahminini, konumunu ve zaman serisini gösterir. Ürünün 486 noktalık skoru ile makalenin 2.213 konum üzerinde üretilen skorları farklı düzenlerden gelir."
+        },
+        {
+          "kind": "p",
+          "text": "Bir araştırmayı bitirmek, bundan sonra soru kalmadığı anlamına gelmez. Burada yöntem karşılaştırması, kanıt dosyaları, çalışan ürün ve raporlama tamamlanmış durumdadır. Dış saha doğrulaması bir sonraki çalışmadır. Bu kitabın amacı mevcut sonuca hâkim olmanı ve yeni çalışmanın hangi kararla başlayacağını anlayabilmeni sağlamaktır."
+        },
+        {
+          "kind": "check",
+          "question": "Hocan ürünün F1 değeriyle makale tablosunu neden doğrudan yarıştırmadığını sorarsa?",
+          "answer": "Veri bölünmeleri, eğitim tarifleri ve tekil model ile ensemble yapıları farklıdır. Adil bir karşılaştırma için modeller aynı önceden tanımlanmış değerlendirme düzeninde ölçülmelidir."
+        }
+      ],
+      "sourcefiles": [
+        "experiments/paper_v4/protocol.json",
+        "models/advanced_v3/model_card.json",
+        "README.md"
+      ]
+    }
+  ]
+}

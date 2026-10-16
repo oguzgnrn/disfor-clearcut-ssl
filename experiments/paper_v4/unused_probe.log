@@ -1,0 +1,19 @@
+{
+  "status": "support_audit_only",
+  "candidates": 111,
+  "class_counts": [
+    110,
+    1
+  ],
+  "rejections": {
+    "previously_used_point": 2213,
+    "not_high_confidence": 598,
+    "within_five_km_of_used_point": 476,
+    "no_eligible_2017_or_2024_window": 259,
+    "shared_source_event": 123,
+    "insufficient_monthly_support": 42
+  },
+  "minimum_distance_km": 5.075658247086252,
+  "rule": "Unused high-confidence points only; 2017/2024; >5 km from every previously used point; no shared event",
+  "limitation": "Same-source temporal probe, not independent external data. No model scores computed by this audit."
+}

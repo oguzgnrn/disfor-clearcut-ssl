@@ -1,0 +1,38 @@
+{
+  "ids": [
+    "uploaded-smoke-a",
+    "uploaded-smoke-b"
+  ],
+  "predictions": [
+    1,
+    1
+  ],
+  "probabilities": [
+    [
+      0.0024930834770202637,
+      0.9975069165229797
+    ],
+    [
+      0.0034736990928649902,
+      0.996526300907135
+    ]
+  ],
+  "raw_probabilities": [
+    0.9968223571777344,
+    0.9959875345230103
+  ],
+  "member_std": [
+    0.0005847666179761291,
+    0.001703474554233253
+  ],
+  "quality_eligible": [
+    true,
+    true
+  ],
+  "classes": [
+    "undisturbed_forest",
+    "clear_cut"
+  ],
+  "threshold": 0.5,
+  "note": "Calibrated on development geography only. Member spread is disagreement, not an uncertainty interval. Low-quality samples are flagged, not silently treated as reliable."
+}

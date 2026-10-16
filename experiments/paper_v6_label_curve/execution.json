@@ -1,0 +1,1363 @@
+{
+  "scope": "declared_run",
+  "new_fits": 225,
+  "workers": 2,
+  "elapsed_wall_seconds": 3254.8062086560003,
+  "completed_records": 225,
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "threads": 2,
+  "result": [
+    {
+      "name": "ssl_transformer48_f0_s7_b0.05",
+      "cached": false,
+      "seconds": 64.45062315799987,
+      "macro_f1": 0.818545053733811
+    },
+    {
+      "name": "ssl_transformer48_f0_s7_b0.1",
+      "cached": false,
+      "seconds": 65.90871560100004,
+      "macro_f1": 0.918868970615413
+    },
+    {
+      "name": "ssl_transformer48_f0_s17_b0.05",
+      "cached": false,
+      "seconds": 69.39120426800014,
+      "macro_f1": 0.6646886016451233
+    },
+    {
+      "name": "ssl_transformer48_f0_s7_b0.5",
+      "cached": false,
+      "seconds": 78.096901398,
+      "macro_f1": 0.9366522366522366
+    },
+    {
+      "name": "ssl_transformer48_f0_s17_b0.1",
+      "cached": false,
+      "seconds": 69.44562337599996,
+      "macro_f1": 0.6517649725196895
+    },
+    {
+      "name": "ssl_transformer48_f0_s17_b0.5",
+      "cached": false,
+      "seconds": 79.64011118999997,
+      "macro_f1": 0.9136676499508358
+    },
+    {
+      "name": "ssl_transformer48_f0_s27_b0.05",
+      "cached": false,
+      "seconds": 73.97688160799999,
+      "macro_f1": 0.7480088971801679
+    },
+    {
+      "name": "ssl_transformer48_f0_s27_b0.1",
+      "cached": false,
+      "seconds": 65.12679340399995,
+      "macro_f1": 0.8831974087570131
+    },
+    {
+      "name": "ssl_transformer48_f1_s7_b0.05",
+      "cached": false,
+      "seconds": 62.84451107600012,
+      "macro_f1": 0.7001890613153677
+    },
+    {
+      "name": "ssl_transformer48_f0_s27_b0.5",
+      "cached": false,
+      "seconds": 85.50648822699986,
+      "macro_f1": 0.922654075196448
+    },
+    {
+      "name": "ssl_transformer48_f1_s7_b0.1",
+      "cached": false,
+      "seconds": 66.44582780600012,
+      "macro_f1": 0.8113377866040802
+    },
+    {
+      "name": "ssl_transformer48_f1_s7_b0.5",
+      "cached": false,
+      "seconds": 85.93093760900001,
+      "macro_f1": 0.9226795065546691
+    },
+    {
+      "name": "ssl_transformer48_f1_s17_b0.05",
+      "cached": false,
+      "seconds": 60.97955441300019,
+      "macro_f1": 0.7321923345960628
+    },
+    {
+      "name": "ssl_transformer48_f1_s17_b0.1",
+      "cached": false,
+      "seconds": 69.50415222400011,
+      "macro_f1": 0.6942084942084942
+    },
+    {
+      "name": "ssl_transformer48_f1_s17_b0.5",
+      "cached": false,
+      "seconds": 78.40282858,
+      "macro_f1": 0.9214650340913147
+    },
+    {
+      "name": "ssl_transformer48_f1_s27_b0.05",
+      "cached": false,
+      "seconds": 68.44013421400018,
+      "macro_f1": 0.6029177268871926
+    },
+    {
+      "name": "ssl_transformer48_f1_s27_b0.1",
+      "cached": false,
+      "seconds": 61.361963554999875,
+      "macro_f1": 0.847206819683884
+    },
+    {
+      "name": "ssl_transformer48_f1_s27_b0.5",
+      "cached": false,
+      "seconds": 81.90127703899998,
+      "macro_f1": 0.9285276955179868
+    },
+    {
+      "name": "ssl_transformer48_f2_s7_b0.05",
+      "cached": false,
+      "seconds": 62.01692848099992,
+      "macro_f1": 0.7200667581073693
+    },
+    {
+      "name": "ssl_transformer48_f2_s7_b0.1",
+      "cached": false,
+      "seconds": 66.74075715200024,
+      "macro_f1": 0.7463276836158192
+    },
+    {
+      "name": "ssl_transformer48_f2_s7_b0.5",
+      "cached": false,
+      "seconds": 76.39400640000031,
+      "macro_f1": 0.8693832796276405
+    },
+    {
+      "name": "ssl_transformer48_f2_s17_b0.05",
+      "cached": false,
+      "seconds": 67.53434329399988,
+      "macro_f1": 0.6232646834477498
+    },
+    {
+      "name": "ssl_transformer48_f2_s17_b0.1",
+      "cached": false,
+      "seconds": 62.37571925600014,
+      "macro_f1": 0.8268637532133676
+    },
+    {
+      "name": "ssl_transformer48_f2_s27_b0.05",
+      "cached": false,
+      "seconds": 62.52569039400032,
+      "macro_f1": 0.7294545380271047
+    },
+    {
+      "name": "ssl_transformer48_f2_s17_b0.5",
+      "cached": false,
+      "seconds": 82.98711203099992,
+      "macro_f1": 0.7727098170646558
+    },
+    {
+      "name": "ssl_transformer48_f2_s27_b0.1",
+      "cached": false,
+      "seconds": 59.82273987200006,
+      "macro_f1": 0.772097096848035
+    },
+    {
+      "name": "ssl_transformer48_f2_s27_b0.5",
+      "cached": false,
+      "seconds": 81.84546988400007,
+      "macro_f1": 0.9112452180788595
+    },
+    {
+      "name": "ssl_transformer48_f3_s7_b0.05",
+      "cached": false,
+      "seconds": 60.39338540200015,
+      "macro_f1": 0.6321742773355676
+    },
+    {
+      "name": "ssl_transformer48_f3_s7_b0.1",
+      "cached": false,
+      "seconds": 67.3523383769998,
+      "macro_f1": 0.9109650326290548
+    },
+    {
+      "name": "ssl_transformer48_f3_s7_b0.5",
+      "cached": false,
+      "seconds": 74.23866279799995,
+      "macro_f1": 0.9528638408036172
+    },
+    {
+      "name": "ssl_transformer48_f3_s17_b0.05",
+      "cached": false,
+      "seconds": 62.314569336000204,
+      "macro_f1": 0.8250901846766812
+    },
+    {
+      "name": "ssl_transformer48_f3_s17_b0.1",
+      "cached": false,
+      "seconds": 60.61513349500001,
+      "macro_f1": 0.851957448113063
+    },
+    {
+      "name": "ssl_transformer48_f3_s17_b0.5",
+      "cached": false,
+      "seconds": 85.07418427200037,
+      "macro_f1": 0.9049404524474329
+    },
+    {
+      "name": "ssl_transformer48_f3_s27_b0.05",
+      "cached": false,
+      "seconds": 65.37369006800009,
+      "macro_f1": 0.7939124643820212
+    },
+    {
+      "name": "ssl_transformer48_f3_s27_b0.1",
+      "cached": false,
+      "seconds": 70.30154151099987,
+      "macro_f1": 0.7929982582253144
+    },
+    {
+      "name": "ssl_transformer48_f3_s27_b0.5",
+      "cached": false,
+      "seconds": 80.19771588599997,
+      "macro_f1": 0.8825156110615522
+    },
+    {
+      "name": "ssl_transformer48_f4_s7_b0.05",
+      "cached": false,
+      "seconds": 69.86835757000017,
+      "macro_f1": 0.7363027197477335
+    },
+    {
+      "name": "ssl_transformer48_f4_s7_b0.1",
+      "cached": false,
+      "seconds": 63.43552733499973,
+      "macro_f1": 0.7846850861556744
+    },
+    {
+      "name": "ssl_transformer48_f4_s17_b0.05",
+      "cached": false,
+      "seconds": 60.69582477899985,
+      "macro_f1": 0.6220954863940036
+    },
+    {
+      "name": "ssl_transformer48_f4_s7_b0.5",
+      "cached": false,
+      "seconds": 85.07752683900026,
+      "macro_f1": 0.9285256410256411
+    },
+    {
+      "name": "ssl_transformer48_f4_s17_b0.1",
+      "cached": false,
+      "seconds": 65.40641824400018,
+      "macro_f1": 0.776770452635257
+    },
+    {
+      "name": "ssl_transformer48_f4_s17_b0.5",
+      "cached": false,
+      "seconds": 84.34809052300034,
+      "macro_f1": 0.9434081969293238
+    },
+    {
+      "name": "ssl_transformer48_f4_s27_b0.05",
+      "cached": false,
+      "seconds": 62.62500933599995,
+      "macro_f1": 0.5542228885557221
+    },
+    {
+      "name": "ssl_transformer48_f4_s27_b0.1",
+      "cached": false,
+      "seconds": 70.04703380499996,
+      "macro_f1": 0.7714700053173491
+    },
+    {
+      "name": "step_matched_f0_s7_b0.05",
+      "cached": false,
+      "seconds": 48.431749188999675,
+      "macro_f1": 0.9004903305854142
+    },
+    {
+      "name": "ssl_transformer48_f4_s27_b0.5",
+      "cached": false,
+      "seconds": 78.66000963900024,
+      "macro_f1": 0.9009065055101315
+    },
+    {
+      "name": "step_matched_f0_s7_b0.1",
+      "cached": false,
+      "seconds": 54.43524530600007,
+      "macro_f1": 0.9334445118253487
+    },
+    {
+      "name": "step_matched_f0_s7_b0.5",
+      "cached": false,
+      "seconds": 69.98566881999977,
+      "macro_f1": 0.9356242056897057
+    },
+    {
+      "name": "step_matched_f0_s17_b0.05",
+      "cached": false,
+      "seconds": 49.18769502899977,
+      "macro_f1": 0.8372923616024799
+    },
+    {
+      "name": "step_matched_f0_s17_b0.1",
+      "cached": false,
+      "seconds": 56.09401077400025,
+      "macro_f1": 0.8830456095481671
+    },
+    {
+      "name": "step_matched_f0_s27_b0.05",
+      "cached": false,
+      "seconds": 44.08847585099966,
+      "macro_f1": 0.8790300358225407
+    },
+    {
+      "name": "step_matched_f0_s17_b0.5",
+      "cached": false,
+      "seconds": 72.82282753199979,
+      "macro_f1": 0.9463535047414214
+    },
+    {
+      "name": "step_matched_f0_s27_b0.1",
+      "cached": false,
+      "seconds": 55.71710256100005,
+      "macro_f1": 0.8649153797937205
+    },
+    {
+      "name": "step_matched_f0_s27_b0.5",
+      "cached": false,
+      "seconds": 73.73343832299997,
+      "macro_f1": 0.9505042279987472
+    },
+    {
+      "name": "step_matched_f1_s7_b0.05",
+      "cached": false,
+      "seconds": 44.98591677100012,
+      "macro_f1": 0.7502038625501914
+    },
+    {
+      "name": "step_matched_f1_s7_b0.1",
+      "cached": false,
+      "seconds": 56.79551890199991,
+      "macro_f1": 0.8713860544217688
+    },
+    {
+      "name": "step_matched_f1_s7_b0.5",
+      "cached": false,
+      "seconds": 74.68722361500022,
+      "macro_f1": 0.9217047021664665
+    },
+    {
+      "name": "step_matched_f1_s17_b0.05",
+      "cached": false,
+      "seconds": 48.82665550699994,
+      "macro_f1": 0.7492069785884219
+    },
+    {
+      "name": "step_matched_f1_s17_b0.1",
+      "cached": false,
+      "seconds": 58.34807598599991,
+      "macro_f1": 0.8161416239464324
+    },
+    {
+      "name": "step_matched_f1_s17_b0.5",
+      "cached": false,
+      "seconds": 73.50997737099988,
+      "macro_f1": 0.9308435395533847
+    },
+    {
+      "name": "step_matched_f1_s27_b0.05",
+      "cached": false,
+      "seconds": 43.26692022999987,
+      "macro_f1": 0.8563673513801067
+    },
+    {
+      "name": "step_matched_f1_s27_b0.1",
+      "cached": false,
+      "seconds": 52.495053004000056,
+      "macro_f1": 0.8966543138994729
+    },
+    {
+      "name": "step_matched_f1_s27_b0.5",
+      "cached": false,
+      "seconds": 73.38439049599992,
+      "macro_f1": 0.914975845410628
+    },
+    {
+      "name": "step_matched_f2_s7_b0.05",
+      "cached": false,
+      "seconds": 47.03014412699986,
+      "macro_f1": 0.7820153198834826
+    },
+    {
+      "name": "step_matched_f2_s7_b0.1",
+      "cached": false,
+      "seconds": 55.24509159800027,
+      "macro_f1": 0.8126825198164371
+    },
+    {
+      "name": "step_matched_f2_s7_b0.5",
+      "cached": false,
+      "seconds": 69.48097837899968,
+      "macro_f1": 0.8762155388471178
+    },
+    {
+      "name": "step_matched_f2_s17_b0.05",
+      "cached": false,
+      "seconds": 42.786064361999706,
+      "macro_f1": 0.7480359147025814
+    },
+    {
+      "name": "step_matched_f2_s17_b0.1",
+      "cached": false,
+      "seconds": 53.06370323100009,
+      "macro_f1": 0.8342408860175358
+    },
+    {
+      "name": "step_matched_f2_s17_b0.5",
+      "cached": false,
+      "seconds": 69.50143659600008,
+      "macro_f1": 0.8828651999453396
+    },
+    {
+      "name": "step_matched_f2_s27_b0.05",
+      "cached": false,
+      "seconds": 46.09812358499994,
+      "macro_f1": 0.8300177077608841
+    },
+    {
+      "name": "step_matched_f2_s27_b0.1",
+      "cached": false,
+      "seconds": 53.99909574200001,
+      "macro_f1": 0.8354489421955689
+    },
+    {
+      "name": "step_matched_f2_s27_b0.5",
+      "cached": false,
+      "seconds": 70.33183307899981,
+      "macro_f1": 0.8958173047566709
+    },
+    {
+      "name": "step_matched_f3_s7_b0.05",
+      "cached": false,
+      "seconds": 43.9735535169998,
+      "macro_f1": 0.8166007036059806
+    },
+    {
+      "name": "step_matched_f3_s7_b0.1",
+      "cached": false,
+      "seconds": 56.995975615000134,
+      "macro_f1": 0.851004615802335
+    },
+    {
+      "name": "step_matched_f3_s7_b0.5",
+      "cached": false,
+      "seconds": 73.0369325659999,
+      "macro_f1": 0.895285801023506
+    },
+    {
+      "name": "step_matched_f3_s17_b0.05",
+      "cached": false,
+      "seconds": 47.73814024500007,
+      "macro_f1": 0.9032299892376914
+    },
+    {
+      "name": "step_matched_f3_s17_b0.1",
+      "cached": false,
+      "seconds": 55.34555260299976,
+      "macro_f1": 0.9175070466645787
+    },
+    {
+      "name": "step_matched_f3_s17_b0.5",
+      "cached": false,
+      "seconds": 71.98878215400009,
+      "macro_f1": 0.9405039117846363
+    },
+    {
+      "name": "step_matched_f3_s27_b0.05",
+      "cached": false,
+      "seconds": 43.310776842999985,
+      "macro_f1": 0.9214397346726955
+    },
+    {
+      "name": "step_matched_f3_s27_b0.1",
+      "cached": false,
+      "seconds": 52.13153243099987,
+      "macro_f1": 0.887146529562982
+    },
+    {
+      "name": "step_matched_f3_s27_b0.5",
+      "cached": false,
+      "seconds": 66.4862495970001,
+      "macro_f1": 0.9395051675540245
+    },
+    {
+      "name": "step_matched_f4_s7_b0.05",
+      "cached": false,
+      "seconds": 46.46925532200021,
+      "macro_f1": 0.7644630083057276
+    },
+    {
+      "name": "step_matched_f4_s7_b0.1",
+      "cached": false,
+      "seconds": 53.26118939600019,
+      "macro_f1": 0.8437349450356939
+    },
+    {
+      "name": "step_matched_f4_s7_b0.5",
+      "cached": false,
+      "seconds": 68.63961033300075,
+      "macro_f1": 0.9240005907278448
+    },
+    {
+      "name": "step_matched_f4_s17_b0.05",
+      "cached": false,
+      "seconds": 42.70730039099999,
+      "macro_f1": 0.7230365449283513
+    },
+    {
+      "name": "step_matched_f4_s17_b0.1",
+      "cached": false,
+      "seconds": 53.926856997999494,
+      "macro_f1": 0.8476181179226865
+    },
+    {
+      "name": "step_matched_f4_s17_b0.5",
+      "cached": false,
+      "seconds": 72.31843477100028,
+      "macro_f1": 0.9121009065825778
+    },
+    {
+      "name": "step_matched_f4_s27_b0.05",
+      "cached": false,
+      "seconds": 46.261792408000474,
+      "macro_f1": 0.6395959595959596
+    },
+    {
+      "name": "step_matched_f4_s27_b0.1",
+      "cached": false,
+      "seconds": 53.90865514199959,
+      "macro_f1": 0.7975750502496272
+    },
+    {
+      "name": "cnn64_f0_s7_b0.05",
+      "cached": false,
+      "seconds": 1.844228173999909,
+      "macro_f1": 0.8048777708131517
+    },
+    {
+      "name": "cnn64_f0_s7_b0.1",
+      "cached": false,
+      "seconds": 3.2033831380003903,
+      "macro_f1": 0.9080515000308015
+    },
+    {
+      "name": "cnn64_f0_s7_b0.5",
+      "cached": false,
+      "seconds": 15.269161903999702,
+      "macro_f1": 0.9395051675540245
+    },
+    {
+      "name": "cnn64_f0_s17_b0.05",
+      "cached": false,
+      "seconds": 1.7762540519997856,
+      "macro_f1": 0.7816360825435236
+    },
+    {
+      "name": "cnn64_f0_s17_b0.1",
+      "cached": false,
+      "seconds": 3.1577144049997514,
+      "macro_f1": 0.9155363155363155
+    },
+    {
+      "name": "step_matched_f4_s27_b0.5",
+      "cached": false,
+      "seconds": 71.53105934300038,
+      "macro_f1": 0.9320655676239353
+    },
+    {
+      "name": "cnn64_f0_s27_b0.05",
+      "cached": false,
+      "seconds": 1.827012595999804,
+      "macro_f1": 0.8129261363636364
+    },
+    {
+      "name": "cnn64_f0_s17_b0.5",
+      "cached": false,
+      "seconds": 13.932233936000557,
+      "macro_f1": 0.9334445118253487
+    },
+    {
+      "name": "cnn64_f0_s27_b0.1",
+      "cached": false,
+      "seconds": 2.6972351010008424,
+      "macro_f1": 0.9109650326290548
+    },
+    {
+      "name": "cnn64_f1_s7_b0.05",
+      "cached": false,
+      "seconds": 1.7295055459999276,
+      "macro_f1": 0.8392400438436245
+    },
+    {
+      "name": "cnn64_f1_s7_b0.1",
+      "cached": false,
+      "seconds": 2.9001652990000366,
+      "macro_f1": 0.8493799622345654
+    },
+    {
+      "name": "cnn64_f0_s27_b0.5",
+      "cached": false,
+      "seconds": 14.158480741999483,
+      "macro_f1": 0.941464538104416
+    },
+    {
+      "name": "cnn64_f1_s17_b0.05",
+      "cached": false,
+      "seconds": 1.8410500330001014,
+      "macro_f1": 0.8094309999458611
+    },
+    {
+      "name": "cnn64_f1_s17_b0.1",
+      "cached": false,
+      "seconds": 2.9555395500001396,
+      "macro_f1": 0.8527765919396337
+    },
+    {
+      "name": "cnn64_f1_s7_b0.5",
+      "cached": false,
+      "seconds": 14.21717835399977,
+      "macro_f1": 0.8992258714671797
+    },
+    {
+      "name": "cnn64_f1_s27_b0.05",
+      "cached": false,
+      "seconds": 1.8238966549997713,
+      "macro_f1": 0.791856561018103
+    },
+    {
+      "name": "cnn64_f1_s27_b0.1",
+      "cached": false,
+      "seconds": 3.2155490280001686,
+      "macro_f1": 0.8272230750008924
+    },
+    {
+      "name": "cnn64_f1_s17_b0.5",
+      "cached": false,
+      "seconds": 15.46855096499985,
+      "macro_f1": 0.9161148464011998
+    },
+    {
+      "name": "cnn64_f2_s7_b0.05",
+      "cached": false,
+      "seconds": 1.8741830299995854,
+      "macro_f1": 0.7980046575632476
+    },
+    {
+      "name": "cnn64_f2_s7_b0.1",
+      "cached": false,
+      "seconds": 3.048619647999658,
+      "macro_f1": 0.7658409387222946
+    },
+    {
+      "name": "cnn64_f1_s27_b0.5",
+      "cached": false,
+      "seconds": 16.235755995000545,
+      "macro_f1": 0.8434535104364327
+    },
+    {
+      "name": "cnn64_f2_s17_b0.05",
+      "cached": false,
+      "seconds": 1.7561080890000085,
+      "macro_f1": 0.7102413019079685
+    },
+    {
+      "name": "cnn64_f2_s17_b0.1",
+      "cached": false,
+      "seconds": 2.6948966810005004,
+      "macro_f1": 0.8421237693389592
+    },
+    {
+      "name": "cnn64_f2_s7_b0.5",
+      "cached": false,
+      "seconds": 14.270204830000694,
+      "macro_f1": 0.8997096269823543
+    },
+    {
+      "name": "cnn64_f2_s27_b0.05",
+      "cached": false,
+      "seconds": 1.6150910960004694,
+      "macro_f1": 0.819777758999493
+    },
+    {
+      "name": "cnn64_f2_s27_b0.1",
+      "cached": false,
+      "seconds": 3.0986885349993827,
+      "macro_f1": 0.8519509067594797
+    },
+    {
+      "name": "cnn64_f2_s17_b0.5",
+      "cached": false,
+      "seconds": 14.086347763999584,
+      "macro_f1": 0.8593358395989975
+    },
+    {
+      "name": "cnn64_f3_s7_b0.05",
+      "cached": false,
+      "seconds": 1.7232763519996297,
+      "macro_f1": 0.8551288989796322
+    },
+    {
+      "name": "cnn64_f3_s7_b0.1",
+      "cached": false,
+      "seconds": 3.008490236000398,
+      "macro_f1": 0.8216751970103177
+    },
+    {
+      "name": "cnn64_f2_s27_b0.5",
+      "cached": false,
+      "seconds": 14.509222298000168,
+      "macro_f1": 0.8911059176294205
+    },
+    {
+      "name": "cnn64_f3_s17_b0.05",
+      "cached": false,
+      "seconds": 1.8237767350001377,
+      "macro_f1": 0.8332066869300911
+    },
+    {
+      "name": "cnn64_f3_s17_b0.1",
+      "cached": false,
+      "seconds": 2.8482532979996904,
+      "macro_f1": 0.8668890236506974
+    },
+    {
+      "name": "cnn64_f3_s7_b0.5",
+      "cached": false,
+      "seconds": 14.946707126999172,
+      "macro_f1": 0.9540554683411826
+    },
+    {
+      "name": "cnn64_f3_s27_b0.05",
+      "cached": false,
+      "seconds": 1.6371046590002152,
+      "macro_f1": 0.7974442304606002
+    },
+    {
+      "name": "cnn64_f3_s27_b0.1",
+      "cached": false,
+      "seconds": 3.041198940999493,
+      "macro_f1": 0.8907367182550456
+    },
+    {
+      "name": "cnn64_f3_s17_b0.5",
+      "cached": false,
+      "seconds": 14.903999471999668,
+      "macro_f1": 0.9049404524474329
+    },
+    {
+      "name": "cnn64_f4_s7_b0.05",
+      "cached": false,
+      "seconds": 1.6123365049998029,
+      "macro_f1": 0.7716768855289005
+    },
+    {
+      "name": "cnn64_f4_s7_b0.1",
+      "cached": false,
+      "seconds": 2.9438417849996767,
+      "macro_f1": 0.8188554389927387
+    },
+    {
+      "name": "cnn64_f3_s27_b0.5",
+      "cached": false,
+      "seconds": 14.026913152999441,
+      "macro_f1": 0.9478464036326676
+    },
+    {
+      "name": "cnn64_f4_s17_b0.05",
+      "cached": false,
+      "seconds": 1.7950867600002312,
+      "macro_f1": 0.765602417553541
+    },
+    {
+      "name": "cnn64_f4_s17_b0.1",
+      "cached": false,
+      "seconds": 2.9681794110001647,
+      "macro_f1": 0.810374149659864
+    },
+    {
+      "name": "cnn64_f4_s7_b0.5",
+      "cached": false,
+      "seconds": 14.459891174999939,
+      "macro_f1": 0.9183150183150183
+    },
+    {
+      "name": "cnn64_f4_s27_b0.05",
+      "cached": false,
+      "seconds": 1.6962825619993964,
+      "macro_f1": 0.7286569323862142
+    },
+    {
+      "name": "cnn64_f4_s27_b0.1",
+      "cached": false,
+      "seconds": 2.910172277000129,
+      "macro_f1": 0.8064718644693718
+    },
+    {
+      "name": "cnn64_f4_s17_b0.5",
+      "cached": false,
+      "seconds": 14.232970938000108,
+      "macro_f1": 0.8978937728937728
+    },
+    {
+      "name": "transformer48_f0_s7_b0.05",
+      "cached": false,
+      "seconds": 2.2687211600004957,
+      "macro_f1": 0.5824661519525568
+    },
+    {
+      "name": "transformer48_f0_s7_b0.1",
+      "cached": false,
+      "seconds": 3.7444410010002684,
+      "macro_f1": 0.84842391745877
+    },
+    {
+      "name": "cnn64_f4_s27_b0.5",
+      "cached": false,
+      "seconds": 14.080755752999721,
+      "macro_f1": 0.930634553857092
+    },
+    {
+      "name": "transformer48_f0_s17_b0.05",
+      "cached": false,
+      "seconds": 2.3422987879994253,
+      "macro_f1": 0.756398399548291
+    },
+    {
+      "name": "transformer48_f0_s17_b0.1",
+      "cached": false,
+      "seconds": 3.747455200999866,
+      "macro_f1": 0.8460876494023905
+    },
+    {
+      "name": "transformer48_f0_s7_b0.5",
+      "cached": false,
+      "seconds": 18.93337757699919,
+      "macro_f1": 0.9123412852226411
+    },
+    {
+      "name": "transformer48_f0_s27_b0.05",
+      "cached": false,
+      "seconds": 2.2540847840000424,
+      "macro_f1": 0.49396961754999025
+    },
+    {
+      "name": "transformer48_f0_s27_b0.1",
+      "cached": false,
+      "seconds": 3.6319106729997657,
+      "macro_f1": 0.6694991688842178
+    },
+    {
+      "name": "transformer48_f0_s17_b0.5",
+      "cached": false,
+      "seconds": 17.778054311999767,
+      "macro_f1": 0.948768817831719
+    },
+    {
+      "name": "transformer48_f1_s7_b0.05",
+      "cached": false,
+      "seconds": 2.3710281939993365,
+      "macro_f1": 0.7320368707356599
+    },
+    {
+      "name": "transformer48_f1_s7_b0.1",
+      "cached": false,
+      "seconds": 4.1748408169996765,
+      "macro_f1": 0.8337662337662337
+    },
+    {
+      "name": "transformer48_f0_s27_b0.5",
+      "cached": false,
+      "seconds": 18.942832497999916,
+      "macro_f1": 0.9181275643416635
+    },
+    {
+      "name": "transformer48_f1_s17_b0.05",
+      "cached": false,
+      "seconds": 2.2303420179996465,
+      "macro_f1": 0.7715498840442594
+    },
+    {
+      "name": "transformer48_f1_s17_b0.1",
+      "cached": false,
+      "seconds": 3.561467836999327,
+      "macro_f1": 0.7700720391176141
+    },
+    {
+      "name": "transformer48_f1_s7_b0.5",
+      "cached": false,
+      "seconds": 18.252783697000268,
+      "macro_f1": 0.9035087719298246
+    },
+    {
+      "name": "transformer48_f1_s27_b0.05",
+      "cached": false,
+      "seconds": 2.031852918000368,
+      "macro_f1": 0.48942541643271575
+    },
+    {
+      "name": "transformer48_f1_s27_b0.1",
+      "cached": false,
+      "seconds": 3.5228746980001233,
+      "macro_f1": 0.7051019564997842
+    },
+    {
+      "name": "transformer48_f1_s17_b0.5",
+      "cached": false,
+      "seconds": 17.08495106600003,
+      "macro_f1": 0.9261178276722318
+    },
+    {
+      "name": "transformer48_f2_s7_b0.05",
+      "cached": false,
+      "seconds": 2.0967367189996367,
+      "macro_f1": 0.7336058942190483
+    },
+    {
+      "name": "transformer48_f2_s7_b0.1",
+      "cached": false,
+      "seconds": 3.6647472390004623,
+      "macro_f1": 0.7789563193698532
+    },
+    {
+      "name": "transformer48_f1_s27_b0.5",
+      "cached": false,
+      "seconds": 17.870368911000696,
+      "macro_f1": 0.9093032843204617
+    },
+    {
+      "name": "transformer48_f2_s17_b0.05",
+      "cached": false,
+      "seconds": 2.108999998999934,
+      "macro_f1": 0.5011142786395006
+    },
+    {
+      "name": "transformer48_f2_s17_b0.1",
+      "cached": false,
+      "seconds": 3.7127057480001895,
+      "macro_f1": 0.8277113056824921
+    },
+    {
+      "name": "transformer48_f2_s7_b0.5",
+      "cached": false,
+      "seconds": 16.605936554000436,
+      "macro_f1": 0.8446008306414399
+    },
+    {
+      "name": "transformer48_f2_s27_b0.05",
+      "cached": false,
+      "seconds": 2.1450243760000376,
+      "macro_f1": 0.637765188790482
+    },
+    {
+      "name": "transformer48_f2_s27_b0.1",
+      "cached": false,
+      "seconds": 3.4819243450001522,
+      "macro_f1": 0.6293262208674668
+    },
+    {
+      "name": "transformer48_f2_s17_b0.5",
+      "cached": false,
+      "seconds": 16.812478888999976,
+      "macro_f1": 0.8328493783039237
+    },
+    {
+      "name": "transformer48_f3_s7_b0.05",
+      "cached": false,
+      "seconds": 2.1830738500002553,
+      "macro_f1": 0.7047899855162425
+    },
+    {
+      "name": "transformer48_f3_s7_b0.1",
+      "cached": false,
+      "seconds": 3.551190585999393,
+      "macro_f1": 0.8487875447781759
+    },
+    {
+      "name": "transformer48_f2_s27_b0.5",
+      "cached": false,
+      "seconds": 16.728744590000133,
+      "macro_f1": 0.8694782618806758
+    },
+    {
+      "name": "transformer48_f3_s17_b0.05",
+      "cached": false,
+      "seconds": 2.1514588279997042,
+      "macro_f1": 0.7810521294127852
+    },
+    {
+      "name": "transformer48_f3_s17_b0.1",
+      "cached": false,
+      "seconds": 3.427643034000539,
+      "macro_f1": 0.8204913134193779
+    },
+    {
+      "name": "transformer48_f3_s7_b0.5",
+      "cached": false,
+      "seconds": 16.807930250000027,
+      "macro_f1": 0.8923059768064229
+    },
+    {
+      "name": "transformer48_f3_s27_b0.05",
+      "cached": false,
+      "seconds": 1.957971974999964,
+      "macro_f1": 0.6582848246920265
+    },
+    {
+      "name": "transformer48_f3_s27_b0.1",
+      "cached": false,
+      "seconds": 3.381928125999366,
+      "macro_f1": 0.7228449301911593
+    },
+    {
+      "name": "transformer48_f3_s17_b0.5",
+      "cached": false,
+      "seconds": 16.73357113200018,
+      "macro_f1": 0.927249053030303
+    },
+    {
+      "name": "transformer48_f4_s7_b0.05",
+      "cached": false,
+      "seconds": 2.1959898519999115,
+      "macro_f1": 0.7167695878771954
+    },
+    {
+      "name": "transformer48_f4_s7_b0.1",
+      "cached": false,
+      "seconds": 3.498564763000104,
+      "macro_f1": 0.7593816055966816
+    },
+    {
+      "name": "transformer48_f3_s27_b0.5",
+      "cached": false,
+      "seconds": 16.704479309999442,
+      "macro_f1": 0.8702718676122931
+    },
+    {
+      "name": "transformer48_f4_s17_b0.05",
+      "cached": false,
+      "seconds": 2.0053737019998152,
+      "macro_f1": 0.577619937694704
+    },
+    {
+      "name": "transformer48_f4_s17_b0.1",
+      "cached": false,
+      "seconds": 3.444902268000078,
+      "macro_f1": 0.8153209109730848
+    },
+    {
+      "name": "transformer48_f4_s7_b0.5",
+      "cached": false,
+      "seconds": 16.223121721999632,
+      "macro_f1": 0.9387362637362637
+    },
+    {
+      "name": "transformer48_f4_s27_b0.05",
+      "cached": false,
+      "seconds": 2.3731164009996064,
+      "macro_f1": 0.5079737466834241
+    },
+    {
+      "name": "transformer48_f4_s27_b0.1",
+      "cached": false,
+      "seconds": 3.3903340350007056,
+      "macro_f1": 0.6496584699453551
+    },
+    {
+      "name": "transformer48_f4_s17_b0.5",
+      "cached": false,
+      "seconds": 17.079484478999802,
+      "macro_f1": 0.9183150183150183
+    },
+    {
+      "name": "rf_leaf4_f0_s7_b0.05",
+      "cached": false,
+      "seconds": 1.1438027059994056,
+      "macro_f1": 0.8667273831208258
+    },
+    {
+      "name": "rf_leaf4_f0_s7_b0.1",
+      "cached": false,
+      "seconds": 1.4114609170001131,
+      "macro_f1": 0.8723631077370376
+    },
+    {
+      "name": "rf_leaf4_f0_s7_b0.5",
+      "cached": false,
+      "seconds": 4.5554818290002,
+      "macro_f1": 0.9092725268669055
+    },
+    {
+      "name": "rf_leaf4_f0_s17_b0.05",
+      "cached": false,
+      "seconds": 1.0509546299999784,
+      "macro_f1": 0.8226688647008089
+    },
+    {
+      "name": "rf_leaf4_f0_s17_b0.1",
+      "cached": false,
+      "seconds": 1.401416798000355,
+      "macro_f1": 0.8776076705819605
+    },
+    {
+      "name": "transformer48_f4_s27_b0.5",
+      "cached": false,
+      "seconds": 18.89801061900016,
+      "macro_f1": 0.9094845081856311
+    },
+    {
+      "name": "rf_leaf4_f0_s27_b0.05",
+      "cached": false,
+      "seconds": 1.2503171620001012,
+      "macro_f1": 0.848962116288849
+    },
+    {
+      "name": "rf_leaf4_f0_s17_b0.5",
+      "cached": false,
+      "seconds": 4.622767139999269,
+      "macro_f1": 0.8819777104311273
+    },
+    {
+      "name": "rf_leaf4_f0_s27_b0.1",
+      "cached": false,
+      "seconds": 1.4487613080000301,
+      "macro_f1": 0.8849279161205768
+    },
+    {
+      "name": "rf_leaf4_f1_s7_b0.05",
+      "cached": false,
+      "seconds": 1.22098979600014,
+      "macro_f1": 0.8025974025974025
+    },
+    {
+      "name": "rf_leaf4_f1_s7_b0.1",
+      "cached": false,
+      "seconds": 1.7199391190006281,
+      "macro_f1": 0.784405318002156
+    },
+    {
+      "name": "rf_leaf4_f0_s27_b0.5",
+      "cached": false,
+      "seconds": 5.388406928000222,
+      "macro_f1": 0.8845098653304102
+    },
+    {
+      "name": "rf_leaf4_f1_s17_b0.05",
+      "cached": false,
+      "seconds": 1.105411214999549,
+      "macro_f1": 0.7653333333333333
+    },
+    {
+      "name": "rf_leaf4_f1_s17_b0.1",
+      "cached": false,
+      "seconds": 1.6582378469993273,
+      "macro_f1": 0.7979186970012658
+    },
+    {
+      "name": "rf_leaf4_f1_s7_b0.5",
+      "cached": false,
+      "seconds": 5.017722431999573,
+      "macro_f1": 0.8186065686409234
+    },
+    {
+      "name": "rf_leaf4_f1_s27_b0.05",
+      "cached": false,
+      "seconds": 1.3805205369999385,
+      "macro_f1": 0.7449676297511567
+    },
+    {
+      "name": "rf_leaf4_f1_s27_b0.1",
+      "cached": false,
+      "seconds": 1.499053231000289,
+      "macro_f1": 0.8149474282466609
+    },
+    {
+      "name": "rf_leaf4_f1_s17_b0.5",
+      "cached": false,
+      "seconds": 4.941469847000008,
+      "macro_f1": 0.8014081964253474
+    },
+    {
+      "name": "rf_leaf4_f2_s7_b0.05",
+      "cached": false,
+      "seconds": 1.106444424000074,
+      "macro_f1": 0.8257225281930238
+    },
+    {
+      "name": "rf_leaf4_f2_s7_b0.1",
+      "cached": false,
+      "seconds": 1.586483553999642,
+      "macro_f1": 0.8260735991451279
+    },
+    {
+      "name": "rf_leaf4_f1_s27_b0.5",
+      "cached": false,
+      "seconds": 5.1553538039997875,
+      "macro_f1": 0.8049445865302642
+    },
+    {
+      "name": "rf_leaf4_f2_s17_b0.05",
+      "cached": false,
+      "seconds": 1.1997149389999322,
+      "macro_f1": 0.7898561434624101
+    },
+    {
+      "name": "rf_leaf4_f2_s17_b0.1",
+      "cached": false,
+      "seconds": 1.3602773619995787,
+      "macro_f1": 0.8151278821933734
+    },
+    {
+      "name": "rf_leaf4_f2_s7_b0.5",
+      "cached": false,
+      "seconds": 5.285774985999524,
+      "macro_f1": 0.8062358398964289
+    },
+    {
+      "name": "rf_leaf4_f2_s27_b0.05",
+      "cached": false,
+      "seconds": 1.1709378979994653,
+      "macro_f1": 0.8396428571428571
+    },
+    {
+      "name": "rf_leaf4_f2_s27_b0.1",
+      "cached": false,
+      "seconds": 1.5376421890005076,
+      "macro_f1": 0.8455329734307188
+    },
+    {
+      "name": "rf_leaf4_f2_s17_b0.5",
+      "cached": false,
+      "seconds": 4.885524223000175,
+      "macro_f1": 0.833650894463851
+    },
+    {
+      "name": "rf_leaf4_f3_s7_b0.05",
+      "cached": false,
+      "seconds": 1.1375353529992935,
+      "macro_f1": 0.8194158782394076
+    },
+    {
+      "name": "rf_leaf4_f3_s7_b0.1",
+      "cached": false,
+      "seconds": 1.39352474899988,
+      "macro_f1": 0.835375
+    },
+    {
+      "name": "rf_leaf4_f2_s27_b0.5",
+      "cached": false,
+      "seconds": 5.294522415000756,
+      "macro_f1": 0.8271177117711771
+    },
+    {
+      "name": "rf_leaf4_f3_s17_b0.05",
+      "cached": false,
+      "seconds": 1.111648153000715,
+      "macro_f1": 0.8800188829258597
+    },
+    {
+      "name": "rf_leaf4_f3_s17_b0.1",
+      "cached": false,
+      "seconds": 1.3208789619993695,
+      "macro_f1": 0.8838624338624339
+    },
+    {
+      "name": "rf_leaf4_f3_s7_b0.5",
+      "cached": false,
+      "seconds": 5.0259220399993865,
+      "macro_f1": 0.906507986219856
+    },
+    {
+      "name": "rf_leaf4_f3_s27_b0.05",
+      "cached": false,
+      "seconds": 1.256649009999819,
+      "macro_f1": 0.8022522522522522
+    },
+    {
+      "name": "rf_leaf4_f3_s27_b0.1",
+      "cached": false,
+      "seconds": 1.730991785999322,
+      "macro_f1": 0.8401517554059927
+    },
+    {
+      "name": "rf_leaf4_f3_s17_b0.5",
+      "cached": false,
+      "seconds": 4.6025045540000065,
+      "macro_f1": 0.9035109028862283
+    },
+    {
+      "name": "rf_leaf4_f4_s7_b0.05",
+      "cached": false,
+      "seconds": 1.1659377119995042,
+      "macro_f1": 0.8450235790518739
+    },
+    {
+      "name": "rf_leaf4_f4_s7_b0.1",
+      "cached": false,
+      "seconds": 1.6945743309997852,
+      "macro_f1": 0.819935172047848
+    },
+    {
+      "name": "rf_leaf4_f3_s27_b0.5",
+      "cached": false,
+      "seconds": 5.077133476000199,
+      "macro_f1": 0.9210025706940874
+    },
+    {
+      "name": "rf_leaf4_f4_s17_b0.05",
+      "cached": false,
+      "seconds": 1.1606267309998657,
+      "macro_f1": 0.8419784580498866
+    },
+    {
+      "name": "rf_leaf4_f4_s17_b0.1",
+      "cached": false,
+      "seconds": 1.5988897029992586,
+      "macro_f1": 0.7870299816107369
+    },
+    {
+      "name": "rf_leaf4_f4_s7_b0.5",
+      "cached": false,
+      "seconds": 5.096512310000435,
+      "macro_f1": 0.8209089191232048
+    },
+    {
+      "name": "rf_leaf4_f4_s27_b0.05",
+      "cached": false,
+      "seconds": 1.3665032560002146,
+      "macro_f1": 0.8149648574775479
+    },
+    {
+      "name": "rf_leaf4_f4_s27_b0.1",
+      "cached": false,
+      "seconds": 1.529270082000039,
+      "macro_f1": 0.8624376702822187
+    },
+    {
+      "name": "rf_leaf4_f4_s17_b0.5",
+      "cached": false,
+      "seconds": 4.8438442229999055,
+      "macro_f1": 0.8153209109730848
+    },
+    {
+      "name": "rf_leaf4_f4_s27_b0.5",
+      "cached": false,
+      "seconds": 3.182584408999901,
+      "macro_f1": 0.8302245907879711
+    }
+  ]
+}

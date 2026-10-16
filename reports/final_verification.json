@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "All pinned DISFOR download hashes match",
+    "Unlabeled CLI inference reproduces all 486 saved predictions and passes quality checks",
+    "Selected-model metrics and GeoJSON support agree with actual test labels",
+    "Seven-page PDF contains text on every page",
+    "All 36 primary real-data runs are present"
+  ],
+  "automated_test_log": "reports/tests_v2.log",
+  "manual_review_record": "docs/TESLIM_KONTROLU.md"
+}

@@ -1,0 +1,184 @@
+{
+  "expected_pages": 40,
+  "groups": [
+    {
+      "title": "Temel kavramlar",
+      "start": 3,
+      "end": 10
+    },
+    {
+      "title": "Öğrenme ve bilimsel deney",
+      "start": 11,
+      "end": 20
+    },
+    {
+      "title": "Dosyalar ve canlı gösterim",
+      "start": 21,
+      "end": 27
+    },
+    {
+      "title": "Görüşme ve kendini sınama",
+      "start": 28,
+      "end": 35
+    },
+    {
+      "title": "Terimler kaynaklar ve son tekrar",
+      "start": 36,
+      "end": 40
+    }
+  ],
+  "pages": [
+    {
+      "page": 3,
+      "title": "Projenin çözdüğü soruyu kendi cümlenle anlat"
+    },
+    {
+      "page": 4,
+      "title": "Uydu görüntüsünün içindeki sayılar"
+    },
+    {
+      "page": 5,
+      "title": "Bir örneğin biçimi ve zaman penceresi"
+    },
+    {
+      "page": 6,
+      "title": "Veri nereden geldi ve neden bu kadar örnek kaldı"
+    },
+    {
+      "page": 7,
+      "title": "Ham gözlemden kullanılabilir aylık veriye"
+    },
+    {
+      "page": 8,
+      "title": "Öğrenme tahmin ve ölçme üç ayrı iştir"
+    },
+    {
+      "page": 9,
+      "title": "İki gerçek örneği birlikte oku"
+    },
+    {
+      "page": 10,
+      "title": "Bütün sistemi tek akışta birleştir"
+    },
+    {
+      "page": 11,
+      "title": "Bir model öğrenirken gerçekte ne değişir"
+    },
+    {
+      "page": 12,
+      "title": "Üç model ailesi aynı seriyi nasıl okur"
+    },
+    {
+      "page": 13,
+      "title": "Özdenetimli öğrenmede model neyi tahmin eder"
+    },
+    {
+      "page": 14,
+      "title": "Eğitim doğrulama ve test neden ayrılır"
+    },
+    {
+      "page": 15,
+      "title": "Beş coğrafi kat ve az etiket düzeni"
+    },
+    {
+      "page": 16,
+      "title": "Yüz seksen eğitim kaydından sonuç tablosuna"
+    },
+    {
+      "page": 17,
+      "title": "Karışıklık matrisinden başarıyı hesaplamak"
+    },
+    {
+      "page": 18,
+      "title": "Skorlar ve belirsizlik hangi soruyu yanıtlar"
+    },
+    {
+      "page": 19,
+      "title": "Gerçek deney tablosunu yorumlamak"
+    },
+    {
+      "page": 20,
+      "title": "Sınırlamaları bilmek araştırmayı nasıl güçlendirir"
+    },
+    {
+      "page": 21,
+      "title": "Araştırma sürümü ile ürün sürümünü ayırmak"
+    },
+    {
+      "page": 22,
+      "title": "Gerekli dosyaları bulmak ve kanıta ulaşmak"
+    },
+    {
+      "page": 23,
+      "title": "Mac bilgisayarda ürünü açmak"
+    },
+    {
+      "page": 24,
+      "title": "Beş dakikada gerçek bir gösterim yapmak"
+    },
+    {
+      "page": 25,
+      "title": "Veri ve model dosyalarının dilini okumak"
+    },
+    {
+      "page": 26,
+      "title": "Bir eğitim kaydını deney defteri gibi okumak"
+    },
+    {
+      "page": 27,
+      "title": "Sorun çıkarsa gösterimi sürdürmek ve doğru paketi paylaşmak"
+    },
+    {
+      "page": 28,
+      "title": "Yedi günde anlayarak öğrenme"
+    },
+    {
+      "page": 29,
+      "title": "Üç uzunlukta dürüst anlatım"
+    },
+    {
+      "page": 30,
+      "title": "İlk beş soruyu açıklayabilmek"
+    },
+    {
+      "page": 31,
+      "title": "Zor sorularda kanıta dönmek"
+    },
+    {
+      "page": 32,
+      "title": "Sonraki deneyi birlikte tasarlamak"
+    },
+    {
+      "page": 33,
+      "title": "Kaynağı kapat ve kendini sına"
+    },
+    {
+      "page": 34,
+      "title": "Yanıtları kontrol et ve eksiklerini bul"
+    },
+    {
+      "page": 35,
+      "title": "Görüşmeyi öğrenmeye ve karara dönüştürmek"
+    },
+    {
+      "page": 36,
+      "title": "Kavram sözlüğü veri ve öğrenme"
+    },
+    {
+      "page": 37,
+      "title": "Kavram sözlüğü değerlendirme ve dosyalar"
+    },
+    {
+      "page": 38,
+      "title": "Teknik ayrıntılar için başvuru sayfası"
+    },
+    {
+      "page": 39,
+      "title": "Kaynakları hangi soruyla okumalısın"
+    },
+    {
+      "page": 40,
+      "title": "Görüşmeden hemen önce son tekrar"
+    }
+  ]
+}

@@ -1,0 +1,5270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.128162488842775,
+          36.759080602148686
+        ]
+      },
+      "properties": {
+        "id": "disfor-4-2020",
+        "sample_id": 4,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "5.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.4163912240131559,
+              0.4331634162084263,
+              0.40736437134464915
+            ],
+            "mean_probability": 0.4189730038554105
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9771038889884949,
+              0.982100784778595,
+              0.9948967099189758
+            ],
+            "mean_probability": 0.9847004612286886
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.04695820435881615,
+              0.04923402890563011,
+              0.3446372151374817
+            ],
+            "mean_probability": 0.14694314946730933
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.23850218951702118,
+              0.25171878933906555,
+              0.08974842727184296
+            ],
+            "mean_probability": 0.19332313537597656
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.131228629941185,
+          36.76562416158646
+        ]
+      },
+      "properties": {
+        "id": "disfor-6-2020",
+        "sample_id": 6,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "8.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07892835828904309,
+              0.09558900203312704,
+              0.09040989245738244
+            ],
+            "mean_probability": 0.08830908425985086
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.490131139755249,
+              0.2917563021183014,
+              0.8593760132789612
+            ],
+            "mean_probability": 0.5470878183841705
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.043608684092760086,
+              0.17258740961551666,
+              0.04216409847140312
+            ],
+            "mean_probability": 0.0861200640598933
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.13360989093780518,
+              0.077213816344738,
+              0.039462924003601074
+            ],
+            "mean_probability": 0.08342887709538142
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.12981939940043,
+          36.766058969812455
+        ]
+      },
+      "properties": {
+        "id": "disfor-7-2020",
+        "sample_id": 7,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "9.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1243706326184232,
+              0.11175845618597817,
+              0.11748608470454663
+            ],
+            "mean_probability": 0.11787172450298267
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9230074286460876,
+              0.8119170665740967,
+              0.9873569011688232
+            ],
+            "mean_probability": 0.9074271321296692
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.03999079763889313,
+              0.29811426997184753,
+              0.041344840079545975
+            ],
+            "mean_probability": 0.12648330256342888
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.3003544211387634,
+              0.08532204478979111,
+              0.04149274528026581
+            ],
+            "mean_probability": 0.14238973706960678
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.122801075668697,
+          36.90866360137541
+        ]
+      },
+      "properties": {
+        "id": "disfor-11-2021",
+        "sample_id": 11,
+        "year": 2021,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "13.0",
+        "cluster_description": "Damage polygons",
+        "group": 0,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.02809961497548538,
+              0.02918893363285679,
+              0.04086373131304882
+            ],
+            "mean_probability": 0.03271742664046367
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.21716183423995972,
+              0.5018569827079773,
+              0.13421061635017395
+            ],
+            "mean_probability": 0.2844098110993703
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1737518310546875,
+              0.08964917063713074,
+              0.4558619260787964
+            ],
+            "mean_probability": 0.23975430925687155
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9052533507347107,
+              0.6134008169174194,
+              0.7282388210296631
+            ],
+            "mean_probability": 0.7489643295605978
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.131257423881282,
+          36.93726473990329
+        ]
+      },
+      "properties": {
+        "id": "disfor-13-2021",
+        "sample_id": 13,
+        "year": 2021,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "15.0",
+        "cluster_description": "Damage polygons",
+        "group": 0,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.20128796082673553,
+              0.18498277927595982,
+              0.21117932209791748
+            ],
+            "mean_probability": 0.1991500207335376
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.7033503651618958,
+              0.8629550933837891,
+              0.2504441440105438
+            ],
+            "mean_probability": 0.6055832008520762
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.7716902494430542,
+              0.07589732855558395,
+              0.32492995262145996
+            ],
+            "mean_probability": 0.39083917687336606
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.526303231716156,
+              0.25759294629096985,
+              0.2563280463218689
+            ],
+            "mean_probability": 0.3467414081096649
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.123071808229828,
+          36.91481942195458
+        ]
+      },
+      "properties": {
+        "id": "disfor-14-2020",
+        "sample_id": 14,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "16.0",
+        "cluster_description": "Damage polygons",
+        "group": 0,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.011721735023827725,
+              0.01636090446312489,
+              0.014069085549868156
+            ],
+            "mean_probability": 0.01405057501227359
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.057804256677627563,
+              0.08679252117872238,
+              0.08285457640886307
+            ],
+            "mean_probability": 0.07581711808840434
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07380260527133942,
+              0.03687162324786186,
+              0.05164420232176781
+            ],
+            "mean_probability": 0.054106143613656364
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.10306153446435928,
+              0.03579622134566307,
+              0.09477976709604263
+            ],
+            "mean_probability": 0.07787917430202167
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.138059006339472,
+          36.913511118205854
+        ]
+      },
+      "properties": {
+        "id": "disfor-15-2020",
+        "sample_id": 15,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "17.0",
+        "cluster_description": "Damage polygons",
+        "group": 0,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1156272840737548,
+              0.08989919392184638,
+              0.10199423278834761
+            ],
+            "mean_probability": 0.1025069035946496
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.09633950889110565,
+              0.5460154414176941,
+              0.09935557097196579
+            ],
+            "mean_probability": 0.24723684042692184
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.17560508847236633,
+              0.07235122472047806,
+              0.07364463061094284
+            ],
+            "mean_probability": 0.1072003146012624
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.12366633117198944,
+              0.07715874165296555,
+              0.2049049586057663
+            ],
+            "mean_probability": 0.13524334381024042
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.138284628180522,
+          36.91307346910859
+        ]
+      },
+      "properties": {
+        "id": "disfor-16-2020",
+        "sample_id": 16,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "18.0",
+        "cluster_description": "Damage polygons",
+        "group": 0,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.004177477016472026,
+              0.0019491208380097269,
+              0.009938306421907284
+            ],
+            "mean_probability": 0.00535496809212968
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0696197897195816,
+              0.1840064972639084,
+              0.07281569391489029
+            ],
+            "mean_probability": 0.10881399363279343
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.05572540685534477,
+              0.04722044616937637,
+              0.05451125279068947
+            ],
+            "mean_probability": 0.05248570193847021
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0678505077958107,
+              0.05162692070007324,
+              0.07664285600185394
+            ],
+            "mean_probability": 0.06537342816591263
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.143884923897603,
+          36.82162096537698
+        ]
+      },
+      "properties": {
+        "id": "disfor-19-2020",
+        "sample_id": 19,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "22.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.032500728853628695,
+              0.051706404733898495,
+              0.04581206069619204
+            ],
+            "mean_probability": 0.043339731427906404
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.09837573021650314,
+              0.23673923313617706,
+              0.7596625685691833
+            ],
+            "mean_probability": 0.3649258439739545
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.09385961294174194,
+              0.3789467513561249,
+              0.1143622025847435
+            ],
+            "mean_probability": 0.19572285562753677
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.06972372531890869,
+              0.14830458164215088,
+              0.07098209112882614
+            ],
+            "mean_probability": 0.09633679936329524
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.149760872925842,
+          36.78775601277046
+        ]
+      },
+      "properties": {
+        "id": "disfor-21-2020",
+        "sample_id": 21,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "24.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.16961449765476314,
+              0.16036168967735875,
+              0.15333574355341661
+            ],
+            "mean_probability": 0.16110397696184617
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.0849023163318634,
+              0.722477376461029,
+              0.9255127906799316
+            ],
+            "mean_probability": 0.5776308278242747
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0710664764046669,
+              0.058527134358882904,
+              0.04915888234972954
+            ],
+            "mean_probability": 0.059584164371093117
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5425994396209717,
+              0.07767944037914276,
+              0.036009348928928375
+            ],
+            "mean_probability": 0.2187627429763476
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.134757232442436,
+          36.723920323909425
+        ]
+      },
+      "properties": {
+        "id": "disfor-22-2018",
+        "sample_id": 22,
+        "year": 2018,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "25.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.004081651457603709,
+              0.009348295392162004,
+              0.01102546916167465
+            ],
+            "mean_probability": 0.008151805337146788
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.06065799295902252,
+              0.050389066338539124,
+              0.06057525798678398
+            ],
+            "mean_probability": 0.057207439094781876
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.04705005884170532,
+              0.050784882158041,
+              0.054815489798784256
+            ],
+            "mean_probability": 0.05088347693284353
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07631717622280121,
+              0.054389920085668564,
+              0.03424016758799553
+            ],
+            "mean_probability": 0.05498242129882177
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.165644751365787,
+          36.731134389338706
+        ]
+      },
+      "properties": {
+        "id": "disfor-23-2020",
+        "sample_id": 23,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "26.0",
+        "cluster_description": "Damage polygons",
+        "group": 1,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.4930062738370034,
+              0.513702769897983,
+              0.4924202571017114
+            ],
+            "mean_probability": 0.4997097669455659
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.858505129814148,
+              0.9679461121559143,
+              0.9875923991203308
+            ],
+            "mean_probability": 0.938014547030131
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.04409252479672432,
+              0.09104060381650925,
+              0.08671735972166061
+            ],
+            "mean_probability": 0.07395016277829806
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.30186381936073303,
+              0.33786484599113464,
+              0.11398333311080933
+            ],
+            "mean_probability": 0.25123733282089233
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.778378151410404,
+          61.26370147179199
+        ]
+      },
+      "properties": {
+        "id": "disfor-452-2018",
+        "sample_id": 452,
+        "year": 2018,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "118.0",
+        "cluster_description": "Damage polygons",
+        "group": 15,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.13736459064079115,
+              0.13584786776388796,
+              0.17158062773644928
+            ],
+            "mean_probability": 0.1482643620470428
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.706520140171051,
+              0.08789866417646408,
+              0.23802708089351654
+            ],
+            "mean_probability": 0.3441486284136772
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.42185327410697937,
+              0.14713622629642487,
+              0.8481559157371521
+            ],
+            "mean_probability": 0.4723818053801854
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9971718192100525,
+              0.6252051591873169,
+              0.09680446982383728
+            ],
+            "mean_probability": 0.5730604827404022
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.751057239937662,
+          61.426096138434495
+        ]
+      },
+      "properties": {
+        "id": "disfor-462-2018",
+        "sample_id": 462,
+        "year": 2018,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "122.0",
+        "cluster_description": "Damage polygons",
+        "group": 17,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 14,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.19820486748498717,
+              0.17748317025727386,
+              0.19864396232281473
+            ],
+            "mean_probability": 0.19144400002169193
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.09356136620044708,
+              0.2758048474788666,
+              0.05749666690826416
+            ],
+            "mean_probability": 0.14228762686252594
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.17736630141735077,
+              0.08196919411420822,
+              0.08418335765600204
+            ],
+            "mean_probability": 0.11450628439585368
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.16887494921684265,
+              0.2620685398578644,
+              0.07118961215019226
+            ],
+            "mean_probability": 0.16737770040829977
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.798625956391017,
+          61.60000652956262
+        ]
+      },
+      "properties": {
+        "id": "disfor-475-2020",
+        "sample_id": 475,
+        "year": 2020,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "131.0",
+        "cluster_description": "Damage polygons",
+        "group": 20,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.16326530411303292,
+              0.1634595411915209,
+              0.15425971052517976
+            ],
+            "mean_probability": 0.16032818527657786
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9841864705085754,
+              0.9851976037025452,
+              0.3905788064002991
+            ],
+            "mean_probability": 0.7866542935371399
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9694125652313232,
+              0.9216387271881104,
+              0.9017571806907654
+            ],
+            "mean_probability": 0.9309361577033997
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.15562810003757477,
+              0.1067899614572525,
+              0.21347391605377197
+            ],
+            "mean_probability": 0.15863065918286642
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.825939234195612,
+          61.80606421801777
+        ]
+      },
+      "properties": {
+        "id": "disfor-493-2019",
+        "sample_id": 493,
+        "year": 2019,
+        "label": 1,
+        "dataset": 1,
+        "source": "EFFIS",
+        "source_description": "Evoland Project, EFFIS Source of Wildfire Polygons, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "143.0",
+        "cluster_description": "Damage polygons",
+        "group": 21,
+        "split": "validation",
+        "outer_fold": 5,
+        "observed_months": 14,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1210745352983407,
+              0.1352273132893247,
+              0.1268957425476833
+            ],
+            "mean_probability": 0.12773253037844956
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.050440944731235504,
+              0.11261112987995148,
+              0.08138556778430939
+            ],
+            "mean_probability": 0.08147921413183212
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07309258729219437,
+              0.06359073519706726,
+              0.057668473571538925
+            ],
+            "mean_probability": 0.06478393202026685
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.11791260540485382,
+              0.0758475586771965,
+              0.11162030696868896
+            ],
+            "mean_probability": 0.10179349035024643
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.103963080839957,
+          51.59070900659859
+        ]
+      },
+      "properties": {
+        "id": "disfor-684-2018",
+        "sample_id": 684,
+        "year": 2018,
+        "label": 0,
+        "dataset": 1,
+        "source": "Regional Forestry Departments",
+        "source_description": "FNews Project, German Forestry Departmetns Source of Disturbance Types, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "376.0",
+        "cluster_description": "Damage polygons",
+        "group": 46,
+        "split": "validation",
+        "outer_fold": 3,
+        "observed_months": 16,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.0711910923421467,
+              0.0842654058390019,
+              0.06037121656721139
+            ],
+            "mean_probability": 0.07194257158278666
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9712222814559937,
+              0.7008460164070129,
+              0.334665983915329
+            ],
+            "mean_probability": 0.6689114272594452
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9777586460113525,
+              0.49520930647850037,
+              0.6677529811859131
+            ],
+            "mean_probability": 0.7135736445585886
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.23836973309516907,
+              0.9951645135879517,
+              0.9686082005500793
+            ],
+            "mean_probability": 0.7340474824110667
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.532974526318426,
+          51.908682355851816
+        ]
+      },
+      "properties": {
+        "id": "disfor-694-2018",
+        "sample_id": 694,
+        "year": 2018,
+        "label": 0,
+        "dataset": 1,
+        "source": "Regional Forestry Departments",
+        "source_description": "FNews Project, German Forestry Departmetns Source of Disturbance Types, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "343.0",
+        "cluster_description": "Damage polygons",
+        "group": 36,
+        "split": "test",
+        "outer_fold": 4,
+        "observed_months": 18,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.1279411952694887,
+              0.14130263457445727,
+              0.14552366725252033
+            ],
+            "mean_probability": 0.13825583236548877
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9758432507514954,
+              0.0726725310087204,
+              0.5800526738166809
+            ],
+            "mean_probability": 0.5428561518589655
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.06221403554081917,
+              0.06730709224939346,
+              0.14531856775283813
+            ],
+            "mean_probability": 0.0916132318476836
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.06439010798931122,
+              0.06602898240089417,
+              0.07072059065103531
+            ],
+            "mean_probability": 0.06704656034708023
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.256574146774016,
+          51.570380554131674
+        ]
+      },
+      "properties": {
+        "id": "disfor-700-2018",
+        "sample_id": 700,
+        "year": 2018,
+        "label": 0,
+        "dataset": 1,
+        "source": "Regional Forestry Departments",
+        "source_description": "FNews Project, German Forestry Departmetns Source of Disturbance Types, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "396.0",
+        "cluster_description": "Damage polygons",
+        "group": 49,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.35562739599818516,
+              0.3245240840815333,
+              0.31456654182013927
+            ],
+            "mean_probability": 0.3315726739666192
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.5471385717391968,
+              0.9186519980430603,
+              0.6954920887947083
+            ],
+            "mean_probability": 0.7204275528589884
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9408144354820251,
+              0.37879160046577454,
+              0.5789473652839661
+            ],
+            "mean_probability": 0.6328511337439219
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.969344437122345,
+              0.6566349864006042,
+              0.3690297603607178
+            ],
+            "mean_probability": 0.6650030612945557
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.94793743824486,
+          51.799781713705066
+        ]
+      },
+      "properties": {
+        "id": "disfor-721-2018",
+        "sample_id": 721,
+        "year": 2018,
+        "label": 0,
+        "dataset": 1,
+        "source": "Regional Forestry Departments",
+        "source_description": "FNews Project, German Forestry Departmetns Source of Disturbance Types, timing interpretation based on S2 timeseries",
+        "confidence": "high",
+        "source_cluster": "325.0",
+        "cluster_description": "Damage polygons",
+        "group": 37,
+        "split": "test",
+        "outer_fold": 5,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.7827584947968109,
+              0.7963726178515389,
+              0.8051551754531932
+            ],
+            "mean_probability": 0.7947620960338476
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.055881984531879425,
+              0.5576457977294922,
+              0.07136448472738266
+            ],
+            "mean_probability": 0.22829742232958475
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.46972042322158813,
+              0.5239061117172241,
+              0.25651583075523376
+            ],
+            "mean_probability": 0.4167141218980153
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5076730251312256,
+              0.961033284664154,
+              0.08377700299024582
+            ],
+            "mean_probability": 0.5174944375952085
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.629685739545657,
+          38.18458644253155
+        ]
+      },
+      "properties": {
+        "id": "disfor-922-2021",
+        "sample_id": 922,
+        "year": 2021,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 70,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.352995154725375,
+              0.35418381952126554,
+              0.36785987307270346
+            ],
+            "mean_probability": 0.35834628243978134
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.10224809497594833,
+              0.31842905282974243,
+              0.059726327657699585
+            ],
+            "mean_probability": 0.16013449182113013
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9770123958587646,
+              0.7912483811378479,
+              0.26414576172828674
+            ],
+            "mean_probability": 0.6774688462416331
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.1812867373228073,
+              0.7210479378700256,
+              0.06940294057130814
+            ],
+            "mean_probability": 0.323912538588047
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7174928010575785,
+          38.36707166095773
+        ]
+      },
+      "properties": {
+        "id": "disfor-954-2018",
+        "sample_id": 954,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 79,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.048397173124927854,
+              0.03099431522751756,
+              0.031172583682968883
+            ],
+            "mean_probability": 0.036854690678471434
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.03705345466732979,
+              0.05734305456280708,
+              0.06253118813037872
+            ],
+            "mean_probability": 0.052309232453505196
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.49400264024734497,
+              0.4594433605670929,
+              0.1978343278169632
+            ],
+            "mean_probability": 0.38376010954380035
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.977105975151062,
+              0.9677442908287048,
+              0.9302800893783569
+            ],
+            "mean_probability": 0.9583767851193746
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.702609360478129,
+          37.94077633200676
+        ]
+      },
+      "properties": {
+        "id": "disfor-991-2019",
+        "sample_id": 991,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 102,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.38759569205329064,
+              0.43209214793395345,
+              0.38419175139581185
+            ],
+            "mean_probability": 0.40129319712768535
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.3298271894454956,
+              0.39955008029937744,
+              0.7893453240394592
+            ],
+            "mean_probability": 0.5062408645947775
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.7191409468650818,
+              0.32853400707244873,
+              0.9499939680099487
+            ],
+            "mean_probability": 0.6658896406491598
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.5636146068572998,
+              0.731749415397644,
+              0.8333207964897156
+            ],
+            "mean_probability": 0.7095616062482198
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.632332347200045,
+          38.745356386324296
+        ]
+      },
+      "properties": {
+        "id": "disfor-1087-2022",
+        "sample_id": 1087,
+        "year": 2022,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 150,
+        "split": "train",
+        "outer_fold": 1,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.24841762939798054,
+              0.2510365082023416,
+              0.23655304866865298
+            ],
+            "mean_probability": 0.24533572875632503
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07684611529111862,
+              0.05414915084838867,
+              0.04361342638731003
+            ],
+            "mean_probability": 0.05820289750893911
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.09913109987974167,
+              0.10636074095964432,
+              0.17046578228473663
+            ],
+            "mean_probability": 0.12531920770804086
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.03361295163631439,
+              0.05632220208644867,
+              0.0355428010225296
+            ],
+            "mean_probability": 0.04182598491509756
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.143845845693921,
+          38.48353135783084
+        ]
+      },
+      "properties": {
+        "id": "disfor-1147-2019",
+        "sample_id": 1147,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2019",
+        "cluster_description": "Stratum of the sampling",
+        "group": 159,
+        "split": "validation",
+        "outer_fold": 4,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9076206475980995,
+              0.9092945277356944,
+              0.907487825082088
+            ],
+            "mean_probability": 0.9081343334719607
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9951399564743042,
+              0.9059661626815796,
+              0.9180310368537903
+            ],
+            "mean_probability": 0.939712385336558
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.6423723101615906,
+              0.6956011056900024,
+              0.09338940680027008
+            ],
+            "mean_probability": 0.47712094088395435
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5510811805725098,
+              0.9581262469291687,
+              0.18427379429340363
+            ],
+            "mean_probability": 0.5644937405983607
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.953415334029161,
+          54.09663400384247
+        ]
+      },
+      "properties": {
+        "id": "disfor-1199-2023",
+        "sample_id": 1199,
+        "year": 2023,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 177,
+        "split": "test",
+        "outer_fold": 2,
+        "observed_months": 16,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9886264578731842,
+              0.9850340243199459,
+              0.9906038189947617
+            ],
+            "mean_probability": 0.9880881003959638
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.856377124786377,
+              0.3766132593154907,
+              0.38287806510925293
+            ],
+            "mean_probability": 0.5386228164037069
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.97589510679245,
+              0.989244818687439,
+              0.6886826753616333
+            ],
+            "mean_probability": 0.8846075336138407
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.8920806646347046,
+              0.9706113934516907,
+              0.2910957932472229
+            ],
+            "mean_probability": 0.7179292837778727
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.080380872563607,
+          37.239145345759376
+        ]
+      },
+      "properties": {
+        "id": "disfor-1318-2022",
+        "sample_id": 1318,
+        "year": 2022,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 201,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.44082946126040384,
+              0.45725122252174333,
+              0.4234454349109673
+            ],
+            "mean_probability": 0.44050870623103816
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.7097904086112976,
+              0.7882559299468994,
+              0.9225147366523743
+            ],
+            "mean_probability": 0.8068536917368571
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.8970465660095215,
+              0.9152595400810242,
+              0.5535355806350708
+            ],
+            "mean_probability": 0.7886138955752054
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9770482778549194,
+              0.8036838173866272,
+              0.9173457622528076
+            ],
+            "mean_probability": 0.8993592858314514
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0231450266382307,
+          37.411775928177974
+        ]
+      },
+      "properties": {
+        "id": "disfor-1403-2023",
+        "sample_id": 1403,
+        "year": 2023,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 257,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.1846215549148883,
+              0.1779076029698438,
+              0.18544279393761193
+            ],
+            "mean_probability": 0.1826573172741147
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.0819694846868515,
+              0.19518639147281647,
+              0.07315680384635925
+            ],
+            "mean_probability": 0.11677089333534241
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9240548610687256,
+              0.9418195486068726,
+              0.6935749053955078
+            ],
+            "mean_probability": 0.8531497716903687
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.16365386545658112,
+              0.8700530529022217,
+              0.9026763439178467
+            ],
+            "mean_probability": 0.6454610874255499
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.059717980245047,
+          37.376533319210246
+        ]
+      },
+      "properties": {
+        "id": "disfor-1418-2020",
+        "sample_id": 1418,
+        "year": 2020,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 256,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.07593695731802,
+              0.08022651381133353,
+              0.07253557805932748
+            ],
+            "mean_probability": 0.076233016396227
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5024561882019043,
+              0.2810797691345215,
+              0.7124175429344177
+            ],
+            "mean_probability": 0.4986511667569478
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.4466230273246765,
+              0.774297833442688,
+              0.1750042885541916
+            ],
+            "mean_probability": 0.46530838310718536
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.44936132431030273,
+              0.6093977093696594,
+              0.22229456901550293
+            ],
+            "mean_probability": 0.42701786756515503
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9062653092018056,
+          44.755561067831344
+        ]
+      },
+      "properties": {
+        "id": "disfor-1510-2022",
+        "sample_id": 1510,
+        "year": 2022,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 314,
+        "split": "validation",
+        "outer_fold": 5,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4279918355544396,
+              0.45014641381405474,
+              0.451207957316257
+            ],
+            "mean_probability": 0.44311540222825047
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.8573111891746521,
+              0.9959970712661743,
+              0.22765842080116272
+            ],
+            "mean_probability": 0.6936555604139963
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9969882369041443,
+              0.5997896790504456,
+              0.9769353866577148
+            ],
+            "mean_probability": 0.8579044342041016
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.997454822063446,
+              0.2735084593296051,
+              0.9893134236335754
+            ],
+            "mean_probability": 0.7534255683422089
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5321281411186067,
+          44.43174477818845
+        ]
+      },
+      "properties": {
+        "id": "disfor-1546-2022",
+        "sample_id": 1546,
+        "year": 2022,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 308,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.6799451343939463,
+              0.6933317841912999,
+              0.6834857770446721
+            ],
+            "mean_probability": 0.6855875652099727
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9126134514808655,
+              0.9922659993171692,
+              0.6440198421478271
+            ],
+            "mean_probability": 0.8496330976486206
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.0984286293387413,
+              0.06630540639162064,
+              0.11123576015233994
+            ],
+            "mean_probability": 0.09198993196090062
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.751489520072937,
+              0.05820560082793236,
+              0.10220181941986084
+            ],
+            "mean_probability": 0.30396564677357674
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2449833951945026,
+          44.23610976708985
+        ]
+      },
+      "properties": {
+        "id": "disfor-1593-2021",
+        "sample_id": 1593,
+        "year": 2021,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 298,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.858270352191192,
+              0.8614337531865582,
+              0.8460973363869728
+            ],
+            "mean_probability": 0.8552671472549077
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9080007076263428,
+              0.34338968992233276,
+              0.44714272022247314
+            ],
+            "mean_probability": 0.5661777059237162
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.7360893487930298,
+              0.8956974744796753,
+              0.9799205660820007
+            ],
+            "mean_probability": 0.870569129784902
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.8999481797218323,
+              0.8131811618804932,
+              0.9321571588516235
+            ],
+            "mean_probability": 0.881762166817983
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.211711606753249,
+          44.5098661584836
+        ]
+      },
+      "properties": {
+        "id": "disfor-1616-2021",
+        "sample_id": 1616,
+        "year": 2021,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 293,
+        "split": "train",
+        "outer_fold": 1,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9080980930768169,
+              0.9501878636620215,
+              0.9036561486479487
+            ],
+            "mean_probability": 0.9206473684622624
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07900462299585342,
+              0.2466702163219452,
+              0.12581005692481995
+            ],
+            "mean_probability": 0.15049496541420618
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.7648778557777405,
+              0.5959379076957703,
+              0.662757933139801
+            ],
+            "mean_probability": 0.6745245655377706
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.6064242720603943,
+              0.10781210660934448,
+              0.14890362322330475
+            ],
+            "mean_probability": 0.28771333396434784
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.948111075744692,
+          44.938947499093075
+        ]
+      },
+      "properties": {
+        "id": "disfor-1664-2018",
+        "sample_id": 1664,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2021",
+        "cluster_description": "Stratum of the sampling",
+        "group": 330,
+        "split": "test",
+        "outer_fold": 2,
+        "observed_months": 18,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean_probability": 0.0
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.14750659465789795,
+              0.07574404031038284,
+              0.07301899045705795
+            ],
+            "mean_probability": 0.09875654180844624
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.22859862446784973,
+              0.07900047302246094,
+              0.07788236439228058
+            ],
+            "mean_probability": 0.12849382062753043
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.22989115118980408,
+              0.11174967885017395,
+              0.08844928443431854
+            ],
+            "mean_probability": 0.1433633714914322
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0210038288405354,
+          44.91080764951916
+        ]
+      },
+      "properties": {
+        "id": "disfor-1681-2018",
+        "sample_id": 1681,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4038",
+        "cluster_description": "Stratum of the sampling",
+        "group": 330,
+        "split": "test",
+        "outer_fold": 2,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.002,
+              0.0019704584240569645,
+              0.005465218494940636
+            ],
+            "mean_probability": 0.003145225639665867
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.05043507367372513,
+              0.09232914447784424,
+              0.08174069970846176
+            ],
+            "mean_probability": 0.07483497262001038
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9260433316230774,
+              0.832565426826477,
+              0.08430572599172592
+            ],
+            "mean_probability": 0.6143048281470934
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.508071780204773,
+              0.6116629838943481,
+              0.1198868378996849
+            ],
+            "mean_probability": 0.41320720066626865
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.040823375965595,
+          44.77507391436491
+        ]
+      },
+      "properties": {
+        "id": "disfor-1753-2022",
+        "sample_id": 1753,
+        "year": 2022,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4042",
+        "cluster_description": "Stratum of the sampling",
+        "group": 286,
+        "split": "validation",
+        "outer_fold": 5,
+        "observed_months": 22,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9535062836477028,
+              0.9459835543681362,
+              0.9488961375603482
+            ],
+            "mean_probability": 0.9494619918587291
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9983966946601868,
+              0.9979788661003113,
+              0.9966951608657837
+            ],
+            "mean_probability": 0.9976902405420939
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.995585560798645,
+              0.9928613305091858,
+              0.9891464710235596
+            ],
+            "mean_probability": 0.9925311207771301
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9970629811286926,
+              0.822787880897522,
+              0.9674578309059143
+            ],
+            "mean_probability": 0.929102897644043
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7371950550329127,
+          50.53607729253238
+        ]
+      },
+      "properties": {
+        "id": "disfor-1772-2022",
+        "sample_id": 1772,
+        "year": 2022,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 351,
+        "split": "train",
+        "outer_fold": 1,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.25953512792853284,
+              0.2557157806143745,
+              0.23905122354926506
+            ],
+            "mean_probability": 0.2514340440307241
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07256030291318893,
+              0.06750058382749557,
+              0.09979680180549622
+            ],
+            "mean_probability": 0.07995256284872691
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.8428632020950317,
+              0.30324193835258484,
+              0.40462878346443176
+            ],
+            "mean_probability": 0.5169113079706827
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9870245456695557,
+              0.9501829147338867,
+              0.7698588371276855
+            ],
+            "mean_probability": 0.902355432510376
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7974488283705614,
+          50.30703942500425
+        ]
+      },
+      "properties": {
+        "id": "disfor-1803-2019",
+        "sample_id": 1803,
+        "year": 2019,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "3",
+        "cluster_description": "Stratum of the sampling",
+        "group": 356,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1372867265911087,
+              0.1184873115614162,
+              0.12777749965332108
+            ],
+            "mean_probability": 0.12785051260194866
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.04408406466245651,
+              0.05853280797600746,
+              0.045131295919418335
+            ],
+            "mean_probability": 0.049249389519294105
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.11027418076992035,
+              0.08681532740592957,
+              0.15220670402050018
+            ],
+            "mean_probability": 0.1164320707321167
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.18381865322589874,
+              0.12456803768873215,
+              0.07470052689313889
+            ],
+            "mean_probability": 0.1276957392692566
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9712973235938964,
+          49.91189157479385
+        ]
+      },
+      "properties": {
+        "id": "disfor-1810-2019",
+        "sample_id": 1810,
+        "year": 2019,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 343,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.11930536807090024,
+              0.11565566564194424,
+              0.11730004716378879
+            ],
+            "mean_probability": 0.11742036029221109
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.22103460133075714,
+              0.9478763341903687,
+              0.2794207036495209
+            ],
+            "mean_probability": 0.4827772130568822
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.09976190328598022,
+              0.07618686556816101,
+              0.08313963562250137
+            ],
+            "mean_probability": 0.0863628014922142
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.14805057644844055,
+              0.10177409648895264,
+              0.05460014194250107
+            ],
+            "mean_probability": 0.10147493829329808
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6744610861754485,
+          49.92521193860696
+        ]
+      },
+      "properties": {
+        "id": "disfor-1812-2018",
+        "sample_id": 1812,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2019",
+        "cluster_description": "Stratum of the sampling",
+        "group": 373,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.008084604704597813,
+              0.010807289046231044,
+              0.016445691762093467
+            ],
+            "mean_probability": 0.011779195170974107
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.054870907217264175,
+              0.09181389957666397,
+              0.05423694849014282
+            ],
+            "mean_probability": 0.06697391842802365
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.06446342170238495,
+              0.059344399720430374,
+              0.07528647035360336
+            ],
+            "mean_probability": 0.0663647639254729
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.11761100590229034,
+              0.07935747504234314,
+              0.0430215448141098
+            ],
+            "mean_probability": 0.07999667525291443
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.833726880140051,
+          49.77344190733281
+        ]
+      },
+      "properties": {
+        "id": "disfor-1813-2020",
+        "sample_id": 1813,
+        "year": 2020,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2020",
+        "cluster_description": "Stratum of the sampling",
+        "group": 374,
+        "split": "validation",
+        "outer_fold": 3,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.17939575318367676,
+              0.18859852975878638,
+              0.20367817728387305
+            ],
+            "mean_probability": 0.19055748674211206
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.5476236343383789,
+              0.9565939903259277,
+              0.3548777997493744
+            ],
+            "mean_probability": 0.6196984748045603
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.055970486253499985,
+              0.40082409977912903,
+              0.11308298259973526
+            ],
+            "mean_probability": 0.18995918954412142
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.974132776260376,
+              0.15840280055999756,
+              0.06748010963201523
+            ],
+            "mean_probability": 0.4000052288174629
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9859276547060145,
+          49.824644459450525
+        ]
+      },
+      "properties": {
+        "id": "disfor-1818-2020",
+        "sample_id": 1818,
+        "year": 2020,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4042",
+        "cluster_description": "Stratum of the sampling",
+        "group": 377,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 21,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.20436013661174166,
+              0.15751727280821615,
+              0.2114923033995736
+            ],
+            "mean_probability": 0.19112323760651048
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.6788066029548645,
+              0.12436568737030029,
+              0.4846374988555908
+            ],
+            "mean_probability": 0.4292699297269185
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9945214986801147,
+              0.642081081867218,
+              0.6865342259407043
+            ],
+            "mean_probability": 0.7743789354960123
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9968762397766113,
+              0.9323734641075134,
+              0.9327536225318909
+            ],
+            "mean_probability": 0.9540011088053385
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.272876914261953,
+          50.53976368868231
+        ]
+      },
+      "properties": {
+        "id": "disfor-1847-2023",
+        "sample_id": 1847,
+        "year": 2023,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 400,
+        "split": "validation",
+        "outer_fold": 4,
+        "observed_months": 21,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.24126288125085443,
+              0.26761890781114467,
+              0.2601075613937057
+            ],
+            "mean_probability": 0.25632978348523494
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9646536707878113,
+              0.8313036561012268,
+              0.7887775301933289
+            ],
+            "mean_probability": 0.8615782856941223
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.04867051914334297,
+              0.04644453898072243,
+              0.04264349862933159
+            ],
+            "mean_probability": 0.045919518917798996
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.06147858127951622,
+              0.0715283676981926,
+              0.05451255664229393
+            ],
+            "mean_probability": 0.06250650187333424
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.08176743982021,
+          51.398489373901654
+        ]
+      },
+      "properties": {
+        "id": "disfor-1917-2021",
+        "sample_id": 1917,
+        "year": 2021,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 433,
+        "split": "test",
+        "outer_fold": 1,
+        "observed_months": 22,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.8562890643502163,
+              0.8834672602371717,
+              0.8643764355151604
+            ],
+            "mean_probability": 0.8680442533675161
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.1298092156648636,
+              0.8027734160423279,
+              0.7223435044288635
+            ],
+            "mean_probability": 0.551642045378685
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.647904098033905,
+              0.1696775257587433,
+              0.12171106040477753
+            ],
+            "mean_probability": 0.31309756139914197
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1791469007730484,
+              0.21932867169380188,
+              0.10338374972343445
+            ],
+            "mean_probability": 0.1672864407300949
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.915825150661172,
+          50.572979175645855
+        ]
+      },
+      "properties": {
+        "id": "disfor-1922-2022",
+        "sample_id": 1922,
+        "year": 2022,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 435,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 22,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.06371980084091607,
+              0.09417622567018837,
+              0.10094087790165747
+            ],
+            "mean_probability": 0.0862789681375873
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.08292803913354874,
+              0.049523621797561646,
+              0.09368851035833359
+            ],
+            "mean_probability": 0.07538005709648132
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07760285586118698,
+              0.05985444411635399,
+              0.05916151404380798
+            ],
+            "mean_probability": 0.06553960467378299
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.08467462658882141,
+              0.0763709768652916,
+              0.055241525173187256
+            ],
+            "mean_probability": 0.07209570954243343
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.23377470911852,
+          46.72898410995025
+        ]
+      },
+      "properties": {
+        "id": "disfor-2015-2023",
+        "sample_id": 2015,
+        "year": 2023,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 477,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 14,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.038147662662439415,
+              0.039410052048993956,
+              0.03897161919707078
+            ],
+            "mean_probability": 0.038843111302834715
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.07827300578355789,
+              0.05355559661984444,
+              0.042180661112070084
+            ],
+            "mean_probability": 0.058003087838490806
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.3141884207725525,
+              0.10135972499847412,
+              0.14667755365371704
+            ],
+            "mean_probability": 0.18740856647491455
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.40255287289619446,
+              0.8018959760665894,
+              0.5369972586631775
+            ],
+            "mean_probability": 0.5804820358753204
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.379884600039663,
+          51.252777732409925
+        ]
+      },
+      "properties": {
+        "id": "disfor-2137-2019",
+        "sample_id": 2137,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 519,
+        "split": "validation",
+        "outer_fold": 4,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.011605166812615917,
+              0.0037576099210822997,
+              0.0089276230038504
+            ],
+            "mean_probability": 0.008096799912516205
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.09791246056556702,
+              0.11387098580598831,
+              0.06061167269945145
+            ],
+            "mean_probability": 0.09079837302366893
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.3067377209663391,
+              0.37369731068611145,
+              0.15841370820999146
+            ],
+            "mean_probability": 0.279616246620814
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.2303209900856018,
+              0.712838351726532,
+              0.5038174986839294
+            ],
+            "mean_probability": 0.48232561349868774
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.971896956164608,
+          50.69722625721182
+        ]
+      },
+      "properties": {
+        "id": "disfor-2208-2018",
+        "sample_id": 2208,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 540,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.02513992092266156,
+              0.022349813345617885,
+              0.03488024723069515
+            ],
+            "mean_probability": 0.027456660499658198
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9919740557670593,
+              0.898643970489502,
+              0.3088018596172333
+            ],
+            "mean_probability": 0.7331399619579315
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.22637939453125,
+              0.24198530614376068,
+              0.13474169373512268
+            ],
+            "mean_probability": 0.20103546480337778
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.35760498046875,
+              0.18716305494308472,
+              0.2818511724472046
+            ],
+            "mean_probability": 0.2755397359530131
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.347330762456684,
+          51.37282315914751
+        ]
+      },
+      "properties": {
+        "id": "disfor-2210-2020",
+        "sample_id": 2210,
+        "year": 2020,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 544,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 22,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.1403762341458755,
+              0.13741985449179922,
+              0.1548122466513715
+            ],
+            "mean_probability": 0.14420277842968207
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9815601110458374,
+              0.9918226599693298,
+              0.9548479914665222
+            ],
+            "mean_probability": 0.9760769208272299
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.1569044440984726,
+              0.13291586935520172,
+              0.06351587921380997
+            ],
+            "mean_probability": 0.11777873088916142
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4299624562263489,
+              0.06712774187326431,
+              0.07550603151321411
+            ],
+            "mean_probability": 0.19086540987094244
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.081104826224177,
+          50.714886746141765
+        ]
+      },
+      "properties": {
+        "id": "disfor-2217-2018",
+        "sample_id": 2217,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 547,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.27627706064683594,
+              0.2684854283727023,
+              0.2506207457387054
+            ],
+            "mean_probability": 0.26512774491941454
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.2971462607383728,
+              0.18694667518138885,
+              0.1077074408531189
+            ],
+            "mean_probability": 0.19726679225762686
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9406355023384094,
+              0.6851285696029663,
+              0.4312901496887207
+            ],
+            "mean_probability": 0.6856847405433655
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.729246199131012,
+              0.45830264687538147,
+              0.9402037858963013
+            ],
+            "mean_probability": 0.7092508773008982
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.608253757476483,
+          50.789489351332655
+        ]
+      },
+      "properties": {
+        "id": "disfor-2282-2020",
+        "sample_id": 2282,
+        "year": 2020,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 526,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.019023505359718005,
+              0.01737772562562734,
+              0.025099426886397342
+            ],
+            "mean_probability": 0.020500219290580896
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.39404135942459106,
+              0.561648964881897,
+              0.552654504776001
+            ],
+            "mean_probability": 0.502781609694163
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4852427542209625,
+              0.1294666826725006,
+              0.23468822240829468
+            ],
+            "mean_probability": 0.28313255310058594
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4837809205055237,
+              0.09793075919151306,
+              0.16478388011455536
+            ],
+            "mean_probability": 0.2488318532705307
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.82282302636647,
+          50.52569596883296
+        ]
+      },
+      "properties": {
+        "id": "disfor-2285-2018",
+        "sample_id": 2285,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 537,
+        "split": "test",
+        "outer_fold": 2,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.2533769191988975,
+              0.28986204397271753,
+              0.2648102106075978
+            ],
+            "mean_probability": 0.26934972459307094
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9905829429626465,
+              0.966101348400116,
+              0.3877003788948059
+            ],
+            "mean_probability": 0.7814615567525228
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5088528990745544,
+              0.47404149174690247,
+              0.21533584594726562
+            ],
+            "mean_probability": 0.39941007892290753
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.46802452206611633,
+              0.32712322473526,
+              0.13614718616008759
+            ],
+            "mean_probability": 0.310431644320488
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.30670424093433,
+          51.43806116508291
+        ]
+      },
+      "properties": {
+        "id": "disfor-2290-2022",
+        "sample_id": 2290,
+        "year": 2022,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 563,
+        "split": "test",
+        "outer_fold": 1,
+        "observed_months": 16,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.04625602163137304,
+              0.045858839517459414,
+              0.0367781453178257
+            ],
+            "mean_probability": 0.042964335488886056
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.4722934365272522,
+              0.6206125020980835,
+              0.33810633420944214
+            ],
+            "mean_probability": 0.47700409094492596
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.5372477769851685,
+              0.09845855087041855,
+              0.2002974897623062
+            ],
+            "mean_probability": 0.2786679392059644
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9748196601867676,
+              0.5174300074577332,
+              0.11220204830169678
+            ],
+            "mean_probability": 0.5348172386487325
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.579306017688397,
+          50.48389167960111
+        ]
+      },
+      "properties": {
+        "id": "disfor-2311-2019",
+        "sample_id": 2311,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 531,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.15672773081000904,
+              0.11259205588021363,
+              0.09854529673066813
+            ],
+            "mean_probability": 0.12262169447363026
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5064150094985962,
+              0.3782333433628082,
+              0.6074618697166443
+            ],
+            "mean_probability": 0.4973700741926829
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.06307189166545868,
+              0.06276143342256546,
+              0.13349874317646027
+            ],
+            "mean_probability": 0.08644402275482814
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.16211576759815216,
+              0.08539912849664688,
+              0.1161549761891365
+            ],
+            "mean_probability": 0.12122329076131184
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.102336456854195,
+          58.9676791453824
+        ]
+      },
+      "properties": {
+        "id": "disfor-2438-2020",
+        "sample_id": 2438,
+        "year": 2020,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 580,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 12,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.004530537787322373,
+              0.004203920004868033,
+              0.00836729937441233
+            ],
+            "mean_probability": 0.005700585722200911
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.21603193879127502,
+              0.24844235181808472,
+              0.05595950037240982
+            ],
+            "mean_probability": 0.17347793032725653
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.33162203431129456,
+              0.4368159770965576,
+              0.7981880307197571
+            ],
+            "mean_probability": 0.5222086807092031
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5664007663726807,
+              0.5934831500053406,
+              0.4373483657836914
+            ],
+            "mean_probability": 0.5324107607205709
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.19868213976997,
+          58.606150139509865
+        ]
+      },
+      "properties": {
+        "id": "disfor-2439-2021",
+        "sample_id": 2439,
+        "year": 2021,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 607,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 24,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.2201846158097875,
+              0.22217426127794565,
+              0.21997339822223239
+            ],
+            "mean_probability": 0.22077742510332185
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.48887407779693604,
+              0.11993518471717834,
+              0.09866593033075333
+            ],
+            "mean_probability": 0.23582506428162256
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.6366402506828308,
+              0.2894227206707001,
+              0.11518467217683792
+            ],
+            "mean_probability": 0.34708254784345627
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.30143842101097107,
+              0.8921740055084229,
+              0.8535119295120239
+            ],
+            "mean_probability": 0.6823747853438059
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.56281531970976,
+          58.6446828439265
+        ]
+      },
+      "properties": {
+        "id": "disfor-2586-2018",
+        "sample_id": 2586,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 624,
+        "split": "train",
+        "outer_fold": 5,
+        "observed_months": 22,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.022909711685767113,
+              0.03925673619480452,
+              0.034494560858952174
+            ],
+            "mean_probability": 0.032220336246507934
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9801502227783203,
+              0.9548599720001221,
+              0.9635306596755981
+            ],
+            "mean_probability": 0.9661802848180135
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.09350591897964478,
+              0.0904545933008194,
+              0.2494627982378006
+            ],
+            "mean_probability": 0.1444744368394216
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.6968435049057007,
+              0.1842312216758728,
+              0.14441171288490295
+            ],
+            "mean_probability": 0.34182881315549213
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.77456509210012,
+          58.56232349094516
+        ]
+      },
+      "properties": {
+        "id": "disfor-2645-2021",
+        "sample_id": 2645,
+        "year": 2021,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 638,
+        "split": "train",
+        "outer_fold": 1,
+        "observed_months": 23,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.23321718135782155,
+              0.22648035366149613,
+              0.19235299092911062
+            ],
+            "mean_probability": 0.21735017531614276
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.4910658299922943,
+              0.2233692705631256,
+              0.28967997431755066
+            ],
+            "mean_probability": 0.33470502495765686
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.10406558215618134,
+              0.12440058588981628,
+              0.0745009034872055
+            ],
+            "mean_probability": 0.10098902384440105
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.35127830505371094,
+              0.12211280316114426,
+              0.1033690795302391
+            ],
+            "mean_probability": 0.19225339591503143
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.93080632688306,
+          58.754616520552865
+        ]
+      },
+      "properties": {
+        "id": "disfor-2685-2018",
+        "sample_id": 2685,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2019",
+        "cluster_description": "Stratum of the sampling",
+        "group": 649,
+        "split": "validation",
+        "outer_fold": 3,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0578320552059648,
+              0.0479361094925827,
+              0.043425715457960076
+            ],
+            "mean_probability": 0.04973129338550253
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1619006097316742,
+              0.18674008548259735,
+              0.1724800020456314
+            ],
+            "mean_probability": 0.1737068990866343
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.23610122501850128,
+              0.18493476510047913,
+              0.1922214925289154
+            ],
+            "mean_probability": 0.20441916088263193
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1040782779455185,
+              0.25763657689094543,
+              0.08063071221113205
+            ],
+            "mean_probability": 0.14744852234919867
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.805797531142602,
+          58.97244007704646
+        ]
+      },
+      "properties": {
+        "id": "disfor-2718-2019",
+        "sample_id": 2718,
+        "year": 2019,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4040",
+        "cluster_description": "Stratum of the sampling",
+        "group": 630,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0990855134748217,
+              0.08920777627682507,
+              0.09380072945140587
+            ],
+            "mean_probability": 0.09403133973435089
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9249474406242371,
+              0.7783474922180176,
+              0.9123982787132263
+            ],
+            "mean_probability": 0.8718977371851603
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9830495715141296,
+              0.9430124759674072,
+              0.9742714762687683
+            ],
+            "mean_probability": 0.9667778412501017
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.8517851829528809,
+              0.16997353732585907,
+              0.35283997654914856
+            ],
+            "mean_probability": 0.45819956560929614
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.132727498030112,
+          58.62087605741794
+        ]
+      },
+      "properties": {
+        "id": "disfor-2719-2019",
+        "sample_id": 2719,
+        "year": 2019,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4040",
+        "cluster_description": "Stratum of the sampling",
+        "group": 607,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.40252330107121154,
+              0.3644324823275214,
+              0.3823037605471376
+            ],
+            "mean_probability": 0.38308651464862353
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0740179494023323,
+              0.02847670204937458,
+              0.16544151306152344
+            ],
+            "mean_probability": 0.08931205483774345
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.3486362099647522,
+              0.5497297644615173,
+              0.9914200305938721
+            ],
+            "mean_probability": 0.6299286683400472
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.36731916666030884,
+              0.9586403369903564,
+              0.32018664479255676
+            ],
+            "mean_probability": 0.5487153828144073
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.536906110991442,
+          61.54317201889242
+        ]
+      },
+      "properties": {
+        "id": "disfor-3104-2020",
+        "sample_id": 3104,
+        "year": 2020,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "1",
+        "cluster_description": "Stratum of the sampling",
+        "group": 780,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.7667749926418524,
+              0.7441092390657039,
+              0.7655504664197458
+            ],
+            "mean_probability": 0.758811566042434
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9877350926399231,
+              0.949598491191864,
+              0.9714745283126831
+            ],
+            "mean_probability": 0.9696027040481567
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.3303667902946472,
+              0.7394711375236511,
+              0.6168882846832275
+            ],
+            "mean_probability": 0.5622420708338419
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.8451470136642456,
+              0.33363038301467896,
+              0.9863104820251465
+            ],
+            "mean_probability": 0.7216959595680237
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.128004726791914,
+          61.497630706647364
+        ]
+      },
+      "properties": {
+        "id": "disfor-3199-2019",
+        "sample_id": 3199,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 847,
+        "split": "validation",
+        "outer_fold": 4,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4307037053014898,
+              0.4001539648520993,
+              0.42397140785485365
+            ],
+            "mean_probability": 0.4182763593361476
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.0932522863149643,
+              0.05376690626144409,
+              0.07617627829313278
+            ],
+            "mean_probability": 0.07439849028984706
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.11538214981555939,
+              0.22222787141799927,
+              0.08804912120103836
+            ],
+            "mean_probability": 0.14188638081153235
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.06874459981918335,
+              0.5229299068450928,
+              0.6761158108711243
+            ],
+            "mean_probability": 0.4225967725118001
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.41597861050918,
+          61.79165114598313
+        ]
+      },
+      "properties": {
+        "id": "disfor-3211-2019",
+        "sample_id": 3211,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 823,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.03629042969495143,
+              0.03627031662798176,
+              0.04074406833654056
+            ],
+            "mean_probability": 0.03776827155315792
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9862472414970398,
+              0.11201710253953934,
+              0.9060454964637756
+            ],
+            "mean_probability": 0.6681032801667849
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4885343015193939,
+              0.17914853990077972,
+              0.17038394510746002
+            ],
+            "mean_probability": 0.27935559550921124
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.24377375841140747,
+              0.2720506191253662,
+              0.09572061151266098
+            ],
+            "mean_probability": 0.2038483296831449
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.53448992615504,
+          61.38267555545907
+        ]
+      },
+      "properties": {
+        "id": "disfor-3252-2018",
+        "sample_id": 3252,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2",
+        "cluster_description": "Stratum of the sampling",
+        "group": 851,
+        "split": "train",
+        "outer_fold": 2,
+        "observed_months": 13,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.002520093941565162,
+              0.004749338381262991,
+              0.0
+            ],
+            "mean_probability": 0.0024231441076093844
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.44209548830986023,
+              0.09225482493638992,
+              0.12407669425010681
+            ],
+            "mean_probability": 0.21947566916545233
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9795046448707581,
+              0.6449217200279236,
+              0.9563673734664917
+            ],
+            "mean_probability": 0.8602645794550577
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.99366694688797,
+              0.9958541393280029,
+              0.9421864151954651
+            ],
+            "mean_probability": 0.9772358338038126
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10322602813927,
+          61.90316057037534
+        ]
+      },
+      "properties": {
+        "id": "disfor-3265-2019",
+        "sample_id": 3265,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "3",
+        "cluster_description": "Stratum of the sampling",
+        "group": 772,
+        "split": "test",
+        "outer_fold": 5,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.21957258503936458,
+              0.18251097049064596,
+              0.22609162211267256
+            ],
+            "mean_probability": 0.20939172588089436
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.984508752822876,
+              0.7204505801200867,
+              0.836833655834198
+            ],
+            "mean_probability": 0.8472643295923868
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5293847322463989,
+              0.21441805362701416,
+              0.6110442280769348
+            ],
+            "mean_probability": 0.45161567131678265
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.7385621666908264,
+              0.8843966126441956,
+              0.8030259013175964
+            ],
+            "mean_probability": 0.8086615602175394
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.220231091953515,
+          61.878528806632076
+        ]
+      },
+      "properties": {
+        "id": "disfor-3289-2019",
+        "sample_id": 3289,
+        "year": 2019,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "3",
+        "cluster_description": "Stratum of the sampling",
+        "group": 772,
+        "split": "test",
+        "outer_fold": 5,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.7530429032592949,
+              0.778532631366349,
+              0.7724572752115135
+            ],
+            "mean_probability": 0.7680109366123858
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9986598491668701,
+              0.9870872497558594,
+              0.9988880753517151
+            ],
+            "mean_probability": 0.9948783914248148
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.2126685231924057,
+              0.11859291791915894,
+              0.3520645201206207
+            ],
+            "mean_probability": 0.22777532041072845
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.4115491509437561,
+              0.19033299386501312,
+              0.1543588489294052
+            ],
+            "mean_probability": 0.25208033124605816
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.85092040633574,
+          61.789307649013715
+        ]
+      },
+      "properties": {
+        "id": "disfor-3329-2018",
+        "sample_id": 3329,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 774,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.21348858164751736,
+              0.19676491819705025,
+              0.18888737718054963
+            ],
+            "mean_probability": 0.19971362567503906
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9531811475753784,
+              0.17361833155155182,
+              0.09507542848587036
+            ],
+            "mean_probability": 0.40729163587093353
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9799546599388123,
+              0.7104593515396118,
+              0.30894458293914795
+            ],
+            "mean_probability": 0.6664528648058573
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.5285458564758301,
+              0.4923996329307556,
+              0.8802135586738586
+            ],
+            "mean_probability": 0.6337196826934814
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.916095449392756,
+          61.75524718026176
+        ]
+      },
+      "properties": {
+        "id": "disfor-3363-2021",
+        "sample_id": 3363,
+        "year": 2021,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 782,
+        "split": "test",
+        "outer_fold": 4,
+        "observed_months": 15,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.0233086409451052,
+              0.04179733447447027,
+              0.03449281090823402
+            ],
+            "mean_probability": 0.03319959544260317
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.388710081577301,
+              0.19391502439975739,
+              0.25100573897361755
+            ],
+            "mean_probability": 0.27787694831689197
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.08023019880056381,
+              0.14984391629695892,
+              0.09285244345664978
+            ],
+            "mean_probability": 0.10764218618472417
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.216715469956398,
+              0.5526795387268066,
+              0.9452048540115356
+            ],
+            "mean_probability": 0.5715332875649134
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7357965802537,
+          61.72407745840285
+        ]
+      },
+      "properties": {
+        "id": "disfor-3396-2018",
+        "sample_id": 3396,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "6",
+        "cluster_description": "Stratum of the sampling",
+        "group": 827,
+        "split": "test",
+        "outer_fold": 1,
+        "observed_months": 15,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.27886922589175744,
+              0.2726807920141666,
+              0.294439786273881
+            ],
+            "mean_probability": 0.2819966013932684
+          },
+          "cnn64": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.6610358953475952,
+              0.1785387545824051,
+              0.19948822259902954
+            ],
+            "mean_probability": 0.34635429084300995
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.8185533285140991,
+              0.1407511830329895,
+              0.2234983891248703
+            ],
+            "mean_probability": 0.39426763355731964
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.5846213698387146,
+              0.53043532371521,
+              0.18164944648742676
+            ],
+            "mean_probability": 0.43223538001378375
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.066345957231817,
+          61.810257171524
+        ]
+      },
+      "properties": {
+        "id": "disfor-3407-2018",
+        "sample_id": 3407,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2019",
+        "cluster_description": "Stratum of the sampling",
+        "group": 831,
+        "split": "train",
+        "outer_fold": 1,
+        "observed_months": 15,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.18628785469517892,
+              0.1802675131314653,
+              0.15363954407551028
+            ],
+            "mean_probability": 0.17339830396738484
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.3443332314491272,
+              0.08880509436130524,
+              0.07350597530603409
+            ],
+            "mean_probability": 0.16888143370548883
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.06560482084751129,
+              0.05556316301226616,
+              0.054630108177661896
+            ],
+            "mean_probability": 0.05859936401247978
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07978645712137222,
+              0.08019963651895523,
+              0.05213359743356705
+            ],
+            "mean_probability": 0.07070656369129817
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.23416951199961,
+          61.672464998977524
+        ]
+      },
+      "properties": {
+        "id": "disfor-3416-2018",
+        "sample_id": 3416,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "2021",
+        "cluster_description": "Stratum of the sampling",
+        "group": 773,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.23910414130390492,
+              0.2250725712924479,
+              0.19512346646244796
+            ],
+            "mean_probability": 0.2197667263529336
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.21091628074645996,
+              0.10157179832458496,
+              0.19826386868953705
+            ],
+            "mean_probability": 0.17025064925352731
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.2340569645166397,
+              0.6644958853721619,
+              0.22027237713336945
+            ],
+            "mean_probability": 0.3729417423407237
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.22046367824077606,
+              0.5714730024337769,
+              0.6110593676567078
+            ],
+            "mean_probability": 0.46766534944375354
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.045374125187656,
+          62.13506424977549
+        ]
+      },
+      "properties": {
+        "id": "disfor-3421-2018",
+        "sample_id": 3421,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4038",
+        "cluster_description": "Stratum of the sampling",
+        "group": 777,
+        "split": "train",
+        "outer_fold": 3,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.2916170650039091,
+              0.27128697057820966,
+              0.2614139398225585
+            ],
+            "mean_probability": 0.27477265846822574
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.40583866834640503,
+              0.21260984241962433,
+              0.4684517979621887
+            ],
+            "mean_probability": 0.362300102909406
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9960072636604309,
+              0.9719284176826477,
+              0.9855146408081055
+            ],
+            "mean_probability": 0.9844834407170614
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.9982346296310425,
+              0.9960519671440125,
+              0.9965755343437195
+            ],
+            "mean_probability": 0.9969540437062582
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.915687295919298,
+          61.93146872723395
+        ]
+      },
+      "properties": {
+        "id": "disfor-3433-2019",
+        "sample_id": 3433,
+        "year": 2019,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4038",
+        "cluster_description": "Stratum of the sampling",
+        "group": 844,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.72929929350215,
+              0.7508068821727262,
+              0.7261858535449175
+            ],
+            "mean_probability": 0.7354306764065979
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.995719850063324,
+              0.9950172305107117,
+              0.9632377028465271
+            ],
+            "mean_probability": 0.9846582611401876
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.09675099700689316,
+              0.48791638016700745,
+              0.4259878695011139
+            ],
+            "mean_probability": 0.33688508222500485
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.1403408944606781,
+              0.06572528928518295,
+              0.058507561683654785
+            ],
+            "mean_probability": 0.08819124847650528
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.008812244245757,
+          61.30925954911082
+        ]
+      },
+      "properties": {
+        "id": "disfor-3439-2018",
+        "sample_id": 3439,
+        "year": 2018,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4038",
+        "cluster_description": "Stratum of the sampling",
+        "group": 839,
+        "split": "train",
+        "outer_fold": 1,
+        "observed_months": 18,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.30745821894767,
+              0.3105457857752689,
+              0.3052029758618621
+            ],
+            "mean_probability": 0.3077356601949337
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.29023483395576477,
+              0.1549471914768219,
+              0.9827483296394348
+            ],
+            "mean_probability": 0.47597678502400714
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9716468453407288,
+              0.27471238374710083,
+              0.7974269986152649
+            ],
+            "mean_probability": 0.6812620759010315
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.9915555119514465,
+              0.6231054067611694,
+              0.10915522277355194
+            ],
+            "mean_probability": 0.5746053804953893
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.964766907904608,
+          62.01340413680796
+        ]
+      },
+      "properties": {
+        "id": "disfor-3478-2019",
+        "sample_id": 3478,
+        "year": 2019,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4040",
+        "cluster_description": "Stratum of the sampling",
+        "group": 844,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 16,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.12978503872711852,
+              0.11452638008021485,
+              0.10456595350644411
+            ],
+            "mean_probability": 0.11629245743792582
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.05251115560531616,
+              0.12171218544244766,
+              0.07345601171255112
+            ],
+            "mean_probability": 0.08255978425343831
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.0628504529595375,
+              0.13285626471042633,
+              0.10135580599308014
+            ],
+            "mean_probability": 0.09902084122101466
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.08160707354545593,
+              0.08360537886619568,
+              0.24622488021850586
+            ],
+            "mean_probability": 0.13714577754338583
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.864453292398217,
+          61.87388079733147
+        ]
+      },
+      "properties": {
+        "id": "disfor-3509-2021",
+        "sample_id": 3509,
+        "year": 2021,
+        "label": 1,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4042",
+        "cluster_description": "Stratum of the sampling",
+        "group": 807,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.07467980059408764,
+              0.059614405449207375,
+              0.08375857412691187
+            ],
+            "mean_probability": 0.07268426005673563
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.05665333941578865,
+              0.060413941740989685,
+              0.20662522315979004
+            ],
+            "mean_probability": 0.10789750143885612
+          },
+          "transformer48": {
+            "wrong_seeds": 1,
+            "probabilities": [
+              0.49637162685394287,
+              0.8047850728034973,
+              0.6846882700920105
+            ],
+            "mean_probability": 0.6619483232498169
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.48831355571746826,
+              0.4734625816345215,
+              0.4608381688594818
+            ],
+            "mean_probability": 0.47420476873715717
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.88680504512396,
+          61.80643509974882
+        ]
+      },
+      "properties": {
+        "id": "disfor-3520-2018",
+        "sample_id": 3520,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4042",
+        "cluster_description": "Stratum of the sampling",
+        "group": 774,
+        "split": "test",
+        "outer_fold": 3,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.019011009382773048,
+              0.012019941769075506,
+              0.02180507364943998
+            ],
+            "mean_probability": 0.017612008267096177
+          },
+          "cnn64": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.6223065257072449,
+              0.8697144389152527,
+              0.1777280569076538
+            ],
+            "mean_probability": 0.5565830071767172
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.14157265424728394,
+              0.20162734389305115,
+              0.07055515795946121
+            ],
+            "mean_probability": 0.13791838536659876
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.12717217206954956,
+              0.09238427877426147,
+              0.06504363566637039
+            ],
+            "mean_probability": 0.09486669550339381
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.872329190530415,
+          61.929741277037046
+        ]
+      },
+      "properties": {
+        "id": "disfor-3527-2018",
+        "sample_id": 3527,
+        "year": 2018,
+        "label": 0,
+        "dataset": 2,
+        "source": "Sentinel 2 Time-series",
+        "source_description": "HR-VPP2 and FUTUREFOR Project, manual interpretation based on S2 timeseries, ESRI wayback and ESA High Resolution Images",
+        "confidence": "high",
+        "source_cluster": "4042",
+        "cluster_description": "Stratum of the sampling",
+        "group": 844,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 19,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.05767698218045829,
+              0.051530028829139804,
+              0.04722275695221429
+            ],
+            "mean_probability": 0.05214325598727079
+          },
+          "cnn64": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.05677729845046997,
+              0.04650869220495224,
+              0.08605097234249115
+            ],
+            "mean_probability": 0.06311232099930446
+          },
+          "transformer48": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.10805734992027283,
+              0.49949783086776733,
+              0.27354735136032104
+            ],
+            "mean_probability": 0.29370084404945374
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.06653128564357758,
+              0.7672171592712402,
+              0.7689286470413208
+            ],
+            "mean_probability": 0.5342256973187128
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.793728054643728,
+          60.55233387795062
+        ]
+      },
+      "properties": {
+        "id": "disfor-3783-2018",
+        "sample_id": 3783,
+        "year": 2018,
+        "label": 0,
+        "dataset": 3,
+        "source": "FORWIND + Copernicus Emergency Service",
+        "source_description": "https://mapping.emergency.copernicus.eu/activations/EMSR552/",
+        "confidence": "high",
+        "source_cluster": "NO20211119",
+        "cluster_description": "Id of the Event, given as ISO2 + Date of storm",
+        "group": 872,
+        "split": "validation",
+        "outer_fold": 2,
+        "observed_months": 17,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.40251546913797165,
+              0.4084102247123357,
+              0.43121849584460153
+            ],
+            "mean_probability": 0.4140480632316363
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9945031404495239,
+              0.9965060949325562,
+              0.9713824391365051
+            ],
+            "mean_probability": 0.9874638915061951
+          },
+          "transformer48": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9960780739784241,
+              0.9913279414176941,
+              0.9068223237991333
+            ],
+            "mean_probability": 0.9647427797317505
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.9906027317047119,
+              0.94278883934021,
+              0.4664365351200104
+            ],
+            "mean_probability": 0.7999427020549774
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.458093330773872,
+          46.23478817486032
+        ]
+      },
+      "properties": {
+        "id": "disfor-3815-2019",
+        "sample_id": 3815,
+        "year": 2019,
+        "label": 0,
+        "dataset": 3,
+        "source": "FORWIND + Copernicus Emergency Service",
+        "source_description": "https://mapping.emergency.copernicus.eu/activations/EMSN070/",
+        "confidence": "high",
+        "source_cluster": "SI20200205",
+        "cluster_description": "Id of the Event, given as ISO2 + Date of storm",
+        "group": 873,
+        "split": "train",
+        "outer_fold": 4,
+        "observed_months": 20,
+        "predictions": {
+          "rf_leaf4": {
+            "wrong_seeds": 0,
+            "probabilities": [
+              0.08748423764144166,
+              0.0876993302406021,
+              0.09373613419241346
+            ],
+            "mean_probability": 0.08963990069148574
+          },
+          "cnn64": {
+            "wrong_seeds": 3,
+            "probabilities": [
+              0.9767445921897888,
+              0.8739984035491943,
+              0.9935299754142761
+            ],
+            "mean_probability": 0.9480909903844198
+          },
+          "transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.4563675820827484,
+              0.9786418676376343,
+              0.6461169719696045
+            ],
+            "mean_probability": 0.6937088072299957
+          },
+          "ssl_transformer48": {
+            "wrong_seeds": 2,
+            "probabilities": [
+              0.333605021238327,
+              0.9897245168685913,
+              0.9881041646003723
+            ],
+            "mean_probability": 0.7704779009024302
+          }
+        },
+        "review_status": "not reviewed; original label unchanged"
+      }
+    }
+  ]
+}

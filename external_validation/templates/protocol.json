@@ -1,0 +1,31 @@
+{
+  "study_id": "",
+  "coordinator": "",
+  "claim": "external_validation_candidate",
+  "research_question": "",
+  "region_and_period": "",
+  "sampling_plan": "",
+  "evidence_source": "",
+  "human_review_plan": "",
+  "prior_use_review": "",
+  "unknown_event_policy": "",
+  "exclusion_rules": "",
+  "support_rationale": "",
+  "minimum_distance_km": 5.0,
+  "minimum_class_samples": {"0": null, "1": null},
+  "minimum_class_groups": {"0": null, "1": null},
+  "reviewers": ["", ""],
+  "adjudicator": "",
+  "model_version": "advanced_v3",
+  "threshold": 0.5,
+  "primary_metric": "macro_f1",
+  "label_confidence_required": "high",
+  "label_definitions": {
+    "0": "Birinci ve ikinci takvim yılı boyunca bozulmamış orman; kaynak kanıtıyla doğrulanmış",
+    "1": "Birinci takvim yılında bozulmamış orman ve ikinci yılda açık kesim; kaynak kanıtıyla doğrulanmış",
+    "uncertain": "Mevcut kanıt sınıfı güvenle ayırmaya yetmiyor; insan uzlaşması gerekli",
+    "exclude": "Önceden yazılmış görev veya kalite dışlama kuralına göre uygun değil; gerekçe zorunlu"
+  },
+  "model_scores_not_inspected": false,
+  "review_evidence_has_no_model_scores": false
+}

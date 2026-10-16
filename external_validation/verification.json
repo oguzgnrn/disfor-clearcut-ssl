@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "tested_at": "2026-10-01T04:57:12.135940+00:00",
+  "command": ".venv/bin/python -m unittest discover -s external_validation/tests -v",
+  "test_count": 24,
+  "seconds": 0.088,
+  "exit_code": 0,
+  "fixture_scope": "Synthetic records and dummy model bytes only; not real external data or performance evaluation",
+  "external_data_collected": false,
+  "model_inference_run": false,
+  "workflow_sha256": "91592e608ef3dd7768bd995e8895586e7e0fdb6fb21b13913b3e53a01a2351f6",
+  "test_source_sha256": "e7792cdc69a99efdac124e1f241e6ba80c1230dfc3c73197c99435c49bfa347b"
+}

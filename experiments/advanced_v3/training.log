@@ -1,0 +1,52 @@
+CV rf_leaf1 0 0.8445 epoch 0
+CV rf_leaf1 1 0.7967 epoch 0
+CV rf_leaf1 2 0.921 epoch 0
+CV rf_leaf1 3 0.9 epoch 0
+CV rf_leaf4 0 0.8382 epoch 0
+CV rf_leaf4 1 0.7958 epoch 0
+CV rf_leaf4 2 0.9296 epoch 0
+CV rf_leaf4 3 0.9054 epoch 0
+CV cnn32 0 0.9236 epoch 30
+CV cnn32 1 0.9314 epoch 48
+CV cnn32 2 0.9354 epoch 6
+CV cnn32 3 0.9679 epoch 15
+CV cnn64 0 0.9399 epoch 46
+CV cnn64 1 0.906 epoch 21
+CV cnn64 2 0.9619 epoch 21
+CV cnn64 3 0.9558 epoch 11
+CV transformer48 0 0.9191 epoch 52
+CV transformer48 1 0.8715 epoch 22
+CV transformer48 2 0.9811 epoch 61
+CV transformer48 3 0.9472 epoch 28
+CV ssl_transformer48 0 0.9411 epoch 41
+CV ssl_transformer48 1 0.902 epoch 64
+CV ssl_transformer48 2 0.9686 epoch 25
+CV ssl_transformer48 3 0.9596 epoch 32
+FINAL member ssl_transformer48_7.pt
+FINAL member ssl_transformer48_17.pt
+FINAL member ssl_transformer48_27.pt
+FINAL member ssl_transformer48_37.pt
+FINAL member ssl_transformer48_47.pt
+FINAL member cnn64_7.pt
+FINAL member cnn64_17.pt
+FINAL member cnn64_27.pt
+FINAL member cnn64_37.pt
+FINAL member cnn64_47.pt
+LOW LABEL transformer48 0.05 7
+LOW LABEL ssl_transformer48 0.05 7
+LOW LABEL transformer48 0.05 17
+LOW LABEL ssl_transformer48 0.05 17
+LOW LABEL transformer48 0.05 27
+LOW LABEL ssl_transformer48 0.05 27
+LOW LABEL transformer48 0.1 7
+LOW LABEL ssl_transformer48 0.1 7
+LOW LABEL transformer48 0.1 17
+LOW LABEL ssl_transformer48 0.1 17
+LOW LABEL transformer48 0.1 27
+LOW LABEL ssl_transformer48 0.1 27
+LOW LABEL transformer48 0.2 7
+LOW LABEL ssl_transformer48 0.2 7
+LOW LABEL transformer48 0.2 17
+LOW LABEL ssl_transformer48 0.2 17
+LOW LABEL transformer48 0.2 27
+LOW LABEL ssl_transformer48 0.2 27

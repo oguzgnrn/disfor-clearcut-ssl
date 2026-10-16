@@ -1,0 +1,392 @@
+{
+  "status": "passed",
+  "checked_checkpoints": 75,
+  "prediction_values": 33195,
+  "maximum_probability_difference": 2.205371856689453e-06,
+  "exact_prediction_runs": 0,
+  "v4_and_v5_signatures": "unchanged",
+  "tolerance": 1e-05,
+  "environment": {
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130"
+  },
+  "results": [
+    {
+      "name": "r10_f0_s7_cnn64",
+      "samples": 443,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r10_f0_s7_rf_leaf4",
+      "samples": 443,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r10_f0_s7_ssl_transformer48",
+      "samples": 443,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r10_f0_s7_step_matched",
+      "samples": 443,
+      "maximum_probability_difference": 1.1324882507324219e-06
+    },
+    {
+      "name": "r10_f0_s7_transformer48",
+      "samples": 443,
+      "maximum_probability_difference": 4.470348358154297e-07
+    },
+    {
+      "name": "r10_f1_s7_cnn64",
+      "samples": 443,
+      "maximum_probability_difference": 3.2782554626464844e-07
+    },
+    {
+      "name": "r10_f1_s7_rf_leaf4",
+      "samples": 443,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r10_f1_s7_ssl_transformer48",
+      "samples": 443,
+      "maximum_probability_difference": 6.556510925292969e-07
+    },
+    {
+      "name": "r10_f1_s7_step_matched",
+      "samples": 443,
+      "maximum_probability_difference": 1.0132789611816406e-06
+    },
+    {
+      "name": "r10_f1_s7_transformer48",
+      "samples": 443,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r10_f2_s7_cnn64",
+      "samples": 442,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r10_f2_s7_rf_leaf4",
+      "samples": 442,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r10_f2_s7_ssl_transformer48",
+      "samples": 442,
+      "maximum_probability_difference": 4.470348358154297e-07
+    },
+    {
+      "name": "r10_f2_s7_step_matched",
+      "samples": 442,
+      "maximum_probability_difference": 1.2516975402832031e-06
+    },
+    {
+      "name": "r10_f2_s7_transformer48",
+      "samples": 442,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r10_f3_s7_cnn64",
+      "samples": 443,
+      "maximum_probability_difference": 6.556510925292969e-07
+    },
+    {
+      "name": "r10_f3_s7_rf_leaf4",
+      "samples": 443,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r10_f3_s7_ssl_transformer48",
+      "samples": 443,
+      "maximum_probability_difference": 1.0132789611816406e-06
+    },
+    {
+      "name": "r10_f3_s7_step_matched",
+      "samples": 443,
+      "maximum_probability_difference": 2.205371856689453e-06
+    },
+    {
+      "name": "r10_f3_s7_transformer48",
+      "samples": 443,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r10_f4_s7_cnn64",
+      "samples": 442,
+      "maximum_probability_difference": 5.066394805908203e-07
+    },
+    {
+      "name": "r10_f4_s7_rf_leaf4",
+      "samples": 442,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r10_f4_s7_ssl_transformer48",
+      "samples": 442,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r10_f4_s7_step_matched",
+      "samples": 442,
+      "maximum_probability_difference": 1.1920928955078125e-06
+    },
+    {
+      "name": "r10_f4_s7_transformer48",
+      "samples": 442,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r20_f0_s7_cnn64",
+      "samples": 472,
+      "maximum_probability_difference": 6.556510925292969e-07
+    },
+    {
+      "name": "r20_f0_s7_rf_leaf4",
+      "samples": 472,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r20_f0_s7_ssl_transformer48",
+      "samples": 472,
+      "maximum_probability_difference": 3.8743019104003906e-07
+    },
+    {
+      "name": "r20_f0_s7_step_matched",
+      "samples": 472,
+      "maximum_probability_difference": 1.0132789611816406e-06
+    },
+    {
+      "name": "r20_f0_s7_transformer48",
+      "samples": 472,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r20_f1_s7_cnn64",
+      "samples": 425,
+      "maximum_probability_difference": 4.172325134277344e-07
+    },
+    {
+      "name": "r20_f1_s7_rf_leaf4",
+      "samples": 425,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r20_f1_s7_ssl_transformer48",
+      "samples": 425,
+      "maximum_probability_difference": 4.470348358154297e-07
+    },
+    {
+      "name": "r20_f1_s7_step_matched",
+      "samples": 425,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r20_f1_s7_transformer48",
+      "samples": 425,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r20_f2_s7_cnn64",
+      "samples": 425,
+      "maximum_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "name": "r20_f2_s7_rf_leaf4",
+      "samples": 425,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r20_f2_s7_ssl_transformer48",
+      "samples": 425,
+      "maximum_probability_difference": 7.748603820800781e-07
+    },
+    {
+      "name": "r20_f2_s7_step_matched",
+      "samples": 425,
+      "maximum_probability_difference": 1.043081283569336e-06
+    },
+    {
+      "name": "r20_f2_s7_transformer48",
+      "samples": 425,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r20_f3_s7_cnn64",
+      "samples": 425,
+      "maximum_probability_difference": 1.341104507446289e-07
+    },
+    {
+      "name": "r20_f3_s7_rf_leaf4",
+      "samples": 425,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r20_f3_s7_ssl_transformer48",
+      "samples": 425,
+      "maximum_probability_difference": 5.066394805908203e-07
+    },
+    {
+      "name": "r20_f3_s7_step_matched",
+      "samples": 425,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r20_f3_s7_transformer48",
+      "samples": 425,
+      "maximum_probability_difference": 3.427267074584961e-07
+    },
+    {
+      "name": "r20_f4_s7_cnn64",
+      "samples": 466,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r20_f4_s7_rf_leaf4",
+      "samples": 466,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r20_f4_s7_ssl_transformer48",
+      "samples": 466,
+      "maximum_probability_difference": 5.066394805908203e-07
+    },
+    {
+      "name": "r20_f4_s7_step_matched",
+      "samples": 466,
+      "maximum_probability_difference": 1.043081283569336e-06
+    },
+    {
+      "name": "r20_f4_s7_transformer48",
+      "samples": 466,
+      "maximum_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "name": "r5_f0_s7_cnn64",
+      "samples": 439,
+      "maximum_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "name": "r5_f0_s7_rf_leaf4",
+      "samples": 439,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r5_f0_s7_ssl_transformer48",
+      "samples": 439,
+      "maximum_probability_difference": 3.2782554626464844e-07
+    },
+    {
+      "name": "r5_f0_s7_step_matched",
+      "samples": 439,
+      "maximum_probability_difference": 7.152557373046875e-07
+    },
+    {
+      "name": "r5_f0_s7_transformer48",
+      "samples": 439,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r5_f1_s7_cnn64",
+      "samples": 440,
+      "maximum_probability_difference": 7.748603820800781e-07
+    },
+    {
+      "name": "r5_f1_s7_rf_leaf4",
+      "samples": 440,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r5_f1_s7_ssl_transformer48",
+      "samples": 440,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r5_f1_s7_step_matched",
+      "samples": 440,
+      "maximum_probability_difference": 1.5795230865478516e-06
+    },
+    {
+      "name": "r5_f1_s7_transformer48",
+      "samples": 440,
+      "maximum_probability_difference": 5.662441253662109e-07
+    },
+    {
+      "name": "r5_f2_s7_cnn64",
+      "samples": 449,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r5_f2_s7_rf_leaf4",
+      "samples": 449,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r5_f2_s7_ssl_transformer48",
+      "samples": 449,
+      "maximum_probability_difference": 6.258487701416016e-07
+    },
+    {
+      "name": "r5_f2_s7_step_matched",
+      "samples": 449,
+      "maximum_probability_difference": 2.2351741790771484e-07
+    },
+    {
+      "name": "r5_f2_s7_transformer48",
+      "samples": 449,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r5_f3_s7_cnn64",
+      "samples": 439,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r5_f3_s7_rf_leaf4",
+      "samples": 439,
+      "maximum_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "name": "r5_f3_s7_ssl_transformer48",
+      "samples": 439,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r5_f3_s7_step_matched",
+      "samples": 439,
+      "maximum_probability_difference": 7.748603820800781e-07
+    },
+    {
+      "name": "r5_f3_s7_transformer48",
+      "samples": 439,
+      "maximum_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "name": "r5_f4_s7_cnn64",
+      "samples": 446,
+      "maximum_probability_difference": 3.8743019104003906e-07
+    },
+    {
+      "name": "r5_f4_s7_rf_leaf4",
+      "samples": 446,
+      "maximum_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "name": "r5_f4_s7_ssl_transformer48",
+      "samples": 446,
+      "maximum_probability_difference": 5.364418029785156e-07
+    },
+    {
+      "name": "r5_f4_s7_step_matched",
+      "samples": 446,
+      "maximum_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "name": "r5_f4_s7_transformer48",
+      "samples": 446,
+      "maximum_probability_difference": 2.980232238769531e-07
+    }
+  ],
+  "scope": "Serialization/inference reload check in the recorded environment; cross-platform reloads differ at float32 noise level. Not new external validation or an additional training repetition."
+}

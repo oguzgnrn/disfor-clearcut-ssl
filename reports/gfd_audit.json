@@ -1,0 +1,81 @@
+[
+  {
+    "file": "GFC22.tif",
+    "crs": "EPSG:4326",
+    "bounds": [
+      11.675583410758247,
+      -25.380191553757253,
+      18.000082337073326,
+      -18.20004731931833
+    ],
+    "shape": [
+      26643,
+      23468
+    ],
+    "resolution": [
+      0.00026949458523585647,
+      0.00026949458523585647
+    ],
+    "nodata": null,
+    "counts": {
+      "0": 625099278,
+      "11": 29733,
+      "12": 277,
+      "15": 1743,
+      "18": 511,
+      "19": 1521,
+      "20": 980,
+      "22": 123881
+    },
+    "mask_flags": "([<MaskFlags.all_valid: 1>],)",
+    "warning": "0 semantics conflict between Figshare and paper. NoData is not declared. Pixel counts are not areas.",
+    "crop": "data/processed/GFC22_inspection.tif",
+    "crop_bounds": [
+      17.608776199310864,
+      -19.579859595725914,
+      17.74675742695162,
+      -19.441878368085156
+    ],
+    "crop_selection": "Densest window, exploratory only"
+  },
+  {
+    "file": "GFC30.tif",
+    "crs": "EPSG:4326",
+    "bounds": [
+      163.285152226894,
+      -23.052027831904688,
+      170.444814872855,
+      -18.477626742111262
+    ],
+    "shape": [
+      16974,
+      26567
+    ],
+    "resolution": [
+      0.00026949458523585647,
+      0.00026949458523585647
+    ],
+    "nodata": null,
+    "counts": {
+      "0": 449949962,
+      "11": 52708,
+      "12": 190885,
+      "13": 5,
+      "15": 163319,
+      "18": 3953,
+      "19": 797,
+      "20": 1140,
+      "22": 585489
+    },
+    "mask_flags": "([<MaskFlags.all_valid: 1>],)",
+    "warning": "0 semantics conflict between Figshare and paper. NoData is not declared. Pixel counts are not areas.",
+    "crop": "data/processed/GFC30_inspection.tif",
+    "crop_bounds": [
+      169.35632624308738,
+      -19.71945779087809,
+      169.49430747072813,
+      -19.58147656323733
+    ],
+    "crop_selection": "Densest window, exploratory only"
+  }
+]

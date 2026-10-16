@@ -1,0 +1,241 @@
+{
+  "review_date": "2026-09-27",
+  "status": "passed_with_explicit_scope_limits",
+  "audit_scope": "Independent read-only code and frozen-artifact review; no retraining; no external field validation",
+  "checks": [
+    "all_frozen_signatures_match",
+    "180_unique_runs_equal_declared_jobs",
+    "cohort_counts",
+    "complete_once_only_spatial_oof_assignment_over_5km",
+    "all_shared_event_keys_within_fold",
+    "per_run_metrics_match_with_float32_brier_tolerance",
+    "paired_labels_disjoint_from_test_and_fixed_training_histories",
+    "all_36_oof_vectors_and_pooled_metrics_match",
+    "cluster_bootstrap_independently_recomputed_from_confusion_counts"
+  ],
+  "runs": 180,
+  "predictions": 79668,
+  "locations": 2213,
+  "groups": 874,
+  "source_event_keys_checked": 215,
+  "minimum_train_test_distance_km": 5.001115474843861,
+  "maximum_per_run_metric_errors": {
+    "macro_f1": 0.0,
+    "pr_auc": 0.0,
+    "roc_auc": 0.0,
+    "brier": 6.244640443631155e-09
+  },
+  "numeric_precision_note": "Brier difference of 6.25e-9 or less is due to float32 training-time arrays versus float64 JSON reloads; thresholded and ranking metrics match exactly.",
+  "pooled_results": [
+    {
+      "budget": 0.2,
+      "method": "cnn64",
+      "macro_f1_mean": 0.8720523141918601,
+      "macro_f1_std": 0.008064586359250782
+    },
+    {
+      "budget": 0.2,
+      "method": "iid_ssl",
+      "macro_f1_mean": 0.8609159174467682,
+      "macro_f1_std": 0.009782072195956264
+    },
+    {
+      "budget": 0.2,
+      "method": "mask_only",
+      "macro_f1_mean": 0.5514553870364937,
+      "macro_f1_std": 0.012861745157918169
+    },
+    {
+      "budget": 0.2,
+      "method": "metadata_only",
+      "macro_f1_mean": 0.6455229731432027,
+      "macro_f1_std": 0.03004926274759
+    },
+    {
+      "budget": 0.2,
+      "method": "rf_leaf4",
+      "macro_f1_mean": 0.8452032210341954,
+      "macro_f1_std": 0.005753644983841227
+    },
+    {
+      "budget": 0.2,
+      "method": "ssl_transformer48",
+      "macro_f1_mean": 0.8689588482504765,
+      "macro_f1_std": 0.004267387228194351
+    },
+    {
+      "budget": 0.2,
+      "method": "step_matched",
+      "macro_f1_mean": 0.8986916502885723,
+      "macro_f1_std": 0.011237252283037118
+    },
+    {
+      "budget": 0.2,
+      "method": "transformer48",
+      "macro_f1_mean": 0.8321965602556869,
+      "macro_f1_std": 0.023563380216432527
+    },
+    {
+      "budget": 1.0,
+      "method": "cnn64",
+      "macro_f1_mean": 0.9299260403834557,
+      "macro_f1_std": 0.007119291270025383
+    },
+    {
+      "budget": 1.0,
+      "method": "rf_leaf4",
+      "macro_f1_mean": 0.8668935999284587,
+      "macro_f1_std": 0.002804717028352839
+    },
+    {
+      "budget": 1.0,
+      "method": "ssl_transformer48",
+      "macro_f1_mean": 0.9286641057349616,
+      "macro_f1_std": 0.004902233716224876
+    },
+    {
+      "budget": 1.0,
+      "method": "transformer48",
+      "macro_f1_mean": 0.9284616139024672,
+      "macro_f1_std": 0.005735584333495174
+    }
+  ],
+  "bootstrap": [
+    {
+      "comparator": "transformer48",
+      "mean_difference": 0.03676228799478968,
+      "conditional_95_interval": [
+        0.02446258159615691,
+        0.050571506831696096
+      ]
+    },
+    {
+      "comparator": "step_matched",
+      "mean_difference": -0.02973280203809588,
+      "conditional_95_interval": [
+        -0.04303972495281699,
+        -0.01793258940328925
+      ]
+    },
+    {
+      "comparator": "iid_ssl",
+      "mean_difference": 0.008042930803708215,
+      "conditional_95_interval": [
+        -0.001324553985598195,
+        0.017789216882333602
+      ]
+    },
+    {
+      "comparator": "rf_leaf4",
+      "mean_difference": 0.023755627216280994,
+      "conditional_95_interval": [
+        0.001609985739241088,
+        0.04503707335268573
+      ]
+    },
+    {
+      "comparator": "cnn64",
+      "mean_difference": -0.0030934659413837107,
+      "conditional_95_interval": [
+        -0.019420362121912792,
+        0.012538001029899614
+      ]
+    }
+  ],
+  "reviewed_file_hashes": {
+    "paper/manuscript.md": "3b4a9d22664afd3769406b7bf173f3426a3e782249f4abd0a9a498c5dad4af55",
+    "paper/references.json": "6d4a1d206529aa3932011072681718ce541262ced7e7350a90c10eac98d0a4b6",
+    "scripts/train_paper.py": "662a3a1b4df972ddc9d22518a2b0e0f281cda4c95c515aa8499053e40c5523c6",
+    "scripts/prepare_disfor.py": "08835639099bb7df63a10a0d6a49e6a5bd8030fa00e340ade36145baad0f5e51",
+    "scripts/analyze_paper.py": "5ccbe1b9a366e56afbec564af53b00f4219d5e0f647b802d5892930d3453272c",
+    "src/orman_ssl/advanced.py": "1bc3fa293416eb204f2f1061018e4c357090996b497532994dacd8fbe31e04ee",
+    "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18"
+  },
+  "source_verification": [
+    {
+      "key": "viehweger2026",
+      "url": "https://essd.copernicus.org/preprints/essd-2026-185/",
+      "checked": "Publisher metadata, DOI, six authors, 3822 points and under-review status",
+      "result": "consistent",
+      "access": "official publisher page"
+    },
+    {
+      "key": "disfor_dataset",
+      "url": "https://huggingface.co/datasets/JR-DIGITAL/DISFOR",
+      "checked": "Dataset license label, classes, confidence, DN bands and table/card count discrepancy",
+      "result": "consistent; card narrative 3823 versus actual table 3822 already disclosed",
+      "dataset_doi": "10.57967/hf/7983",
+      "access": "official producer-hosted dataset card"
+    },
+    {
+      "key": "zhang2025",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/17538947.2025.2537325",
+      "checked": "Title, journal, DOI, Sentinel-1/2 fusion, irregular positional encoding and contrastive learning",
+      "result": "consistent; not directly comparable to this study",
+      "access": "direct open failed; indexed publisher abstract and full-text excerpts accessible via search",
+      "not_claimed": "complete full-text review"
+    },
+    {
+      "key": "zerveas2021",
+      "url": "https://github.com/gzerveas/mvts_transformer",
+      "supporting_url": "https://arxiv.org/abs/2010.02803",
+      "checked": "Author repository, title, authors and established time-series pretraining prior work",
+      "result": "consistent",
+      "access": "author repository and arXiv record"
+    },
+    {
+      "key": "roberts2017",
+      "url": "https://epub.uni-regensburg.de/39299/",
+      "checked": "DOI, authors, Ecography 40, pages 913-929",
+      "result": "consistent",
+      "access": "author institution repository"
+    },
+    {
+      "key": "breiman2001",
+      "url": "https://link.springer.com/article/10.1023/A:1010933404324",
+      "checked": "Title, author, year, journal volume and pages",
+      "result": "consistent",
+      "access": "official publisher"
+    },
+    {
+      "key": "guo2017",
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "checked": "Title, four authors, PMLR 70 pages 1321-1330 and calibration scope",
+      "result": "consistent",
+      "access": "official proceedings"
+    },
+    {
+      "key": "tseng2024",
+      "url": "https://arxiv.org/abs/2304.14065",
+      "checked": "Title, six authors, v1 2023-04-27 and v4 2024-02-05",
+      "result": "2024 v4 citation is consistent; first submission was 2023",
+      "access": "author arXiv record"
+    },
+    {
+      "key": "saget2025",
+      "url": "https://proceedings.mlr.press/v292/saget25a.html",
+      "checked": "Title, authors, workshop status, PMLR 292 pages 32-45 and agricultural task scope",
+      "result": "consistent",
+      "access": "official proceedings"
+    }
+  ],
+  "scope_decisions": {
+    "supervisor_review": "ready_with_stated_limitations",
+    "critical_integrity_blockers_found": [],
+    "architecture_or_sota_claim": "unsupported_and_not_made",
+    "general_ssl_superiority": "contradicted_by_step_matched_macro_f1_control",
+    "turkiye_or_external_field_generalization": "not_evaluated",
+    "map_wide_accuracy_or_operational_false_alarm_rate": "not_evaluated",
+    "journal_submission": "human authorship, declarations, journal scope/format and archive decisions pending",
+    "systematic_literature_review": "not_claimed",
+    "full_retraining_in_this_review": false,
+    "raw_data_rebuild_in_this_review": false,
+    "raw_rebuild_prior_record": "experiments/paper_v4/data_reproduction_audit.json",
+    "crossfit_weight_checkpoints_retained": false
+  },
+  "minor_editorial_notes": [
+    "Preserve official author diacritics in final journal formatting if required.",
+    "Dataset DOI 10.57967/hf/7983 can supplement the existing pinned revision link."
+  ],
+  "review_document_sha256": "3c5b02a9dd0e4e7ebadd8fd80a1074ebb6cb0838de3f2a3f4fc27a01dd42acfb"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "fits": 75,
+  "checkpoints": 75,
+  "pooled_vectors": 15,
+  "prediction_values": 33195,
+  "checks": [
+    "v4 and v5 signatures",
+    "exact declared run IDs",
+    "paired fixed label subsets",
+    "OOF once per location",
+    "label/group alignment",
+    "metrics recomputed",
+    "saved checkpoint hashes",
+    "fixed epoch histories and no validation selection"
+  ]
+}

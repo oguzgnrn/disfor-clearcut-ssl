@@ -1,0 +1,9 @@
+presto_pretrained_geo encoded {'seconds': 1.0574310420051916, 'visible_token_min': 72, 'visible_token_max': 144, 'encoder_parameters': 404160, 'frozen': True}
+presto_pretrained_constant encoded {'seconds': 1.0206732499937061, 'visible_token_min': 72, 'visible_token_max': 144, 'encoder_parameters': 404160, 'frozen': True}
+presto_random_constant encoded {'seconds': 1.013890458008973, 'visible_token_min': 72, 'visible_token_max': 144, 'encoder_parameters': 404160, 'frozen': True}
+presto_pretrained_geo 0.2 0.6860153795709832
+presto_pretrained_constant 0.2 0.7082162934866246
+presto_random_constant 0.2 0.5716522546220891
+presto_pretrained_geo 1.0 0.7495708633875925
+presto_pretrained_constant 1.0 0.7799061144925807
+presto_random_constant 1.0 0.6436329889575737

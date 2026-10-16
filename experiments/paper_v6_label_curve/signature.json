@@ -1,0 +1,12 @@
+{
+  "scripts/label_curve_v6.py": "e405cead435e44ccd663640abf6770b320c929fa487c77e0aa9ed0ec53dc7e5e",
+  "src/orman_ssl/advanced.py": "1bc3fa293416eb204f2f1061018e4c357090996b497532994dacd8fbe31e04ee",
+  "src/orman_ssl/experiment.py": "f28656fe2e55f7d5cdcecf511ed3ba285d90fe153ee64e25430bc2f11dc78f18",
+  "src/orman_ssl/inputs.py": "a23b6baa03a3d4a2758d446d67225f74dca7d8d625467874099f6f7a93aa63b5",
+  "data/processed/real_series.npz": "fe3fe7f904337a13147179717e2e0d663d9f881a405d3e728da6055caacee3af",
+  "experiments/paper_v4/folds.json": "d714a3da72951aba14167b3a334f9fd6d373a15cd10173bd1de96c218663e5e7",
+  "experiments/paper_v4/signature.json": "82b7e691258135d4f6f2ce78eaeaa2fa08e3943c64b08662d2465da388c95d88",
+  "experiments/paper_v6_label_curve/protocol.json": "beb8ab8baf2a6e63bcee5e3075dcb98e44f085b1036bef183f89dcaccfc3e928",
+  "experiments/paper_v6_label_curve/jobs.json": "eb6d0cd4c6af7da664c4ca954c627aad46754f515db8411c8ca454c2e689cdb8",
+  "experiments/paper_v6_label_curve/label_allocation.json": "19ea4461eeac274d67a624efa1e2ee1b4e2e5be0972e0a4ee2d0e617d5b70293"
+}

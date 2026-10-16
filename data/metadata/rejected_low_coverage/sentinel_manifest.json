@@ -1,0 +1,82 @@
+{
+  "bbox": [
+    28.16,
+    37.0,
+    28.2,
+    37.04
+  ],
+  "crs": "EPSG:32635",
+  "resolution_m": 20,
+  "scenes": [
+    {
+      "period": "before",
+      "id": "S2B_35SNB_20210716_0_L2A",
+      "datetime": "2021-07-16T09:09:59.017000Z",
+      "scene_cloud_percent": 0.42404,
+      "assets": [
+        {
+          "band": "red",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/7/S2B_35SNB_20210716_0_L2A/B04.tif",
+          "scale": 0.0001,
+          "offset": 0
+        },
+        {
+          "band": "nir",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/7/S2B_35SNB_20210716_0_L2A/B08.tif",
+          "scale": 0.0001,
+          "offset": 0
+        },
+        {
+          "band": "swir22",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/7/S2B_35SNB_20210716_0_L2A/B12.tif",
+          "scale": 0.0001,
+          "offset": 0
+        },
+        {
+          "band": "scl",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/7/S2B_35SNB_20210716_0_L2A/SCL.tif",
+          "scale": 1,
+          "offset": 0
+        }
+      ],
+      "path": "data/processed/sentinel_before.tif",
+      "sha256": "bdcb6d0ab199f613c41eb20e0af32d750d11085ff9d93284a20bc6213e569b51"
+    },
+    {
+      "period": "after",
+      "id": "S2B_35SNB_20210825_0_L2A",
+      "datetime": "2021-08-25T09:09:55.316000Z",
+      "scene_cloud_percent": 0.210775,
+      "assets": [
+        {
+          "band": "red",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/8/S2B_35SNB_20210825_0_L2A/B04.tif",
+          "scale": 0.0001,
+          "offset": 0
+        },
+        {
+          "band": "nir",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/8/S2B_35SNB_20210825_0_L2A/B08.tif",
+          "scale": 0.0001,
+          "offset": 0
+        },
+        {
+          "band": "swir22",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/8/S2B_35SNB_20210825_0_L2A/B12.tif",
+          "scale": 0.0001,
+          "offset": 0
+        },
+        {
+          "band": "scl",
+          "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/35/S/NB/2021/8/S2B_35SNB_20210825_0_L2A/SCL.tif",
+          "scale": 1,
+          "offset": 0
+        }
+      ],
+      "path": "data/processed/sentinel_after.tif",
+      "sha256": "d342ce64833d093d0a11412af06f29a4390395f0eeb8ec2f84700c56aec1a4f6"
+    }
+  ],
+  "attribution": "Contains modified Copernicus Sentinel data (2021); accessed through Element 84 Earth Search",
+  "selection": "Same tile 35SNB, original baseline<4; minimum scene cloud among first 100 results in each fixed interval"
+}

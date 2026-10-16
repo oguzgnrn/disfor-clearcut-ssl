@@ -1,0 +1,54 @@
+{
+  "selection": {
+    "method": "Transformer",
+    "seed": 7,
+    "label_fraction": 1.0,
+    "validation_scores": {
+      "RandomForest": 0.8576935274082998,
+      "Transformer": 0.9324204637963152,
+      "SSL_Transformer": 0.8905720743718414
+    },
+    "selection": "highest mean validation macro-F1 across seeds; seed=7 fixed, no test-based selection",
+    "checkpoint": "models/model.pt",
+    "classes": [
+      "undisturbed_forest",
+      "clear_cut"
+    ],
+    "channels": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "task": "Retrospective classification of selected 24-month windows, not early warning or continuous map validation"
+  },
+  "selected_test_macro_f1": 0.8614507443775736,
+  "selected_confusion_matrix": [
+    [
+      442,
+      6
+    ],
+    [
+      12,
+      26
+    ]
+  ],
+  "spatial_groups_test": 175,
+  "positive_groups_test": 20,
+  "ssl_minus_supervised_at_20_percent": {
+    "mean": -0.005694595072904744,
+    "bootstrap_95_interval": [
+      -0.024456104034106307,
+      0.003021944979560124
+    ],
+    "resamples": 1000,
+    "unit": "spatial connected-component",
+    "conditional_on": "fixed data preparation and geographic split"
+  }
+}

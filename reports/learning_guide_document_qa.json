@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "date": "2026-09-30",
+  "pages": 40,
+  "visual_review": "All 40 full resolution page images reviewed; final changes on pages 17, 27, 33 reviewed again; other 37 images byte-identical to reviewed version.",
+  "navigation_page_numbers_verified": true,
+  "pdf_links": 14,
+  "word_count_approx": 11683,
+  "all_sourcefile_paths_exist": true,
+  "outputs": [
+    {
+      "path": "output/egitim/Orman_SSL_Sifirdan_Proje_Hakimiyet_Rehberi.pdf",
+      "bytes": 628499,
+      "sha256": "2ba09952e38be60410d2f2af064f23a8a5c86ada06befd7c60ddc520d7cc256f"
+    },
+    {
+      "path": "output/egitim/Orman_SSL_Sifirdan_Proje_Hakimiyet_Rehberi.docx",
+      "bytes": 191339,
+      "sha256": "93af55a7285c3d25d7521683fce3f031e68c7d16d4a69feb15cfc973405b78e3"
+    }
+  ]
+}

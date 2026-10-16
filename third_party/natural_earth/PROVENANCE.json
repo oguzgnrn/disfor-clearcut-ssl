@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/nvkelso/natural-earth-vector",
+  "commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+  "files": [
+    {
+      "upstream_path": "geojson/ne_10m_admin_0_countries.geojson",
+      "local_path": "third_party/natural_earth/ne_10m_admin_0_countries.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_admin_0_countries.geojson",
+      "bytes": 13287234,
+      "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+    },
+    {
+      "upstream_path": "LICENSE.md",
+      "local_path": "third_party/natural_earth/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/LICENSE.md",
+      "bytes": 4636,
+      "sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b"
+    },
+    {
+      "upstream_path": "VERSION",
+      "local_path": "third_party/natural_earth/VERSION",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/VERSION",
+      "bytes": 10,
+      "sha256": "fa43123c5e3a802287a821ea65b4daeeb20ed63cfdc82a67c3dfa4aad0173280"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "fits": 180,
+  "oof_predictions": 79668,
+  "checks": [
+    "frozen code/data/protocol SHA-256",
+    "exact declared jobs",
+    "fold identities",
+    "paired labeled subsets",
+    "training/test disjointness",
+    "prediction ranges and label alignment",
+    "fixed epochs and no validation selection",
+    "pretraining histories",
+    "complete OOF reconstruction",
+    "recomputed macro-F1 and average precision"
+  ]
+}
