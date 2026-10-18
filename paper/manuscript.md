@@ -1,4 +1,4 @@
-# Spatial and optimization controls for masked temporal pretraining in forest clear cut classification
+# Self-Supervised Learning for Forest Clear-Cut Detection: Training Budgets, Label Budgets and Spatial Validation on Sentinel-2 Time Series
 
 Anonymous research manuscript • 16 October 2026 • Version paper_v4 with declared extensions paper_v5 (grouping radius) and paper_v6 (label-budget curve)
 
@@ -110,7 +110,7 @@ An additional support audit searches high-confidence unused locations for eligib
 
 ## 5.1 Label-budget curve (declared extension paper_v6)
 
-The original research plan listed label budgets below 20%, which paper_v4 did not run. A separate declared protocol (experiments/paper_v6_label_curve) therefore adds 5%, 10% and 50% budgets on the identical five folds, three seeds, nested label-allocation rule, recipes and 0.5 threshold, giving 225 additional fits. At 5% labels the labeled training set contains 89–90 locations, of which about one in eight is a clear cut, so single-seed values are intrinsically noisy. Table 5 and Figure 4 place the new budgets on one curve with the frozen 20% and 100% results. The SSL-minus-short-Transformer difference is 0.0618 at 5% (interval [0.0387, 0.0843]), 0.0309 at 10% ([0.0161, 0.0459]) and 0.0042 at 50% ([-0.0087, 0.0179]). Against the step-matched control the differences are -0.1124 ([-0.1334, -0.0919]), -0.0606 ([-0.0796, -0.0424]) and -0.0150 ([-0.0288, -0.0020]). The random forest reaches 0.8192 at 5% labels and 0.8362 at 10%; the CNN reaches 0.7946 and 0.8480. At the two lowest budgets, therefore, every stronger comparator, including the temporal-summary random forest, exceeds the pretrained Transformer (0.6955 and 0.7979), and the SSL advantage exists only relative to the 40-epoch Transformer. At 50% labels the four neural recipes lie within 0.02 of each other and the SSL-minus-short-Transformer interval covers zero.
+The original research plan listed label budgets below 20%, which paper_v4 did not run. A separate declared protocol (experiments/paper_v6_label_curve) therefore adds 5%, 10% and 50% budgets on the identical five folds, three seeds, nested label-allocation rule, recipes and 0.5 threshold, giving 225 additional fits. At 5% labels the labeled training set contains 89 to 90 locations, of which about one in eight is a clear cut, so single-seed values are intrinsically noisy. Table 5 and Figure 4 place the new budgets on one curve with the frozen 20% and 100% results. The SSL-minus-short-Transformer difference is 0.0618 at 5% (interval [0.0387, 0.0843]), 0.0309 at 10% ([0.0161, 0.0459]) and 0.0042 at 50% ([-0.0087, 0.0179]). Against the step-matched control the differences are -0.1124 ([-0.1334, -0.0919]), -0.0606 ([-0.0796, -0.0424]) and -0.0150 ([-0.0288, -0.0020]). The random forest reaches 0.8192 at 5% labels and 0.8362 at 10%; the CNN reaches 0.7946 and 0.8480. At the two lowest budgets, therefore, every stronger comparator, including the temporal-summary random forest, exceeds the pretrained Transformer (0.6955 and 0.7979), and the SSL advantage exists only relative to the 40-epoch Transformer. At 50% labels the four neural recipes lie within 0.02 of each other and the SSL-minus-short-Transformer interval covers zero.
 
 Table 5. Label-budget curve: pooled out-of-fold macro-F1 (mean ± SD over three seeds). Budgets 20% and 100% are the frozen paper_v4 fits; 5%, 10% and 50% are the declared paper_v6 fits on the same folds and seeds.
 
@@ -120,7 +120,7 @@ Table 5. Label-budget curve: pooled out-of-fold macro-F1 (mean ± SD over three 
 | 10% | 0.8362 ± 0.0117 | 0.8480 ± 0.0147 | 0.7670 ± 0.0805 | 0.7979 ± 0.0403 | 0.8586 ± 0.0030 |
 | 20% | 0.8452 ± 0.0058 | 0.8721 ± 0.0081 | 0.8322 ± 0.0236 | 0.8690 ± 0.0043 | 0.8987 ± 0.0112 |
 | 50% | 0.8510 ± 0.0035 | 0.9100 ± 0.0099 | 0.9007 ± 0.0071 | 0.9049 ± 0.0187 | 0.9200 ± 0.0081 |
-| 100% | 0.8669 ± 0.0028 | 0.9299 ± 0.0071 | 0.9285 ± 0.0057 | 0.9287 ± 0.0049 | — |
+| 100% | 0.8669 ± 0.0028 | 0.9299 ± 0.0071 | 0.9285 ± 0.0057 | 0.9287 ± 0.0049 | not run |
 
 The extension was trained on different hardware from paper_v4 (recorded in experiments/paper_v6_label_curve/execution.json); recipes, seeds and label identifiers are identical, so results are comparable up to platform-level floating-point differences. Intervals at 5% and 10% are wide because few clear-cut components are labeled; they are conditional on the fixed cohort and are not multiplicity-adjusted.
 

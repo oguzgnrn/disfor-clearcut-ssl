@@ -14,7 +14,7 @@
 \urlstyle{same}
 \setlength{\parskip}{4pt}
 
-\title{\LARGE Spatial and optimization controls for masked temporal pretraining in forest clear cut classification}
+\title{\LARGE Self-Supervised Learning for Forest Clear-Cut Detection: Training Budgets, Label Budgets and Spatial Validation on Sentinel-2 Time Series}
 \author{Nida Kumbasar$^{1}$ \and Mehmet Oğuz Güneren$^{2}$\\[6pt]
 \small $^{1}$TÜBİTAK BİLGEM, Information Technologies Institute (BTE), Data Valorization Department, Gebze, Kocaeli, Türkiye \\
 \small \texttt{nida.kumbasar@tubitak.gov.tr}\\[3pt]
@@ -151,7 +151,7 @@ Location / year / campaign & 0.6455 $\pm$ 0.0300 & 0.3979 & 0.1115 \\
 An additional support audit searches high-confidence unused locations for eligible 2017 or 2024 windows. It excludes every previously used location, candidates within 5 km of used locations and shared source-event identifiers. Only 111 windows remain: 110 stable forest and one clear-cut. The nearest retained candidate is 5.0757 km from a previously used location. No classifier scores are computed on this probe because its positive support is inadequate for a credible clear-cut assessment. Moreover, unused points from DISFOR would remain same-source evaluation, not independent field validation.
 
 \subsection{Label-budget curve (declared extension paper\_v6)}
-The original research plan listed label budgets below 20\%, which paper\_v4 did not run. A separate declared protocol (experiments/paper\_v6\_label\_curve) therefore adds 5\%, 10\% and 50\% budgets on the identical five folds, three seeds, nested label-allocation rule, recipes and 0.5 threshold, giving 225 additional fits. At 5\% labels the labeled training set contains 89--90 locations, of which about one in eight is a clear cut, so single-seed values are intrinsically noisy. Table 5 and Figure 4 place the new budgets on one curve with the frozen 20\% and 100\% results. The SSL-minus-short-Transformer difference is 0.0618 at 5\% (interval [0.0387, 0.0843]), 0.0309 at 10\% ([0.0161, 0.0459]) and 0.0042 at 50\% ([-0.0087, 0.0179]). Against the step-matched control the differences are -0.1124 ([-0.1334, -0.0919]), -0.0606 ([-0.0796, -0.0424]) and -0.0150 ([-0.0288, -0.0020]). The random forest reaches 0.8192 at 5\% labels and 0.8362 at 10\%; the CNN reaches 0.7946 and 0.8480. At the two lowest budgets, therefore, every stronger comparator, including the temporal-summary random forest, exceeds the pretrained Transformer (0.6955 and 0.7979), and the SSL advantage exists only relative to the 40-epoch Transformer. At 50\% labels the four neural recipes lie within 0.02 of each other and the SSL-minus-short-Transformer interval covers zero.
+The original research plan listed label budgets below 20\%, which paper\_v4 did not run. A separate declared protocol (experiments/paper\_v6\_label\_curve) therefore adds 5\%, 10\% and 50\% budgets on the identical five folds, three seeds, nested label-allocation rule, recipes and 0.5 threshold, giving 225 additional fits. At 5\% labels the labeled training set contains 89 to 90 locations, of which about one in eight is a clear cut, so single-seed values are intrinsically noisy. Table 5 and Figure 4 place the new budgets on one curve with the frozen 20\% and 100\% results. The SSL-minus-short-Transformer difference is 0.0618 at 5\% (interval [0.0387, 0.0843]), 0.0309 at 10\% ([0.0161, 0.0459]) and 0.0042 at 50\% ([-0.0087, 0.0179]). Against the step-matched control the differences are -0.1124 ([-0.1334, -0.0919]), -0.0606 ([-0.0796, -0.0424]) and -0.0150 ([-0.0288, -0.0020]). The random forest reaches 0.8192 at 5\% labels and 0.8362 at 10\%; the CNN reaches 0.7946 and 0.8480. At the two lowest budgets, therefore, every stronger comparator, including the temporal-summary random forest, exceeds the pretrained Transformer (0.6955 and 0.7979), and the SSL advantage exists only relative to the 40-epoch Transformer. At 50\% labels the four neural recipes lie within 0.02 of each other and the SSL-minus-short-Transformer interval covers zero.
 
 \begin{table}[htbp]
 \centering
@@ -164,7 +164,7 @@ Labels & Random forest & Temporal CNN & Transformer & Block + band SSL & Step-ma
 10\% & 0.8362 $\pm$ 0.0117 & 0.8480 $\pm$ 0.0147 & 0.7670 $\pm$ 0.0805 & 0.7979 $\pm$ 0.0403 & 0.8586 $\pm$ 0.0030 \\
 20\% & 0.8452 $\pm$ 0.0058 & 0.8721 $\pm$ 0.0081 & 0.8322 $\pm$ 0.0236 & 0.8690 $\pm$ 0.0043 & 0.8987 $\pm$ 0.0112 \\
 50\% & 0.8510 $\pm$ 0.0035 & 0.9100 $\pm$ 0.0099 & 0.9007 $\pm$ 0.0071 & 0.9049 $\pm$ 0.0187 & 0.9200 $\pm$ 0.0081 \\
-100\% & 0.8669 $\pm$ 0.0028 & 0.9299 $\pm$ 0.0071 & 0.9285 $\pm$ 0.0057 & 0.9287 $\pm$ 0.0049 & --- \\
+100\% & 0.8669 $\pm$ 0.0028 & 0.9299 $\pm$ 0.0071 & 0.9285 $\pm$ 0.0057 & 0.9287 $\pm$ 0.0049 & not run \\
 \bottomrule
 \end{tabular}
 \end{table}
