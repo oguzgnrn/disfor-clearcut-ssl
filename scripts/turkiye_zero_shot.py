@@ -99,18 +99,22 @@ def stable_mask(lossyear, treecover, datamask, min_cover=50, window=7):
     return (count == 0) & (treecover >= min_cover) & (datamask == 1)
 
 
-def greedy_separate(points, min_km, rng):
-    """Keep a random subset of points so that every kept pair is at least min_km apart (haversine)."""
+def greedy_separate(points, min_km, rng, fixed=(), limit=None):
+    """Keep a random subset of points so that every kept pair (and every kept point versus the fixed points)
+    is at least min_km apart (haversine). Stops after `limit` kept points."""
     from sklearn.neighbors import BallTree
     order = rng.permutation(len(points)); kept = []
     coords = np.deg2rad(np.array([[p['lat'], p['lon']] for p in points]))
-    tree = None
+    anchor = [np.deg2rad([p['lat'], p['lon']]) for p in fixed]
+    tree = BallTree(np.array(anchor), metric='haversine') if anchor else None
     for i in order:
         if tree is not None:
             d = tree.query(coords[i:i + 1], k=1)[0][0][0] * EARTH_KM
             if d < min_km:
                 continue
-        kept.append(int(i)); tree = BallTree(coords[kept], metric='haversine')
+        kept.append(int(i)); anchor.append(coords[i]); tree = BallTree(np.array(anchor), metric='haversine')
+        if limit and len(kept) >= limit:
+            break
     return [points[i] for i in kept]
 
 
@@ -148,7 +152,7 @@ def monthly_inputs(observations, target_year):
 
 
 # ---------------------------------------------------------------- stage: prepare
-def prepare(n_loss=120, n_stable=240, min_km=5.0):
+def prepare(n_loss=120, n_stable=120, min_km=5.0):
     import rasterio
     from rasterio.windows import from_bounds
     rng = np.random.default_rng(SEED)
@@ -173,7 +177,7 @@ def prepare(n_loss=120, n_stable=240, min_km=5.0):
             print(region, tile, ly.shape, flush=True)
             for code in LOSS_YEARS:
                 rows, cols = np.nonzero(loss_patch_mask(ly, code, tc))
-                take = rng.choice(len(rows), size=min(len(rows), 4000), replace=False) if len(rows) else []
+                take = rng.choice(len(rows), size=min(len(rows), 30000), replace=False) if len(rows) else []
                 for i in take:
                     lon, lat = tr * (cols[i] + 0.5, rows[i] + 0.5)
                     candidates.append(dict(region=region, tile=tile, lon=float(lon), lat=float(lat), label=1, target_year=2000 + code, source='GFC-2023-v1.11 lossyear'))
@@ -183,10 +187,8 @@ def prepare(n_loss=120, n_stable=240, min_km=5.0):
                 lon, lat = tr * (cols[i] + 0.5, rows[i] + 0.5)
                 candidates.append(dict(region=region, tile=tile, lon=float(lon), lat=float(lat), label=0, target_year=int(rng.choice([2019, 2020, 2021, 2022])), source='GFC-2023-v1.11 no loss 2001-2023'))
     loss = [c for c in candidates if c['label'] == 1]; stable = [c for c in candidates if c['label'] == 0]
-    chosen = greedy_separate(loss, min_km, rng)[:n_loss]
-    chosen = greedy_separate(chosen + stable, min_km, rng)
-    chosen_loss = [c for c in chosen if c['label'] == 1][:n_loss]
-    chosen_stable = [c for c in chosen if c['label'] == 0][:n_stable]
+    chosen_loss = greedy_separate(loss, min_km, rng, limit=n_loss)
+    chosen_stable = greedy_separate(stable, min_km, rng, fixed=chosen_loss, limit=n_stable)
     final = chosen_loss + chosen_stable
     for i, c in enumerate(final):
         c['id'] = f"tr-{c['region'][:4]}-{i:04d}-{c['target_year']}"
@@ -213,7 +215,7 @@ def prepare(n_loss=120, n_stable=240, min_km=5.0):
 
 
 # ---------------------------------------------------------------- stage: fetch
-def stac_items(lon, lat, start, end, max_per_month=4):
+def stac_items(lon, lat, start, end, max_per_month=2):
     import requests
     body = dict(collections=['sentinel-2-l2a'], intersects=dict(type='Point', coordinates=[lon, lat]),
                 datetime=f'{start}T00:00:00Z/{end}T23:59:59Z', limit=500, fields=dict(include=['id', 'properties', 'assets']))
@@ -238,7 +240,7 @@ def stac_items(lon, lat, start, end, max_per_month=4):
 def read_pixel(url, lon, lat):
     import rasterio
     from rasterio.warp import transform
-    with rasterio.Env(AWS_NO_SIGN_REQUEST='YES', GDAL_DISABLE_READDIR_ON_OPEN='EMPTY_DIR', CPL_VSIL_CURL_ALLOWED_EXTENSIONS='.tif,.TIF'):
+    with rasterio.Env(AWS_NO_SIGN_REQUEST='YES', GDAL_DISABLE_READDIR_ON_OPEN='EMPTY_DIR', CPL_VSIL_CURL_ALLOWED_EXTENSIONS='.tif,.TIF', GDAL_HTTP_MAX_RETRY='3', GDAL_HTTP_RETRY_DELAY='2', CPL_VSIL_CURL_USE_HEAD='NO'):
         with rasterio.open(url) as src:
             x, y = transform('EPSG:4326', src.crs, [lon], [lat])
             row, col = src.index(x[0], y[0])
@@ -273,9 +275,16 @@ def fetch(workers=8):
     cands = read(OUT / 'candidates.json')
     (OUT / 'observations').mkdir(parents=True, exist_ok=True)
     start = time.time()
+    pending = [c for c in cands if not (OUT / 'observations' / (c['id'] + '.json')).exists()]
+    print(f'{len(cands) - len(pending)} already fetched, {len(pending)} to go; each point needs roughly 50 scenes x 11 small reads', flush=True)
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-        for i, (cid, msg) in enumerate(pool.map(fetch_one, cands), 1):
-            print(f'{i}/{len(cands)} {cid} {msg} ({time.time()-start:.0f}s)', flush=True)
+        futures = {pool.submit(fetch_one, c): c for c in pending}
+        for i, fut in enumerate(concurrent.futures.as_completed(futures), 1):
+            try:
+                cid, msg = fut.result()
+            except Exception as exc:
+                cid, msg = futures[fut]['id'], f'FAILED: {exc}'
+            print(f'{i}/{len(pending)} {cid} {msg} ({time.time()-start:.0f}s)', flush=True)
 
 
 def build_npz():
