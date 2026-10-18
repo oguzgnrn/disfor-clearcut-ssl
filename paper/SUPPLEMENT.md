@@ -98,3 +98,7 @@ Two extensions were declared and run after the frozen paper_v4 audit. Neither mo
 ```
 
 The v6 fits were trained on a Linux x86-64 container (Python 3.13, PyTorch 2.14 CPU) rather than the macOS environment used for paper_v4; the platform is recorded in `execution.json`. Recipes, seeds and label identifiers are identical, so results are comparable up to float32-level platform differences; v6 checkpoints were not retained, exact recipes and seeds allow regeneration. Both extensions remain same-source retrospective analyses on the DISFOR cohort and are reported in Sections 5.1–5.2 of the manuscript with their limitations.
+
+## Declared Türkiye zero-shot transfer probe (not yet executed)
+
+`scripts/turkiye_zero_shot.py` freezes a candidate list from the Hansen Global Forest Change product (compact loss patches for 2019 to 2022 and loss-free forest, tree cover 2000 at least 50 percent, 5 km separation) inside five Turkish forest regions, fetches Sentinel-2 L2A observations from the Earth Search archive, builds inputs under the data contract (SCL 4/5, monthly median, BOA offset removed for processing baseline 04.00 and later), applies the frozen advanced_v3 bundle and optional full-cohort recipes, and reports macro-F1 with a 5 km component bootstrap. Launcher: `TURKIYE_TESTI_CALISTIR.command`. Pure helpers are unit tested in `tests/test_turkiye_zero_shot.py`. No result from this probe is cited anywhere until it has been run.

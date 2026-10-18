@@ -10,6 +10,12 @@ blocks = json.loads((ROOT / 'paper/manuscript_content_authored.json').read_text(
 refs = json.loads((ROOT / 'paper/references.json').read_text())
 
 
+def dehyphen(t):
+    t = re.sub(r'(?<![\w.])-(?=\d)', '\u2212', t)
+    t = re.sub(r'(?<=\d)-(?=\d)', ' to ', t)
+    return t.replace('-', ' ')
+
+
 def esc(s):
     urls = []
     def keep(m):
@@ -71,7 +77,7 @@ for b in blocks:
 bib = []
 for i, r in enumerate(refs, 1):
     url = f"https://doi.org/{r['doi']}" if r.get('doi') else r['url']
-    bib.append(r'\bibitem{ref%d} %s (%s). %s. %s. \url{%s}' % (i, esc(r['authors']), r['year'], esc(r['title']), esc(r['venue']), url))
+    bib.append(r'\bibitem{ref%d} %s (%s). %s. %s. \url{%s}' % (i, esc(dehyphen(r['authors'])), r['year'], esc(dehyphen(r['title'])), esc(dehyphen(r['venue'])), url))
 
 tex = r'''\documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
@@ -95,7 +101,7 @@ tex = r'''\documentclass[11pt,a4paper]{article}
 \small \texttt{nida.kumbasar@tubitak.gov.tr}\\[3pt]
 \small $^{2}$Department of Artificial Intelligence and Data Engineering, Istanbul Technical University, Istanbul, Türkiye \\
 \small \texttt{gnrnoguz@gmail.com}}
-\date{\small Draft for co-author review \textbullet{} 18 October 2026 \textbullet{} Version paper\_v4 with declared extensions paper\_v5 and paper\_v6}
+\date{\small Draft for coauthor review \textbullet{} 18 October 2026 \textbullet{} Version paper\_v4 with declared extensions paper\_v5 and paper\_v6}
 
 \begin{document}
 \maketitle
@@ -118,7 +124,7 @@ BIB
 tex = tex.replace('TITLE', title).replace('ABSTRACT', '\n'.join(abstract)).replace('KEYWORDS', keywords).replace('BODY', '\n'.join(body)).replace('FIGURES', '\n'.join(figs)).replace('BIB', '\n'.join(bib))
 (OUT / 'Orman_SSL_Makale.tex').write_text(tex)
 for _ in range(2):
-    r = subprocess.run(['pdflatex', '-interaction=nonstopmode', '-halt-on-error', 'Orman_SSL_Makale.tex'], cwd=OUT, capture_output=True, text=True)
+    r = subprocess.run(['pdflatex', '-interaction=nonstopmode', '-halt-on-error', 'Orman_SSL_Makale.tex'], cwd=OUT, capture_output=True, text=True, errors='replace')
 if r.returncode != 0:
     print(r.stdout[-3000:]); raise SystemExit('pdflatex failed')
 for ext in ['aux', 'log', 'out']:

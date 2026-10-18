@@ -59,9 +59,11 @@ Bu iki sürüm aynı deney değildir. Ürün skorunu makalenin sonuçlarıyla te
 
 Çalışma, aynı kaynakta önceki model geliştirmelerinden sonra yürütülen geriye dönük bir denetimdir. Bağımsız Türkiye saha doğrulaması, Sentinel-1 füzyonu, sürekli ülke haritası ve erken uyarı kapsamda değildir. Kullanılmamış konum taramasında yalnız 1 kesim / 111 örnek kaldığından bağımsız başarı skoru üretilmedi.
 
-## Doğrulama ve tekrar üretim
+## Türkiye sıfır atış (zero-shot) testi
 
-Mac'te tek adım: `DOGRULAMAYI_CALISTIR.command` (testler, paper_v4/v5/v6 doğrulamaları, nihai teslim ve arşiv kontrolü). Elle:
+Avrupa'da eğitilmiş modelleri yeniden eğitmeden Türkiye noktalarında ölçmek için `TURKIYE_TESTI_CALISTIR.command` (internet gerekir; Hansen GFC referans etiketleri + Earth Search Sentinel-2). Protokol ve adımlar `scripts/turkiye_zero_shot.py` başında; sonuçlar `experiments/turkiye_zero_shot/`. Henüz çalıştırılmadı; makalede yalnız protokol olarak geçer.
+
+## Doğrulama ve tekrar üretim
 
 ```bash
 .venv/bin/python -m unittest discover -s tests -v

@@ -2,7 +2,7 @@
 
 The intended contribution is a reproducible empirical audit of label efficiency and evaluation design, not a new Transformer architecture. No priority claim or state-of-the-art claim is made.
 
-- **Zhang et al. 2025** uses a different setting, classes, Sentinel-1/2 fusion and a contrastive pretraining design. Our Sentinel-2 masked reconstruction experiment is not a reproduction of IRMST and its F1 is not directly comparable.
+- **Zhang et al. 2025** applies a self-supervised Transformer to Sentinel-1 and Sentinel-2 time series for forest disturbance type detection in a subtropical ecosystem (title-level description; the full text could not be accessed, so no numbers or design details from it are cited). The Sentinel-2 masked reconstruction experiment here is not a reproduction of that system and its scores are not comparable.
 - **Zerveas et al. 2021** establishes masked multivariate time-series representation learning as prior art. Masked reconstruction must not be presented as our invention.
 - **Tseng et al. 2024** shows pretrained pixel time-series modeling with Presto. We did not benchmark pretrained foundation models; the manuscript cannot claim superiority over that family.
 - **Saget et al. 2025** studies time-series augmentation in agricultural tasks. It motivates augmentation controls but does not substantiate performance in our forest task.

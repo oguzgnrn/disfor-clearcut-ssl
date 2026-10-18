@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "pages": 17,
+  "pages": 19,
   "visual_review": "All 17 page images inspected on 2026-10-16 (LibreOffice headless render of the DOCX): Sections 5.1-5.2, Tables 5-6, Figures 4-5 and the 26-entry reference list render without clipped tables or figures. Title changed on 2026-10-18; dashes removed; layout unchanged.",
-  "pdf_sha256": "2e00733315b793eefea9b15a18eebc03c18c686ce7eb09da76cd5944be62c5d7",
-  "docx_sha256": "ec7a6d366c93111530808de7013c3be77c0b13719ee7c74b970013820d86fd45",
+  "pdf_sha256": "675d97a316a9a7cc81453d691b417b0986daadf0c3f3f18cb21d5fc1e1ee2d9a",
+  "docx_sha256": "9e2933977cf409aa9c1236c80c594c019c00347444baa2be47bc19ea755d82dd",
   "review_date": "2026-10-18"
 }

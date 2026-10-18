@@ -36,6 +36,7 @@ for b in blocks:
         t=doc.add_table(rows=1,cols=len(b['headers']));t.autofit=False
         widths={2:[5.15,1.35],4:[2.6,1.8,1.05,1.05],5:[.55,1.75,1.8,1.15,1.25],6:[.7,1.1,1.1,1.1,1.2,1.3],7:[.6,1.0,.9,.9,.95,1.0,1.15]}[len(b['headers'])]
         if b['caption'].startswith('Table 2'):widths=[.6,1.2,1.2,3.5]
+        if b['caption'].startswith('Table 7'):widths=[2.6,1.9,1.1,.9]
         for j,w in enumerate(widths):t.columns[j].width=Inches(w)
         for j,x in enumerate(b['headers']):t.rows[0].cells[j].text=x
         for row in b['rows']:
