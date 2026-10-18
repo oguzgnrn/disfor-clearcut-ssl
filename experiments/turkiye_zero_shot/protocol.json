@@ -1,0 +1,59 @@
+{
+  "version": "turkiye_zero_shot_v1",
+  "frozen_at_utc": "2026-10-18T16:25:17.411184+00:00",
+  "seed": 20261018,
+  "regions": {
+    "bati_karadeniz": [
+      31.0,
+      40.6,
+      34.5,
+      41.9
+    ],
+    "dogu_karadeniz": [
+      37.0,
+      40.4,
+      41.5,
+      41.5
+    ],
+    "marmara_guney": [
+      27.0,
+      39.3,
+      29.8,
+      40.4
+    ],
+    "ege_mugla": [
+      27.8,
+      36.6,
+      29.3,
+      37.6
+    ],
+    "akdeniz_antalya_mersin": [
+      30.0,
+      36.3,
+      34.0,
+      37.3
+    ]
+  },
+  "loss_year_codes": [
+    19,
+    20,
+    21,
+    22
+  ],
+  "reference": "Hansen GFC-2023-v1.11 (lossyear, treecover2000, datamask)",
+  "positive_rule": "lossyear in target year, treecover2000 >= 50, >= 20 of 25 pixels in 5x5 window share the loss year",
+  "negative_rule": "treecover2000 >= 50, no loss 2001-2023 in 7x7 window, datamask == 1, random target year 2019-2022",
+  "separation_km": 5.0,
+  "n_candidates": 240,
+  "n_loss": 120,
+  "n_stable": 120,
+  "min_distance_to_disfor_km": 160.91349924377806,
+  "models": "advanced_v3 bundle, frozen threshold; optional full-cohort paper_v4 recipes",
+  "retraining": "none",
+  "caveats": [
+    "Hansen loss includes fire, storm and disease; compact-patch rule favours but does not guarantee clear cuts",
+    "Negative class uses absence of recorded loss, which can miss unrecorded disturbance",
+    "Processing-baseline BOA offset removed for scenes >= 04.00 to match DISFOR DN scale",
+    "Only SCL 4/5 clear filter is available here; DISFOR additionally used a source clear flag"
+  ]
+}

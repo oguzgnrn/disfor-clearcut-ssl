@@ -1,0 +1,2402 @@
+[
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.445625,
+    "lat": 36.923874999999995,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0000-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 27.895125,
+    "lat": 37.327875,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0001-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.433875,
+    "lat": 41.577124999999995,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0002-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.483625,
+    "lat": 36.983624999999996,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0003-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.299375,
+    "lat": 39.487125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0004-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.295375,
+    "lat": 37.412375000000004,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0005-2020"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.324875,
+    "lat": 36.917874999999995,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0006-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.918875,
+    "lat": 36.753874999999994,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0007-2022"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.144375,
+    "lat": 36.803125,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0008-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.408875000000002,
+    "lat": 36.983374999999995,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0009-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.220125,
+    "lat": 39.560375,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0010-2022"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.402625,
+    "lat": 37.492375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0011-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.161375,
+    "lat": 39.417875,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0012-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.588375,
+    "lat": 39.366875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0013-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.602625,
+    "lat": 39.676625,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0014-2022"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.228375,
+    "lat": 36.739625000000004,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0015-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.334125,
+    "lat": 37.086375,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0016-2020"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.837375,
+    "lat": 36.810624999999995,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0017-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.094375,
+    "lat": 37.065875,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0018-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 34.151625,
+    "lat": 41.326625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0019-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.192375,
+    "lat": 39.514125,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0020-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.425875,
+    "lat": 37.371375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0021-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.813875,
+    "lat": 41.177625,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0022-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.585875,
+    "lat": 39.731375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0023-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.699125,
+    "lat": 39.624125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0024-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.760375,
+    "lat": 36.916624999999996,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0025-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 39.236875,
+    "lat": 40.819375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-dogu-0026-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.409125,
+    "lat": 39.628625,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0027-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.559125,
+    "lat": 41.223375,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0028-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.153625,
+    "lat": 40.391375,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0029-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.194625000000002,
+    "lat": 36.843625,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0030-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.196625,
+    "lat": 39.544375,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0031-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.374375,
+    "lat": 39.518875,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0032-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 27.934625,
+    "lat": 37.500625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0033-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 34.491125,
+    "lat": 41.234874999999995,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0034-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 39.515375,
+    "lat": 40.841875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-dogu-0035-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.092875,
+    "lat": 37.295875,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0036-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.616875,
+    "lat": 39.862375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0037-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.375875,
+    "lat": 40.274125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0038-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.924625,
+    "lat": 39.476875,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0039-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.975625,
+    "lat": 40.019625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0040-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.320125,
+    "lat": 39.679375,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0041-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.444375,
+    "lat": 36.862624999999994,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0042-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.763125,
+    "lat": 39.477125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0043-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.434625,
+    "lat": 40.981874999999995,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0044-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 27.853625,
+    "lat": 37.114375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0045-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 34.270375,
+    "lat": 40.752874999999996,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0046-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.409125,
+    "lat": 41.739125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0047-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.508125,
+    "lat": 41.037124999999996,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0048-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.071625,
+    "lat": 39.907375,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0049-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.987125,
+    "lat": 36.920625,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0050-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.748875,
+    "lat": 37.001625000000004,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0051-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 38.810375,
+    "lat": 40.732375,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-dogu-0052-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.389125,
+    "lat": 39.337125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0053-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.047375000000002,
+    "lat": 37.490125,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0054-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.867375,
+    "lat": 36.992625000000004,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0055-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.715625,
+    "lat": 40.095124999999996,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0056-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.674875,
+    "lat": 39.301375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0057-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.446875,
+    "lat": 39.724875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0058-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 34.312625,
+    "lat": 41.467875,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0059-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 34.306125,
+    "lat": 41.175625,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0060-2019"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.671125,
+    "lat": 41.273875,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0061-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.274375,
+    "lat": 39.836125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0062-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.155125,
+    "lat": 36.723375000000004,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0063-2022"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.158875000000002,
+    "lat": 37.076625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0064-2020"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 32.181375,
+    "lat": 36.586124999999996,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0065-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.937375,
+    "lat": 36.789375,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0066-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 39.535375,
+    "lat": 40.947125,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-dogu-0067-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 27.835125,
+    "lat": 37.020625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0068-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.951875,
+    "lat": 39.882375,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0069-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.363125,
+    "lat": 39.578625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0070-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.216875,
+    "lat": 39.485125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0071-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.737375,
+    "lat": 37.118125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0072-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.666375,
+    "lat": 39.970875,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0073-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.827375,
+    "lat": 40.158125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0074-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.561374999999998,
+    "lat": 39.637625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0075-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.250875,
+    "lat": 39.974625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0076-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.297625,
+    "lat": 39.377375,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0077-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.672625,
+    "lat": 36.877624999999995,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0078-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.875375,
+    "lat": 40.830375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0079-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.449125000000002,
+    "lat": 37.464625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0080-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.446125,
+    "lat": 39.315625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0081-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.178375,
+    "lat": 40.043625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0082-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.666375000000002,
+    "lat": 37.445125000000004,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0083-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.521625,
+    "lat": 41.314625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0084-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.837875,
+    "lat": 39.830875,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0085-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.708375,
+    "lat": 39.870125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0086-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.597125,
+    "lat": 39.940125,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0087-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.387875,
+    "lat": 40.658875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0088-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.859375,
+    "lat": 37.046125,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0089-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.598125,
+    "lat": 36.895125,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0090-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.975875,
+    "lat": 36.761624999999995,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0091-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.382125,
+    "lat": 36.937875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0092-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.576625,
+    "lat": 40.301375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0093-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 38.544875,
+    "lat": 40.605625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-dogu-0094-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.221875,
+    "lat": 37.153125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0095-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.834875,
+    "lat": 39.769625,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0096-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.914375,
+    "lat": 36.838625,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-akde-0097-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.439375,
+    "lat": 39.920625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0098-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.441125,
+    "lat": 39.655125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0099-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.111125,
+    "lat": 37.238375000000005,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0100-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.350875000000002,
+    "lat": 37.321625000000004,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0101-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.321625,
+    "lat": 40.031124999999996,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0102-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.554375,
+    "lat": 40.100125,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0103-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.520125,
+    "lat": 37.119375,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0104-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.505875,
+    "lat": 39.369875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0105-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.284375,
+    "lat": 40.259375,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0106-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.556875,
+    "lat": 39.647375,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0107-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.234625,
+    "lat": 36.973125,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0108-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.706375,
+    "lat": 39.908125,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0109-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.402875,
+    "lat": 39.422625,
+    "label": 1,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0110-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.235125,
+    "lat": 41.283375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-bati-0111-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.328125,
+    "lat": 39.772375,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0112-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.058125,
+    "lat": 37.259625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0113-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.037625,
+    "lat": 39.477875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0114-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.283625,
+    "lat": 39.560875,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0115-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.862625,
+    "lat": 39.553875,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0116-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.262125,
+    "lat": 39.312875,
+    "label": 1,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0117-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.246375,
+    "lat": 36.791125,
+    "label": 1,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-ege_-0118-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.874375,
+    "lat": 40.021625,
+    "label": 1,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 lossyear",
+    "id": "tr-marm-0119-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.330375,
+    "lat": 40.902875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0120-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.132375,
+    "lat": 40.172625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0121-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.129875,
+    "lat": 41.110875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0122-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 32.142375,
+    "lat": 36.539874999999995,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0123-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.271125,
+    "lat": 40.205124999999995,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0124-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.971625,
+    "lat": 40.116375,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0125-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.115375,
+    "lat": 36.947625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0126-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.121625,
+    "lat": 40.096375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0127-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.773625,
+    "lat": 40.064625,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0128-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.133625,
+    "lat": 39.352375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0129-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.981375,
+    "lat": 40.935625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0130-2022"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.633125,
+    "lat": 37.161875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0131-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.271625,
+    "lat": 41.274375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0132-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.662875,
+    "lat": 41.802875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0133-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.878625,
+    "lat": 41.027875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0134-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.238125,
+    "lat": 40.358374999999995,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0135-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.696875,
+    "lat": 40.093624999999996,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0136-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.623125,
+    "lat": 39.922125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0137-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 37.727625,
+    "lat": 40.928625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0138-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.710875,
+    "lat": 40.105125,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0139-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.253125,
+    "lat": 40.101625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0140-2019"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.730125,
+    "lat": 41.161125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0141-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.470375,
+    "lat": 40.969125,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0142-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.506125,
+    "lat": 39.828125,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0143-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.057875,
+    "lat": 40.099125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0144-2019"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.695875,
+    "lat": 41.211875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0145-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.135375,
+    "lat": 36.899625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0146-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.299625,
+    "lat": 40.667625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0147-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.767625,
+    "lat": 39.890625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0148-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.370375,
+    "lat": 41.131875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0149-2020"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.455125,
+    "lat": 41.242375,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0150-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.032375,
+    "lat": 40.605624999999996,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0151-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 37.024625,
+    "lat": 41.045625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0152-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 32.080875,
+    "lat": 36.551125,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0153-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 37.190375,
+    "lat": 40.437875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0154-2020"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 30.482625,
+    "lat": 36.591874999999995,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0155-2020"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.186625,
+    "lat": 37.191875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0156-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.330125,
+    "lat": 39.890125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0157-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.743375,
+    "lat": 39.949875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0158-2020"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 38.742875,
+    "lat": 40.963375,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0159-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.076375,
+    "lat": 39.482375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0160-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.130625,
+    "lat": 40.862625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0161-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 32.084375,
+    "lat": 36.625375,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0162-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 30.163625,
+    "lat": 36.452374999999996,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0163-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.346625,
+    "lat": 39.412625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0164-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.241625,
+    "lat": 37.383875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0165-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.164875,
+    "lat": 41.720875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0166-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.429875,
+    "lat": 40.821375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0167-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.214125,
+    "lat": 37.227374999999995,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0168-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.328875,
+    "lat": 37.272375,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0169-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.573625,
+    "lat": 40.172875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0170-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.316375,
+    "lat": 41.151625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0171-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.457125,
+    "lat": 40.379875,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0172-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.283375,
+    "lat": 39.869125,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0173-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.030375,
+    "lat": 41.816874999999996,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0174-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.231875,
+    "lat": 41.202625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0175-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.500625,
+    "lat": 40.834875,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0176-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 37.826125,
+    "lat": 40.854625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0177-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 32.328875,
+    "lat": 36.741625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0178-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.069125,
+    "lat": 37.113125000000004,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0179-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.851875,
+    "lat": 40.333875,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0180-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.726125,
+    "lat": 40.914125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0181-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.189375,
+    "lat": 40.107124999999996,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0182-2020"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.748875,
+    "lat": 40.977625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0183-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.392625,
+    "lat": 41.228375,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0184-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.500375,
+    "lat": 40.229124999999996,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0185-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.283375,
+    "lat": 40.191874999999996,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0186-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.357875,
+    "lat": 39.977625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0187-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.805625,
+    "lat": 41.128375,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0188-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 29.130375,
+    "lat": 36.821625000000004,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0189-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 28.607375,
+    "lat": 40.019875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0190-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.815375,
+    "lat": 37.090374999999995,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0191-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.320625,
+    "lat": 40.846125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0192-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.365875,
+    "lat": 41.349625,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0193-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.304375,
+    "lat": 40.566875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0194-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 37.893125,
+    "lat": 40.874375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0195-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.336375,
+    "lat": 39.993125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0196-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.133375,
+    "lat": 39.733125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0197-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.705625,
+    "lat": 37.267875,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0198-2022"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.885375,
+    "lat": 40.696374999999996,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0199-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.607625,
+    "lat": 39.539875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0200-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 33.785625,
+    "lat": 41.274625,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0201-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.716875,
+    "lat": 39.754875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0202-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 32.219875,
+    "lat": 36.348124999999996,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0203-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 29.319375,
+    "lat": 40.347625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0204-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 30.530375,
+    "lat": 36.679624999999994,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0205-2022"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 27.940625,
+    "lat": 37.192625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0206-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 38.803375,
+    "lat": 40.834625,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0207-2020"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.826375,
+    "lat": 40.935125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0208-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.569125,
+    "lat": 39.835125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0209-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.492125,
+    "lat": 39.424625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0210-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.272375,
+    "lat": 40.746875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0211-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 39.288875,
+    "lat": 40.973875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0212-2019"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.465625,
+    "lat": 36.835875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0213-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 27.468625,
+    "lat": 39.526125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0214-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 39.140625,
+    "lat": 40.801125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0215-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.176625,
+    "lat": 40.901875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0216-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.117125,
+    "lat": 37.190625,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0217-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.175625,
+    "lat": 40.151125,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0218-2019"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 30.736125,
+    "lat": 37.243125,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0219-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 27.986625,
+    "lat": 37.045875,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0220-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 29.532875,
+    "lat": 39.875875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0221-2019"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 31.558625,
+    "lat": 41.231625,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0222-2021"
+  },
+  {
+    "region": "bati_karadeniz",
+    "tile": "50N_030E",
+    "lon": 32.899875,
+    "lat": 40.640125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-bati-0223-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.863375,
+    "lat": 40.896875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0224-2020"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 38.027875,
+    "lat": 40.766375,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0225-2021"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.686625,
+    "lat": 37.015125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0226-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.228375,
+    "lat": 40.587875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0227-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.544625,
+    "lat": 39.786875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0228-2021"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.079375,
+    "lat": 40.178374999999996,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0229-2022"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.770625,
+    "lat": 40.023875,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0230-2019"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 40.129125,
+    "lat": 40.736375,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0231-2020"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "50N_020E",
+    "lon": 27.413125,
+    "lat": 40.022375,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0232-2020"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 31.797125,
+    "lat": 36.848875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0233-2020"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 37.085875,
+    "lat": 41.132125,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0234-2021"
+  },
+  {
+    "region": "ege_mugla",
+    "tile": "40N_020E",
+    "lon": 28.275125,
+    "lat": 37.317375,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-ege_-0235-2022"
+  },
+  {
+    "region": "akdeniz_antalya_mersin",
+    "tile": "40N_030E",
+    "lon": 33.929125,
+    "lat": 36.308375,
+    "label": 0,
+    "target_year": 2019,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-akde-0236-2019"
+  },
+  {
+    "region": "marmara_guney",
+    "tile": "40N_020E",
+    "lon": 28.876375,
+    "lat": 39.331875,
+    "label": 0,
+    "target_year": 2021,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-marm-0237-2021"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_030E",
+    "lon": 38.215375,
+    "lat": 40.817125,
+    "label": 0,
+    "target_year": 2022,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0238-2022"
+  },
+  {
+    "region": "dogu_karadeniz",
+    "tile": "50N_040E",
+    "lon": 41.150375,
+    "lat": 40.991875,
+    "label": 0,
+    "target_year": 2020,
+    "source": "GFC-2023-v1.11 no loss 2001-2023",
+    "id": "tr-dogu-0239-2020"
+  }
+]

@@ -222,7 +222,12 @@ def stac_items(lon, lat, start, end, max_per_month=2):
     items = []
     url = STAC
     while url:
-        r = requests.post(url, json=body, timeout=60); r.raise_for_status(); page = r.json()
+        for attempt in range(6):          # Earth Search occasionally answers 502; back off and retry
+            r = requests.post(url, json=body, timeout=60)
+            if r.status_code < 500:
+                break
+            time.sleep(5 * (attempt + 1))
+        r.raise_for_status(); page = r.json()
         items += page.get('features', [])
         nxt = [l for l in page.get('links', []) if l.get('rel') == 'next']
         url = nxt[0]['href'] if nxt else None; body = nxt[0].get('body', body) if nxt else body
@@ -257,12 +262,18 @@ def fetch_one(c):
     items = stac_items(c['lon'], c['lat'], f'{y-1}-01-01', f'{y}-12-31')
     obs = []
     for it in items:
-        scl = read_pixel(it['assets'][SCL_ASSET]['href'], c['lon'], c['lat'])
+        try:
+            scl = read_pixel(it['assets'][SCL_ASSET]['href'], c['lon'], c['lat'])
+        except Exception:
+            continue                      # unreadable scene: skip it rather than failing the whole point
         if scl is None:
             continue
         rec = dict(date=it['properties']['datetime'][:10], item=it['id'], scl=int(scl), baseline=it['properties'].get('s2:processing_baseline', ''), bands=None)
         if int(scl) in (4, 5):
-            vals = [read_pixel(it['assets'][ASSETS[b]]['href'], c['lon'], c['lat']) for b in BANDS]
+            try:
+                vals = [read_pixel(it['assets'][ASSETS[b]]['href'], c['lon'], c['lat']) for b in BANDS]
+            except Exception:
+                continue
             if any(v is None for v in vals):
                 continue
             rec['bands'] = harmonize_dn(vals, rec['baseline']).tolist()
