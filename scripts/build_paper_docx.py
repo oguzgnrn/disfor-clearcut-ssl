@@ -1,12 +1,12 @@
 """Render the measured manuscript as a restrained, editable academic document."""
-import json
+import json,os
 from pathlib import Path
 from docx import Document
 from docx.shared import Inches,Pt,RGBColor
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 ROOT=Path(__file__).resolve().parents[1]
-blocks=json.loads((ROOT/'paper/manuscript_content.json').read_text())
+blocks=json.loads((ROOT/os.environ.get('ORMAN_CONTENT','paper/manuscript_content.json')).read_text())
 doc=Document();sec=doc.sections[0]
 sec.page_width=Inches(8.5);sec.page_height=Inches(11)
 sec.top_margin=sec.bottom_margin=sec.left_margin=sec.right_margin=Inches(1)
@@ -59,6 +59,6 @@ for b in blocks:
         p=doc.add_paragraph(b['caption']);p.paragraph_format.keep_together=True
         for r in p.runs:r.font.size=Pt(10)
         doc.add_paragraph('Vector PDF and high-resolution PNG versions accompany the manuscript.').runs[0].font.size=Pt(9)
-doc.core_properties.title=blocks[0]['text'];doc.core_properties.author='';doc.core_properties.subject='Retrospective empirical audit on DISFOR';doc.core_properties.keywords='Sentinel-2, self-supervised learning, spatial validation'
-out=ROOT/'output/paper/Orman_SSL_Manuscript.docx';out.parent.mkdir(parents=True,exist_ok=True);doc.save(out)
+doc.core_properties.title=blocks[0]['text'];doc.core_properties.author=os.environ.get('ORMAN_DOC_AUTHOR','');doc.core_properties.subject='Retrospective empirical audit on DISFOR';doc.core_properties.keywords='Sentinel-2, self-supervised learning, spatial validation'
+out=ROOT/os.environ.get('ORMAN_DOCX_OUT','output/paper/Orman_SSL_Manuscript.docx');out.parent.mkdir(parents=True,exist_ok=True);doc.save(out)
 print(out)

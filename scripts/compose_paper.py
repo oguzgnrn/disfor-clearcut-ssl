@@ -1,7 +1,8 @@
 """Compose review manuscript and supporting text from measured results."""
-import json
+import json,os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+AUTHORED=os.environ.get('ORMAN_AUTHORED')=='1'
 a=json.loads((ROOT/'experiments/paper_v4/analysis.json').read_text())
 s={(r['budget'],r['method']):r for r in a['summary']}
 p={r['comparator']:r for r in a['paired_comparisons']}
@@ -19,7 +20,13 @@ def f(m,b=.2):return s[b,m]['macro_f1_mean']
 def ci(m):return ', '.join(f'{v:.4f}' for v in p[m]['paired_group_bootstrap_95_interval'])
 names={'rf_leaf4':'Random forest','cnn64':'Temporal CNN','transformer48':'Transformer','ssl_transformer48':'Block + band SSL','iid_ssl':'Independent-cell SSL','step_matched':'Step-matched Transformer','mask_only':'Observation mask only','metadata_only':'Location / year / campaign'}
 add('title','Spatial and optimization controls for masked temporal pretraining in forest clear cut classification')
-para('Anonymous research manuscript • 16 October 2026 • Version paper_v4 with declared extensions paper_v5 (grouping radius) and paper_v6 (label-budget curve)')
+if AUTHORED:
+    para('Mehmet Oğuz Güneren¹ and Nida Kumbasar²')
+    para('¹ Department of Artificial Intelligence and Data Engineering, Istanbul Technical University, Istanbul, Türkiye (gnrnoguz@gmail.com)')
+    para('² TÜBİTAK BİLGEM, Information Technologies Institute (BTE), Data Valorization Department, Gebze, Kocaeli, Türkiye (nida.kumbasar@tubitak.gov.tr)')
+    para('Draft for co-author review • 18 October 2026 • Version paper_v4 with declared extensions paper_v5 (grouping radius) and paper_v6 (label-budget curve)')
+else:
+    para('Anonymous research manuscript • 16 October 2026 • Version paper_v4 with declared extensions paper_v5 (grouping radius) and paper_v6 (label-budget curve)')
 head('Abstract')
 para(f'''Self-supervised pretraining may improve satellite time-series classification when labels are scarce, but comparisons can confound its objective with additional optimization. We examine this issue using 2,213 high-confidence DISFOR Sentinel-2 series, comprising 1,937 stable-forest and 276 clear-cut locations. A fixed protocol evaluates random forests, temporal convolutional networks, supervised Transformers and masked-reconstruction Transformers with five spatially grouped folds, three training seeds and two label budgets. Spatial components connect locations within 5 km and shared source disturbance events. All 180 fits are retained. At 20% labels, block-and-band pretraining achieves pooled out-of-fold macro-F1 {f('ssl_transformer48'):.4f}, compared with {f('transformer48'):.4f} for a 40-epoch supervised Transformer; the paired difference is {p['transformer48']['mean_difference']:.4f} (conditional spatial-component bootstrap 95% interval [{ci('transformer48')}]). However, a supervised control approximately matching the total optimizer-step budget reaches {f('step_matched'):.4f}. Independent-cell masking reaches {f('iid_ssl'):.4f}, and the corresponding masking comparison does not clearly separate the methods. With all labels, the CNN reaches {f('cnn64',1.):.4f} and the pretrained Transformer {f('ssl_transformer48',1.):.4f}. Two declared extensions qualify this picture. A label-budget curve at 5%, 10% and 50% labels on the identical folds and seeds shows that below 20% labels the pretrained Transformer trails the step-matched Transformer, the CNN and even the random forest, so its benefit is confined to the short-training comparison; at 50% labels the neural recipes converge. A single-seed grouping-radius analysis at 5, 10 and 20 km shows that the step-matched advantage does not persist under coarser spatial separation, where the pretrained model degrades least. Metadata and missingness controls expose residual sampling information. This is a retrospective audit of recipes developed on the same dataset, not untouched external validation. An unused-location support audit yields only one positive among 111 eligible windows and is therefore not scored. These results support optimization-aware, spatially structured evaluation rather than a general claim of self-supervised superiority.''')
 para('Keywords: Earth observation; Sentinel-2; forest disturbance; self-supervised learning; spatial validation; optimization controls')
@@ -81,7 +88,10 @@ head('7 Conclusion')
 para(f'''On the retained DISFOR cohort, masked temporal pretraining improves a 40-epoch supervised Transformer under a 20% label budget, but an optimizer-step-matched supervised control achieves a higher macro-F1 ({f('step_matched'):.4f} versus {f('ssl_transformer48'):.4f}). Structured masking does not clearly outperform independent-cell masking, and full-label neural results are similar. The declared extensions sharpen this: along the label-budget curve the pretrained Transformer never exceeds the step-matched control, the CNN or, below 20% labels, the random forest, whereas under coarser spatial separation (20 km, one seed) it degrades least and leads. The benefit of masked pretraining in this setting is therefore better described as robustness to geographic shift than as label efficiency, and that description still needs more seeds and independent regions. The transferable lesson is to report geographic structure, label allocation, optimization controls and negative findings together. Independent, sufficiently supported evaluation remains necessary before claiming target-region or operational generalization.''')
 head('Data and code availability')
 para('The source dataset is available at https://huggingface.co/datasets/JR-DIGITAL/DISFOR and is cited in [1]. The exact revision is specified in Section 2 and the reproduction package. The accompanying local review package contains the processed cohort, frozen folds and label subsets, all 180 run records, pooled predictions, analysis scripts, environment lock, figures and manuscript source. It retains the upstream EUPL-1.2 license. No public code archive or DOI has yet been assigned; the local package should not be described as a public deposit. Per-cross-fit weight checkpoints were not retained; exact training recipes and seeds allow their regeneration.')
-head('Author review and assistance disclosure')
+head('Author contributions and assistance disclosure' if AUTHORED else 'Author review and assistance disclosure')
+if AUTHORED:
+    para('M.O.G. selected the research question and dataset, designed the evaluation protocol, ran and audited the experiments, and drafted the manuscript. N.K. proposed the research area and the reference literature, supervised the study design and will review the interpretation and final text. Author order, affiliations, funding and conflict-of-interest statements are provisional until both authors confirm them; this draft has not been submitted anywhere.')
+    para('AI coding assistants (OpenAI Codex and Anthropic Claude) were used for code generation, experiment orchestration, analysis checks, figure preparation and manuscript drafting under the first author\'s direction. The authors take responsibility for the evidence, interpretation and citations. Journal policies on AI assistance must be checked before submission.')
 para('This anonymous draft was prepared with AI assistance for coding, experiment orchestration, analysis checks, figure preparation and manuscript drafting. Human authors must review the evidence, interpretation, citations and final text and take responsibility before submission. Author identities, affiliations, contribution roles, funding and conflict declarations are intentionally not asserted in this review draft; they require confirmation by the actual collaborators. No submission or public release has occurred.')
 head('References')
 for i,r in enumerate(refs,1):para(f"[{i}] {r['authors']} ({r['year']}). {r['title']}. {r['venue']}. "+(f"https://doi.org/{r['doi']}" if r.get('doi') else r['url']))
@@ -91,7 +101,11 @@ if v6 is not None and (ROOT/'paper/figures/04_label_curve.png').exists():
     add('figure',caption='Figure 4. Label-budget curve on the frozen folds. Points are means of three pooled out-of-fold macro-F1 values; bars are seed standard deviations, not confidence intervals. The 20% and 100% points are the paper_v4 fits; 5%, 10% and 50% are the declared paper_v6 fits.',path='paper/figures/04_label_curve.png')
 if v5 is not None and (ROOT/'paper/figures/05_radius.png').exists():
     add('figure',caption='Figure 5. Grouping-radius sensitivity at 20% labels, seed 7 only. Each bar is a single pooled out-of-fold macro-F1; the number of spatial components and clear-cut components per radius is given below the axis. Descriptive only.',path='paper/figures/05_radius.png')
-(ROOT/'paper/manuscript_content.json').write_text(json.dumps(blocks,indent=2,ensure_ascii=False))
+if AUTHORED:
+    blocks=[b for b in blocks if not (b['kind']=='paragraph' and b['text'].startswith('This anonymous draft was prepared'))]
+    (ROOT/'paper/manuscript_content_authored.json').write_text(json.dumps(blocks,indent=2,ensure_ascii=False))
+else:
+    (ROOT/'paper/manuscript_content.json').write_text(json.dumps(blocks,indent=2,ensure_ascii=False))
 md=[]
 for b in blocks:
     k=b['kind']
@@ -100,5 +114,5 @@ for b in blocks:
     elif k=='paragraph':md.append(b['text'])
     elif k=='table':md.extend([b['caption'], '\n'.join(['| '+' | '.join(b['headers'])+' |','| '+' | '.join(['---']*len(b['headers']))+' |']+['| '+' | '.join(row)+' |' for row in b['rows']])])
     elif k=='figure':md.extend([f"![{b['caption']}](figures/{Path(b['path']).name})",b['caption']])
-(ROOT/'paper/manuscript.md').write_text('\n\n'.join(md)+'\n')
+(ROOT/('paper/manuscript_authored.md' if AUTHORED else 'paper/manuscript.md')).write_text('\n\n'.join(md)+'\n')
 print('Composed manuscript from verified analysis:',len(blocks),'blocks')
