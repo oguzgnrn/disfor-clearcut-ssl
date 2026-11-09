@@ -15,7 +15,7 @@ out = ROOT / os.environ.get('ORMAN_DOCX_OUT', 'TESLIM_2026-10-18/Orman_SSL_Makal
 AUTHOR_LINE = 'Nida Kumbasar¹ and Mehmet Oğuz Güneren²'
 AFFIL = ['¹ TÜBİTAK BİLGEM, Information Technologies Institute (BTE), Data Valorization Department, 41400 Gebze, Kocaeli, Türkiye',
          '² Department of Artificial Intelligence and Data Engineering, Istanbul Technical University, 34469 Istanbul, Türkiye']
-DATE_LINE = '(Dated: 18 October 2026; draft for coauthor review; version paper_v4 with declared extensions paper_v5 and paper_v6)'
+DATE_LINE = '(Dated: 9 November 2026; revision 3, draft for coauthor review)'
 ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
 
 doc = Document()
@@ -99,7 +99,7 @@ for b in blocks:
         body.append(('heading', b['text'])); continue
     if k == 'paragraph':
         t = b['text']
-        if t.startswith(('Mehmet Oğuz Güneren¹', '¹ ', '² ', 'Draft for coauthor', 'Draft for co')): continue
+        if t.startswith(('Mehmet Oğuz Güneren¹', '¹ ', '² ', 'Draft for coauthor', 'Draft for co', 'Anonymous research manuscript')): continue
         if t.startswith('Keywords:'): keywords = t.replace('Keywords: ', ''); continue
         if re.match(r'^\[\d+\]', t): refs.append(t); continue
         (abstract if in_abstract else body).append(('para', t) if not in_abstract else t); continue
@@ -116,8 +116,9 @@ p = para('Keywords: ' + keywords, WD_ALIGN_PARAGRAPH.JUSTIFY, 9, indent=False, s
 p.runs[0].bold = False
 
 # ---- body (two columns), with wide floats in one-column breaks
-ANCHORS = {'3 Models and experimental controls': [1], '5.1 Label-budget curve (declared extension paper_v6)': [2, 3], '5.2 Grouping-radius sensitivity (declared extension paper_v5)': [4], '6 Discussion': [5]}
-ANCHORS = {re.sub(r'-', ' ', k): v for k, v in ANCHORS.items()}
+ANCHORS = {'2.2 Study design and dataset construction': [1], '3.1 Primary comparison': [2, 3], '3.2 Optimization, masking and covariate controls': [4], '3.4 Grouping-radius sensitivity': [5], '3.5 Summary of findings and declared transfer protocol': [6]}
+if os.environ.get('ORMAN_NO_HYPHENS') == '1':
+    ANCHORS = {re.sub(r'-', ' ', k): v for k, v in ANCHORS.items()}
 new_section(2); mode = 2; sec_no = 0; sub_no = 0
 
 
@@ -130,7 +131,7 @@ for kind, val in body:
     if kind == 'heading':
         for num in ANCHORS.get(val, []):
             if num in figs:
-                wide = figs[num]['path'].split('/')[-1] in ('01_primary.png', '02_controls.png', '03_data.png')
+                wide = figs[num]['path'].split('/')[-1] in ('01_primary.png', '02_controls.png', '03_data.png', '06_examples.png')
                 ensure(1 if wide else 2); figure(figs[num], wide)
         ensure(2)
         text = re.sub(r'^\d+(\.\d+)?\s+', '', val)

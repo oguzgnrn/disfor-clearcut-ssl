@@ -1,260 +1,360 @@
 [
- {
-  "key": "viehweger2026",
-  "authors": "Viehweger, J.; Hirschmugl, M.; Puhm, M.; Burtscher, R.; Gallaun, H.; Deutscher, J.",
-  "year": 2026,
-  "title": "Dense labelled time-series for mapping European forest disturbance agents",
-  "venue": "Earth System Science Data Discussions, preprint under review",
-  "doi": "10.5194/essd-2026-185",
-  "url": "https://essd.copernicus.org/preprints/essd-2026-185/",
-  "verification": "Official publisher page; preprint status verified 2026-09-26"
- },
- {
-  "key": "zhang2025",
-  "authors": "Zhang, M.; Li, G.; Lu, D.; Xu, C.; Zhao, H.; Li, D.",
-  "year": 2025,
-  "title": "Self-supervised deep learning for detection of forest disturbance types in a subtropical ecosystem using transformer and Sentinel-1 and Sentinel-2 time series data",
-  "venue": "International Journal of Digital Earth, 18, article 2537325",
-  "doi": "10.1080/17538947.2025.2537325",
-  "url": "https://www.tandfonline.com/doi/abs/10.1080/17538947.2025.2537325",
-  "verification": "Official publisher abstract and indexed full-text excerpts; distinct multimodal/contrastive task"
- },
- {
-  "key": "zerveas2021",
-  "authors": "Zerveas, G.; Jayaraman, S.; Patel, D.; Bhamidipaty, A.; Eickhoff, C.",
-  "year": 2021,
-  "title": "A Transformer-based Framework for Multivariate Time Series Representation Learning",
-  "venue": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
-  "doi": "10.1145/3447548.3467401",
-  "url": "https://github.com/gzerveas/mvts_transformer",
-  "verification": "Authors' official repository and arXiv 2010.02803"
- },
- {
-  "key": "roberts2017",
-  "authors": "Roberts, D. R.; Bahn, V.; Ciuti, S.; Boyce, M. S.; Elith, J.; Guillera-Arroita, G.; Hauenstein, S.; Lahoz-Monfort, J. J.; Schroder, B.; Thuiller, W.; Warton, D. I.; Wintle, B. A.; Hartig, F.; Dormann, C. F.",
-  "year": 2017,
-  "title": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
-  "venue": "Ecography, 40, 913-929",
-  "doi": "10.1111/ecog.02881",
-  "url": "https://epub.uni-regensburg.de/39299/",
-  "verification": "Author institution repository confirms DOI, authors and pagination"
- },
- {
-  "key": "breiman2001",
-  "authors": "Breiman, L.",
-  "year": 2001,
-  "title": "Random Forests",
-  "venue": "Machine Learning, 45, 5-32",
-  "doi": "10.1023/A:1010933404324",
-  "url": "https://doi.org/10.1023/A:1010933404324",
-  "verification": "Official Springer publisher page"
- },
- {
-  "key": "guo2017",
-  "authors": "Guo, C.; Pleiss, G.; Sun, Y.; Weinberger, K. Q.",
-  "year": 2017,
-  "title": "On Calibration of Modern Neural Networks",
-  "venue": "Proceedings of Machine Learning Research, 70, 1321-1330",
-  "url": "https://proceedings.mlr.press/v70/guo17a.html",
-  "verification": "Official PMLR proceedings page"
- },
- {
-  "key": "tseng2024",
-  "authors": "Tseng, G.; Cartuyvels, R.; Zvonkov, I.; Purohit, M.; Rolnick, D.; Kerner, H.",
-  "year": 2024,
-  "title": "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries",
-  "venue": "arXiv:2304.14065, version 4",
-  "doi": "10.48550/arXiv.2304.14065",
-  "url": "https://arxiv.org/abs/2304.14065",
-  "verification": "Authors' arXiv record, version 4 revised 5 February 2024"
- },
- {
-  "key": "saget2025",
-  "authors": "Saget, A.; Lafabregue, B.; Cornuejols, A.; Gancarski, P.",
-  "year": 2025,
-  "title": "Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing",
-  "venue": "Proceedings of the TerraBytes ICML Workshop, PMLR 292, 32-45",
-  "url": "https://proceedings.mlr.press/v292/saget25a.html",
-  "verification": "Official PMLR workshop proceedings page"
- },
- {
-  "key": "yuan2021",
-  "authors": "Yuan, Y.; Lin, L.",
-  "year": 2021,
-  "title": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification",
-  "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 14, 474-487",
-  "doi": "10.1109/JSTARS.2020.3036602",
-  "url": "https://doi.org/10.1109/JSTARS.2020.3036602",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "yuan2022",
-  "authors": "Yuan, Y.; Lin, L.; Liu, Q.; Hang, R.; Zhou, Z.-G.",
-  "year": 2022,
-  "title": "SITS-Former: A pre-trained spatio-spectral-temporal representation model for Sentinel-2 time series classification",
-  "venue": "International Journal of Applied Earth Observation and Geoinformation, 106, article 102651",
-  "doi": "10.1016/j.jag.2021.102651",
-  "url": "https://doi.org/10.1016/j.jag.2021.102651",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "pelletier2019",
-  "authors": "Pelletier, C.; Webb, G. I.; Petitjean, F.",
-  "year": 2019,
-  "title": "Temporal Convolutional Neural Network for the Classification of Satellite Image Time Series",
-  "venue": "Remote Sensing, 11(5), article 523",
-  "doi": "10.3390/rs11050523",
-  "url": "https://www.mdpi.com/2072-4292/11/5/523",
-  "verification": "Publisher page 2026-10-16"
- },
- {
-  "key": "russwurm2020",
-  "authors": "Rußwurm, M.; Körner, M.",
-  "year": 2020,
-  "title": "Self-attention for raw optical Satellite Time Series Classification",
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing, 169, 421-435",
-  "doi": "10.1016/j.isprsjprs.2020.06.006",
-  "url": "https://doi.org/10.1016/j.isprsjprs.2020.06.006",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "garnot2020",
-  "authors": "Sainte Fare Garnot, V.; Landrieu, L.; Giordano, S.; Chehata, N.",
-  "year": 2020,
-  "title": "Satellite Image Time Series Classification With Pixel-Set Encoders and Temporal Self-Attention",
-  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 12322-12331",
-  "doi": "10.1109/CVPR42600.2020.01234",
-  "url": "https://doi.org/10.1109/CVPR42600.2020.01234",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "he2022",
-  "authors": "He, K.; Chen, X.; Xie, S.; Li, Y.; Dollár, P.; Girshick, R.",
-  "year": 2022,
-  "title": "Masked Autoencoders Are Scalable Vision Learners",
-  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 15979-15988",
-  "doi": "10.1109/CVPR52688.2022.01553",
-  "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "cong2022",
-  "authors": "Cong, Y.; Khanna, S.; Meng, C.; Liu, P.; Rozi, E.; He, Y.; Burke, M.; Lobell, D. B.; Ermon, S.",
-  "year": 2022,
-  "title": "SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery",
-  "venue": "arXiv:2207.08051 (Advances in Neural Information Processing Systems 35)",
-  "doi": "10.48550/arXiv.2207.08051",
-  "url": "https://arxiv.org/abs/2207.08051",
-  "verification": "arXiv abstract page 2026-10-16"
- },
- {
-  "key": "jakubik2023",
-  "authors": "Jakubik, J.; Roy, S.; Phillips, C. E.; et al.",
-  "year": 2023,
-  "title": "Foundation Models for Generalist Geospatial Artificial Intelligence",
-  "venue": "arXiv:2310.18660",
-  "doi": "10.48550/arXiv.2310.18660",
-  "url": "https://arxiv.org/abs/2310.18660",
-  "verification": "arXiv abstract page 2026-10-16; 32 authors"
- },
- {
-  "key": "hansen2013",
-  "authors": "Hansen, M. C.; Potapov, P. V.; Moore, R.; Hancher, M.; Turubanova, S. A.; Tyukavina, A.; Thau, D.; Stehman, S. V.; Goetz, S. J.; Loveland, T. R.; Kommareddy, A.; Egorov, A.; Chini, L.; Justice, C. O.; Townshend, J. R. G.",
-  "year": 2013,
-  "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
-  "venue": "Science, 342(6160), 850-853",
-  "doi": "10.1126/science.1244693",
-  "url": "https://doi.org/10.1126/science.1244693",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "senf2021",
-  "authors": "Senf, C.; Seidl, R.",
-  "year": 2021,
-  "title": "Mapping the forest disturbance regimes of Europe",
-  "venue": "Nature Sustainability, 4, 63-70",
-  "doi": "10.1038/s41893-020-00609-y",
-  "url": "https://doi.org/10.1038/s41893-020-00609-y",
-  "verification": "Crossref record 2026-10-16 (online 2020, volume 4 issue 1, 2021)"
- },
- {
-  "key": "hirschmugl2017",
-  "authors": "Hirschmugl, M.; Gallaun, H.; Dees, M.; Datta, P.; Deutscher, J.; Koutsias, N.; Schardt, M.",
-  "year": 2017,
-  "title": "Methods for Mapping Forest Disturbance and Degradation from Optical Earth Observation Data: a Review",
-  "venue": "Current Forestry Reports, 3, 32-45",
-  "doi": "10.1007/s40725-017-0047-2",
-  "url": "https://doi.org/10.1007/s40725-017-0047-2",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "zhu2014",
-  "authors": "Zhu, Z.; Woodcock, C. E.",
-  "year": 2014,
-  "title": "Continuous change detection and classification of land cover using all available Landsat data",
-  "venue": "Remote Sensing of Environment, 144, 152-171",
-  "doi": "10.1016/j.rse.2014.01.011",
-  "url": "https://doi.org/10.1016/j.rse.2014.01.011",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "ploton2020",
-  "authors": "Ploton, P.; Mortier, F.; Réjou-Méchain, M.; Barbier, N.; Picard, N.; Rossi, V.; Dormann, C.; Cornu, G.; Viennois, G.; Bayol, N.; Lyapustin, A.; Gourlet-Fleury, S.; Pélissier, R.",
-  "year": 2020,
-  "title": "Spatial validation reveals poor predictive performance of large-scale ecological mapping models",
-  "venue": "Nature Communications, 11, article 4540",
-  "doi": "10.1038/s41467-020-18321-y",
-  "url": "https://doi.org/10.1038/s41467-020-18321-y",
-  "verification": "NASA NTRS record 2026-10-16"
- },
- {
-  "key": "meyer2022",
-  "authors": "Meyer, H.; Pebesma, E.",
-  "year": 2022,
-  "title": "Machine learning-based global maps of ecological variables and the challenge of assessing them",
-  "venue": "Nature Communications, 13, article 2208",
-  "doi": "10.1038/s41467-022-29838-9",
-  "url": "https://doi.org/10.1038/s41467-022-29838-9",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "wadoux2021",
-  "authors": "Wadoux, A. M. J.-C.; Heuvelink, G. B. M.; de Bruin, S.; Brus, D. J.",
-  "year": 2021,
-  "title": "Spatial cross-validation is not the right way to evaluate map accuracy",
-  "venue": "Ecological Modelling, 457, article 109692",
-  "doi": "10.1016/j.ecolmodel.2021.109692",
-  "url": "https://doi.org/10.1016/j.ecolmodel.2021.109692",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "wang2026",
-  "authors": "Wang, L.; Liu, S.; Song, W.; Ding, S.; Zhang, J.",
-  "year": 2026,
-  "title": "Global high-resolution forest disturbance type dataset",
-  "venue": "Earth System Science Data, 18, 1601-1617",
-  "doi": "10.5194/essd-18-1601-2026",
-  "url": "https://essd.copernicus.org/articles/18/1601/2026/",
-  "verification": "Publisher article page 2026-10-16"
- },
- {
-  "key": "maze2025",
-  "authors": "Maze, M.; Attaher, S.; Taqi, M. O.; Elsawy, R.; Gad El-Moula, M. M. H.; Hashem, F. A.; Moussa, A. S.",
-  "year": 2025,
-  "title": "Enhanced agricultural land use/land cover classification in the Nile Delta using Sentinel-1 and Sentinel-2 data and machine learning",
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing, 229, 239-253",
-  "doi": "10.1016/j.isprsjprs.2025.08.019",
-  "url": "https://doi.org/10.1016/j.isprsjprs.2025.08.019",
-  "verification": "Crossref record 2026-10-16"
- },
- {
-  "key": "vyas2024",
-  "authors": "Vyas, N.; Singh, S.; Sethi, G. K.",
-  "year": 2025,
-  "title": "A novel image fusion-based post classification framework for agricultural variations detection using Sentinel-1 and Sentinel-2 data",
-  "venue": "Earth Science Informatics, 18, article 40 (online 2024)",
-  "doi": "10.1007/s12145-024-01506-0",
-  "url": "https://doi.org/10.1007/s12145-024-01506-0",
-  "verification": "Crossref record 2026-10-16"
- }
+  {
+    "key": "viehweger2026",
+    "authors": "Viehweger, J.; Hirschmugl, M.; Puhm, M.; Burtscher, R.; Gallaun, H.; Deutscher, J.",
+    "year": 2026,
+    "title": "Dense labelled time-series for mapping European forest disturbance agents",
+    "venue": "Earth System Science Data Discussions, preprint under review",
+    "doi": "10.5194/essd-2026-185",
+    "url": "https://essd.copernicus.org/preprints/essd-2026-185/",
+    "verification": "Official publisher page; preprint status verified 2026-09-26"
+  },
+  {
+    "key": "zhang2025",
+    "authors": "Zhang, M.; Li, G.; Lu, D.; Xu, C.; Zhao, H.; Li, D.",
+    "year": 2025,
+    "title": "Self-supervised deep learning for detection of forest disturbance types in a subtropical ecosystem using transformer and Sentinel-1 and Sentinel-2 time series data",
+    "venue": "International Journal of Digital Earth, 18, article 2537325",
+    "doi": "10.1080/17538947.2025.2537325",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/17538947.2025.2537325",
+    "verification": "Official publisher abstract and indexed full-text excerpts; distinct multimodal/contrastive task"
+  },
+  {
+    "key": "zerveas2021",
+    "authors": "Zerveas, G.; Jayaraman, S.; Patel, D.; Bhamidipaty, A.; Eickhoff, C.",
+    "year": 2021,
+    "title": "A Transformer-based Framework for Multivariate Time Series Representation Learning",
+    "venue": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "doi": "10.1145/3447548.3467401",
+    "url": "https://github.com/gzerveas/mvts_transformer",
+    "verification": "Authors' official repository and arXiv 2010.02803"
+  },
+  {
+    "key": "roberts2017",
+    "authors": "Roberts, D. R.; Bahn, V.; Ciuti, S.; Boyce, M. S.; Elith, J.; Guillera-Arroita, G.; Hauenstein, S.; Lahoz-Monfort, J. J.; Schroder, B.; Thuiller, W.; Warton, D. I.; Wintle, B. A.; Hartig, F.; Dormann, C. F.",
+    "year": 2017,
+    "title": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+    "venue": "Ecography, 40, 913-929",
+    "doi": "10.1111/ecog.02881",
+    "url": "https://epub.uni-regensburg.de/39299/",
+    "verification": "Author institution repository confirms DOI, authors and pagination"
+  },
+  {
+    "key": "breiman2001",
+    "authors": "Breiman, L.",
+    "year": 2001,
+    "title": "Random Forests",
+    "venue": "Machine Learning, 45, 5-32",
+    "doi": "10.1023/A:1010933404324",
+    "url": "https://doi.org/10.1023/A:1010933404324",
+    "verification": "Official Springer publisher page"
+  },
+  {
+    "key": "guo2017",
+    "authors": "Guo, C.; Pleiss, G.; Sun, Y.; Weinberger, K. Q.",
+    "year": 2017,
+    "title": "On Calibration of Modern Neural Networks",
+    "venue": "Proceedings of Machine Learning Research, 70, 1321-1330",
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "verification": "Official PMLR proceedings page"
+  },
+  {
+    "key": "tseng2024",
+    "authors": "Tseng, G.; Cartuyvels, R.; Zvonkov, I.; Purohit, M.; Rolnick, D.; Kerner, H.",
+    "year": 2024,
+    "title": "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries",
+    "venue": "arXiv:2304.14065, version 4",
+    "doi": "10.48550/arXiv.2304.14065",
+    "url": "https://arxiv.org/abs/2304.14065",
+    "verification": "Authors' arXiv record, version 4 revised 5 February 2024"
+  },
+  {
+    "key": "saget2025",
+    "authors": "Saget, A.; Lafabregue, B.; Cornuejols, A.; Gancarski, P.",
+    "year": 2025,
+    "title": "Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing",
+    "venue": "Proceedings of the TerraBytes ICML Workshop, PMLR 292, 32-45",
+    "url": "https://proceedings.mlr.press/v292/saget25a.html",
+    "verification": "Official PMLR workshop proceedings page"
+  },
+  {
+    "key": "yuan2021",
+    "authors": "Yuan, Y.; Lin, L.",
+    "year": 2021,
+    "title": "Self-Supervised Pretraining of Transformers for Satellite Image Time Series Classification",
+    "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 14, 474-487",
+    "doi": "10.1109/JSTARS.2020.3036602",
+    "url": "https://doi.org/10.1109/JSTARS.2020.3036602",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "yuan2022",
+    "authors": "Yuan, Y.; Lin, L.; Liu, Q.; Hang, R.; Zhou, Z.-G.",
+    "year": 2022,
+    "title": "SITS-Former: A pre-trained spatio-spectral-temporal representation model for Sentinel-2 time series classification",
+    "venue": "International Journal of Applied Earth Observation and Geoinformation, 106, article 102651",
+    "doi": "10.1016/j.jag.2021.102651",
+    "url": "https://doi.org/10.1016/j.jag.2021.102651",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "pelletier2019",
+    "authors": "Pelletier, C.; Webb, G. I.; Petitjean, F.",
+    "year": 2019,
+    "title": "Temporal Convolutional Neural Network for the Classification of Satellite Image Time Series",
+    "venue": "Remote Sensing, 11(5), article 523",
+    "doi": "10.3390/rs11050523",
+    "url": "https://www.mdpi.com/2072-4292/11/5/523",
+    "verification": "Publisher page 2026-10-16"
+  },
+  {
+    "key": "russwurm2020",
+    "authors": "Rußwurm, M.; Körner, M.",
+    "year": 2020,
+    "title": "Self-attention for raw optical Satellite Time Series Classification",
+    "venue": "ISPRS Journal of Photogrammetry and Remote Sensing, 169, 421-435",
+    "doi": "10.1016/j.isprsjprs.2020.06.006",
+    "url": "https://doi.org/10.1016/j.isprsjprs.2020.06.006",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "garnot2020",
+    "authors": "Sainte Fare Garnot, V.; Landrieu, L.; Giordano, S.; Chehata, N.",
+    "year": 2020,
+    "title": "Satellite Image Time Series Classification With Pixel-Set Encoders and Temporal Self-Attention",
+    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 12322-12331",
+    "doi": "10.1109/CVPR42600.2020.01234",
+    "url": "https://doi.org/10.1109/CVPR42600.2020.01234",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "he2022",
+    "authors": "He, K.; Chen, X.; Xie, S.; Li, Y.; Dollár, P.; Girshick, R.",
+    "year": 2022,
+    "title": "Masked Autoencoders Are Scalable Vision Learners",
+    "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 15979-15988",
+    "doi": "10.1109/CVPR52688.2022.01553",
+    "url": "https://doi.org/10.1109/CVPR52688.2022.01553",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "cong2022",
+    "authors": "Cong, Y.; Khanna, S.; Meng, C.; Liu, P.; Rozi, E.; He, Y.; Burke, M.; Lobell, D. B.; Ermon, S.",
+    "year": 2022,
+    "title": "SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery",
+    "venue": "arXiv:2207.08051 (Advances in Neural Information Processing Systems 35)",
+    "doi": "10.48550/arXiv.2207.08051",
+    "url": "https://arxiv.org/abs/2207.08051",
+    "verification": "arXiv abstract page 2026-10-16"
+  },
+  {
+    "key": "jakubik2023",
+    "authors": "Jakubik, J.; Roy, S.; Phillips, C. E.; et al.",
+    "year": 2023,
+    "title": "Foundation Models for Generalist Geospatial Artificial Intelligence",
+    "venue": "arXiv:2310.18660",
+    "doi": "10.48550/arXiv.2310.18660",
+    "url": "https://arxiv.org/abs/2310.18660",
+    "verification": "arXiv abstract page 2026-10-16; 32 authors"
+  },
+  {
+    "key": "hansen2013",
+    "authors": "Hansen, M. C.; Potapov, P. V.; Moore, R.; Hancher, M.; Turubanova, S. A.; Tyukavina, A.; Thau, D.; Stehman, S. V.; Goetz, S. J.; Loveland, T. R.; Kommareddy, A.; Egorov, A.; Chini, L.; Justice, C. O.; Townshend, J. R. G.",
+    "year": 2013,
+    "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change",
+    "venue": "Science, 342(6160), 850-853",
+    "doi": "10.1126/science.1244693",
+    "url": "https://doi.org/10.1126/science.1244693",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "senf2021",
+    "authors": "Senf, C.; Seidl, R.",
+    "year": 2021,
+    "title": "Mapping the forest disturbance regimes of Europe",
+    "venue": "Nature Sustainability, 4, 63-70",
+    "doi": "10.1038/s41893-020-00609-y",
+    "url": "https://doi.org/10.1038/s41893-020-00609-y",
+    "verification": "Crossref record 2026-10-16 (online 2020, volume 4 issue 1, 2021)"
+  },
+  {
+    "key": "hirschmugl2017",
+    "authors": "Hirschmugl, M.; Gallaun, H.; Dees, M.; Datta, P.; Deutscher, J.; Koutsias, N.; Schardt, M.",
+    "year": 2017,
+    "title": "Methods for Mapping Forest Disturbance and Degradation from Optical Earth Observation Data: a Review",
+    "venue": "Current Forestry Reports, 3, 32-45",
+    "doi": "10.1007/s40725-017-0047-2",
+    "url": "https://doi.org/10.1007/s40725-017-0047-2",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "zhu2014",
+    "authors": "Zhu, Z.; Woodcock, C. E.",
+    "year": 2014,
+    "title": "Continuous change detection and classification of land cover using all available Landsat data",
+    "venue": "Remote Sensing of Environment, 144, 152-171",
+    "doi": "10.1016/j.rse.2014.01.011",
+    "url": "https://doi.org/10.1016/j.rse.2014.01.011",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "ploton2020",
+    "authors": "Ploton, P.; Mortier, F.; Réjou-Méchain, M.; Barbier, N.; Picard, N.; Rossi, V.; Dormann, C.; Cornu, G.; Viennois, G.; Bayol, N.; Lyapustin, A.; Gourlet-Fleury, S.; Pélissier, R.",
+    "year": 2020,
+    "title": "Spatial validation reveals poor predictive performance of large-scale ecological mapping models",
+    "venue": "Nature Communications, 11, article 4540",
+    "doi": "10.1038/s41467-020-18321-y",
+    "url": "https://doi.org/10.1038/s41467-020-18321-y",
+    "verification": "NASA NTRS record 2026-10-16"
+  },
+  {
+    "key": "meyer2022",
+    "authors": "Meyer, H.; Pebesma, E.",
+    "year": 2022,
+    "title": "Machine learning-based global maps of ecological variables and the challenge of assessing them",
+    "venue": "Nature Communications, 13, article 2208",
+    "doi": "10.1038/s41467-022-29838-9",
+    "url": "https://doi.org/10.1038/s41467-022-29838-9",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "wadoux2021",
+    "authors": "Wadoux, A. M. J.-C.; Heuvelink, G. B. M.; de Bruin, S.; Brus, D. J.",
+    "year": 2021,
+    "title": "Spatial cross-validation is not the right way to evaluate map accuracy",
+    "venue": "Ecological Modelling, 457, article 109692",
+    "doi": "10.1016/j.ecolmodel.2021.109692",
+    "url": "https://doi.org/10.1016/j.ecolmodel.2021.109692",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "wang2026",
+    "authors": "Wang, L.; Liu, S.; Song, W.; Ding, S.; Zhang, J.",
+    "year": 2026,
+    "title": "Global high-resolution forest disturbance type dataset",
+    "venue": "Earth System Science Data, 18, 1601-1617",
+    "doi": "10.5194/essd-18-1601-2026",
+    "url": "https://essd.copernicus.org/articles/18/1601/2026/",
+    "verification": "Publisher article page 2026-10-16"
+  },
+  {
+    "key": "maze2025",
+    "authors": "Maze, M.; Attaher, S.; Taqi, M. O.; Elsawy, R.; Gad El-Moula, M. M. H.; Hashem, F. A.; Moussa, A. S.",
+    "year": 2025,
+    "title": "Enhanced agricultural land use/land cover classification in the Nile Delta using Sentinel-1 and Sentinel-2 data and machine learning",
+    "venue": "ISPRS Journal of Photogrammetry and Remote Sensing, 229, 239-253",
+    "doi": "10.1016/j.isprsjprs.2025.08.019",
+    "url": "https://doi.org/10.1016/j.isprsjprs.2025.08.019",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "vyas2024",
+    "authors": "Vyas, N.; Singh, S.; Sethi, G. K.",
+    "year": 2025,
+    "title": "A novel image fusion-based post classification framework for agricultural variations detection using Sentinel-1 and Sentinel-2 data",
+    "venue": "Earth Science Informatics, 18, article 40 (online 2024)",
+    "doi": "10.1007/s12145-024-01506-0",
+    "url": "https://doi.org/10.1007/s12145-024-01506-0",
+    "verification": "Crossref record 2026-10-16"
+  },
+  {
+    "key": "schiller2024",
+    "authors": "Schiller, C.; Költzow, J.; Schwarz, S.; Schiefer, F.; Fassnacht, F. E.",
+    "year": 2024,
+    "title": "Forest disturbance detection in Central Europe using transformers and Sentinel-2 time series",
+    "venue": "Remote Sensing of Environment, 315, article 114475",
+    "doi": "10.1016/j.rse.2024.114475",
+    "url": "https://doi.org/10.1016/j.rse.2024.114475",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "vianasoto2026",
+    "authors": "Viana-Soto, A.; Mense, J. A.; Kowalski, K.; Pauls, J.; Gieseke, F.; Senf, C.",
+    "year": 2026,
+    "title": "Deep learning-based forest disturbance detection for Europe using Landsat time series",
+    "venue": "Remote Sensing of Environment, 347, article 115670",
+    "doi": "10.1016/j.rse.2026.115670",
+    "url": "https://doi.org/10.1016/j.rse.2026.115670",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "kuzu2024",
+    "authors": "Kuzu, R. S.; Antropov, O.; Molinier, M.; Dumitru, C. O.; Saha, S.; Zhu, X. X.",
+    "year": 2024,
+    "title": "Forest Disturbance Detection via Self-Supervised and Transfer Learning With Sentinel-1&2 Images",
+    "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 17, 4751-4767",
+    "doi": "10.1109/JSTARS.2024.3361183",
+    "url": "https://doi.org/10.1109/JSTARS.2024.3361183",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "giambelluca2025",
+    "authors": "Giambelluca, A. L.; Hermosilla, T.; Álvarez-Mozos, J.; González-Audícana, M.",
+    "year": 2025,
+    "title": "Identifying forest harvesting practices: Clear-cutting and thinning in diverse tree species using dense Landsat time series",
+    "venue": "Forest Ecology and Management, 578, article 122442",
+    "doi": "10.1016/j.foreco.2024.122442",
+    "url": "https://doi.org/10.1016/j.foreco.2024.122442",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "sokolova2009",
+    "authors": "Sokolova, M.; Lapalme, G.",
+    "year": 2009,
+    "title": "A systematic analysis of performance measures for classification tasks",
+    "venue": "Information Processing & Management, 45(4), 427-437",
+    "doi": "10.1016/j.ipm.2009.03.002",
+    "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "saito2015",
+    "authors": "Saito, T.; Rehmsmeier, M.",
+    "year": 2015,
+    "title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+    "venue": "PLOS ONE, 10(3), e0118432",
+    "doi": "10.1371/journal.pone.0118432",
+    "url": "https://doi.org/10.1371/journal.pone.0118432",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "davis2006",
+    "authors": "Davis, J.; Goadrich, M.",
+    "year": 2006,
+    "title": "The relationship between Precision-Recall and ROC curves",
+    "venue": "Proceedings of the 23rd International Conference on Machine Learning (ICML 2006), 233-240",
+    "doi": "10.1145/1143844.1143874",
+    "url": "https://doi.org/10.1145/1143844.1143874",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "fawcett2006",
+    "authors": "Fawcett, T.",
+    "year": 2006,
+    "title": "An introduction to ROC analysis",
+    "venue": "Pattern Recognition Letters, 27(8), 861-874",
+    "doi": "10.1016/j.patrec.2005.10.010",
+    "url": "https://doi.org/10.1016/j.patrec.2005.10.010",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "brier1950",
+    "authors": "Brier, G. W.",
+    "year": 1950,
+    "title": "Verification of forecasts expressed in terms of probability",
+    "venue": "Monthly Weather Review, 78(1), 1-3",
+    "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+    "url": "https://doi.org/10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+    "verification": "Crossref record 2026-11-09"
+  },
+  {
+    "key": "efron1979",
+    "authors": "Efron, B.",
+    "year": 1979,
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "venue": "The Annals of Statistics, 7(1), 1-26",
+    "doi": "10.1214/aos/1176344552",
+    "url": "https://doi.org/10.1214/aos/1176344552",
+    "verification": "Crossref record 2026-11-09"
+  }
 ]

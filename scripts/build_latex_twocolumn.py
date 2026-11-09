@@ -22,6 +22,11 @@ def esc(s):
         u = m.group(0); dot = u.endswith('.'); u = u.rstrip('.')
         urls.append(u); return f'@@URL{len(urls)-1}@@' + ('.' if dot else '')
     s = re.sub(r'https?://\S+', keep, s)
+    maths = []
+    def math(m):
+        maths.append(m); return f'@@MATH{len(maths)-1}@@'
+    for a, b in [('Σ_k (R_k − R_(k−1)) P_k', r'$\sum_k (R_k - R_{k-1})\, P_k$'), ('(1/N) Σ_i (p_i − y_i)²', r'$(1/N)\sum_i (p_i - y_i)^2$'), ('N_train', r'$N_{\mathrm{train}}$'), ('N_labeled', r'$N_{\mathrm{labeled}}$')]:
+        if a in s: s = s.replace(a, math(b))
     s = s.replace('\\', r'\textbackslash{}')
     for a, b in [('&', r'\&'), ('%', r'\%'), ('$', r'\$'), ('#', r'\#'), ('_', r'\_'), ('{', r'\{'), ('}', r'\}'), ('~', r'\textasciitilde{}'), ('^', r'\textasciicircum{}')]:
         s = s.replace(a, b)
@@ -29,6 +34,8 @@ def esc(s):
     s = re.sub(r'\[(\d+(?:,\s*\d+)*)\]', lambda m: r'\cite{' + ','.join('ref' + x.strip() for x in m.group(1).split(',')) + '}', s)
     for i, u in enumerate(urls):
         s = s.replace(f'@@URL{i}@@', r'\url{' + u + '}')
+    for i, m in enumerate(maths):
+        s = s.replace(f'@@MATH{i}@@', m)
     return s
 
 
@@ -40,6 +47,8 @@ def latex_table(b):
     rows = [' & '.join(esc(c) for c in b['headers']) + r' \\ \midrule'] + [' & '.join(esc(c) for c in r) + r' \\' for r in b['rows']]
     cap = esc(re.sub(r'^Table \d+\.\s*', '', b['caption']))
     wide = n >= 5
+    if b['caption'].startswith('Table 8'): col = 'p{2.6cm}p{3.4cm}p{3.2cm}p{3.2cm}p{3.6cm}'
+    if b['caption'].startswith('Table 7'): col = 'p{6.2cm}p{4.6cm}p{2.8cm}p{2.2cm}'; wide = True
     env = 'table*' if wide else 'table'
     size = r'\footnotesize' if wide else r'\small'
     return '\n'.join([f'\\begin{{{env}}}[tbp]', r'\centering', size, r'\caption{' + cap + '}', r'\begin{tabular}{' + col + '}', r'\toprule', *rows, r'\bottomrule', r'\end{tabular}', f'\\end{{{env}}}', ''])
@@ -50,7 +59,7 @@ abstract = []
 in_abstract = False
 title = ''
 figs = {}
-ANCHORS = {'3 Models and experimental controls': [1], '5.1 Label-budget curve (declared extension paper_v6)': [2, 3], '5.2 Grouping-radius sensitivity (declared extension paper_v5)': [4], '6 Discussion': [5]}
+ANCHORS = {'2.2 Study design and dataset construction': [1], '3.1 Primary comparison': [2, 3], '3.2 Optimization, masking and covariate controls': [4], '3.4 Grouping-radius sensitivity': [5], '3.5 Summary of findings and declared transfer protocol': [6]}
 for b in blocks:
     k = b['kind']
     if k == 'title': title = esc(b['text']); continue
@@ -66,7 +75,7 @@ for b in blocks:
         continue
     if k == 'paragraph':
         t = b['text']
-        if t.startswith('Mehmet Oğuz Güneren¹') or t.startswith('¹ ') or t.startswith('² ') or t.startswith('Draft for co-author') or t.startswith('Keywords:') or re.match(r'^\[\d+\]', t):
+        if t.startswith('Mehmet Oğuz Güneren¹') or t.startswith('¹ ') or t.startswith('² ') or t.startswith(('Draft for co-author','Draft for coauthor','Anonymous research manuscript')) or t.startswith('Keywords:') or re.match(r'^\[\d+\]', t):
             if t.startswith('Keywords:'): keywords = esc(t.replace('Keywords: ', ''))
             continue
         (abstract if in_abstract else body).append(esc(t) + '\n')
@@ -76,7 +85,7 @@ for b in blocks:
         name = Path(b['path']).name
         shutil.copy(ROOT / b['path'], OUT / 'figures' / name)
         m = re.match(r'(Figure \d+)\. (.*)', b['caption'])
-        wide = name in ('01_primary.png', '02_controls.png', '03_data.png')
+        wide = name in ('01_primary.png', '02_controls.png', '03_data.png', '06_examples.png')
         env = 'figure*' if wide else 'figure'
         width = r'0.92\textwidth' if wide else r'\columnwidth'
         figs[int(m.group(1).split()[1])] = ('\n'.join([f'\\begin{{{env}}}[tbp]', r'\centering', r'\includegraphics[width=' + width + ']{figures/' + name + '}', r'\caption{' + esc(m.group(2)) + '}', r'\label{' + m.group(1).replace(' ', '').lower() + '}', f'\\end{{{env}}}', '']))
@@ -127,7 +136,7 @@ tex = r'''\documentclass[10pt,a4paper,twocolumn]{article}
 {\small\itshape $^{1}$TÜBİTAK BİLGEM, Information Technologies Institute (BTE), Data Valorization Department, 41400 Gebze, Kocaeli, Türkiye\par}
 {\small\itshape $^{2}$Department of Artificial Intelligence and Data Engineering, Istanbul Technical University, 34469 Istanbul, Türkiye\par}
 \vspace{3pt}
-{\small (Dated: 18 October 2026; draft for coauthor review; version paper\_v4 with declared extensions paper\_v5 and paper\_v6)\par}
+{\small (Dated: 9 November 2026; revision 3, draft for coauthor review)\par}
 \end{center}
 \vspace{4pt}
 \begin{abstract}
