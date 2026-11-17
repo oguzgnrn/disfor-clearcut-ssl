@@ -116,7 +116,7 @@ p = para('Keywords: ' + keywords, WD_ALIGN_PARAGRAPH.JUSTIFY, 9, indent=False, s
 p.runs[0].bold = False
 
 # ---- body (two columns), with wide floats in one-column breaks
-ANCHORS = {'2.2 Study design and dataset construction': [1], '3.1 Primary comparison': [2, 3], '3.2 Optimization, masking and covariate controls': [4], '3.4 Grouping-radius sensitivity': [5], '3.5 Summary of findings and declared transfer protocol': [6]}
+ANCHORS = {'2.2 Study design and dataset construction': [1, 2], '3.1 Primary comparison': [3, 4], '3.2 Optimization, masking and covariate controls': [5], '3.4 Grouping-radius sensitivity': [6], '3.5 Summary of findings and declared transfer protocol': [7]}
 if os.environ.get('ORMAN_NO_HYPHENS') == '1':
     ANCHORS = {re.sub(r'-', ' ', k): v for k, v in ANCHORS.items()}
 new_section(2); mode = 2; sec_no = 0; sub_no = 0

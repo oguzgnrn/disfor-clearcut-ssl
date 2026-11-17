@@ -77,7 +77,7 @@
   },
   {
     "kind": "paragraph",
-    "text": "In a Sentinel-2 time series, a stable forest pixel shows a seasonal cycle of the vegetation indices with a high summer plateau, interrupted only by clouds, snow and shadows that are flagged by the scene classification layer. A clear cut removes the canopy within a few weeks; vegetation indices such as the normalised difference vegetation index (NDVI) and the normalised burn ratio (NBR) fall abruptly to the level of bare soil or slash, the shortwave infrared reflectance rises, and the indices recover only slowly in the following years as herbaceous vegetation and new trees establish. Figure 1 shows the geographic distribution and the observation support of the retained sample, and Figure 2 in Section III illustrates such trajectories for individual windows together with the reference labels and model predictions."
+    "text": "In a Sentinel-2 time series, a stable forest pixel shows a seasonal cycle of the vegetation indices with a high summer plateau, interrupted only by clouds, snow and shadows that are flagged by the scene classification layer. A clear cut removes the canopy within a few weeks; vegetation indices such as the normalised difference vegetation index (NDVI) and the normalised burn ratio (NBR) fall abruptly to the level of bare soil or slash, the shortwave infrared reflectance rises, and the indices recover only slowly in the following years as herbaceous vegetation and new trees establish. Figure 1 shows the geographic distribution and the observation support of the retained sample, Figure 2 shows true-colour image chips of one labelled clear cut before and after the event, and Figure 3 in Section III illustrates such trajectories for individual windows together with the reference labels and model predictions."
   },
   {
     "kind": "heading",
@@ -239,11 +239,11 @@
   },
   {
     "kind": "paragraph",
-    "text": "This section reports the results in five parts. Section III.A presents the primary comparison of the four models at 20% and 100% labels; Section III.B reports the optimization, masking and covariate controls; Section III.C extends the comparison along the label-budget curve; Section III.D examines the sensitivity to the spatial grouping radius; and Section III.E summarises the findings and describes a declared transfer protocol. Figure 2 first illustrates the data and the model behaviour on four individual windows."
+    "text": "This section reports the results in five parts. Section III.A presents the primary comparison of the four models at 20% and 100% labels; Section III.B reports the optimization, masking and covariate controls; Section III.C extends the comparison along the label-budget curve; Section III.D examines the sensitivity to the spatial grouping radius; and Section III.E summarises the findings and describes a declared transfer protocol. Figure 3 first illustrates the data and the model behaviour on four individual windows."
   },
   {
     "kind": "paragraph",
-    "text": "Figure 2 shows NDVI and NBR trajectories of four held-out windows with their reference labels and the mean held-out clear-cut probabilities of the four 20%-label recipes. In the detected clear cut, both indices drop within the target year and do not recover, and all models assign a probability near one. The missed clear cut shows a weak, gradual decline from an already low index level, which the models score below 0.1. The correctly classified stable window shows a regular seasonal cycle with winter gaps. The false alarm is a window labeled stable forest in which both indices fall at the start of the target year and partially recover; all four models score it above 0.85, which illustrates that some disagreements between models and reference labels concern windows whose trajectories resemble a disturbance."
+    "text": "Figure 3 shows NDVI and NBR trajectories of four held-out windows with their reference labels and the mean held-out clear-cut probabilities of the four 20%-label recipes. In the detected clear cut, both indices drop within the target year and do not recover, and all models assign a probability near one. The missed clear cut shows a weak, gradual decline from an already low index level, which the models score below 0.1. The correctly classified stable window shows a regular seasonal cycle with winter gaps. The false alarm is a window labeled stable forest in which both indices fall at the start of the target year and partially recover; all four models score it above 0.85, which illustrates that some disagreements between models and reference labels concern windows whose trajectories resemble a disturbance."
   },
   {
     "kind": "heading",
@@ -251,7 +251,7 @@
   },
   {
     "kind": "paragraph",
-    "text": "Figure 3 and Table 3 summarise the primary comparisons. At 20% labels, masked pretraining improves the macro-F1 of the Transformer from 0.8322 to 0.8690, a paired difference of 0.0368 with a conditional 95% interval of [0.0245, 0.0506] that excludes zero. The temporal CNN reaches 0.8721, slightly above the pretrained Transformer, and the random forest 0.8452. The interval of the SSL-minus-CNN difference, [-0.0194, 0.0125], spans zero. With all labels, the three neural recipes reach mean macro-F1 between 0.9285 and 0.9299 and the random forest 0.8669; the small differences among the neural models do not establish a generally best architecture."
+    "text": "Figure 4 and Table 3 summarise the primary comparisons. At 20% labels, masked pretraining improves the macro-F1 of the Transformer from 0.8322 to 0.8690, a paired difference of 0.0368 with a conditional 95% interval of [0.0245, 0.0506] that excludes zero. The temporal CNN reaches 0.8721, slightly above the pretrained Transformer, and the random forest 0.8452. The interval of the SSL-minus-CNN difference, [-0.0194, 0.0125], spans zero. With all labels, the three neural recipes reach mean macro-F1 between 0.9285 and 0.9299 and the random forest 0.8669; the small differences among the neural models do not establish a generally best architecture."
   },
   {
     "kind": "table",
@@ -338,7 +338,7 @@
   },
   {
     "kind": "paragraph",
-    "text": "The optimization control changes the interpretation of the primary result (Figure 4 and Table 4). The step-matched supervised Transformer reaches a macro-F1 of 0.8987, exceeding the pretrained Transformer by 0.0297; the SSL-minus-control interval is [-0.0430, -0.0179] and lies entirely below zero. The short-training comparison therefore cannot be read as evidence that reconstruction pretraining is superior to spending the same number of optimizer steps on supervised training. The pretrained model retains a higher average precision (0.8636 versus 0.8445), whereas the control has the lower Brier score (0.0417 versus 0.0492): thresholded discrimination, ranking and probability error favour different aspects of the two models."
+    "text": "The optimization control changes the interpretation of the primary result (Figure 5 and Table 4). The step-matched supervised Transformer reaches a macro-F1 of 0.8987, exceeding the pretrained Transformer by 0.0297; the SSL-minus-control interval is [-0.0430, -0.0179] and lies entirely below zero. The short-training comparison therefore cannot be read as evidence that reconstruction pretraining is superior to spending the same number of optimizer steps on supervised training. The pretrained model retains a higher average precision (0.8636 versus 0.8445), whereas the control has the lower Brier score (0.0417 versus 0.0492): thresholded discrimination, ranking and probability error favour different aspects of the two models."
   },
   {
     "kind": "paragraph",
@@ -403,7 +403,7 @@
   },
   {
     "kind": "paragraph",
-    "text": "Table 5 and Figure 5 place the additional budgets of 5%, 10% and 50% on one curve with the frozen 20% and 100% results. At 5% labels the labeled training set contains 89 to 90 locations, of which about one in eight is a clear cut, so single-seed values are intrinsically noisy. The SSL-minus-short-Transformer difference is 0.0618 at 5% labels (interval [0.0387, 0.0843]), 0.0309 at 10% ([0.0161, 0.0459]) and 0.0042 at 50% ([-0.0087, 0.0179]). Against the step-matched control the differences are -0.1124 ([-0.1334, -0.0919]), -0.0606 ([-0.0796, -0.0424]) and -0.0150 ([-0.0288, -0.0020]). The random forest reaches 0.8192 at 5% and 0.8362 at 10% labels and the CNN 0.7946 and 0.8480, whereas the pretrained Transformer reaches 0.6955 and 0.7979. At the two lowest budgets every stronger comparator, including the temporal-summary random forest, therefore exceeds the pretrained Transformer, and its advantage exists only relative to the 40-epoch Transformer. At 50% labels the four neural recipes lie within 0.02 of each other and the SSL-minus-short-Transformer interval covers zero."
+    "text": "Table 5 and Figure 6 place the additional budgets of 5%, 10% and 50% on one curve with the frozen 20% and 100% results. At 5% labels the labeled training set contains 89 to 90 locations, of which about one in eight is a clear cut, so single-seed values are intrinsically noisy. The SSL-minus-short-Transformer difference is 0.0618 at 5% labels (interval [0.0387, 0.0843]), 0.0309 at 10% ([0.0161, 0.0459]) and 0.0042 at 50% ([-0.0087, 0.0179]). Against the step-matched control the differences are -0.1124 ([-0.1334, -0.0919]), -0.0606 ([-0.0796, -0.0424]) and -0.0150 ([-0.0288, -0.0020]). The random forest reaches 0.8192 at 5% and 0.8362 at 10% labels and the CNN 0.7946 and 0.8480, whereas the pretrained Transformer reaches 0.6955 and 0.7979. At the two lowest budgets every stronger comparator, including the temporal-summary random forest, therefore exceeds the pretrained Transformer, and its advantage exists only relative to the 40-epoch Transformer. At 50% labels the four neural recipes lie within 0.02 of each other and the SSL-minus-short-Transformer interval covers zero."
   },
   {
     "kind": "table",
@@ -470,7 +470,7 @@
   },
   {
     "kind": "paragraph",
-    "text": "The primary design fixes a 5 km grouping radius. Regrouping the identical cohort at 10 and 20 km merges nearby components: the 874 components at 5 km become 205 at 10 km and 54 at 20 km, and at 20 km some held-out folds contain only two clear-cut components. Table 6 and Figure 6 show that the ranking of the recipes is not stable across radii. At 5 km the step-matched Transformer leads (0.9017 versus 0.8726 for the pretrained Transformer), at 10 km the two are close (0.8515 versus 0.8429), and at 20 km the pretrained Transformer is the strongest recipe (0.8437 versus 0.8216 for the control and 0.7997 for the CNN). The 5 km single-seed fits reproduce the primary probabilities to within 2.2e-16."
+    "text": "The primary design fixes a 5 km grouping radius. Regrouping the identical cohort at 10 and 20 km merges nearby components: the 874 components at 5 km become 205 at 10 km and 54 at 20 km, and at 20 km some held-out folds contain only two clear-cut components. Table 6 and Figure 7 show that the ranking of the recipes is not stable across radii. At 5 km the step-matched Transformer leads (0.9017 versus 0.8726 for the pretrained Transformer), at 10 km the two are close (0.8515 versus 0.8429), and at 20 km the pretrained Transformer is the strongest recipe (0.8437 versus 0.8216 for the control and 0.7997 for the CNN). The 5 km single-seed fits reproduce the primary probabilities to within 2.2e-16."
   },
   {
     "kind": "table",
@@ -706,7 +706,7 @@
   },
   {
     "kind": "paragraph",
-    "text": "The DISFOR dataset is available at https://huggingface.co/datasets/JR-DIGITAL/DISFOR [1]; the revision used is given in Section II.A. The source code, the processed cohort, the frozen folds and label subsets, the run records of all 480 fits and the pooled predictions are available at [repository address to be added]."
+    "text": "The DISFOR dataset is available at https://huggingface.co/datasets/JR-DIGITAL/DISFOR [1]; the revision used is given in Section II.A. The source code, the processed cohort, the frozen folds and label subsets, the run records of all 480 fits and the pooled predictions are available at https://github.com/oguzgnrn/disfor-clearcut-ssl."
   },
   {
     "kind": "heading",
@@ -877,31 +877,37 @@
   {
     "kind": "figure",
     "text": "",
-    "caption": "Figure 2. Example DISFOR windows with their reference labels and model predictions. Lines are the monthly NDVI and NBR computed from the input bands; grey bands mark months without a clear observation; the dashed line marks the start of the target year. The boxes give the mean held-out clear-cut probability of each recipe at 20% labels over the three seeds. The four windows were selected deterministically as the most confident detected clear cut, the most confidently missed clear cut, the most confident correct stable window and the most confident false alarm of the pretrained Transformer among well observed windows.",
+    "caption": "Figure 2. Sentinel-2 true-colour image chips (1 km × 1 km, 2 to 98 percent stretch) around a DISFOR clear-cut location before and after the labelled event; the orange square marks the 10 m sample pixel, which lies inside the newly cleared stand in the second image. The chips are shown for illustration only and are not model inputs; they were read from the public Sentinel-2 Level-2A archive for the two least cloudy summer acquisitions.",
+    "path": "paper/figures/07_chips.png"
+  },
+  {
+    "kind": "figure",
+    "text": "",
+    "caption": "Figure 3. Example DISFOR windows with their reference labels and model predictions. Lines are the monthly NDVI and NBR computed from the input bands; grey bands mark months without a clear observation; the dashed line marks the start of the target year. The boxes give the mean held-out clear-cut probability of each recipe at 20% labels over the three seeds. The four windows were selected deterministically as the most confident detected clear cut, the most confidently missed clear cut, the most confident correct stable window and the most confident false alarm of the pretrained Transformer among well observed windows.",
     "path": "paper/figures/06_examples.png"
   },
   {
     "kind": "figure",
     "text": "",
-    "caption": "Figure 3. Primary comparisons at 20% and 100% training labels. Large points are means of three pooled out-of-fold macro-F1 values; error bars show their sample standard deviations. Smaller points are individual seeds. These bars are seed standard deviations rather than confidence intervals.",
+    "caption": "Figure 4. Primary comparisons at 20% and 100% training labels. Large points are means of three pooled out-of-fold macro-F1 values; error bars show their sample standard deviations. Smaller points are individual seeds. These bars are seed standard deviations rather than confidence intervals.",
     "path": "paper/figures/01_primary.png"
   },
   {
     "kind": "figure",
     "text": "",
-    "caption": "Figure 4. Low-label controls and paired comparisons. Left: macro-F1 mean and seed standard deviation. Right: SSL-minus-comparator differences with 2,000-draw paired spatial-component bootstrap percentile intervals. Only the short-Transformer contrast is primary; other intervals are exploratory and conditional on the fixed fits.",
+    "caption": "Figure 5. Low-label controls and paired comparisons. Left: macro-F1 mean and seed standard deviation. Right: SSL-minus-comparator differences with 2,000-draw paired spatial-component bootstrap percentile intervals. Only the short-Transformer contrast is primary; other intervals are exploratory and conditional on the fixed fits.",
     "path": "paper/figures/02_controls.png"
   },
   {
     "kind": "figure",
     "text": "",
-    "caption": "Figure 5. Label-budget curve on the frozen folds. Points are means of three pooled out-of-fold macro-F1 values; bars are seed standard deviations and should not be read as confidence intervals.",
+    "caption": "Figure 6. Label-budget curve on the frozen folds. Points are means of three pooled out-of-fold macro-F1 values; bars are seed standard deviations and should not be read as confidence intervals.",
     "path": "paper/figures/04_label_curve.png"
   },
   {
     "kind": "figure",
     "text": "",
-    "caption": "Figure 6. Grouping-radius sensitivity at 20% labels, one seed. Each bar is a single pooled out-of-fold macro-F1; the number of spatial components and clear-cut components per radius is given below the axis. Descriptive only.",
+    "caption": "Figure 7. Grouping-radius sensitivity at 20% labels, one seed. Each bar is a single pooled out-of-fold macro-F1; the number of spatial components and clear-cut components per radius is given below the axis. Descriptive only.",
     "path": "paper/figures/05_radius.png"
   }
 ]

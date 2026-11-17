@@ -59,7 +59,7 @@ abstract = []
 in_abstract = False
 title = ''
 figs = {}
-ANCHORS = {'2.2 Study design and dataset construction': [1], '3.1 Primary comparison': [2, 3], '3.2 Optimization, masking and covariate controls': [4], '3.4 Grouping-radius sensitivity': [5], '3.5 Summary of findings and declared transfer protocol': [6]}
+ANCHORS = {'2.2 Study design and dataset construction': [1, 2], '3.1 Primary comparison': [3, 4], '3.2 Optimization, masking and covariate controls': [5], '3.4 Grouping-radius sensitivity': [6], '3.5 Summary of findings and declared transfer protocol': [7]}
 for b in blocks:
     k = b['kind']
     if k == 'title': title = esc(b['text']); continue
