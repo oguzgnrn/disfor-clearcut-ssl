@@ -1,104 +1,162 @@
-# Orman SSL
+# Self-Supervised Forest Clear-Cut Detection Using Sentinel-2 Time Series
 
-Gerçek Sentinel-2 zaman serileriyle orman kesimi sınıflandırması. Eğitilmiş yerel model, çalışan inceleme uygulaması, Türkçe sonuç raporu ve İngilizce araştırma makalesi.
+Code, data cohort, frozen experimental protocol, run records and manuscript for a controlled study of
+masked-reconstruction self-supervised pretraining on **DISFOR** Sentinel-2 time series
+(Mehmet Oğuz Güneren, Istanbul Technical University; Nida Kumbasar, TÜBİTAK BİLGEM BTE).
 
-## Önce bunları aç
+The study asks a narrow question with a careful design: when a pretrained Transformer beats a supervised
+one under a small label budget, how much of that gain survives (i) a supervised comparator that receives the
+same number of optimizer steps and (ii) spatially grouped evaluation? Every number in the manuscript is read
+from the analysis files in `experiments/` by `scripts/compose_paper.py`; nothing is typed by hand.
 
-1. **Ürün:** Mac'te `URUNU_AC.command`. Kayıtlı 486 örneği incele; ham gözlemlerden modeli yeniden çalıştır; JSON ve GeoJSON çıktısını indir.
-2. **Türkçe rapor:** [Araştırma ve ürün sonuçları](output/final/Orman_SSL_Arastirma_ve_Urun_Raporu.pdf). Düzenlenebilir [Word dosyası](output/final/Orman_SSL_Arastirma_ve_Urun_Raporu.docx) aynı dizinde.
-3. **İngilizce makale:** [Manuscript PDF](output/pdf/Orman_SSL_Manuscript.pdf) ve [Word](output/paper/Orman_SSL_Manuscript.docx).
-4. **Görüşme (18 Ekim 2026, Pazar 17:00):** önce [ilk notlar ve fikirler](docs/HOCAYA_ILK_NOTLAR_VE_FIKIRLER.md), sonra [toplantı akışı ve soru listesi](docs/PAZAR_TOPLANTI_AKISI.md). Eski uzun akış: [7 dakikalık akış ve zor sorular](docs/GORUSME_AKISI_VE_SORULAR.md).
-5. **Çevrimdışı araştırma özeti:** [paper_v4.html](reports/paper_v4.html); sunucu kurmadan açılır.
+<p align="center">
+  <img src="paper/figures/07_chips.png" width="58%" alt="Sentinel-2 true-colour chips before and after a labelled clear cut">
+</p>
 
-Yerel ürün, model ve hazır veriler kuruluysa internet gerektirmez. Canlı uygulama için HTML dosyasını doğrudan açmak yerine başlatıcıyı kullan. Sunucu yalnız bu bilgisayarın `127.0.0.1` adresinde çalışır.
+## Key results
 
-## Kurulum ve çalıştırma
+Binary cohort: 2,213 high-confidence DISFOR locations (1,937 stable forest, 276 clear cut), one 24-month
+window each, ten Sentinel-2 bands aggregated to monthly medians. Evaluation: five spatially grouped folds
+(5 km + shared disturbance events, 874 components), three seeds, pooled out-of-fold macro-F1, paired
+spatial-component bootstrap (2,000 draws).
 
-Bu çalışma klasöründe Python ortamı hazırdır. Başka bir bilgisayarda tam proje paketini çıkar, Python 3.11 kur ve proje klasöründe:
-
-```bash
-bash scripts/setup.sh
-.venv/bin/python scripts/serve_product.py --open
-```
-
-İlk kurulum sabitlenmiş paketleri indirir. Terminalde `Ctrl+C` sunucuyu kapatır. [Ürün kılavuzu](docs/URUN_KILAVUZU.md) arayüzü ve yeni veri akışını açıklar.
-
-Arayüz olmadan gerçek ham veriden tahmin:
-
-```bash
-.venv/bin/python scripts/run_advanced.py
-```
-
-Kendi uyumlu gözlemlerin için:
-
-```bash
-.venv/bin/python scripts/run_advanced.py \
-  --observations /tam/yol/observations.parquet \
-  --windows /tam/yol/windows.json \
-  --source 'Veri kaynağı ve DN işleme geçmişi' \
-  --out output/my_prediction
-```
-
-Girdi iki tam takvim yılı, 10 Sentinel-2 bandı ve gözlem maskesi gerektirir; etiket gerektirmez. `target_year` ikinci yıldır. Ayrıntılar [veri sözleşmesinde](docs/VERI_SOZLESMESI.md). Aynı çıktı diziniyle yeniden çalıştırma önceki tahminleri yeniler.
-
-## Tamamlanan çalışma ve iki ayrı değerlendirme
-
-| Bileşen | Veri ve yöntem | Doğrulanmış sonuç |
-|---|---|---|
-| Bilimsel deney paper_v4 | 2.213 konum, 874 mekânsal bileşen, 5 kat, 3 seed, 180 koşu | %20 etikette SSL 0,8690; kısa Transformer 0,8322; adım eşlenmiş Transformer 0,8987 macro-F1 |
-| Ürün modeli advanced_v3 | 5 CNN + 5 SSL Transformer; önceki 486 örneklik benchmark | Macro-F1 0,9187; 38 kesimin 28'i bulundu, 10'u kaçırıldı |
-| Hata incelemesi | Sabit bilimsel deneyin ayrılmış tahminleri | 81 inceleme adayı; kaynak etiketleri değiştirilmedi |
-| Tekrar üretim | Sabit ham veri, etiket ve kat kimlikleri, ortam kilidi | 2.213 örnek birebir yeniden kuruldu; paketten tek SSL eğitimi aynı olasılıkları verdi |
-
-| Uzantı paper_v5 | 5/10/20 km gruplama yarıçapı, seed 7, %20 etiket, 75 koşu | 20 km'de SSL 0,8437 > adım eşlenmiş 0,8216 > CNN 0,7997; 5 km'de sıralama tersi. Tek seed, betimsel. [Rapor](docs/PAPER_V5_MEKANSAL_DUYARLILIK.md) |
-| Uzantı paper_v6 | %5/%10/%50 etiket bütçesi, v4 katları ve 3 seed, 5 yöntem, 225 koşu | Etiket eğrisi; `experiments/paper_v6_label_curve/analysis.json` ve makalede Tablo 5 / Şekil 4 |
-
-Bu iki sürüm aynı deney değildir. Ürün skorunu makalenin sonuçlarıyla tek liderlik tablosunda karşılaştırma. 79.668 kayıtlı tahmin değeri 2.213 konum üzerindeki tekrarları içerir; bağımsız örnek sayısı değildir.
-
-**Araştırma sonucu:** SSL'nin kısa denetimli karşılaştırıcıya göre kazancı var; daha uzun ve adım bütçesi eşlenmiş denetimli model karşısında macro-F1 üstünlüğü sürmüyor. Bu, yeni mimari veya genel SSL üstünlüğü iddiası değildir.
-
-Çalışma, aynı kaynakta önceki model geliştirmelerinden sonra yürütülen geriye dönük bir denetimdir. Bağımsız Türkiye saha doğrulaması, Sentinel-1 füzyonu, sürekli ülke haritası ve erken uyarı kapsamda değildir. Kullanılmamış konum taramasında yalnız 1 kesim / 111 örnek kaldığından bağımsız başarı skoru üretilmedi.
-
-## Türkiye sıfır atış (zero-shot) testi
-
-Avrupa'da eğitilmiş modelleri yeniden eğitmeden Türkiye noktalarında ölçmek için `TURKIYE_TESTI_CALISTIR.command` (internet gerekir; Hansen GFC referans etiketleri + Earth Search Sentinel-2). Protokol ve adımlar `scripts/turkiye_zero_shot.py` başında; sonuçlar `experiments/turkiye_zero_shot/`. Henüz çalıştırılmadı; makalede yalnız protokol olarak geçer.
-
-## Doğrulama ve tekrar üretim
-
-```bash
-.venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python scripts/verify_paper.py
-.venv/bin/python scripts/verify_advanced.py
-.venv/bin/python scripts/verify_final_delivery.py
-```
-
-Son teslimdeki test sayısı, gerçek ürün çalıştırması ve belge kontrolleri [final_delivery_verification.json](reports/final_delivery_verification.json) içinde; [teknik denetim](docs/NIHAI_TEKNIK_DENETIM.md) önceki 45 çekirdek testin ve taşınmış modelin ayrıntısını içerir. [Bilimsel denetim](docs/NIHAI_BILIMSEL_DENETIM.md) kaynakları ve bağımsız ölçüt hesaplarını açıklar.
-
-180 eğitimin ve iki uzantının (paper_v5, paper_v6) tekrar üretimi için [yöntem eki](paper/SUPPLEMENT.md) kullanılır. Makale kaynakçası 26 doğrulanmış kaynaktır (`paper/references.json`). Tamamlanmış koşular, dondurulmuş imza eşleşiyorsa önbellekten alınır. Gerçekten sıfırdan tekrar için yeni bir klasöre çıkartılan kopyada koşu kayıtlarını koruyarak ayır; özgün sonuçları silme. Başka donanımda küçük sayısal farklılıklar olabilir.
-
-Türkçe rapor kaynağı [build_final_report.py](scripts/build_final_report.py), İngilizce makale kaynağı [manuscript.md](paper/manuscript.md). Belge üretimi için `requirements-paper.txt` gerekir. Rapor düzeni değişirse PDF ve Word birlikte yeniden üretilip görsel olarak kontrol edilmelidir.
-
-## Hangi paketi götürmeliyim
-
-| Paket | Kullanım |
+| Setting (20% of training labels) | Macro-F1 (mean ± SD over 3 seeds) |
 |---|---|
-| output/Orman_SSL_Hocaya_Sunum.zip | Türkçe rapor, İngilizce makale, görüşme notları ve çevrimdışı sonuç ekranı. Canlı model içermez. |
-| output/Orman_SSL_Proje_Paketi.zip | Ürünü başka bilgisayarda çalıştırmak için kod, ham veri, modeller, belgeler ve deney kayıtları. |
-| output/Orman_SSL_Paper_Paketi.zip | Bilimsel deneyi işlenmiş veriden tekrar üretmek için kompakt kod ve kanıt. Ürün modeli içermez. |
-| output/Orman_SSL_Nihai_Model.zip | Hazır NPZ üzerinde yalnız eğitilmiş modelden tahmin üretmek için küçük paket. |
+| Supervised Transformer, 40 epochs | 0.8322 ± 0.0236 |
+| **Block-and-band masked pretraining + 40 epochs** | **0.8690 ± 0.0043** (vs. above: +0.0368, 95% CI [0.0245, 0.0506]) |
+| Supervised Transformer, optimizer-step matched (320 epochs) | **0.8987 ± 0.0112** (SSL − control: −0.0297, CI [−0.0430, −0.0179]) |
+| Temporal CNN | 0.8721 ± 0.0081 |
+| Random forest on temporal summaries | 0.8452 ± 0.0058 |
+| Independent-cell masking (control) | 0.8609 ± 0.0098 |
 
-Her arşiv kendi başlangıç yönergesini ve SHA-256 dosya manifestini taşır. Açmadan bütünlüğü denetle:
+With all labels the three neural models converge at 0.929 to 0.930. Along a label-budget curve (5%, 10%,
+20%, 50%, 100%) the pretrained Transformer never exceeds the step-matched control, and below 20% labels it
+also trails the CNN and the random forest. Under coarser spatial grouping (10 km, 20 km) it degrades least and
+leads at 20 km (single seed). Covariate-only diagnostics show that observation gaps and sampling metadata
+alone carry label information (macro-F1 0.55 and 0.65 without any spectral input).
 
-```bash
-.venv/bin/python scripts/verify_package.py output/Orman_SSL_Proje_Paketi.zip
+**Reading:** the low-label benefit of masked pretraining on this cohort is better described as robustness
+to geographic shift than as label efficiency, and claims of label efficiency should be accompanied by an
+optimization-matched comparator and spatially grouped evaluation.
+
+<p align="center">
+  <img src="paper/figures/01_primary.png" width="48%" alt="Primary comparison">
+  <img src="paper/figures/04_label_curve.png" width="48%" alt="Label-budget curve">
+</p>
+
+## Manuscript
+
+| File | Content |
+|---|---|
+| [`TESLIM_2026-10-18/Orman_SSL_Makale_Kumbasar_Guneren_FINAL.pdf`](TESLIM_2026-10-18/Orman_SSL_Makale_Kumbasar_Guneren_FINAL.pdf) | Two-column manuscript (LaTeX), revision 3 |
+| [`TESLIM_2026-10-18/Orman_SSL_Makale_Kumbasar_Guneren_2col.docx`](TESLIM_2026-10-18/Orman_SSL_Makale_Kumbasar_Guneren_2col.docx) | Same text as an editable Word file |
+| [`paper/manuscript_authored.md`](paper/manuscript_authored.md) | Plain-text source of the manuscript |
+| [`paper/references.json`](paper/references.json), [`paper/references.bib`](paper/references.bib) | 36 references, each verified against Crossref |
+| [`paper/SUPPLEMENT.md`](paper/SUPPLEMENT.md), [`paper/CLAIM_LEDGER.md`](paper/CLAIM_LEDGER.md) | Supplementary analyses and a ledger that maps every claim to its evidence file |
+| [`TESLIM_2026-10-18/latex_twocolumn/`](TESLIM_2026-10-18/latex_twocolumn/) | LaTeX source and figures |
+
+## Repository layout
+
+```
+src/orman_ssl/          model definitions, training loop, inference (advanced.py, experiment.py, predict*.py)
+scripts/                data download and preparation, frozen experiments, analysis, figures, manuscript build
+tests/                  unit tests for the pipeline, the protocols and the manuscript build
+data/disfor/            pinned DISFOR sample table and manifest (revision 2562332e…)
+data/processed/         the 2,213-window cohort as a NumPy archive (real_series.npz)
+experiments/paper_v4/   primary experiment: protocol, folds, 180 run records, pooled predictions, analysis.json
+experiments/paper_v6_label_curve/   label-budget extension (225 fits)
+experiments/paper_v5_exploratory/   grouping-radius extension (75 fits)
+experiments/advanced_v3/            engineering ensemble (5 CNN + 5 SSL) used by the local demo app
+experiments/turkiye_zero_shot/      declared, not yet executed, zero-shot transfer protocol for Türkiye
+paper/                  manuscript sources, references, figures, supplement, claim ledger
+docs/                   protocol, data contract, model card, audits and Turkish project notes
+TESLIM_2026-10-18/      delivered package: manuscript (PDF, DOCX, LaTeX), executed notebook, guides
 ```
 
-Paketleri üretmek için sırasıyla `scripts/package_paper.py`, `scripts/smoke_paper_archive.py` ve `scripts/package_project.py` çalıştırılır. Son arşiv kontrolü `scripts/verify_final_delivery.py --archives` ile yapılır. Model paketini yalnız içeriği değiştiğinde `scripts/package_advanced.py` ile yenile.
+## Reproducing the results
 
-## Kaynak ve araştırmacı kararları
+Python 3.11 is required (the environment lock in `requirements-lock.txt` was produced with it).
 
-Kaynak [DISFOR](https://huggingface.co/datasets/JR-DIGITAL/DISFOR), sabit revision `2562332e35c94c2339aeb341ffaed2a99faae7d6`. Kaynağın EUPL-1.2 lisansı `data/disfor/LICENSE` içinde korunur. Diğer önceki veri ve font atıfları [geçmiş sürüm rehberinde](docs/README_ONCEKI_SURUMLER.md) bulunur.
+```bash
+git clone https://github.com/oguzgnrn/disfor-clearcut-ssl.git
+cd disfor-clearcut-ssl
+bash scripts/setup.sh                      # creates .venv and installs the pinned requirements
+.venv/bin/python scripts/check_environment.py
+.venv/bin/python -m unittest discover -s tests -v
+```
 
-Kodun yayın lisansı, gerçek yazarlar, katkılar, kurum ve fon beyanları, hedef dergi araştırmacılarla kesinleştirilmeli. [Yazar değerlendirme notu](paper/AUTHOR_CONFIRMATION.md) bu kararları listeler. Yapay zekâ kodlama, analiz denetimi ve yazımda kullanılmıştır. Hiçbir dosya gönderilmedi veya kamuya yayımlanmadı.
+Data. The pinned DISFOR table is included; `scripts/download_disfor.py` re-downloads and hashes it from
+Hugging Face and `scripts/prepare_disfor.py` rebuilds `data/processed/real_series.npz`
+(`scripts/audit_data_reproduction.py` checks the rebuild against the frozen hashes).
 
-İlk MVP, sentetik başlangıç ve eski toplantı dosyaları karşılaştırma için korunur. Güncel açılış yolu bu README'deki ürün ve rapordur; [önceki sürümlerin kayıtları](docs/README_ONCEKI_SURUMLER.md) tarihseldir.
+Experiments. Each protocol is frozen in a `protocol.json` before training and every completed fit is kept.
+
+```bash
+.venv/bin/python scripts/train_paper.py --workers 3           # primary experiment, 180 fits (experiments/paper_v4)
+.venv/bin/python scripts/analyze_paper.py                      # pooled metrics, bootstrap intervals, analysis.json
+.venv/bin/python scripts/label_curve_v6.py prepare|train|analyze   # label-budget extension, 225 fits
+.venv/bin/python scripts/scientific_v5.py prepare|train|analyze    # grouping-radius extension, 75 fits
+.venv/bin/python scripts/verify_paper.py                       # consistency checks between records, analysis and text
+```
+
+Figures and manuscript.
+
+```bash
+.venv/bin/python scripts/plot_paper.py && .venv/bin/python scripts/plot_extensions.py
+.venv/bin/python scripts/plot_examples.py                      # example windows with labels and predictions
+.venv/bin/python scripts/plot_chips.py                         # Sentinel-2 chips (needs network, display only)
+ORMAN_AUTHORED=1 .venv/bin/python scripts/compose_paper.py    # manuscript text from analysis files
+.venv/bin/python scripts/build_paper_docx_twocol.py           # Word, two columns
+.venv/bin/python scripts/build_latex_twocolumn.py             # LaTeX + PDF (pdflatex)
+```
+
+Training was run on CPU; the primary experiment takes a few hours with three workers. Results on other
+hardware reproduce the recorded probabilities up to floating-point differences of about 1e-6
+(`scripts/verify_spatial_v5.py --tolerance`).
+
+## Inference on new data
+
+The engineering ensemble in `experiments/advanced_v3` predicts clear-cut probabilities for any location
+given two calendar years of monthly Sentinel-2 observations in the same ten bands:
+
+```bash
+.venv/bin/python scripts/run_advanced.py --observations observations.parquet --windows windows.json --out output/my_prediction
+.venv/bin/python scripts/serve_product.py --open     # local review app at 127.0.0.1
+```
+
+The input contract is documented in `docs/VERI_SOZLESMESI.md`. The ensemble is a working demonstration and is
+kept separate from the audited scientific comparison; its scores should not be mixed with the manuscript's.
+
+The `*.command` files in the repository root are macOS double-click launchers for the same scripts
+(demo, verification, Türkiye transfer probe, GitHub push).
+
+## Data source and license
+
+The DISFOR dataset (Viehweger et al., 2026, Earth System Science Data Discussions,
+[10.5194/essd-2026-185](https://doi.org/10.5194/essd-2026-185); data
+[JR-DIGITAL/DISFOR](https://huggingface.co/datasets/JR-DIGITAL/DISFOR)) is distributed under the
+European Union Public Licence 1.2. This repository, including the derived cohort and all code, is released
+under the same licence; see [`LICENSE`](LICENSE). The Presto weights in `third_party/presto` and the Natural
+Earth boundaries in `third_party/natural_earth` keep their own licences.
+
+## Citation
+
+```bibtex
+@unpublished{guneren2026clearcut,
+  author = {G{\"u}neren, Mehmet O{\u{g}}uz and Kumbasar, Nida},
+  title  = {Self-Supervised Forest Clear-Cut Detection Using Sentinel-2 Time Series},
+  year   = {2026},
+  note   = {Manuscript in preparation. Code and data: https://github.com/oguzgnrn/disfor-clearcut-ssl}
+}
+```
+
+A `CITATION.cff` file is included for GitHub's citation widget.
+
+## Disclosure
+
+AI coding assistants (OpenAI Codex and Anthropic Claude) were used for code generation, experiment
+orchestration, analysis checks, figure preparation and manuscript drafting under the first author's
+direction. All reported numbers come from the frozen run records in this repository.
+
+Turkish project notes, meeting material and the earlier Turkish README are in [`docs/`](docs/)
+(see [`docs/README_TR.md`](docs/README_TR.md)).

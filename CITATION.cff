@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived cohort, please cite the manuscript and the DISFOR dataset."
+title: "Self-Supervised Forest Clear-Cut Detection Using Sentinel-2 Time Series"
+type: software
+authors:
+  - family-names: Güneren
+    given-names: Mehmet Oğuz
+    affiliation: "Department of Artificial Intelligence and Data Engineering, Istanbul Technical University"
+  - family-names: Kumbasar
+    given-names: Nida
+    affiliation: "TÜBİTAK BİLGEM, Information Technologies Institute (BTE), Data Valorization Department"
+repository-code: "https://github.com/oguzgnrn/disfor-clearcut-ssl"
+license: EUPL-1.2
+date-released: "2026-11-17"
+version: "revision-3"
+keywords:
+  - Sentinel-2
+  - forest disturbance
+  - clear-cut detection
+  - self-supervised learning
+  - spatial cross-validation
+references:
+  - type: data
+    title: "Dense labelled time-series for mapping European forest disturbance agents"
+    authors:
+      - family-names: Viehweger
+        given-names: J.
+      - family-names: Hirschmugl
+        given-names: M.
+      - family-names: Puhm
+        given-names: M.
+      - family-names: Burtscher
+        given-names: R.
+      - family-names: Gallaun
+        given-names: H.
+      - family-names: Deutscher
+        given-names: J.
+    year: 2026
+    doi: "10.5194/essd-2026-185"
